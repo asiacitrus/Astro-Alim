@@ -1,0 +1,126 @@
+---
+import FooterComponent from "../components/FooterComponent.astro";
+import Navbar from "../components/Navbar.astro";
+import RecentInsights from "../components/RecentInsights.astro";
+import QuranBlogSlide from "../components/QuranBlogSlide.astro";
+import SwiperConfig from "../components/SwiperConfig.astro";
+import AudioPlayerScript from "../components/AudioPlayerScript.astro";
+import DailyInsight from "../components/DailyInsight.astro";
+import PopupMenu from "../components/PopupMenu.astro";
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hadith</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <SwiperConfig/>
+    <AudioPlayerScript/>
+</head>
+<body class="bg-dark_blue font-Inter">
+
+  <Navbar/>
+
+    <div class="banner-section bg-hadith-banner-bg bg-top  bg-size-100 bg-no-repeat">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="grid  md:grid-cols-12 gap-0 md:gap-5">
+          <div class="lg:col-span-6 md:col-span-8 sm:col-span-8">
+              <div class="">
+                  <h1 class="h1-style text-white mt-28 md:mt-80 mb-2 md:mb-5">Browse through various Hadith texts</h1>
+              </div>
+          </div>
+          <div class="lg:col-span-6 md:col-span-4  sm:col-span-4">
+          </div>        
+        </div>
+        <div class="quran-resources grid md:grid-cols-12 gap-0 md:gap-5">
+            <div class="md:col-span-8">
+                <div class="mt-6 md:mt-12 mb-6 md:mb-12">
+                    <h2 class=" text-white mb-2">Alim Islamic Resources</h2>
+                    <p class="text-white text-opacity-75  mt-4">Explore new and unique ways to discuss and share Islamic knowledge.</p>
+                </div>
+            </div>  
+            <div class="md:col-span-4">
+              <div class="flex mt-2 md:mt-20  mb-8 md:mb-16 float-right gap-2">
+                <div class="flex-1 p-1">
+                    <a href="javascript:movePrev()" class="block w-12 h-12 hover:bg-deep-red rounded-full p-3"> <img src="images/left-arrow.svg" class="w-full"/></a>
+                </div>
+                <div class="flex-1 p-1">
+                  <a href="javascript:moveNext()" class="block w-12 h-12 hover:bg-deep-red rounded-full p-3"> <img src="images/right-arrow.svg" class="w-full"/></a>
+                </div>
+              </div>
+          </div>     
+        </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <QuranBlogSlide/>
+            </div>
+          </div>
+        <div class="grid md:grid-cols-12 gap-0 md:gap-5 mt-10 md:mt-20">
+            <div class="md:col-span-6 mb-4 md:mb-0">
+                <div class="blue-gr-box relative pr-12"> 
+                    <h4 class="text-white">San Fransisco, CA</h4>
+                    <a href="#" class="absolute top-4 right-3"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect y="11.6309" width="24" height="2" fill="white"/>
+                      <rect x="11" y="0.630859" width="2" height="24" fill="white"/>
+                      </svg> </a>
+                </div>
+            </div>  
+            <div class="md:col-span-6 mb-4 md:mb-0">
+                <div class="blue-gr-box relative pr-12"> 
+                    <h4 class="text-white">San Diego, CA</h4>
+                    <a href="#" class="absolute top-4 right-3"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect y="11.6309" width="24" height="2" fill="white"/>
+                      <rect x="11" y="0.630859" width="2" height="24" fill="white"/>
+                      </svg> </a>
+                </div>
+            </div>     
+            <div class="md:col-span-6 mb-4 md:mb-0">
+                <div class="blue-gr-box relative pr-12"> 
+                    <h4 class="text-white">Boston, Massachusetts</h4>
+                    <a href="#" class="absolute top-4 right-3"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect y="11.6309" width="24" height="2" fill="white"/>
+                      <rect x="11" y="0.630859" width="2" height="24" fill="white"/>
+                      </svg> </a>
+                </div>
+            </div>
+            <div class="md:col-span-6 mb-4 md:mb-0">
+                <div class="blue-gr-box relative pr-12"> 
+                    <h4 class="text-white">Dallas, TX</h4>
+                    <a href="#" class="absolute top-4 right-3"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect y="11.6309" width="24" height="2" fill="white"/>
+                      <rect x="11" y="0.630859" width="2" height="24" fill="white"/>
+                      </svg> </a>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <section class="bg-mountain-bg">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="grid  md:grid-cols-12 gap-0 md:gap-5">
+          <div class="md:col-span-6 lg:col-span-4">
+              <div class="blue-gr-box p-8 mt-10 md:mt-20">
+                  <div class="flex flex-row">
+                      <div class="flex mr-3"> <img src="images/pin.png"/> </div>
+                      <div class="flex"> <h2 class="text-white"> Daily Insights: </h2> </div>
+                  </div>
+              </div>
+          </div>     
+        </div>
+        <p class="text-white text-base mt-6 mb-3 font-medium">Recent insights</p>
+        <div class="grid  grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-3 md:gap-5 border-b border-light-blue pb-10">
+            <RecentInsights/>
+        </div>
+        <DailyInsight/>
+        <PopupMenu/>
+      </div>
+    </section>
+    <FooterComponent/>
+</body>
+</html>

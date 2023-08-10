@@ -1,0 +1,11 @@
+---
+// Usage: <GreetingHeadline greeting="Howdy" name="Partner" />
+const { ayah,num } = Astro.props;
+function toArabicNumeral(en) {
+    return ("" + en).replace(/[0-9]/g, function(t) {
+        return "٠١٢٣٤٥٦٧٨٩".slice(+t, +t+1);
+    });
+}
+const punctuation='\xa0\xa0\xa0\xa0'+toArabicNumeral(num)+'\xa0\xa0\xa0\xa0';
+---
+<div style="display: inline;">  <span class="text-4xl" style="line-height: 80px;">{" "+ayah+" "} <div style="display: inline; width: 60px; height: 65px; padding: 10px; background: #fff; text-align: center; background-image: url('/images/punctuation.png'); background-repeat: no-repeat; background-position: 50% 50%; background-size: 45px 45px; text-align: right;"><a class="text-xl">{punctuation}</a></div></span> </div>

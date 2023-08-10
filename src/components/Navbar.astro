@@ -1,0 +1,64 @@
+---
+import navData from '../data/navbar-data/navbarnew.json';
+let counter=0;
+let dropDownName="";
+---
+
+<nav class="bg-dark_blue  w-full">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="/" class="flex items-center">
+    <img src="images/alim-logo-126.png" class="h-8 mr-3"  />
+    </a>
+    <div class="flex md:order-2 gap-4  mt-2 md:mt-0">
+    <a href="#" class="flex text-white bg-light-blue px-3 lg:px-4 py-2  h-8 lg:h-fit text-xs lg:text-base"> Contact us </a>
+    <a href="#" class=" flex text-white bg-deep-red px-3 lg:px-4 py-2  h-8 lg:h-fit  text-xs lg:text-base"> Donate Now </a>
+      <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+      </svg>
+    </button>
+    </div>
+    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+    <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 md:flex-row md:space-x-4 lg:space-x-8 md:mt-0 md:border-0">
+      <!-- navbar item -->
+      {navData.map((item)=>{
+
+        if(item.hasOwnProperty('subhead'))
+        {
+          counter++;
+          dropDownName="dropdownNavbar"+counter;
+          return(
+        <li>
+      <button id="dropdownNavbarLink" data-dropdown-toggle={dropDownName} class="flex text-white items-center justify-between w-full py-2 pl-3 pr-4  md:hover:text-deep-red md:p-0 md:w-auto dark:text-deep-red md:dark:hover:text-deep-red dark:focus:text-deep-red">{item.head}<svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+  </svg></button>
+      <!-- Dropdown menu -->
+      <div id={dropDownName} class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+        <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+          {item.subhead.map((subitem)=>{
+            return(
+            <li>
+              <a href={subitem.url} class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">{subitem.text}</a>
+          </li>
+          )
+          })}
+        </ul>
+      </div>
+    </li>
+    )
+      }
+      else
+      {
+        return(
+        <li>
+      <button id="dropdownNavbarLink" class="flex text-white items-center justify-between w-full py-2 pl-3 pr-4  md:hover:text-deep-red md:p-0 md:w-auto dark:text-deep-red md:dark:hover:text-deep-red dark:focus:text-deep-red">{item.head}</button>
+    </li>
+    )
+      }
+      })}
+      
+    </ul>
+    </div>
+    </div>
+  </nav>

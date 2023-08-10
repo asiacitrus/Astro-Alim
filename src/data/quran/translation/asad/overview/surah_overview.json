@@ -1,0 +1,808 @@
+{
+    "book": 
+      {
+        "type": "quran",
+        "name": "Al Quran Overview",
+        "bookCode": "Overview",
+        "surahs": [
+          {
+            "surahNumber": "1",
+            "surahName": "Al-Fathiha",
+            "ayahCount": "7",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "2",
+            "surahName": "Al-Baqara",
+            "ayahCount": "286",
+            "revealedCity": "Madina",
+            "rukuCount": "40"
+          },
+          {
+            "surahNumber": "3",
+            "surahName": "Al-i'Imran",
+            "ayahCount": "200",
+            "revealedCity": "Madina",
+            "rukuCount": "19"
+          },
+          {
+            "surahNumber": "4",
+            "surahName": "An-Nisaa",
+            "ayahCount": "176",
+            "revealedCity": "Madina",
+            "rukuCount": "24"
+          },
+          {
+            "surahNumber": "5",
+            "surahName": "Al-Maida",
+            "ayahCount": "120",
+            "revealedCity": "Madina",
+            "rukuCount": "16"
+          },
+          {
+            "surahNumber": "6",
+            "surahName": "Al-An'am",
+            "ayahCount": "165",
+            "revealedCity": "Mecca",
+            "rukuCount": "20"
+          },
+          {
+            "surahNumber": "7",
+            "surahName": "Al-A'raf",
+            "ayahCount": "206",
+            "revealedCity": "Mecca",
+            "rukuCount": "24"
+          },
+          {
+            "surahNumber": "8",
+            "surahName": "Al-Anfal",
+            "ayahCount": "75",
+            "revealedCity": "Madina",
+            "rukuCount": "10"
+          },
+          {
+            "surahNumber": "9",
+            "surahName": "At-Tauba",
+            "ayahCount": "129",
+            "revealedCity": "Madina",
+            "rukuCount": "16"
+          },
+          {
+            "surahNumber": "10",
+            "surahName": "Yunus",
+            "ayahCount": "109",
+            "revealedCity": "Mecca",
+            "rukuCount": "11"
+          },
+          {
+            "surahNumber": "11",
+            "surahName": "Hud",
+            "ayahCount": "123",
+            "revealedCity": "Mecca",
+            "rukuCount": "10"
+          },
+          {
+            "surahNumber": "12",
+            "surahName": "Yusuf",
+            "ayahCount": "111",
+            "revealedCity": "Mecca",
+            "rukuCount": "12"
+          },
+          {
+            "surahNumber": "13",
+            "surahName": "Ar-Ra'd",
+            "ayahCount": "43",
+            "revealedCity": "Madina",
+            "rukuCount": "6"
+          },
+          {
+            "surahNumber": "14",
+            "surahName": "Ibrahim",
+            "ayahCount": "52",
+            "revealedCity": "Mecca",
+            "rukuCount": "7"
+          },
+          {
+            "surahNumber": "15",
+            "surahName": "Al-Hijr",
+            "ayahCount": "99",
+            "revealedCity": "Mecca",
+            "rukuCount": "6"
+          },
+          {
+            "surahNumber": "16",
+            "surahName": "An-Nahl",
+            "ayahCount": "128",
+            "revealedCity": "Mecca",
+            "rukuCount": "16"
+          },
+          {
+            "surahNumber": "17",
+            "surahName": "Al-Israa",
+            "ayahCount": "111",
+            "revealedCity": "Mecca",
+            "rukuCount": "12"
+          },
+          {
+            "surahNumber": "18",
+            "surahName": "Al-Kahf",
+            "ayahCount": "110",
+            "revealedCity": "Mecca",
+            "rukuCount": "12"
+          },
+          {
+            "surahNumber": "19",
+            "surahName": "Maryam",
+            "ayahCount": "98",
+            "revealedCity": "Mecca",
+            "rukuCount": "6"
+          },
+          {
+            "surahNumber": "20",
+            "surahName": "Ta-ha",
+            "ayahCount": "135",
+            "revealedCity": "Mecca",
+            "rukuCount": "7"
+          },
+          {
+            "surahNumber": "21",
+            "surahName": "Al-Anbiyaa",
+            "ayahCount": "112",
+            "revealedCity": "Mecca",
+            "rukuCount": "7"
+          },
+          {
+            "surahNumber": "22",
+            "surahName": "Al-Hajj",
+            "ayahCount": "78",
+            "revealedCity": "Madina",
+            "rukuCount": "10"
+          },
+          {
+            "surahNumber": "23",
+            "surahName": "Al-Muminun",
+            "ayahCount": "118",
+            "revealedCity": "Mecca",
+            "rukuCount": "6"
+          },
+          {
+            "surahNumber": "24",
+            "surahName": "An-Nur",
+            "ayahCount": "64",
+            "revealedCity": "Madina",
+            "rukuCount": "9"
+          },
+          {
+            "surahNumber": "25",
+            "surahName": "Al-Furqan",
+            "ayahCount": "77",
+            "revealedCity": "Mecca",
+            "rukuCount": "6"
+          },
+          {
+            "surahNumber": "26",
+            "surahName": "Ash-Shu'araa",
+            "ayahCount": "227",
+            "revealedCity": "Mecca",
+            "rukuCount": "11"
+          },
+          {
+            "surahNumber": "27",
+            "surahName": "An-Naml",
+            "ayahCount": "93",
+            "revealedCity": "Mecca",
+            "rukuCount": "7"
+          },
+          {
+            "surahNumber": "28",
+            "surahName": "Al-Qasas",
+            "ayahCount": "88",
+            "revealedCity": "Mecca",
+            "rukuCount": "9"
+          },
+          {
+            "surahNumber": "29",
+            "surahName": "Al-Ankabut",
+            "ayahCount": "69",
+            "revealedCity": "Mecca",
+            "rukuCount": "7"
+          },
+          {
+            "surahNumber": "30",
+            "surahName": "Ar-Rum",
+            "ayahCount": "60",
+            "revealedCity": "Mecca",
+            "rukuCount": "6"
+          },
+          {
+            "surahNumber": "31",
+            "surahName": "Luqman",
+            "ayahCount": "34",
+            "revealedCity": "Mecca",
+            "rukuCount": "4"
+          },
+          {
+            "surahNumber": "32",
+            "surahName": "As-Sajda",
+            "ayahCount": "30",
+            "revealedCity": "Mecca",
+            "rukuCount": "3"
+          },
+          {
+            "surahNumber": "33",
+            "surahName": "Al-Ahzab",
+            "ayahCount": "73",
+            "revealedCity": "Madina",
+            "rukuCount": "9"
+          },
+          {
+            "surahNumber": "34",
+            "surahName": "Saba",
+            "ayahCount": "54",
+            "revealedCity": "Mecca",
+            "rukuCount": "6"
+          },
+          {
+            "surahNumber": "35",
+            "surahName": "Fatir",
+            "ayahCount": "45",
+            "revealedCity": "Mecca",
+            "rukuCount": "5"
+          },
+          {
+            "surahNumber": "36",
+            "surahName": "Ya-Sin",
+            "ayahCount": "83",
+            "revealedCity": "Mecca",
+            "rukuCount": "5"
+          },
+          {
+            "surahNumber": "37",
+            "surahName": "As-Saffat",
+            "ayahCount": "182",
+            "revealedCity": "Mecca",
+            "rukuCount": "5"
+          },
+          {
+            "surahNumber": "38",
+            "surahName": "Sad",
+            "ayahCount": "88",
+            "revealedCity": "Mecca",
+            "rukuCount": "5"
+          },
+          {
+            "surahNumber": "39",
+            "surahName": "Az-Zumar",
+            "ayahCount": "75",
+            "revealedCity": "Mecca",
+            "rukuCount": "8"
+          },
+          {
+            "surahNumber": "40",
+            "surahName": "Al-Mu'min",
+            "ayahCount": "85",
+            "revealedCity": "Mecca",
+            "rukuCount": "9"
+          },
+          {
+            "surahNumber": "41",
+            "surahName": "Ha-Mim",
+            "ayahCount": "54",
+            "revealedCity": "Mecca",
+            "rukuCount": "6"
+          },
+          {
+            "surahNumber": "42",
+            "surahName": "Ash-Shura",
+            "ayahCount": "53",
+            "revealedCity": "Mecca",
+            "rukuCount": "5"
+          },
+          {
+            "surahNumber": "43",
+            "surahName": "Az-Zukhruf",
+            "ayahCount": "89",
+            "revealedCity": "Mecca",
+            "rukuCount": "7"
+          },
+          {
+            "surahNumber": "44",
+            "surahName": "Ad-Dukhan",
+            "ayahCount": "59",
+            "revealedCity": "Mecca",
+            "rukuCount": "3"
+          },
+          {
+            "surahNumber": "45",
+            "surahName": "Al-Jathiya",
+            "ayahCount": "37",
+            "revealedCity": "Mecca",
+            "rukuCount": "4"
+          },
+          {
+            "surahNumber": "46",
+            "surahName": "Al-Ahqaf",
+            "ayahCount": "35",
+            "revealedCity": "Mecca",
+            "rukuCount": "4"
+          },
+          {
+            "surahNumber": "47",
+            "surahName": "Muhammad",
+            "ayahCount": "38",
+            "revealedCity": "Madina",
+            "rukuCount": "4"
+          },
+          {
+            "surahNumber": "48",
+            "surahName": "Al-Fat-h",
+            "ayahCount": "29",
+            "revealedCity": "Madina",
+            "rukuCount": "4"
+          },
+          {
+            "surahNumber": "49",
+            "surahName": "Al-Hujurat",
+            "ayahCount": "18",
+            "revealedCity": "Madina",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "50",
+            "surahName": "Qaf",
+            "ayahCount": "45",
+            "revealedCity": "Mecca",
+            "rukuCount": "3"
+          },
+          {
+            "surahNumber": "51",
+            "surahName": "Az-Zariyat",
+            "ayahCount": "60",
+            "revealedCity": "Mecca",
+            "rukuCount": "3"
+          },
+          {
+            "surahNumber": "52",
+            "surahName": "At-Tur",
+            "ayahCount": "49",
+            "revealedCity": "Mecca",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "53",
+            "surahName": "An-Najm",
+            "ayahCount": "62",
+            "revealedCity": "Mecca",
+            "rukuCount": "3"
+          },
+          {
+            "surahNumber": "54",
+            "surahName": "Al-Qamar",
+            "ayahCount": "55",
+            "revealedCity": "Mecca",
+            "rukuCount": "3"
+          },
+          {
+            "surahNumber": "55",
+            "surahName": "Ar-Rahman",
+            "ayahCount": "78",
+            "revealedCity": "Madina",
+            "rukuCount": "3"
+          },
+          {
+            "surahNumber": "56",
+            "surahName": "Al-Waqi'a",
+            "ayahCount": "96",
+            "revealedCity": "Mecca",
+            "rukuCount": "3"
+          },
+          {
+            "surahNumber": "57",
+            "surahName": "Al-Hadid",
+            "ayahCount": "29",
+            "revealedCity": "Madina",
+            "rukuCount": "4"
+          },
+          {
+            "surahNumber": "58",
+            "surahName": "Al-Mujadila",
+            "ayahCount": "22",
+            "revealedCity": "Madina",
+            "rukuCount": "3"
+          },
+          {
+            "surahNumber": "59",
+            "surahName": "Al-Hashr",
+            "ayahCount": "24",
+            "revealedCity": "Madina",
+            "rukuCount": "3"
+          },
+          {
+            "surahNumber": "60",
+            "surahName": "Al-Mumtahana",
+            "ayahCount": "13",
+            "revealedCity": "Madina",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "61",
+            "surahName": "As-Saff",
+            "ayahCount": "14",
+            "revealedCity": "Madina",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "62",
+            "surahName": "Al-Jamu'a",
+            "ayahCount": "11",
+            "revealedCity": "Madina",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "63",
+            "surahName": "Al-Munafiqun",
+            "ayahCount": "11",
+            "revealedCity": "Madina",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "64",
+            "surahName": "At-Tagabun",
+            "ayahCount": "18",
+            "revealedCity": "Madina",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "65",
+            "surahName": "At-Talaq",
+            "ayahCount": "12",
+            "revealedCity": "Madina",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "66",
+            "surahName": "At-Tahrim",
+            "ayahCount": "12",
+            "revealedCity": "Madina",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "67",
+            "surahName": "Al-Mulk",
+            "ayahCount": "30",
+            "revealedCity": "Mecca",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "68",
+            "surahName": "Al-Qalam",
+            "ayahCount": "52",
+            "revealedCity": "Mecca",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "69",
+            "surahName": "Al-Haqqa",
+            "ayahCount": "52",
+            "revealedCity": "Mecca",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "70",
+            "surahName": "Al-Ma'arij",
+            "ayahCount": "44",
+            "revealedCity": "Mecca",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "71",
+            "surahName": "Nuh",
+            "ayahCount": "28",
+            "revealedCity": "Mecca",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "72",
+            "surahName": "Al-Jinn",
+            "ayahCount": "28",
+            "revealedCity": "Mecca",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "73",
+            "surahName": "Al-Muzzammil",
+            "ayahCount": "20",
+            "revealedCity": "Mecca",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "74",
+            "surahName": "Al-Muddaththir",
+            "ayahCount": "56",
+            "revealedCity": "Mecca",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "75",
+            "surahName": "Al-Qiyamat",
+            "ayahCount": "40",
+            "revealedCity": "Mecca",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "76",
+            "surahName": "Ad-Dahr",
+            "ayahCount": "31",
+            "revealedCity": "Madina",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "77",
+            "surahName": "Al-Mursalat",
+            "ayahCount": "50",
+            "revealedCity": "Mecca",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "78",
+            "surahName": "An-Nabaa",
+            "ayahCount": "40",
+            "revealedCity": "Mecca",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "79",
+            "surahName": "An-Nazi'at",
+            "ayahCount": "46",
+            "revealedCity": "Mecca",
+            "rukuCount": "2"
+          },
+          {
+            "surahNumber": "80",
+            "surahName": "Abasa",
+            "ayahCount": "42",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "81",
+            "surahName": "At-Takwir",
+            "ayahCount": "29",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "82",
+            "surahName": "Al-Infitar",
+            "ayahCount": "19",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "83",
+            "surahName": "Al-Mutaffifin",
+            "ayahCount": "36",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "84",
+            "surahName": "Al-Inshiqaq",
+            "ayahCount": "25",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "85",
+            "surahName": "Al-Buruj",
+            "ayahCount": "22",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "86",
+            "surahName": "At-Tariq",
+            "ayahCount": "17",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "87",
+            "surahName": "Al-A'la",
+            "ayahCount": "19",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "88",
+            "surahName": "Al-Gashiya",
+            "ayahCount": "26",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "89",
+            "surahName": "Al-Fajr",
+            "ayahCount": "30",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "90",
+            "surahName": "Al-Balad",
+            "ayahCount": "20",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "91",
+            "surahName": "Ash-Shams",
+            "ayahCount": "15",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "92",
+            "surahName": "Al-Lail",
+            "ayahCount": "21",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "93",
+            "surahName": "Adh-Dhuha",
+            "ayahCount": "11",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "94",
+            "surahName": "Al-Sharh",
+            "ayahCount": "8",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "95",
+            "surahName": "At-Tin",
+            "ayahCount": "8",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "96",
+            "surahName": "Al-Alaq",
+            "ayahCount": "19",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "97",
+            "surahName": "Al-Qadr",
+            "ayahCount": "5",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "98",
+            "surahName": "Al-Baiyina",
+            "ayahCount": "8",
+            "revealedCity": "Madina",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "99",
+            "surahName": "Al-Zalzalah",
+            "ayahCount": "8",
+            "revealedCity": "Madina",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "100",
+            "surahName": "Al-Adiyat",
+            "ayahCount": "11",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "101",
+            "surahName": "Al-Qari'a",
+            "ayahCount": "11",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "102",
+            "surahName": "At-Takathur",
+            "ayahCount": "8",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "103",
+            "surahName": "Al-Asr",
+            "ayahCount": "3",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "104",
+            "surahName": "Al-Humaza",
+            "ayahCount": "9",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "105",
+            "surahName": "Al-Fil",
+            "ayahCount": "5",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "106",
+            "surahName": "Quraish",
+            "ayahCount": "4",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "107",
+            "surahName": "Al-Ma'un",
+            "ayahCount": "7",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "108",
+            "surahName": "Al-Kauthar",
+            "ayahCount": "3",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "109",
+            "surahName": "Al-Kafirun",
+            "ayahCount": "6",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "110",
+            "surahName": "An-Nasr",
+            "ayahCount": "3",
+            "revealedCity": "Madina",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "111",
+            "surahName": "Al-Lahab",
+            "ayahCount": "5",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "112",
+            "surahName": "Al-Ikhlaas",
+            "ayahCount": "4",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "113",
+            "surahName": "Al-Falaq",
+            "ayahCount": "5",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          },
+          {
+            "surahNumber": "114",
+            "surahName": "An-Nas",
+            "ayahCount": "6",
+            "revealedCity": "Mecca",
+            "rukuCount": "NULL"
+          }
+        ]
+      }
+  }

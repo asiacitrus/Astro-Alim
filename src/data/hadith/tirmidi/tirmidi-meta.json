@@ -1,0 +1,296 @@
+{
+    "1": {
+        "startingHadith": 1,
+        "endingHadith": 148,
+        "bookNumber": 1,
+        "bookName": "The Book on Purification"
+    },
+    "2": {
+        "startingHadith": 149,
+        "endingHadith": 451,
+        "bookNumber": 2,
+        "bookName": "The Book on Salat (Prayer)"
+    },
+    "3": {
+        "startingHadith": 452,
+        "endingHadith": 487,
+        "bookNumber": 3,
+        "bookName": "The Book on Al-Witr"
+    },
+    "4": {
+        "startingHadith": 488,
+        "endingHadith": 529,
+        "bookNumber": 4,
+        "bookName": "The Book on the Day of Friday"
+    },
+    "5": {
+        "startingHadith": 530,
+        "endingHadith": 543,
+        "bookNumber": 5,
+        "bookName": "The Book on the Two Eids"
+    },
+    "6": {
+        "startingHadith": 544,
+        "endingHadith": 616,
+        "bookNumber": 6,
+        "bookName": "The Book on Traveling"
+    },
+    "7": {
+        "startingHadith": 617,
+        "endingHadith": 681,
+        "bookNumber": 7,
+        "bookName": "The Book on Zakat"
+    },
+    "8": {
+        "startingHadith": 682,
+        "endingHadith": 808,
+        "bookNumber": 8,
+        "bookName": "The Book on Fasting"
+    },
+    "9": {
+        "startingHadith": 809,
+        "endingHadith": 964,
+        "bookNumber": 9,
+        "bookName": "The Book on Hajj"
+    },
+    "10": {
+        "startingHadith": 965,
+        "endingHadith": 1079,
+        "bookNumber": 10,
+        "bookName": "The Book on Jana'iz (Funerals)"
+    },
+    "11": {
+        "startingHadith": 1080,
+        "endingHadith": 1145,
+        "bookNumber": 11,
+        "bookName": "The Book on Marriage"
+    },
+    "12": {
+        "startingHadith": 1146,
+        "endingHadith": 1174,
+        "bookNumber": 12,
+        "bookName": "The Book on Suckling"
+    },
+    "13": {
+        "startingHadith": 1175,
+        "endingHadith": 1204,
+        "bookNumber": 13,
+        "bookName": "The Book on Divorce and Li'an"
+    },
+    "14": {
+        "startingHadith": 1205,
+        "endingHadith": 1321,
+        "bookNumber": 14,
+        "bookName": "The Book on Business"
+    },
+    "15": {
+        "startingHadith": 1322,
+        "endingHadith": 1385,
+        "bookNumber": 15,
+        "bookName": "The Chapters On Judgements From The Messenger of Allah"
+    },
+    "16": {
+        "startingHadith": 1386,
+        "endingHadith": 1422,
+        "bookNumber": 16,
+        "bookName": "The Book on Blood Money"
+    },
+    "17": {
+        "startingHadith": 1423,
+        "endingHadith": 1463,
+        "bookNumber": 17,
+        "bookName": "The Book on Legal Punishments (Al-Hudud)"
+    },
+    "18": {
+        "startingHadith": 1464,
+        "endingHadith": 1492,
+        "bookNumber": 18,
+        "bookName": "The Book on Hunting"
+    },
+    "19": {
+        "startingHadith": 1493,
+        "endingHadith": 1523,
+        "bookNumber": 19,
+        "bookName": "The Book on Sacrifices"
+    },
+    "20": {
+        "startingHadith": 1524,
+        "endingHadith": 1547,
+        "bookNumber": 20,
+        "bookName": "The Book on Vows and Oaths"
+    },
+    "21": {
+        "startingHadith": 1548,
+        "endingHadith": 1618,
+        "bookNumber": 21,
+        "bookName": "The Book on Military Expeditions"
+    },
+    "22": {
+        "startingHadith": 1619,
+        "endingHadith": 1669,
+        "bookNumber": 22,
+        "bookName": "The Book on Virtues of Jihad"
+    },
+    "23": {
+        "startingHadith": 1670,
+        "endingHadith": 1719,
+        "bookNumber": 23,
+        "bookName": "The Book on Jihad"
+    },
+    "24": {
+        "startingHadith": 1720,
+        "endingHadith": 1787,
+        "bookNumber": 24,
+        "bookName": "The Book on Clothing"
+    },
+    "25": {
+        "startingHadith": 1788,
+        "endingHadith": 1860,
+        "bookNumber": 25,
+        "bookName": "The Book on Food"
+    },
+    "26": {
+        "startingHadith": 1861,
+        "endingHadith": 1896,
+        "bookNumber": 26,
+        "bookName": "The Book on Drinks"
+    },
+    "27": {
+        "startingHadith": 1897,
+        "endingHadith": 2035,
+        "bookNumber": 27,
+        "bookName": "Chapters on Righteousness And Maintaining Good Relations With Relatives"
+    },
+    "28": {
+        "startingHadith": 2036,
+        "endingHadith": 2089,
+        "bookNumber": 28,
+        "bookName": "Chapters on Medicine"
+    },
+    "29": {
+        "startingHadith": 2090,
+        "endingHadith": 2115,
+        "bookNumber": 29,
+        "bookName": "Chapters On Inheritance"
+    },
+    "30": {
+        "startingHadith": 2116,
+        "endingHadith": 2124,
+        "bookNumber": 30,
+        "bookName": "Chapters On Wasaya (Wills and Testament)"
+    },
+    "31": {
+        "startingHadith": 2125,
+        "endingHadith": 2132,
+        "bookNumber": 31,
+        "bookName": "Chapters On Wala' And Gifts"
+    },
+    "32": {
+        "startingHadith": 2133,
+        "endingHadith": 2157,
+        "bookNumber": 32,
+        "bookName": "Chapters On Al-Qadar"
+    },
+    "33": {
+        "startingHadith": 2158,
+        "endingHadith": 2269,
+        "bookNumber": 33,
+        "bookName": "Chapters On Al-Fitan"
+    },
+    "34": {
+        "startingHadith": 2270,
+        "endingHadith": 2294,
+        "bookNumber": 34,
+        "bookName": "Chapters On Dreams"
+    },
+    "35": {
+        "startingHadith": 2295,
+        "endingHadith": 2303,
+        "bookNumber": 35,
+        "bookName": "Chapters On Witnesses"
+    },
+    "36": {
+        "startingHadith": 2304,
+        "endingHadith": 2414,
+        "bookNumber": 36,
+        "bookName": "Chapters On Zuhd"
+    },
+    "37": {
+        "startingHadith": 2415,
+        "endingHadith": 2522,
+        "bookNumber": 37,
+        "bookName": "Chapters on the description of the Day of Judgement, Ar-Riqaq, and Al-Wara'"
+    },
+    "38": {
+        "startingHadith": 2523,
+        "endingHadith": 2572,
+        "bookNumber": 38,
+        "bookName": "Chapters on the description of Paradise"
+    },
+    "39": {
+        "startingHadith": 2573,
+        "endingHadith": 2605,
+        "bookNumber": 39,
+        "bookName": "The Book on the Description of Hellfire"
+    },
+    "40": {
+        "startingHadith": 2606,
+        "endingHadith": 2644,
+        "bookNumber": 40,
+        "bookName": "The Book on Faith"
+    },
+    "41": {
+        "startingHadith": 2645,
+        "endingHadith": 2687,
+        "bookNumber": 41,
+        "bookName": "Chapters on Knowledge"
+    },
+    "42": {
+        "startingHadith": 2688,
+        "endingHadith": 2735,
+        "bookNumber": 42,
+        "bookName": "Chapters on Seeking Permission"
+    },
+    "43": {
+        "startingHadith": 2736,
+        "endingHadith": 2858,
+        "bookNumber": 43,
+        "bookName": "Chapters on Manners"
+    },
+    "44": {
+        "startingHadith": 2859,
+        "endingHadith": 2874,
+        "bookNumber": 44,
+        "bookName": "Chapters on Parables"
+    },
+    "45": {
+        "startingHadith": 2875,
+        "endingHadith": 2926,
+        "bookNumber": 45,
+        "bookName": "Chapters on The Virtues of the Qur'an"
+    },
+    "46": {
+        "startingHadith": 2927,
+        "endingHadith": 2949,
+        "bookNumber": 46,
+        "bookName": "Chapters on Recitation"
+    },
+    "47": {
+        "startingHadith": 2950,
+        "endingHadith": 3369,
+        "bookNumber": 47,
+        "bookName": "Chapters on Tafsir"
+    },
+    "48": {
+        "startingHadith": 3370,
+        "endingHadith": 3604,
+        "bookNumber": 48,
+        "bookName": "Chapters on Supplication"
+    },
+    "49": {
+        "startingHadith": 3605,
+        "endingHadith": 3956,
+        "bookNumber": 49,
+        "bookName": "Chapters on Virtues"
+    }
+}

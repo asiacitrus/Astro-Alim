@@ -1,0 +1,13 @@
+---
+import testimonialJson from "../data/testimonials/testimonials.json"
+---
+
+{
+    testimonialJson.map((item)=>{
+        return(
+            <h3>{item.Name}</h3>
+            <p>{item.Testimonial}</p>
+            <br/><br/>
+        );
+    })
+}

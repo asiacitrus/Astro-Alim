@@ -1,0 +1,228 @@
+---
+import DailyInsight from "../components/DailyInsight.astro";
+import Testimonial from "../components/Testimonial.astro";
+import RecentPost from "../components/RecentPosts.astro";
+import Navbar from "../components/Navbar.astro";
+import FooterComponent from "../components/FooterComponent.astro";
+import testimonialJson from "../data/testimonials/testimonials.json";
+import { getCollection } from 'astro:content';
+import RecentInsights from "../components/RecentInsights.astro";
+import PopupMenu from "../components/PopupMenu.astro";
+const posts=await getCollection('blog');
+const sorted = posts.sort(
+  (objA, objB) => Number(objA.data.date) - Number(objB.data.date),
+).reverse();
+
+let counter=0;
+let postCount=0;
+const testimonials=[];
+// const postImg=['images/tips1-img.jpg','images/tips2-img.jpg','images/tips3-img.jpg','images/tips4-img.jpg']
+const postImg=['images/tips1-img.jpg','images/tips2-img.jpg','images/tips3-img.jpg']
+for(let i=0;i<6;i++)
+{
+  testimonials.push(testimonialJson[i]);
+}
+---
+
+
+
+  <Navbar/>
+
+  <div class="banner-section md:bg-banner-bg md:bg-right-top bg-center bg-top bg-banner-bg-mobile  md:bg-cover  bg-no-repeat">
+    <div class="container max-w-screen-xl mx-auto px-4">
+    <div class="grid  md:grid-cols-12 gap-0 md:gap-5">
+      <div class="lg:col-span-6 md:col-span-8 sm:col-span-8">
+        <div class="">
+          <p class="text-white mt-64 md:mt-40">The Alim Foundation</p>
+          <h1 class="h1-style text-white mb-5">Learn, Discuss, & Share Islamic Knowledge</h1>
+          <p class="text-white text-opacity-75 p-style">Alim.org is a social network focused around various islamic content, including tafsir, hadith, and Muslim history.</p>
+          <div class="grid  grid-cols-2 gap-0 md:gap-5 mt-14">
+            <div class="" >
+            <a href="/quran" class="button-style" > Launch the Alim </a>
+            </div>
+            <div class="" >
+            <a href="#" class="text-white text-btn-style"> Learn More </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="lg:col-span-6 md:col-span-4  sm:col-span-4">
+        
+      </div>        
+    </div>
+    <div class="grid  md:grid-cols-12 gap-0 md:gap-5">
+      <div class="md:col-span-12 mx-auto">
+        <div class="text-center mt-20 mb-12 md:mt-44 md:mb-20">
+          <h2 class="h2-style text-white mb-2">Alim Islamic Resources</h2>
+          <p class="text-white text-opacity-75 p-style">Explore new and unique ways to discuss and share Islamic knowledge.</p>
+        </div>
+      </div>      
+    </div>
+    <div class="grid  md:grid-cols-12 gap-0 md:gap-10">
+      <div class="md:col-span-4 mb-8 md:mb-0">
+        <div class="prose prose-md ">
+          <img src="images/quran-icon.svg" class=" h-20 mb-5"/>
+          <h3 class="text-white mt-3">Qur'an Recitation</h3>
+          <p class="text-white text-opacity-75 mb-2">Listen to your favorite Qaris, specify repetition sequences, and view Tafseer for Ayah.</p>
+          <a href="#" class="text-white text-btn-style">Learn More</a>
+        </div>
+      </div>
+      <div class="md:col-span-4 mb-8 md:mb-0">
+      <div class="prose prose-md">
+        <img src="images/hadith-icon.svg" class=" h-20 mb-5"/>
+        <h3 class="text-white mt-3">Daily Hadith</h3>
+        <p class="text-white text-opacity-75 mb-2">Sayings of the Prophet (PBUH) and his daily practice, a major source of guidance for Muslims.</p>
+        <a href="#" class="text-white text-btn-style">Learn More</a>
+      </div>
+    </div>
+    <div class="md:col-span-4 mb-8 md:mb-0">
+      <div class="prose prose-md">
+      <img src="images/history-icon.svg" class=" h-20 mb-5"/>
+      <h3 class="h3-style text-white mt-3">Muslim History</h3>
+        <p class="text-white text-opacity-75 mb-2">Fascinating time periods within Islam's vast history, biographies, and stories of the companions.</p>
+        <a href="#" class="text-white text-btn-style">Learn More</a>
+      </div>
+    </div>      
+    </div>
+    </div>
+  </div>
+  <div class="bg-mountain-bg">
+    <div class="container max-w-screen-xl mx-auto px-4">
+    <div class="grid  md:grid-cols-12 gap-0 md:gap-5">
+      <div class="md:col-span-4">
+        <div class="blue-gr-box p-8 md:mt-52 mt-20">
+          <div class="flex flex-row">
+            <div class="flex mr-3"> <img src="images/pin.png"/> </div>
+            <div class="flex"> <h2 class="text-white"> Daily Insights: </h2> </div>
+          </div>
+        </div>
+      </div>     
+    </div>
+    <p class="text-white text-base mt-6 mb-3 font-medium">Recent insights</p>
+    <div class="grid  grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-3 md:gap-5 border-b border-light-blue pb-10" id="recentInsights">
+      
+      <RecentInsights/> 
+  
+    </div>
+    
+      
+      
+      <DailyInsight/>
+
+      <PopupMenu/>
+
+    </div>
+  </div>
+  <section class="community-spotlight-section">
+    <div class="container max-w-screen-xl mx-auto px-4">
+    <div class="grid  md:grid-cols-12 gap-0 md:gap-5">
+      <div class="md:col-span-12 mx-auto">
+        <div class="text-center mt-24 md:mt-32 md:mb-20 mb-12">
+          <h2 class="text-white mb-2">Community Spotlight</h2>
+          <p class="text-white text-opacity-75 mt-8">Here’s what the community is saying about our Alim software.</p>
+        </div>
+      </div>      
+    </div>
+    <div class="grid  md:grid-cols-12 gap-0 md:gap-5 mb-10">
+      {
+      testimonials.map((item)=>{
+        counter++;
+        return(<Testimonial testimonial={item} count={counter}/>)
+      })
+      }
+    </div>
+    <div class="md:mt-20 md:mb-20 mt-8 mb-16 text-right">
+      <a href="/communitySpotlights" class="button-style px-8 bg-deep-red" > Read more </a>
+    </div>
+    </div>
+  </section>
+  <section class="donate-section ">
+    <div class="container max-w-screen-xl mx-auto px-4">
+    <div class="grid  md:grid-cols-12 gap-0 md:gap-10">
+      <div class="md:col-span-8">
+        <div class=" md:mt-32 md:mb-20 mt-3 mb-3">
+          <h2 class=" text-white mb-2"> Donate for Sadaqa Jariya </h2>
+          <p class="text-white text-opacity-75  mt-6"> "When a person dies, his works end, except for three: ongoing charity, knowledge that is benefited from, and a righteous child who prays for him." </p>
+          <p class="text-white text-opacity-75  mt-6"> Prophet Mohammed (PBUH) </p>
+        </div>
+      </div>  
+      <div class="md:col-span-4">
+      <div class="md:mt-32 md:mb-20 mt-8 mb-16 text-right">
+        <a href="#" class="button-style px-8" > more Donation options </a>
+      </div>
+    </div>     
+    </div>
+    <div class="grid  md:grid-cols-12 gap-0 md:gap-5">
+      <div class="md:col-span-6 mb-8 md:mb-0">
+      <div class="blue-gr-box p-14  text-center">
+        <div class="bg-deep-blue p-5 text-white text-3xl mb-10">Recurring Donation</div>
+        <h3 class=" text-white font-semibold mb-8">$9.99 USD <span>/MO.</span></h3>
+        <p class="text-white text-opacity-75  mb-10">The expenses behind creating and maintaining this technology are covered by your contributions.</p>
+        <form action="https://www.paypal.com/donate" target="_blank" method="post" target="_top" id="donate-btn-paypal-home">
+          <input type="hidden" name="hosted_button_id" value="QV9QR3VWEF8YU" />
+          <input class="bg-deep-red rounded-sm text-base font-medium text-white px-6 py-3" type="submit" name="submit" value="Donate now" />
+      </form>
+      </div>
+      </div>
+      <div class="md:col-span-6">
+      <div class="blue-gr-box p-14  text-center">
+        <div class="bg-deep-blue p-5 text-white text-3xl mb-10">Single Donation</div>
+        <h3 class=" text-white font-semibold mb-8">$19.99 USD</h3>
+        <p class="text-white text-opacity-75  mb-10">The expenses behind creating and maintaining this technology are covered by your contributions.</p>
+        <form action="https://www.paypal.com/donate" target="_blank" method="post" target="_top" id="donate-btn-paypal-home">
+          <input type="hidden" name="hosted_button_id" value="QV9QR3VWEF8YU" />
+          <input class="bg-deep-red rounded-sm text-base font-medium text-white px-6 py-3" type="submit" name="submit" value="Donate now" />
+      </form>
+      </div>
+      </div>     
+    </div>
+    </div>
+  </section>
+  <section class="funeral-services-section">
+    <div class="container max-w-screen-xl mx-auto px-4">
+    <div class="grid  md:grid-cols-12 gap-0 md:gap-5">
+      <div class="md:col-span-8">
+        <div class=" md:mt-32 mt-16 mb-10">
+          <h2 class=" text-white mb-2">Alim Funeral Services</h2>
+          <p class="text-white text-opacity-75  mt-8">Life, as we know it, is a fleeting journey, and death is a departure that every soul must experience. We're here to assure you that this departure is respected, honored, and performed according to the sacred rituals of Islam.</p>
+        </div>
+      </div>  
+      <div class="md:col-span-4">
+      <div class="flex md:mt-52 md:mb-20 mt-3 mb-16 float-right gap-2">
+        <div class="flex-1 p-1">
+          <a href="#" class="block w-12 h-12 hover:bg-deep-red rounded-full p-3"> <img src="images/left-arrow.svg" class="w-full"/></a>
+        </div>
+        <div class="flex-1 p-1">
+        <a href="#" class="block w-12 h-12 hover:bg-deep-red rounded-full p-3"> <img src="images/right-arrow.svg" class="w-full"/></a>
+        </div>
+      </div>
+    </div>     
+    </div>
+    <div class="grid  md:grid-cols-12 gap-0 md:gap-10 bg-hero-img-funeral p-8 ">
+      <div class="md:col-span-2">
+      <a href="#" class="button-style  block w-full text-center p-4 mt-28" > Learn more </a>
+      </div> 
+      <div class="md:col-span-10">
+      <p class="text-white text-opacity-75 mt-5 md:mt-28">Our platform allows mosque, funeral home, and cemetery to work collaboratively and provide a complete set of Muslim funeral services for your loved ones.</p>
+      </div>    
+    </div>
+    </div>
+  </section>
+  <section class="living-better-life-section bg-mountain-bg lg:pb-450  md:pb-96 pb-44">
+    <div class="container  max-w-screen-xl mx-auto px-4">
+    <div class="grid  md:grid-cols-6 gap-0 md:gap-5">
+      <div class="md:col-span-4  md:col-start-2 ">
+        <h3 class=" md:mt-32 md:mb-12 mt-20 mb-8 text-center text-white"> Tips on Living A Better life </h3>
+        {
+          postImg.map((item)=>{
+            postCount++;
+            return(<RecentPost postDate={sorted[postCount-1].data.date} postTitle={sorted[postCount-1].data.title} postContent={sorted[postCount-1].body.substring(0,200)} imgPath={item}/>)
+          })
+        }
+
+      </div>      
+    </div>
+    </div>
+  </section>
+
+  <FooterComponent/>

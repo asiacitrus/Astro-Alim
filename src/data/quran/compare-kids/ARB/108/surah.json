@@ -1,0 +1,20 @@
+[
+    {
+        "BookCode": "ARB",
+        "SurahNumber": "108",
+        "AyahNumber": "1",
+        "Body": "إِنَّآ أَعْطَيْنَـٰكَ ٱلْكَوْثَرَ"
+    },
+    {
+        "BookCode": "ARB",
+        "SurahNumber": "108",
+        "AyahNumber": "2",
+        "Body": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ"
+    },
+    {
+        "BookCode": "ARB",
+        "SurahNumber": "108",
+        "AyahNumber": "3",
+        "Body": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ"
+    }
+]

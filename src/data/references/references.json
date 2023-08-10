@@ -1,0 +1,471 @@
+[
+    {
+        "quran": [
+            {
+                "section": "Al-Qur'an Arabic Text",
+                "data": [
+                    {
+                        "key": "Publisher",
+                        "value": "http:\/\/tanzil.info\/"
+                    }
+                ]
+            },
+            {
+                "section": "Al-Qur'an Recitation",
+                "data": [
+                    {
+                        "key": "Publisher",
+                        "value": "https:\/\/everyayah.com\/"
+                    }
+                ]
+            },
+            {
+                "section": "Al-Qur'an Subject Index",
+                "data": [
+                    {
+                        "key": "Title",
+                        "value": "An Index of Quranic Teachings"
+                    },
+                    {
+                        "key": "Compiled By",
+                        "value": "Abdur Rauf Khan"
+                    },
+                    {
+                        "key": "Edition",
+                        "value": "First, Hardback"
+                    },
+                    {
+                        "key": "Published",
+                        "value": "1987"
+                    },
+                    {
+                        "key": "Publisher",
+                        "value": "Abdur Rauf Khan, Peshawar, Pakistan"
+                    }
+                ]
+            },
+            {
+                "section": "Yusuf Ali Al-Qur'an Translation",
+                "data": [
+                    {
+                        "key": "Translator",
+                        "value": "Yusuf Ali"
+                    },
+                    {
+                        "key": "Edition",
+                        "value": "First, Hardback"
+                    },
+                    {
+                        "key": "Publisher",
+                        "value": "Kingdom of Saudi Arabia"
+                    }
+                ]
+            },
+            {
+                "section": "Malik Al-Qur'an Translation",
+                "data": [
+                    {
+                        "key": "Translator",
+                        "value": "Muhammad Farooq-i-Azam Malik"
+                    },
+                    {
+                        "key": "Edition",
+                        "value": "First, Hardback"
+                    },
+                    {
+                        "key": "Published",
+                        "value": "1997"
+                    },
+                    {
+                        "key": "Publisher",
+                        "value": "The Institute of Islamic Knowledge, Houston, Texas, USA"
+                    }
+                ]
+            },
+            {
+                "section": "Pickthall Al-Qur'an Translation",
+                "data": [
+                    {
+                        "key": "Source",
+                        "value": "Unavailable"
+                    }
+                ]
+            },
+            {
+                "section": "Asad Al-Qur'an Translation",
+                "data": [
+                    {
+                        "key": "Translator",
+                        "value": "Mohammad Asad"
+                    },
+                    {
+                        "key": "Edition",
+                        "value": "First, Hardback"
+                    },
+                    {
+                        "key": "Published",
+                        "value": "1980"
+                    },
+                    {
+                        "key": "Publisher",
+                        "value": "Dar Al-Andalus, Gibraltar"
+                    },
+                    {
+                        "key": "Copyright",
+                        "value": "1980, Pola Hamida Asad"
+                    }
+                ]
+            },
+            {
+                "section": "Malik Surah Introduction",
+                "data": [
+                    {
+                        "key": "Translator",
+                        "value": "Muhammad Farooq-i-Azam Malik"
+                    },
+                    {
+                        "key": "Edition",
+                        "value": "First, Hardback"
+                    },
+                    {
+                        "key": "Published",
+                        "value": "1997"
+                    },
+                    {
+                        "key": "Publisher",
+                        "value": "The Institute of Islamic Knowledge, Houston, Texas, USA"
+                    }
+                ]
+            },
+            {
+                "section": "Syed Abul A'ala Maududi Surah Introduction",
+                "data": [
+                    {
+                        "key": "Source",
+                        "value": "Compiled from a First Edition, multi-volume paperback English translation of the Quran by Maulana Maududi."
+                    }
+                ]
+            },
+            {
+                "section": "Tafsir ibn Kathir",
+                "data": [
+                    {
+                        "key": "Translator",
+                        "value": "Abridged by a group of scholars under the supervision of Shaykh Safiur-Rahman Al-Mubarakpuri."
+                    },
+                    {
+                        "key": "Published",
+                        "value": "2000"
+                    },
+                    {
+                        "key": "Publisher",
+                        "value": "DARUSSALAM, Riyadh (dar-us-salam.com)"
+                    }
+                ]
+            }
+        ],
+        "hadith": [
+            {
+                "section": "Hadith Al-Qudsi",
+                "data": [
+                    {
+                        "key": "Translator",
+                        "value": "Ezzeddin Ibrahim, Denys Johnson-Davies (Abdul Wadoud)"
+                    },
+                    {
+                        "key": "Edition",
+                        "value": "First, Hardback"
+                    },
+                    {
+                        "key": "Published",
+                        "value": "1980"
+                    },
+                    {
+                        "key": "Publisher",
+                        "value": "Dar Al-Koran Al-Kareem, Beirut, Lebanon"
+                    }
+                ]
+            },
+            {
+                "section": "Fiqh-us-Sunnah",
+                "data": [
+                    {
+                        "key": "Compiled by",
+                        "value": "As-Sayyid Sabiq"
+                    },
+                    {
+                        "key": "Translator",
+                        "value": "Muhammad Saeed Dabas, Jamal al-Din M. Zarabozo"
+                    },
+                    {
+                        "key": "Edition",
+                        "value": "First, Hardback"
+                    },
+                    {
+                        "key": "Published",
+                        "value": "1985"
+                    },
+                    {
+                        "key": "Publisher",
+                        "value": "American Trust Publications, Indianapolis, IN, USA"
+                    }
+                ]
+            },
+            {
+                "section": "Hadith Al-Tirmidhi",
+                "data": [
+                    {
+                        "key": "Compiled by",
+                        "value": "Imam Abu Zakariya Yahya bin Sharaf an-Nawawi"
+                    },
+                    {
+                        "key": "Translator",
+                        "value": "S. M. Madni Abbasi"
+                    },
+                    {
+                        "key": "Edition",
+                        "value": "First, Hardback"
+                    },
+                    {
+                        "key": "Published",
+                        "value": "1983"
+                    },
+                    {
+                        "key": "Publisher",
+                        "value": "International Islamic Publishers, Karachi, Pakistan"
+                    }
+                ]
+            },
+            {
+                "section": "Sunan of Abu-Dawood",
+                "data": [
+                    {
+                        "key": "Compiled by",
+                        "value": "Imam Abu Zakariya Yahya bin Sharaf an-Nawawi"
+                    },
+                    {
+                        "key": "Translator",
+                        "value": "S. M. Madni Abbasi"
+                    },
+                    {
+                        "key": "Edition",
+                        "value": "First, Hardback"
+                    },
+                    {
+                        "key": "Published",
+                        "value": "1983"
+                    },
+                    {
+                        "key": "Publisher",
+                        "value": "International Islamic Publishers, Karachi, Pakistan"
+                    }
+                ]
+            },
+            {
+                "section": "Hadith Al-Muwatta",
+                "data": [
+                    {
+                        "key": "Translator",
+                        "value": "Aisha Abdarahman at-Tarjumana, Yaqub Johnson under the supervision of Shaykh Abdalqadir as-Sufi ad-Darqawi"
+                    },
+                    {
+                        "key": "Based on",
+                        "value": "Text compiled by Yahya ibn Yahya al-Laythi at Qayrawan"
+                    },
+                    {
+                        "key": "Edition",
+                        "value": "First, Hardback"
+                    },
+                    {
+                        "key": "Published",
+                        "value": "1982"
+                    },
+                    {
+                        "key": "Publisher",
+                        "value": "Diwan Press, Norwich, UK"
+                    }
+                ]
+            },
+            {
+                "section": "Sahih Muslim Hadith",
+                "data": [
+                    {
+                        "key": "Source",
+                        "value": "Sourceforge.net"
+                    },
+                    {
+                        "key": "URL",
+                        "value": "https:\/\/sourceforge.net\/projects\/hadith-books-bukhari-muslim\/"
+                    },
+                    {
+                        "key": "Title",
+                        "value": "Sahih Bukhari & Sahih Muslim Html"
+                    },
+                    {
+                        "key": "Uploaded by",
+                        "value": "syed77adnan"
+                    },
+                    {
+                        "key": "Retrieved date",
+                        "value": "August 10, 2022"
+                    }
+                ]
+            },
+            {
+                "section": "Sahih Al-Bukhari Hadith",
+                "data": [
+                    {
+                        "key": "Source",
+                        "value": "Sourceforge.net"
+                    },
+                    {
+                        "key": "URL",
+                        "value": "https:\/\/sourceforge.net\/projects\/hadith-books-bukhari-muslim\/"
+                    },
+                    {
+                        "key": "Title",
+                        "value": "Sahih Bukhari & Sahih Muslim Html"
+                    },
+                    {
+                        "key": "Uploaded by",
+                        "value": "syed77adnan"
+                    },
+                    {
+                        "key": "Retrieved date",
+                        "value": "August 10, 2022"
+                    }
+                ]
+            },
+            {
+                "section": "Nawawi Hadith",
+                "data": [
+                    {
+                        "key": "Publisher",
+                        "value": "www.islamicink.com"
+                    },
+                    {
+                        "key": "Date",
+                        "value": "15th February, 2013"
+                    }
+                ]
+            }
+        ],
+        "history": [
+            {
+                "section": "Stories of Prophets",
+                "data": [
+                    {
+                        "key": "Author",
+                        "value": "Al-Imam ibn Kathir"
+                    },
+                    {
+                        "key": "Translator",
+                        "value": "Muhammad Mustapha Geme\u2019ah, Al-Azhar"
+                    }
+                ]
+            },
+            {
+                "section": "Hadrat Abu Bakr, Umar, Usman, Ali (ra) 4 Vol. Set",
+                "data": [
+                    {
+                        "key": "Author",
+                        "value": "Professor Masud-ul-Hasan"
+                    },
+                    {
+                        "key": "Edition",
+                        "value": "First, Hardback"
+                    },
+                    {
+                        "key": "Published",
+                        "value": "1982"
+                    },
+                    {
+                        "key": "Publisher",
+                        "value": "Islamic Publications, Lahore, Pakistan"
+                    }
+                ]
+            },
+            {
+                "section": "Timeline (History of Islam volumes 1 & 2)",
+                "data": [
+                    {
+                        "key": "Author",
+                        "value": "Professor Masud-ul-Hasan"
+                    },
+                    {
+                        "key": "Edition",
+                        "value": "First, Hardback"
+                    },
+                    {
+                        "key": "Published",
+                        "value": "1988"
+                    },
+                    {
+                        "key": "Publisher",
+                        "value": "Islamic Publications, Lahore, Pakistan"
+                    }
+                ]
+            },
+            {
+                "section": "Companions of the Prophet",
+                "data": [
+                    {
+                        "key": "Author",
+                        "value": "Abdul Wahid Hamid"
+                    },
+                    {
+                        "key": "Edition",
+                        "value": "First, Hardback"
+                    },
+                    {
+                        "key": "Published",
+                        "value": "1985"
+                    },
+                    {
+                        "key": "Publisher",
+                        "value": "Muslim Education and Literary Services, Leicester, UK"
+                    }
+                ]
+            },
+            {
+                "section": "About Islam",
+                "data": [
+                    {
+                        "key": "Publisher",
+                        "value": "The Kingdom of Saudi Arabia and distributed through their Embassy in Washington, D.C."
+                    }
+                ]
+            },
+            {
+                "section": "Islam Posters",
+                "data": [
+                    {
+                        "key": "Publisher",
+                        "value": "\thttp:\/\/www.discoverislam.com"
+                    }
+                ]
+            },
+            {
+                "section": "Pilgrimage",
+                "data": [
+                    {
+                        "key": "Publisher",
+                        "value": "https:\/\/www.islamreligion.com"
+                    },
+                    {
+                        "key": "URL",
+                        "value": "https:\/\/www.islamreligion.com\/articles\/184\/fifth-pillar-of-islam\/"
+                    },
+                    {
+                        "key": "Modified by",
+                        "value": "N. M. Shah"
+                    },
+                    {
+                        "key": "Date",
+                        "value": "April 24, 2013"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,442 @@
+[
+    {
+        "bookNo": "0",
+        "bookName": "Introduction by Imam Muslim",
+        "arabicName": "مقدمةُ الكِتابِ",
+        "firstHadith": "1",
+        "lastHadith": "92",
+        "hadithCount": "92"
+    },
+    {
+        "bookNo": "1",
+        "bookName": "Book of Faith",
+        "arabicName": "كتابُ الإيمان",
+        "firstHadith": "93",
+        "lastHadith": "533",
+        "hadithCount": "441"
+    },
+    {
+        "bookNo": "2",
+        "bookName": "Book of Purification",
+        "arabicName": "كتابُ الطَهارة",
+        "firstHadith": "534",
+        "lastHadith": "678",
+        "hadithCount": "145"
+    },
+    {
+        "bookNo": "3",
+        "bookName": "Menstrual Periods",
+        "arabicName": "كتابُ الحيض",
+        "firstHadith": "679",
+        "lastHadith": "836",
+        "hadithCount": "158"
+    },
+    {
+        "bookNo": "4",
+        "bookName": "Prayers",
+        "arabicName": "كتابُ الصلاة",
+        "firstHadith": "837",
+        "lastHadith": "1160",
+        "hadithCount": "324"
+    },
+    {
+        "bookNo": "5",
+        "bookName": "Masajid and Place of Prayer",
+        "arabicName": "كتابُ المساجد و مَواِضع الصَلاة",
+        "firstHadith": "1161",
+        "lastHadith": "1569",
+        "hadithCount": "409"
+    },
+    {
+        "bookNo": "6",
+        "bookName": "Book of Salat of Travellers",
+        "arabicName": "كتاب صلاة المسافرين وقصرها",
+        "firstHadith": "1570",
+        "lastHadith": "1950",
+        "hadithCount": "381"
+    },
+    {
+        "bookNo": "7",
+        "bookName": "Friday Prayer",
+        "arabicName": "كتابُ الجمعة",
+        "firstHadith": "1951",
+        "lastHadith": "2043",
+        "hadithCount": "93"
+    },
+    {
+        "bookNo": "8",
+        "bookName": "Book of the Two Id Prayers",
+        "arabicName": "كتاب صلاة العيدين",
+        "firstHadith": "2044",
+        "lastHadith": "2069",
+        "hadithCount": "26"
+    },
+    {
+        "bookNo": "9",
+        "bookName": "Book of Prayer Seeking Rain",
+        "arabicName": "كتاب صلاة الاستسقاء",
+        "firstHadith": "2070",
+        "lastHadith": "2088",
+        "hadithCount": "19"
+    },
+    {
+        "bookNo": "10",
+        "bookName": "Eclipses",
+        "arabicName": "كتاب الكسوف",
+        "firstHadith": "2089",
+        "lastHadith": "2122",
+        "hadithCount": "34"
+    },
+    {
+        "bookNo": "11",
+        "bookName": "Funerals",
+        "arabicName": "كتاب الجنائز",
+        "firstHadith": "2123",
+        "lastHadith": "2262",
+        "hadithCount": "140"
+    },
+    {
+        "bookNo": "12",
+        "bookName": "Book of Zakat",
+        "arabicName": "كتاب الزكاة",
+        "firstHadith": "2263",
+        "lastHadith": "2494",
+        "hadithCount": "232"
+    },
+    {
+        "bookNo": "13",
+        "bookName": "Book of Fasting",
+        "arabicName": "كتاب الصيام",
+        "firstHadith": "2495",
+        "lastHadith": "2779",
+        "hadithCount": "285"
+    },
+    {
+        "bookNo": "14",
+        "bookName": "Book of Itikaf",
+        "arabicName": "كتاب الاعتكاف",
+        "firstHadith": "2780",
+        "lastHadith": "2790",
+        "hadithCount": "11"
+    },
+    {
+        "bookNo": "15",
+        "bookName": "Book of Hajj",
+        "arabicName": "كتاب الحج",
+        "firstHadith": "2791",
+        "lastHadith": "3397",
+        "hadithCount": "607"
+    },
+    {
+        "bookNo": "16",
+        "bookName": "Book of Marriage",
+        "arabicName": "كتاب النكاح",
+        "firstHadith": "3398",
+        "lastHadith": "3567",
+        "hadithCount": "170"
+    },
+    {
+        "bookNo": "17",
+        "bookName": "Book of Breastfeeding",
+        "arabicName": "كتاب الرضاع",
+        "firstHadith": "3568",
+        "lastHadith": "3651",
+        "hadithCount": "84"
+    },
+    {
+        "bookNo": "18",
+        "bookName": "Book of Divorce",
+        "arabicName": "كتاب الطلاق",
+        "firstHadith": "3652",
+        "lastHadith": "3742",
+        "hadithCount": "91"
+    },
+    {
+        "bookNo": "19",
+        "bookName": "Book of Liaan",
+        "arabicName": "كتاب اللعان",
+        "firstHadith": "3743",
+        "lastHadith": "3769",
+        "hadithCount": "27"
+    },
+    {
+        "bookNo": "20",
+        "bookName": "Book of Manumission",
+        "arabicName": "كتاب العتق",
+        "firstHadith": "3770",
+        "lastHadith": "3800",
+        "hadithCount": "31"
+    },
+    {
+        "bookNo": "21",
+        "bookName": "Book of Financial Transactions",
+        "arabicName": "كتاب البيوع",
+        "firstHadith": "3801",
+        "lastHadith": "3961",
+        "hadithCount": "161"
+    },
+    {
+        "bookNo": "22",
+        "bookName": "Book of Musaqa and Muaamalah",
+        "arabicName": "كتاب المساقاة و المزارعة",
+        "firstHadith": "3962",
+        "lastHadith": "4139",
+        "hadithCount": "178"
+    },
+    {
+        "bookNo": "23",
+        "bookName": "Book of Shares of Inheritance",
+        "arabicName": "كتاب الفرائض",
+        "firstHadith": "4140",
+        "lastHadith": "4162",
+        "hadithCount": "23"
+    },
+    {
+        "bookNo": "24",
+        "bookName": "Book of Gifts",
+        "arabicName": "كتاب الهبات",
+        "firstHadith": "4163",
+        "lastHadith": "4203",
+        "hadithCount": "41"
+    },
+    {
+        "bookNo": "25",
+        "bookName": "Book of Wills",
+        "arabicName": "كتاب الوصية",
+        "firstHadith": "4204",
+        "lastHadith": "4234",
+        "hadithCount": "31"
+    },
+    {
+        "bookNo": "26",
+        "bookName": "Book of Vows",
+        "arabicName": "كتاب النذر",
+        "firstHadith": "4235",
+        "lastHadith": "4253",
+        "hadithCount": "19"
+    },
+    {
+        "bookNo": "27",
+        "bookName": "Book of Oaths",
+        "arabicName": "كتاب الأيمان",
+        "firstHadith": "4254",
+        "lastHadith": "4341",
+        "hadithCount": "88"
+    },
+    {
+        "bookNo": "28",
+        "bookName": "Book of Oaths and Blood Money etc.",
+        "arabicName": "كتاب القسامة والمحاربين والقصاص والديات",
+        "firstHadith": "4342",
+        "lastHadith": "4397",
+        "hadithCount": "56"
+    },
+    {
+        "bookNo": "29",
+        "bookName": "Book of Legal Punishmants",
+        "arabicName": "كتاب الحدود",
+        "firstHadith": "4398",
+        "lastHadith": "4469",
+        "hadithCount": "72"
+    },
+    {
+        "bookNo": "30",
+        "bookName": "Book of Judicial Decisions",
+        "arabicName": "كتاب الأقضية",
+        "firstHadith": "4470",
+        "lastHadith": "4497",
+        "hadithCount": "28"
+    },
+    {
+        "bookNo": "31",
+        "bookName": "Book of Lost Property",
+        "arabicName": "كتاب اللقطة",
+        "firstHadith": "4498",
+        "lastHadith": "4518",
+        "hadithCount": "21"
+    },
+    {
+        "bookNo": "32",
+        "bookName": "Book of Jihad and Expeditions",
+        "arabicName": "كتاب الجهاد والسير",
+        "firstHadith": "4519",
+        "lastHadith": "4700",
+        "hadithCount": "182"
+    },
+    {
+        "bookNo": "33",
+        "bookName": "Book of Leadership",
+        "arabicName": "كتاب الإمارة",
+        "firstHadith": "4701",
+        "lastHadith": "4971",
+        "hadithCount": "271"
+    },
+    {
+        "bookNo": "34",
+        "bookName": "Book of Hunting, Slaughter and Halal Animals",
+        "arabicName": "كتاب الصيد والذبائح وما يؤكل من",
+        "firstHadith": "4972",
+        "lastHadith": "5063",
+        "hadithCount": "92"
+    },
+    {
+        "bookNo": "35",
+        "bookName": "Book of Sacrifices",
+        "arabicName": "كتاب الأضاحي",
+        "firstHadith": "5064",
+        "lastHadith": "5126",
+        "hadithCount": "63"
+    },
+    {
+        "bookNo": "36",
+        "bookName": "Book of Drinks",
+        "arabicName": "كتاب الأشربة",
+        "firstHadith": "5127",
+        "lastHadith": "5384",
+        "hadithCount": "258"
+    },
+    {
+        "bookNo": "37",
+        "bookName": "Book of Dressing and Adornment",
+        "arabicName": "كتاب اللباس والزينة",
+        "firstHadith": "5385",
+        "lastHadith": "5585",
+        "hadithCount": "201"
+    },
+    {
+        "bookNo": "38",
+        "bookName": "Book of Manners",
+        "arabicName": "كتاب الآداب",
+        "firstHadith": "5586",
+        "lastHadith": "5645",
+        "hadithCount": "60"
+    },
+    {
+        "bookNo": "39",
+        "bookName": "Book of Greetings (Salam)",
+        "arabicName": "كتاب السلام",
+        "firstHadith": "5646",
+        "lastHadith": "5861",
+        "hadithCount": "216"
+    },
+    {
+        "bookNo": "40",
+        "bookName": "Statements regarding Manners",
+        "arabicName": "كتاب الألفاظ من الأدب وغيرها",
+        "firstHadith": "5862",
+        "lastHadith": "5884",
+        "hadithCount": "23"
+    },
+    {
+        "bookNo": "41",
+        "bookName": "Book of Poetry",
+        "arabicName": "كتاب الشعر",
+        "firstHadith": "5885",
+        "lastHadith": "5896",
+        "hadithCount": "12"
+    },
+    {
+        "bookNo": "42",
+        "bookName": "Book of Dreams",
+        "arabicName": "كتاب الرؤيا",
+        "firstHadith": "5897",
+        "lastHadith": "5937",
+        "hadithCount": "41"
+    },
+    {
+        "bookNo": "43",
+        "bookName": "Book of Virtues",
+        "arabicName": "كتاب الفضائل",
+        "firstHadith": "5938",
+        "lastHadith": "6168",
+        "hadithCount": "231"
+    },
+    {
+        "bookNo": "44",
+        "bookName": "Book of The Virtues of The Companions",
+        "arabicName": "كتاب فضائل الصحابة رضي الله عنهم",
+        "firstHadith": "6169",
+        "lastHadith": "6499",
+        "hadithCount": "331"
+    },
+    {
+        "bookNo": "45",
+        "bookName": "Book of Piety and Manners",
+        "arabicName": "كتاب البر والصلة والأدب",
+        "firstHadith": "6500",
+        "lastHadith": "6722",
+        "hadithCount": "223"
+    },
+    {
+        "bookNo": "46",
+        "bookName": "Book of Divine Decree",
+        "arabicName": "كتاب القدر",
+        "firstHadith": "6723",
+        "lastHadith": "6774",
+        "hadithCount": "52"
+    },
+    {
+        "bookNo": "47",
+        "bookName": "Book of Knowledge",
+        "arabicName": "كتاب العلم",
+        "firstHadith": "6775",
+        "lastHadith": "6804",
+        "hadithCount": "30"
+    },
+    {
+        "bookNo": "48",
+        "bookName": "Remembrance, Supplicaton, Repentance and Forgivene",
+        "arabicName": "كتاب الذكر والدعاء",
+        "firstHadith": "6805",
+        "lastHadith": "6951",
+        "hadithCount": "147"
+    },
+    {
+        "bookNo": "49",
+        "bookName": "Book of Repentance",
+        "arabicName": "كتاب التوبة",
+        "firstHadith": "6952",
+        "lastHadith": "7023",
+        "hadithCount": "72"
+    },
+    {
+        "bookNo": "50",
+        "bookName": "Attributes of the Hypocrites and the Rulings Conce",
+        "arabicName": "كتاب صفات المنافقين",
+        "firstHadith": "7024",
+        "lastHadith": "7129",
+        "hadithCount": "106"
+    },
+    {
+        "bookNo": "51",
+        "bookName": "Paradise and Description of Its Delights, People",
+        "arabicName": "كتاب الجنة وصفة نعيمها وأهلها",
+        "firstHadith": "7130",
+        "lastHadith": "7234",
+        "hadithCount": "105"
+    },
+    {
+        "bookNo": "52",
+        "bookName": "Book of Tribulations and The Portents of The Hour",
+        "arabicName": "كتاب الفتن وأشراط الساعة",
+        "firstHadith": "7235",
+        "lastHadith": "7416",
+        "hadithCount": "182"
+    },
+    {
+        "bookNo": "53",
+        "bookName": "Book of Asceticism and Heart-Softening",
+        "arabicName": "كتاب الزهد والرقائق",
+        "firstHadith": "7417",
+        "lastHadith": "7522",
+        "hadithCount": "106"
+    },
+    {
+        "bookNo": "54",
+        "bookName": "Book of Tafsir (Explanation of Quran)",
+        "arabicName": "كتابُ التفسير",
+        "firstHadith": "7523",
+        "lastHadith": "7563",
+        "hadithCount": "41"
+    }
+]

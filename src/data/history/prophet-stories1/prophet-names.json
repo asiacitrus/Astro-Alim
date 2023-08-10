@@ -1,0 +1,182 @@
+[
+    {
+        "prophet_no": "1",
+        "prophet_name": "Prophet Adam (AS)",
+        "alternate_name": "Adam",
+        "arabic_name": "النبي آدم (ع)"
+    },
+    {
+        "prophet_no": "2",
+        "prophet_name": "Prophet Idris (AS)",
+        "alternate_name": "Enoch",
+        "arabic_name": "النبي ادريس (ع)"
+    },
+    {
+        "prophet_no": "3",
+        "prophet_name": "Prophet Nuh (AS)",
+        "alternate_name": "Noah",
+        "arabic_name": "النبي نوح (ع)"
+    },
+    {
+        "prophet_no": "4",
+        "prophet_name": "Prophet Hud (AS)",
+        "alternate_name": "Hud",
+        "arabic_name": "النبي هود (ع)"
+    },
+    {
+        "prophet_no": "5",
+        "prophet_name": "Prophet Salih (AS)",
+        "alternate_name": "Saleh",
+        "arabic_name": "النبي صالح (ع)"
+    },
+    {
+        "prophet_no": "6",
+        "prophet_name": "Prophet Ibrahim (AS)",
+        "alternate_name": "Abraham",
+        "arabic_name": "النبي ابراهيم (ع)"
+    },
+    {
+        "prophet_no": "7",
+        "prophet_name": "Prophet Ismail (AS)",
+        "alternate_name": "Ishmael",
+        "arabic_name": "النبي اسماعيل (ع)"
+    },
+    {
+        "prophet_no": "8",
+        "prophet_name": "Prophet Ishaaq (AS) and Prophet Yaqub (AS)",
+        "alternate_name": "Isaac and Jacob",
+        "arabic_name": "النبي إسحاق (ع) والنبي يعقوب (ع)"
+    },
+    {
+        "prophet_no": "9",
+        "prophet_name": "Prophet Lut (AS)",
+        "alternate_name": "Lot",
+        "arabic_name": "النبي لوت (ع)"
+    },
+    {
+        "prophet_no": "10",
+        "prophet_name": "Prophet Shuaib (AS)",
+        "alternate_name": "Shuaib",
+        "arabic_name": "النبي شعيب (ع)"
+    },
+    {
+        "prophet_no": "11",
+        "prophet_name": "Prophet Yusuf (AS)",
+        "alternate_name": "Joseph",
+        "arabic_name": "النبي يوسف (ع)"
+    },
+    {
+        "prophet_no": "12",
+        "prophet_name": "Prophet Ayyub (AS)",
+        "alternate_name": "Job",
+        "arabic_name": "النبي أيوب (ع)"
+    },
+    {
+        "prophet_no": "13",
+        "prophet_name": "Prophet Dhul-Kifl (AS)",
+        "alternate_name": "Dhu al-Kifl",
+        "arabic_name": "النبي ذو الكفل (ع)"
+    },
+    {
+        "prophet_no": "14",
+        "prophet_name": "People of Ar-Rass",
+        "alternate_name": "Ar-Rass",
+        "arabic_name": "أهل الرس"
+    },
+    {
+        "prophet_no": "15",
+        "prophet_name": "People of Antioch",
+        "alternate_name": "Antioch",
+        "arabic_name": "شعب أنطاكية"
+    },
+    {
+        "prophet_no": "16",
+        "prophet_name": "Prophet Yunus (AS)",
+        "alternate_name": "Jonah",
+        "arabic_name": "النبي يونس (ع)"
+    },
+    {
+        "prophet_no": "17",
+        "prophet_name": "Prophet Musa (AS)",
+        "alternate_name": "Moses",
+        "arabic_name": "النبي موسى (ع)"
+    },
+    {
+        "prophet_no": "18",
+        "prophet_name": "Prophet Hisqeel (AS)",
+        "alternate_name": "Ezekiel",
+        "arabic_name": "النبي حزقيل (ع)"
+    },
+    {
+        "prophet_no": "19",
+        "prophet_name": "Prophet Ilyas (AS)",
+        "alternate_name": "Elisha",
+        "arabic_name": "النبي الياس (ع)"
+    },
+    {
+        "prophet_no": "20",
+        "prophet_name": "Prophet Shammil (AS)",
+        "alternate_name": "Samuel",
+        "arabic_name": "النبي شاميل (ع)"
+    },
+    {
+        "prophet_no": "21",
+        "prophet_name": "Prophet Dawud (AS)",
+        "alternate_name": "David",
+        "arabic_name": "النبي داود (ع)"
+    },
+    {
+        "prophet_no": "22",
+        "prophet_name": "Prophet Sulaiman (AS)",
+        "alternate_name": "Solomon",
+        "arabic_name": "النبي سليمان (ع)"
+    },
+    {
+        "prophet_no": "23",
+        "prophet_name": "Prophet Isaiah (AS)",
+        "alternate_name": "Shia",
+        "arabic_name": "اشعياء النبي (ع)"
+    },
+    {
+        "prophet_no": "24",
+        "prophet_name": "Prophet Aramaya (AS)",
+        "alternate_name": "Jeremiah",
+        "arabic_name": "النبي ارامايا (ع)"
+    },
+    {
+        "prophet_no": "25",
+        "prophet_name": "Prophet Daniyal (AS)",
+        "alternate_name": "Daniel",
+        "arabic_name": "النبي دانيال (ع)"
+    },
+    {
+        "prophet_no": "26",
+        "prophet_name": "Prophet Uzair (AS)",
+        "alternate_name": "Ezra",
+        "arabic_name": "النبي عزير (ع)"
+    },
+    {
+        "prophet_no": "27",
+        "prophet_name": "Prophet Zakariya (AS)",
+        "alternate_name": "Zechariah",
+        "arabic_name": "النبي زكريا (ع)"
+    },
+    {
+        "prophet_no": "28",
+        "prophet_name": "Prophet Yahya (AS)",
+        "alternate_name": "John",
+        "arabic_name": "النبي يحيى (ع)"
+    },
+    {
+        "prophet_no": "29",
+        "prophet_name": "Prophet Isa (AS)",
+        "alternate_name": "Jesus",
+        "arabic_name": "النبي عيسى (ع)"
+    },
+    {
+        "prophet_no": "30",
+        "prophet_name": "Prophet Muhammad (SAW)",
+        "alternate_name": "Muhammad",
+        "arabic_name": "النبي محمد (ص)"
+    }
+]

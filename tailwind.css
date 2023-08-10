@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    h1{
+        @apply text-4xl md:text-6xl font-bold;
+    }
+    h2{
+        @apply text-2xl md:text-4xl font-semibold;
+    }
+    h3{
+        @apply text-2xl md:text-3xl font-semibold;
+    }
+    h4{
+        @apply text-2xl font-semibold;
+    }
+    p{
+        @apply text-xl font-normal;
+    }
+    .text-btn-style{
+        @apply text-base font-medium capitalize no-underline;
+    }
+    .bg-banner-bg{
+        
+    }
+    .bg-mountain-bg{
+        @apply bg-size-100 bg-bottom  bg-no-repeat;
+    }
+    .button-style{
+        @apply bg-light-blue text-base text-white no-underline p-4;
+    }
+    .blue-gr-box{
+        @apply bg-gradient-to-b from-light-blue to-dark_blue rounded-sm border border-light-blue p-4;
+    }
+    .footer-bg{
+        @apply bg-gradient-to-b from-light-blue to-dark_blue rounded-sm border border-light-blue;
+    }
+    .bg-hero-img-funeral {
+        @apply bg-no-repeat bg-cover
+    }
+    .icon-btn-list{
+        @apply  absolute right-0 top-2 md:relative md:top-12;
+    }
+    .icon-btn-list li{
+        @apply float-left md:float-none px-1 md:px-0;
+    }
+    
+}

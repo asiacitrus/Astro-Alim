@@ -1,0 +1,230 @@
+[
+    {
+        "bookNumber": 0,
+        "bookNname": "The Book of the Sunnah",
+        "startingHadith": 1,
+        "endingHadith": 266
+    },
+    {
+        "bookNumber": 1,
+        "bookNname": "The Book of Purification and its Sunnah",
+        "startingHadith": 267,
+        "endingHadith": 666
+    },
+    {
+        "bookNumber": 2,
+        "bookNname": "The Book of the Prayer",
+        "startingHadith": 667,
+        "endingHadith": 705
+    },
+    {
+        "bookNumber": 3,
+        "bookNname": "The Book of the Adhan and the Sunnah Regarding It",
+        "startingHadith": 706,
+        "endingHadith": 734
+    },
+    {
+        "bookNumber": 4,
+        "bookNname": "The Book On The Mosques And The Congregations",
+        "startingHadith": 735,
+        "endingHadith": 802
+    },
+    {
+        "bookNumber": 5,
+        "bookNname": "Establishing the Prayer and the Sunnah Regarding Them",
+        "startingHadith": 803,
+        "endingHadith": 1432
+    },
+    {
+        "bookNumber": 6,
+        "bookNname": "Chapters Regarding Funerals",
+        "startingHadith": 1433,
+        "endingHadith": 1637
+    },
+    {
+        "bookNumber": 7,
+        "bookNname": "Fasting",
+        "startingHadith": 1638,
+        "endingHadith": 1782
+    },
+    {
+        "bookNumber": 8,
+        "bookNname": "The Chapters Regarding Zakat",
+        "startingHadith": 1783,
+        "endingHadith": 1844
+    },
+    {
+        "bookNumber": 9,
+        "bookNname": "The Chapters on Marriage",
+        "startingHadith": 1845,
+        "endingHadith": 2015
+    },
+    {
+        "bookNumber": 10,
+        "bookNname": "The Chapters on Divorce",
+        "startingHadith": 2016,
+        "endingHadith": 2089
+    },
+    {
+        "bookNumber": 11,
+        "bookNname": "The Chapters on Expiation",
+        "startingHadith": 2090,
+        "endingHadith": 2136
+    },
+    {
+        "bookNumber": 12,
+        "bookNname": "The Chapters on Business Transactions",
+        "startingHadith": 2137,
+        "endingHadith": 2307
+    },
+    {
+        "bookNumber": 13,
+        "bookNname": "The Chapters on Rulings",
+        "startingHadith": 2308,
+        "endingHadith": 2374
+    },
+    {
+        "bookNumber": 14,
+        "bookNname": "The Chapters on Gifts",
+        "startingHadith": 2375,
+        "endingHadith": 2389
+    },
+    {
+        "bookNumber": 15,
+        "bookNname": "The Chapters on Charity",
+        "startingHadith": 2512,
+        "endingHadith": 2528
+    },
+    {
+        "bookNumber": 16,
+        "bookNname": "The Chapters on Pawning",
+        "startingHadith": 2436,
+        "endingHadith": 2491
+    },
+    {
+        "bookNumber": 17,
+        "bookNname": "The Chapters on Pre-emption",
+        "startingHadith": 2492,
+        "endingHadith": 2501
+    },
+    {
+        "bookNumber": 18,
+        "bookNname": "The Chapters on Lost Property",
+        "startingHadith": 2502,
+        "endingHadith": 2511
+    },
+    {
+        "bookNumber": 19,
+        "bookNname": "The Chapters on Manumission (of Slaves)",
+        "startingHadith": 2512,
+        "endingHadith": 2532
+    },
+    {
+        "bookNumber": 20,
+        "bookNname": "The Chapters on Legal Punishments",
+        "startingHadith": 2533,
+        "endingHadith": 2614
+    },
+    {
+        "bookNumber": 21,
+        "bookNname": "The Chapters on Blood Money",
+        "startingHadith": 2615,
+        "endingHadith": 2694
+    },
+    {
+        "bookNumber": 22,
+        "bookNname": "The Chapters on Wills",
+        "startingHadith": 2695,
+        "endingHadith": 2718
+    },
+    {
+        "bookNumber": 23,
+        "bookNname": "Chapters on Shares of Inheritance",
+        "startingHadith": 2719,
+        "endingHadith": 2752
+    },
+    {
+        "bookNumber": 24,
+        "bookNname": "The Chapters on Jihad",
+        "startingHadith": 2753,
+        "endingHadith": 2881
+    },
+    {
+        "bookNumber": 25,
+        "bookNname": "Chapters on Hajj Rituals",
+        "startingHadith": 2882,
+        "endingHadith": 3119
+    },
+    {
+        "bookNumber": 26,
+        "bookNname": "Chapters on Sacrifices",
+        "startingHadith": 3120,
+        "endingHadith": 3161
+    },
+    {
+        "bookNumber": 27,
+        "bookNname": "Chapters on Slaughtering",
+        "startingHadith": 3162,
+        "endingHadith": 3199
+    },
+    {
+        "bookNumber": 28,
+        "bookNname": "Chapters on Hunting",
+        "startingHadith": 3200,
+        "endingHadith": 3250
+    },
+    {
+        "bookNumber": 29,
+        "bookNname": " Chapters on Food",
+        "startingHadith": 3251,
+        "endingHadith": 3370
+    },
+    {
+        "bookNumber": 30,
+        "bookNname": "Chapters on Drinks",
+        "startingHadith": 3371,
+        "endingHadith": 3435
+    },
+    {
+        "bookNumber": 31,
+        "bookNname": "Chapters on Medicine",
+        "startingHadith": 3436,
+        "endingHadith": 3549
+    },
+    {
+        "bookNumber": 32,
+        "bookNname": "Chapters on Dress",
+        "startingHadith": 3550,
+        "endingHadith": 3656
+    },
+    {
+        "bookNumber": 33,
+        "bookNname": "Etiquette",
+        "startingHadith": 3657,
+        "endingHadith": 3826
+    },
+    {
+        "bookNumber": 34,
+        "bookNname": "Supplication",
+        "startingHadith": 3827,
+        "endingHadith": 3892
+    },
+    {
+        "bookNumber": 35,
+        "bookNname": "Interpretation of Dreams",
+        "startingHadith": 3893,
+        "endingHadith": 3926
+    },
+    {
+        "bookNumber": 36,
+        "bookNname": "Tribulations",
+        "startingHadith": 3927,
+        "endingHadith": 4099
+    },
+    {
+        "bookNumber": 37,
+        "bookNname": "Zuhd",
+        "startingHadith": 4100,
+        "endingHadith": 4341
+    }
+]

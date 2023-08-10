@@ -1,0 +1,32 @@
+[
+    {
+        "BookCode": "ARB",
+        "SurahNumber": "113",
+        "AyahNumber": "1",
+        "Body": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ"
+    },
+    {
+        "BookCode": "ARB",
+        "SurahNumber": "113",
+        "AyahNumber": "2",
+        "Body": "مِن شَرِّ مَا خَلَقَ"
+    },
+    {
+        "BookCode": "ARB",
+        "SurahNumber": "113",
+        "AyahNumber": "3",
+        "Body": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ"
+    },
+    {
+        "BookCode": "ARB",
+        "SurahNumber": "113",
+        "AyahNumber": "4",
+        "Body": "وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ"
+    },
+    {
+        "BookCode": "ARB",
+        "SurahNumber": "113",
+        "AyahNumber": "5",
+        "Body": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ"
+    }
+]

@@ -1,0 +1,929 @@
+[{
+	"book": [{
+		"type": "Story References",
+		"name": "Reference",
+		"bookCode": "Reference",
+		"articles": [{
+				"ArticleNumber": "1",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "2",
+						"ayahNo": "31",
+						"text": ""
+					},
+					{
+						"surahNo": "2",
+						"ayahNo": "33",
+						"text": ""
+					},
+					{
+						"surahNo": "2",
+						"ayahNo": "34",
+						"text": ""
+					},
+					{
+						"surahNo": "2",
+						"ayahNo": "35",
+						"text": ""
+					},
+					{
+						"surahNo": "2",
+						"ayahNo": "37",
+						"text": ""
+					},
+					{
+						"surahNo": "7",
+						"ayahNo": "11",
+						"text": ""
+					},
+					{
+						"surahNo": "7",
+						"ayahNo": "19",
+						"text": ""
+					},
+					{
+						"surahNo": "7",
+						"ayahNo": "26",
+						"text": ""
+					},
+					{
+						"surahNo": "7",
+						"ayahNo": "27",
+						"text": ""
+					},
+					{
+						"surahNo": "7",
+						"ayahNo": "31",
+						"text": ""
+					},
+					{
+						"surahNo": "7",
+						"ayahNo": "35",
+						"text": ""
+					},
+					{
+						"surahNo": "3",
+						"ayahNo": "33",
+						"text": ""
+					},
+					{
+						"surahNo": "3",
+						"ayahNo": "59",
+						"text": ""
+					},
+					{
+						"surahNo": "5",
+						"ayahNo": "27",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "2",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "19",
+						"ayahNo": "56",
+						"text": ""
+					},
+					{
+						"surahNo": "21",
+						"ayahNo": "85",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "3",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "6",
+						"ayahNo": "84",
+						"text": ""
+					},
+					{
+						"surahNo": "4",
+						"ayahNo": "163",
+						"text": ""
+					}, 
+					{
+						"surahNo": "11",
+						"ayahNo": "25",
+						"text": ""
+					},
+					{
+						"surahNo": "11",
+						"ayahNo": "32",
+						"text": ""
+					},
+					{
+						"surahNo": "11",
+						"ayahNo": "36",
+						"text": ""
+					},
+					{
+						"surahNo": "11",
+						"ayahNo": "40",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "4",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "7",
+						"ayahNo": "65",
+						"text": ""
+					},
+					{
+						"surahNo": "7",
+						"ayahNo": "51",
+						"text": ""
+					}, 
+					{
+						"surahNo": "11",
+						"ayahNo": "50",
+						"text": ""
+					},
+					{
+						"surahNo": "11",
+						"ayahNo": "53",
+						"text": ""
+					},
+					{
+						"surahNo": "11",
+						"ayahNo": "58",
+						"text": ""
+					},
+					{
+						"surahNo": "11",
+						"ayahNo": "60",
+						"text": ""
+					},
+					{
+						"surahNo": "11",
+						"ayahNo": "89",
+						"text": ""
+					},
+					{
+						"surahNo": "23",
+						"ayahNo": "32",
+						"text": ""
+					},
+					{
+						"surahNo": "26",
+						"ayahNo": "124",
+						"text": ""
+					},
+					{
+						"surahNo": "46",
+						"ayahNo": "24",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "5",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "7",
+						"ayahNo": "73",
+						"text": ""
+					},
+					{
+						"surahNo": "7",
+						"ayahNo": "75",
+						"text": ""
+					}, 
+					{
+						"surahNo": "7",
+						"ayahNo": "79",
+						"text": ""
+					},
+					{
+						"surahNo": "11",
+						"ayahNo": "61",
+						"text": ""
+					},
+					{
+						"surahNo": "11",
+						"ayahNo": "62",
+						"text": ""
+					},
+					{
+						"surahNo": "11",
+						"ayahNo": "65",
+						"text": ""
+					},
+					{
+						"surahNo": "11",
+						"ayahNo": "66",
+						"text": ""
+					},
+					{
+						"surahNo": "11",
+						"ayahNo": "89",
+						"text": ""
+					},
+					{
+						"surahNo": "26",
+						"ayahNo": "142",
+						"text": ""
+					},
+					{
+						"surahNo": "26",
+						"ayahNo": "158",
+						"text": ""
+					},
+					{
+						"surahNo": "54",
+						"ayahNo": "27",
+						"text": ""
+					},
+					{
+						"surahNo": "27",
+						"ayahNo": "45",
+						"text": ""
+					},
+					{
+						"surahNo": "27",
+						"ayahNo": "46",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "6",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "6",
+						"ayahNo": "83",
+						"text": ""
+					},
+					{
+						"surahNo": "4",
+						"ayahNo": "163",
+						"text": ""
+					}, 
+					{
+						"surahNo": "14",
+						"ayahNo": "35",
+						"text": ""
+					},
+					{
+						"surahNo": "60",
+						"ayahNo": "4",
+						"text": ""
+					},
+					{
+						"surahNo": "21",
+						"ayahNo": "51",
+						"text": ""
+					},
+					{
+						"surahNo": "21",
+						"ayahNo": "52",
+						"text": ""
+					},
+					{
+						"surahNo": "3",
+						"ayahNo": "65",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "7",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "6",
+						"ayahNo": "86",
+						"text": ""
+					},
+					{
+						"surahNo": "4",
+						"ayahNo": "163",
+						"text": ""
+					}, 
+					{
+						"surahNo": "6",
+						"ayahNo": "86",
+						"text": ""
+					},
+					{
+						"surahNo": "38",
+						"ayahNo": "4",
+						"text": ""
+					},
+					{
+						"surahNo": "14",
+						"ayahNo": "39",
+						"text": ""
+					},
+					{
+						"surahNo": "19",
+						"ayahNo": "54",
+						"text": ""
+					},
+					{
+						"surahNo": "21",
+						"ayahNo": "85",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "8",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "6",
+						"ayahNo": "84",
+						"text": ""
+					},
+					{
+						"surahNo": "4",
+						"ayahNo": "163",
+						"text": ""
+					}, 
+					{
+						"surahNo": "37",
+						"ayahNo": "112",
+						"text": ""
+					},
+					{
+						"surahNo": "37",
+						"ayahNo": "113",
+						"text": ""
+					},
+					{
+						"surahNo": "38",
+						"ayahNo": "45",
+						"text": ""
+					},
+					{
+						"surahNo": "21",
+						"ayahNo": "72",
+						"text": ""
+					},
+					{
+						"surahNo": "6",
+						"ayahNo": "84",
+						"text": ""
+					},
+					{
+						"surahNo": "4",
+						"ayahNo": "163",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "9",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "6",
+						"ayahNo": "86",
+						"text": ""
+					},
+					{
+						"surahNo": "7",
+						"ayahNo": "80",
+						"text": ""
+					}, 
+					{
+						"surahNo": "21",
+						"ayahNo": "22",
+						"text": ""
+					},
+					{
+						"surahNo": "21",
+						"ayahNo": "71",
+						"text": ""
+					},
+					{
+						"surahNo": "21",
+						"ayahNo": "74",
+						"text": ""
+					},
+					{
+						"surahNo": "29",
+						"ayahNo": "26",
+						"text": ""
+					},
+					{
+						"surahNo": "29",
+						"ayahNo": "28",
+						"text": ""
+					},
+					{
+						"surahNo": "29",
+						"ayahNo": "30",
+						"text": ""
+					},
+					{
+						"surahNo": "27",
+						"ayahNo": "54",
+						"text": ""
+					},
+					{
+						"surahNo": "27",
+						"ayahNo": "56",
+						"text": ""
+					},
+					{
+						"surahNo": "3",
+						"ayahNo": "13",
+						"text": ""
+					},
+					{
+						"surahNo": "50",
+						"ayahNo": "13",
+						"text": ""
+					},
+					{
+						"surahNo": "54",
+						"ayahNo": "33",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "10",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "7",
+						"ayahNo": "85",
+						"text": ""
+					},
+					{
+						"surahNo": "7",
+						"ayahNo": "88",
+						"text": ""
+					}, 
+					{
+						"surahNo": "11",
+						"ayahNo": "84",
+						"text": ""
+					},
+					{
+						"surahNo": "11",
+						"ayahNo": "87",
+						"text": ""
+					},
+					{
+						"surahNo": "11",
+						"ayahNo": "91",
+						"text": ""
+					},
+					{
+						"surahNo": "11",
+						"ayahNo": "94",
+						"text": ""
+					},
+					{
+						"surahNo": "26",
+						"ayahNo": "177",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "11",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "6",
+						"ayahNo": "84",
+						"text": ""
+					},
+					{
+						"surahNo": "12",
+						"ayahNo": "96",
+						"text": ""
+					}, 
+					{
+						"surahNo": "12",
+						"ayahNo": "99",
+						"text": ""
+					},
+					{
+						"surahNo": "12",
+						"ayahNo": "100",
+						"text": ""
+					}, 
+					{
+						"surahNo": "12",
+						"ayahNo": "102",
+						"text": ""
+					},
+					{
+						"surahNo": "12",
+						"ayahNo": "111",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "12",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "6",
+						"ayahNo": "84",
+						"text": ""
+					},
+					{
+						"surahNo": "38",
+						"ayahNo": "41",
+						"text": ""
+					}, 
+					{
+						"surahNo": "21",
+						"ayahNo": "83",
+						"text": ""
+					},
+					{
+						"surahNo": "4",
+						"ayahNo": "163",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "13",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "21",
+						"ayahNo": "85",
+						"text": ""
+					},
+					{
+						"surahNo": "38",
+						"ayahNo": "48",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "14",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "25",
+						"ayahNo": "38",
+						"text": ""
+					},
+					{
+						"surahNo": "50",
+						"ayahNo": "12",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "16",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "6",
+						"ayahNo": "86",
+						"text": ""
+					},
+					{
+						"surahNo": "10",
+						"ayahNo": "98",
+						"text": ""
+					}, 
+					{
+						"surahNo": "10",
+						"ayahNo": "87",
+						"text": ""
+					},
+					{
+						"surahNo": "37",
+						"ayahNo": "139",
+						"text": ""
+					}, 
+					{
+						"surahNo": "4",
+						"ayahNo": "163",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "17",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "6",
+						"ayahNo": "84",
+						"text": ""
+					},
+					{
+						"surahNo": "2",
+						"ayahNo": "51",
+						"text": ""
+					}, 
+					{
+						"surahNo": "2",
+						"ayahNo": "53",
+						"text": ""
+					},
+					{
+						"surahNo": "2",
+						"ayahNo": "54",
+						"text": ""
+					}, 
+					{
+						"surahNo": "2",
+						"ayahNo": "55",
+						"text": ""
+					},
+					{
+						"surahNo": "2",
+						"ayahNo": "60",
+						"text": ""
+					}, 
+					{
+						"surahNo": "2",
+						"ayahNo": "71",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "19",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "6",
+						"ayahNo": "85",
+						"text": ""
+					},
+					{
+						"surahNo": "37",
+						"ayahNo": "123",
+						"text": ""
+					}, 
+					{
+						"surahNo": "37",
+						"ayahNo": "130",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "21",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "6",
+						"ayahNo": "84",
+						"text": ""
+					},
+					{
+						"surahNo": "4",
+						"ayahNo": "163",
+						"text": ""
+					}, 
+					{
+						"surahNo": "11",
+						"ayahNo": "25",
+						"text": ""
+					},
+					{
+						"surahNo": "11",
+						"ayahNo": "32",
+						"text": ""
+					}, 
+					{
+						"surahNo": "11",
+						"ayahNo": "36",
+						"text": ""
+					},
+					{
+						"surahNo": "17",
+						"ayahNo": "55",
+						"text": ""
+					},
+					{
+						"surahNo": "27",
+						"ayahNo": "15",
+						"text": ""
+					}, 
+					{
+						"surahNo": "27",
+						"ayahNo": "16",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "22",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "6",
+						"ayahNo": "84",
+						"text": ""
+					},
+					{
+						"surahNo": "4",
+						"ayahNo": "163",
+						"text": ""
+					}, 
+					{
+						"surahNo": "27",
+						"ayahNo": "15",
+						"text": ""
+					},
+					{
+						"surahNo": "27",
+						"ayahNo": "16",
+						"text": ""
+					}, 
+					{
+						"surahNo": "27",
+						"ayahNo": "17",
+						"text": ""
+					},
+					{
+						"surahNo": "27",
+						"ayahNo": "18",
+						"text": ""
+					}, 
+					{
+						"surahNo": "27",
+						"ayahNo": "19",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "26",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "9",
+						"ayahNo": "30",
+						"text": ""
+					},
+					{
+						"surahNo": "21",
+						"ayahNo": "94",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "29",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "6",
+						"ayahNo": "85",
+						"text": ""
+					},
+					{
+						"surahNo": "4",
+						"ayahNo": "163",
+						"text": ""
+					}, 
+					{
+						"surahNo": "61",
+						"ayahNo": "6",
+						"text": ""
+					},
+					{
+						"surahNo": "61",
+						"ayahNo": "14",
+						"text": ""
+					}, 
+					{
+						"surahNo": "6",
+						"ayahNo": "40",
+						"text": ""
+					},
+					{
+						"surahNo": "6",
+						"ayahNo": "84",
+						"text": ""
+					}, 
+					{
+						"surahNo": "6",
+						"ayahNo": "85",
+						"text": ""
+					},
+					{
+						"surahNo": "43",
+						"ayahNo": "57",
+						"text": ""
+					}, 
+					{
+						"surahNo": "43",
+						"ayahNo": "63",
+						"text": ""
+					},
+					{
+						"surahNo": "43",
+						"ayahNo": "65",
+						"text": ""
+					}
+				]
+			},
+			{
+				"ArticleNumber": "30",
+				"ArticleSubSecNumber": "1",
+				"references": [{
+						"surahNo": "3",
+						"ayahNo": "144",
+						"text": ""
+					},
+					{
+						"surahNo": "2",
+						"ayahNo": "4",
+						"text": ""
+					}, 
+					{
+						"surahNo": "2",
+						"ayahNo": "23",
+						"text": ""
+					},
+					{
+						"surahNo": "2",
+						"ayahNo": "80",
+						"text": ""
+					}, 
+					{
+						"surahNo": "2",
+						"ayahNo": "90",
+						"text": ""
+					},
+					{
+						"surahNo": "2",
+						"ayahNo": "93",
+						"text": ""
+					}, 
+					{
+						"surahNo": "2",
+						"ayahNo": "94",
+						"text": ""
+					},
+					{
+						"surahNo": "2",
+						"ayahNo": "97",
+						"text": ""
+					}, 
+					{
+						"surahNo": "2",
+						"ayahNo": "105",
+						"text": ""
+					},
+					{
+						"surahNo": "2",
+						"ayahNo": "108",
+						"text": ""
+					}, 
+					{
+						"surahNo": "5",
+						"ayahNo": "17",
+						"text": ""
+					},
+					{
+						"surahNo": "5",
+						"ayahNo": "48",
+						"text": ""
+					}, 
+					{
+						"surahNo": "5",
+						"ayahNo": "49",
+						"text": ""
+					},
+					{
+						"surahNo": "3",
+						"ayahNo": "12",
+						"text": ""
+					}, 
+					{
+						"surahNo": "3",
+						"ayahNo": "20",
+						"text": ""
+					},
+					{
+						"surahNo": "3",
+						"ayahNo": "31",
+						"text": ""
+					}, 
+					{
+						"surahNo": "6",
+						"ayahNo": "10",
+						"text": ""
+					},
+					{
+						"surahNo": "6",
+						"ayahNo": "11",
+						"text": ""
+					}, 
+					{
+						"surahNo": "4",
+						"ayahNo": "41",
+						"text": ""
+					}
+				]
+			}
+		]
+
+	}]
+}]

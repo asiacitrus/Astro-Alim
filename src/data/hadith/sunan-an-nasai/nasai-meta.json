@@ -1,0 +1,308 @@
+{
+    "1": {
+        "bookNumber": 1,
+        "bookNname": "The Book of Purification",
+        "startingHadith": 1,
+        "endingHadith": 324
+    },
+    "2": {
+        "bookNumber": 2,
+        "bookNname": "The Book of Water",
+        "startingHadith": 325,
+        "endingHadith": 347
+    },
+    "3": {
+        "bookNumber": 3,
+        "bookNname": "The Book of Menstruation and Istihadah",
+        "startingHadith": 348,
+        "endingHadith": 395
+    },
+    "4": {
+        "bookNumber": 4,
+        "bookNname": "The Book of Ghusl and Tayammum",
+        "startingHadith": 396,
+        "endingHadith": 447
+    },
+    "5": {
+        "bookNumber": 5,
+        "bookNname": "The Book of Salah",
+        "startingHadith": 448,
+        "endingHadith": 493
+    },
+    "6": {
+        "bookNumber": 6,
+        "bookNname": "The Book of the Times (of Prayer)",
+        "startingHadith": 494,
+        "endingHadith": 625
+    },
+    "7": {
+        "bookNumber": 7,
+        "bookNname": "The Book of the Adhan (The Call to Prayer)",
+        "startingHadith": 626,
+        "endingHadith": 687
+    },
+    "8": {
+        "bookNumber": 8,
+        "bookNname": "The Book of the Masjids",
+        "startingHadith": 688,
+        "endingHadith": 741
+    },
+    "9": {
+        "bookNumber": 9,
+        "bookNname": "The Book of the Qiblah",
+        "startingHadith": 742,
+        "endingHadith": 776
+    },
+    "10": {
+        "bookNumber": 10,
+        "bookNname": "The Book of Leading the Prayer (Al-Imamah)",
+        "startingHadith": 777,
+        "endingHadith": 875
+    },
+    "11": {
+        "bookNumber": 11,
+        "bookNname": "The Book of the Commencement of the Prayer",
+        "startingHadith": 876,
+        "endingHadith": 1028
+    },
+    "12": {
+        "bookNumber": 12,
+        "bookNname": "The Book of The At-Tatbiq (Clasping One's Hands Together)",
+        "startingHadith": 1029,
+        "endingHadith": 1178
+    },
+    "13": {
+        "bookNumber": 13,
+        "bookNname": "The Book of Forgetfulness (In Prayer)",
+        "startingHadith": 1179,
+        "endingHadith": 1366
+    },
+    "14": {
+        "bookNumber": 14,
+        "bookNname": "The Book of Jumu'ah (Friday Prayer)",
+        "startingHadith": 1367,
+        "endingHadith": 1432
+    },
+    "15": {
+        "bookNumber": 15,
+        "bookNname": "The Book of Shortening the Prayer When Traveling",
+        "startingHadith": 1433,
+        "endingHadith": 1458
+    },
+    "16": {
+        "bookNumber": 16,
+        "bookNname": "The Book of Eclipses",
+        "startingHadith": 1459,
+        "endingHadith": 1503
+    },
+    "17": {
+        "bookNumber": 17,
+        "bookNname": "The Book of Praying for Rain (Al-Istisqa')",
+        "startingHadith": 1504,
+        "endingHadith": 1528
+    },
+    "18": {
+        "bookNumber": 18,
+        "bookNname": "The Book of the Fear Prayer",
+        "startingHadith": 1529,
+        "endingHadith": 1555
+    },
+    "19": {
+        "bookNumber": 19,
+        "bookNname": "The Book of the Prayer for the Two 'Eids",
+        "startingHadith": 1556,
+        "endingHadith": 1597
+    },
+    "20": {
+        "bookNumber": 20,
+        "bookNname": "The Book of Qiyam Al-Lail (The Night Prayer) and Voluntary Prayers During the Day",
+        "startingHadith": 1598,
+        "endingHadith": 1817
+    },
+    "21": {
+        "bookNumber": 21,
+        "bookNname": "The Book of Funerals",
+        "startingHadith": 1818,
+        "endingHadith": 2089
+    },
+    "22": {
+        "bookNumber": 22,
+        "bookNname": "The Book of Fasting",
+        "startingHadith": 2090,
+        "endingHadith": 2434
+    },
+    "23": {
+        "bookNumber": 23,
+        "bookNname": "The Book of Zakah",
+        "startingHadith": 2435,
+        "endingHadith": 2618
+    },
+    "24": {
+        "bookNumber": 24,
+        "bookNname": "The Book of Hajj",
+        "startingHadith": 2619,
+        "endingHadith": 3084
+    },
+    "25": {
+        "bookNumber": 25,
+        "bookNname": "The Book of Jihad",
+        "startingHadith": 3085,
+        "endingHadith": 3195
+    },
+    "26": {
+        "bookNumber": 26,
+        "bookNname": "The Book of Marriage",
+        "startingHadith": 3196,
+        "endingHadith": 3388
+    },
+    "27": {
+        "bookNumber": 27,
+        "bookNname": "The Book of Divorce",
+        "startingHadith": 3389,
+        "endingHadith": 3560
+    },
+    "28": {
+        "bookNumber": 28,
+        "bookNname": "The Book of Horses, Races and Shooting",
+        "startingHadith": 3561,
+        "endingHadith": 3593
+    },
+    "29": {
+        "bookNumber": 29,
+        "bookNname": "The Book of Endowments",
+        "startingHadith": 3594,
+        "endingHadith": 3610
+    },
+    "30": {
+        "bookNumber": 30,
+        "bookNname": "The Book of Wills",
+        "startingHadith": 3611,
+        "endingHadith": 3671
+    },
+    "31": {
+        "bookNumber": 31,
+        "bookNname": "The Book of Presents",
+        "startingHadith": 3672,
+        "endingHadith": 3687
+    },
+    "32": {
+        "bookNumber": 32,
+        "bookNname": "The Book of Gifts",
+        "startingHadith": 3688,
+        "endingHadith": 3705
+    },
+    "33": {
+        "bookNumber": 33,
+        "bookNname": "The Book of ar-Ruqba",
+        "startingHadith": 3706,
+        "endingHadith": 3719
+    },
+    "34": {
+        "bookNumber": 34,
+        "bookNname": "The Book of 'Umra",
+        "startingHadith": 3720,
+        "endingHadith": 3760
+    },
+    "35": {
+        "bookNumber": 35,
+        "bookNname": "The Book of Oaths and Vows",
+        "startingHadith": 3761,
+        "endingHadith": 3856
+    },
+    "36": {
+        "bookNumber": 36,
+        "bookNname": "The Book of the Kind Treatment of Women",
+        "startingHadith": 3939,
+        "endingHadith": 3965
+    },
+    "37": {
+        "bookNumber": 37,
+        "bookNname": "The Book of Fighting [The Prohibition of Bloodshed]",
+        "startingHadith": 3966,
+        "endingHadith": 4132
+    },
+    "38": {
+        "bookNumber": 38,
+        "bookNname": "The Book of Distribution of Al-Fay'",
+        "startingHadith": 4133,
+        "endingHadith": 4148
+    },
+    "39": {
+        "bookNumber": 39,
+        "bookNname": "The Book of al-Bay'ah",
+        "startingHadith": 4149,
+        "endingHadith": 4211
+    },
+    "40": {
+        "bookNumber": 40,
+        "bookNname": "The Book of al-'Aqiqah",
+        "startingHadith": 4212,
+        "endingHadith": 4221
+    },
+    "41": {
+        "bookNumber": 41,
+        "bookNname": "The Book of al-Fara' and al-'Atirah",
+        "startingHadith": 4222,
+        "endingHadith": 4262
+    },
+    "42": {
+        "bookNumber": 42,
+        "bookNname": "The Book of Hunting and Slaughtering",
+        "startingHadith": 4263,
+        "endingHadith": 4360
+    },
+    "43": {
+        "bookNumber": 43,
+        "bookNname": "The Book of ad-Dahaya (Sacrifices)",
+        "startingHadith": 4361,
+        "endingHadith": 4448
+    },
+    "44": {
+        "bookNumber": 44,
+        "bookNname": "The Book of Financial Transactions",
+        "startingHadith": 4449,
+        "endingHadith": 4705
+    },
+    "45": {
+        "bookNumber": 45,
+        "bookNname": "The Book of Oaths (qasamah), Retaliation and Blood Money",
+        "startingHadith": 4706,
+        "endingHadith": 4869
+    },
+    "46": {
+        "bookNumber": 46,
+        "bookNname": "The Book of Cutting off the Hand of the Thief",
+        "startingHadith": 4870,
+        "endingHadith": 4984
+    },
+    "47": {
+        "bookNumber": 47,
+        "bookNname": "The Book Of Faith and its Signs",
+        "startingHadith": 4985,
+        "endingHadith": 5039
+    },
+    "48": {
+        "bookNumber": 48,
+        "bookNname": "The Book of Adornment",
+        "startingHadith": 5040,
+        "endingHadith": 5378
+    },
+    "49": {
+        "bookNumber": 49,
+        "bookNname": "The Book of the Etiquette of Judges",
+        "startingHadith": 5379,
+        "endingHadith": 5427
+    },
+    "50": {
+        "bookNumber": 50,
+        "bookNname": "The Book of Seeking Refuge with Allah",
+        "startingHadith": 5428,
+        "endingHadith": 5539
+    },
+    "51": {
+        "bookNumber": 51,
+        "bookNname": "The Book of Drinks",
+        "startingHadith": 5540,
+        "endingHadith": 5758
+    }
+}

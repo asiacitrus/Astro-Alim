@@ -1,0 +1,4023 @@
+[{
+	"book": [{
+		"type": "Hadith",
+		"name": "Hadith",
+		"bookCode": "Hadith",
+		"dates": [
+			{
+				"date": "2023-08-01",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 3062",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "3062",
+					"text": "Narrated By Ibn 'Abbas : A man came to the Prophet and said, O Allah's Apostle! I have enlisted in the army for such-and-such Ghazwa, and my wife is leaving for Hajj. Allah's Apostle said, Go back and perform Hajj with your wife."
+				}]
+
+			},
+			{
+				"date": "2023-08-02",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 3078",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "3078",
+					"text": "Narrated By Ibn 'Abbas : The Prophet said, on the day of the Conquest of Mecca, 'There is no migration (after the Conquest), but Jihad and good intentions, and when you are called for Jihad, you should immediately respond to the call.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-03",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 3085",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "3085",
+					"text": "Narrated By Abdullah : When the Prophet returned (from Jihad), he would say Takbir thrice and add, 'We are returning, if Allah wishes, with repentance and worshipping and praising (our Lord) and prostrating ourselves before our Lord. Allah fulfilled His Promise and helped His Slave, and He Alone defeated the (infidel) clans.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-04",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 57, Hadith 3097",
+					"volumeNumber": "4",
+					"bookNumber": "57",
+					"hadithNumber": "3097",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'My heirs should not take even a single Dinar (i.e. anything from my property), and whatever I leave, excluding the expenditure of my wives and my labourers, will be Sadaqa (i.e. be used for charity).'"
+				}]
+
+			},
+			{
+				"date": "2023-08-05",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 57, Hadith 3100",
+					"volumeNumber": "4",
+					"bookNumber": "57",
+					"hadithNumber": "3100",
+					"text": "Narrated By 'Aisha : (The wife of the Prophet) When the sickness of Allah's Apostle got aggravated, he asked the permission of his wives that he should be treated in my house, and they permitted him."
+				}]
+
+			},
+			{
+				"date": "2023-08-06",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 57, Hadith 3117",
+					"volumeNumber": "4",
+					"bookNumber": "57",
+					"hadithNumber": "3117",
+					"text": "Narrated By Muawiya : Allah's Apostle said, If Allah wants to do good for somebody, he makes him comprehend the Religion (i.e. Islam), and Allah is the Giver and I am Al-Qasim (i.e. the distributor), and this (Muslim) nation will remain victorious over their opponents, till Allah's Order comes and they will still be victorious."
+				}]
+
+			},
+			{
+				"date": "2023-08-07",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 57, Hadith 3118",
+					"volumeNumber": "4",
+					"bookNumber": "57",
+					"hadithNumber": "3118",
+					"text": "Narrated Abu Huraira: Allah's Apostle said, 'Neither do I give you (anything) nor withhold (anything) from you, but I am just a distributor (i.e. Qasim), and I give as I am ordered.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-08",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 57, Hadith 3119",
+					"volumeNumber": "4",
+					"bookNumber": "57",
+					"hadithNumber": "3119",
+					"text": "Narrated By Khaula Al-Ansariya : I heard Allah's Apostle saying, Some people spend Allah's Wealth (i.e. Muslim's wealth) in an unjust manner; such people will be put in the (Hell) Fire on the Day of Resurrection."
+				}]
+
+			},
+			{
+				"date": "2023-08-09",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 58, Hadith 3167",
+					"volumeNumber": "4",
+					"bookNumber": "58",
+					"hadithNumber": "3167",
+					"text": "Narrated By 'Abdullah bin 'Amr : The Prophet said, 'Whoever killed a person having a treaty with the Muslims, shall not smell the smell of Paradise though its smell is perceived from a distance of forty years.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-10",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 58, Hadith 3189",
+					"volumeNumber": "4",
+					"bookNumber": "58",
+					"hadithNumber": "3189",
+					"text": "Narrated By Ibn Umar : The Prophet said, 'Every betrayer will have a flag which will be fixed on the Day of Resurrection, and the flag's prominence will be made in order to show the betrayal he committed.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-11",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3201",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3201",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'The sun and the moon will be folded up (deprived of their light) on the Day of Resurrection.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-12",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3203",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3203",
+					"text": "Narrated By 'Abdullah bin 'Abbas : The Prophet said, 'The sun and the moon are two signs amongst the Signs of Allah. They do not eclipse because of someones death or life. So, if you see them (i.e. eclipse), celebrate the Praises of Allah (i.e. pray).'"
+				}]
+
+			},
+			{
+				"date": "2023-08-13",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3206",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3206",
+					"text": "Narrated By Ibn 'Abbas : The Prophet said, I have been made victorious with the Saba (i.e. easterly wind) and the people of 'Ad were destroyed with the Dabur (i.e. westerly wind)."
+				}]
+
+			},
+			{
+				"date": "2023-08-14",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3212",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3212",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'On every Friday the angels take heir stand at every gate of the mosques to write the names of the people chronologically (i.e. according to the time of their arrival for the Friday prayer and when the Imam sits (on the pulpit) they fold up their scrolls and get ready to listen to the sermon.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-15",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3220",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3220",
+					"text": "Narrated By Ibn Abbas : Allah's Apostle said, 'Gabriel read the Quran to me in one way (i.e. dialect) and I continued asking him to read it in different ways till he read it in seven different ways.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-16",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3221",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3221",
+					"text": "Narrated By Ibn 'Abbas : Allah's Apostle was the most generous of all the people, and he used to be more generous in the month of Ramadan when Gabriel used to meet him. Gabriel used to meet him every night in Ramadan to study the Holy Qur'an carefully together. Allah's Apostle used to become more generous than the fast wind when he met Gabriel."
+				}]
+
+			},
+			{
+				"date": "2023-08-17",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3235",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3235",
+					"text": "Narrated By 'Aisha : Whoever claimed that (the Prophet) Muhammad saw his Lord, is committing a great fault, for he only saw Gabriel in his genuine shape in which he was created covering the whole horizon."
+				}]
+
+			},
+			{
+				"date": "2023-08-18",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3241",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3241",
+					"text": "Narrated By Abdullah bin 'Umar : Allah's Apostle said, 'When anyone of you dies, he will be shown his destination both in the morning and in the evening, and if he belongs to the people of Paradise, he will be shown his place in Paradise, and if he is from the people of Hell, he will be shown his place in Hell.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-19",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3245",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3245",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, Allah said, 'I have prepared for My Pious slaves things which have never been seen by an eye, or heard by an ear, or imagined by a human being.' If you wish, you can recite this Verse from the Holy Qur'an: 'No soul knows what is kept hidden for them, of joy as a reward for what they used to do.' (32.17)"
+				}]
+
+			},
+			{
+				"date": "2023-08-20",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3248",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3248",
+					"text": "Narrated By Sahl bin Sad : The Prophet said, 'Verily! 70,000 or 700,000 of my followers will enter Paradise altogether; so that the first and the last amongst them will enter at the same time, and their faces will be glittering like the bright full moon.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-21",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3249",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3249",
+					"text": "Narrated By Anas bin Malik : A silken cloak was presented to the Prophet and he used to forbid the usage of silk (by men). When the people were fascinated by the cloak. he said, 'By Allah in Whose Hands the life of Muhammad is, the handkerchiefs of Sad bin Muadh in Paradise are better than this.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-22",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3251",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3251",
+					"text": "Narrated By Sahl bin Sad Al-Saidi : Allah's Apostle said, 'A place in Paradise equal to the size of a lash is better than the whole world and whatever is in it.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-23",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3252",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3252",
+					"text": "Narrated By Anas bin Malik : The Prophet said, 'There is a tree in Paradise (which is so big and huge that) if a rider travels in its shade for one hundred years, he would not be able to cross it.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-24",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3256",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3256",
+					"text": "Narrated By Al-Bara (bin Azib) : The Prophet, after the death of his son Ibrahim, said, 'There is a wet-nurse for him (i.e. Ibrahim) in Paradise.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-25",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3258",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3258",
+					"text": "Narrated By Sahl bin Sad : The Prophet said, 'Paradise has eight gates, and one of them is called Ar-Raiyan through which none will enter but those who observe fasting.' The Prophet also said, 'If a person spends two different kinds of something (for Allah's Cause), he will be called from the gates of Paradise.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-26",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3261",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3261",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, The (Hell) Fire complained to its Lord saying, 'O my Lord! My different parts eat up each other.' So, He allowed it to take two breaths, one in the winter and the other in summer, and this is the reason for the severe heat and the bitter cold you find (in weather)."
+				}]
+
+			},
+			{
+				"date": "2023-08-27",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3263",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3263",
+					"text": "Narrated By Rafi bin Khadij : I heard the Prophet saying, 'Fever is from the heat of the (Hell) Fire; so cool it with water.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-28",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3271",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3271",
+					"text": "Narrated By 'Abdullah : It was mentioned before the Prophet that there was a man who slept the night till morning (after sunrise). The Prophet said, 'He is a man in whose ears (or ear) Satan had urinated.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-29",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3273",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3273",
+					"text": "Narrated By Ibn Umar : Allah's Apostle said, When the (upper) edge of the sun appears (in the morning), don't perform a prayer till the sun appears in full, and when the lower edge of the sun sets, don't perform a prayer till it sets completely."
+				}]
+
+			},
+			{
+				"date": "2023-08-30",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3275",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3275",
+					"text": "Narrated By Abu Said Al-Khudri : The Prophet said, 'If while you are praying, somebody intends to pass in front of you, prevent him; and should he insist, prevent him again; and if he insists again, fight with him (i.e. prevent him violently e.g. pushing him violently), because such a person is (like) a devil.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-31",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3285",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3285",
+					"text": "Narrated By Abu Huraira : The Prophet offered a prayer, and (after finishing) he said, 'Satan came in front of me trying persistently to divert my attention from the prayer, but Allah gave me the strength to over-power him.'"
+				}]
+
+			},
+			{
+				"date": "2023-09-01",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3287",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3287",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'When any human being is born. Satan touches him at both sides of the body with his two fingers, except Jesus, the son of Mary, whom Satan tried to touch but failed, for he touched the placenta-cover instead.'"
+				}]
+
+			},
+			{
+				"date": "2023-09-02",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3289",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3289",
+					"text": "Narrated By 'Aisha : The Prophet said, 'While the angels talk amidst the clouds about things that are going to happen on earth, the devils hear a word of what they say and pour it in the ears of a soothsayer as one pours something in a bottle, and they add one hundred lies to that (one word).'"
+				}]
+
+			},
+			{
+				"date": "2023-09-03",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3292",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3292",
+					"text": "Narrated By 'Aisha : I asked the Prophet about one's looking here and there during the prayer. He replied, 'It is what Satan steals from the prayer of any one of you.'"
+				}]
+
+			},
+			{
+				"date": "2023-09-04",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3301",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3301",
+					"text": "Narrated By Abu Said al-Khudri : Allah's Apostle said, 'There will come a time when the best property of a man will be sheep which he will graze on the tops of mountains and the places where rain falls (i.e. pastures) escaping to protect his religion from afflictions.'"
+				}]
+
+			},
+			{
+				"date": "2023-09-05",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3305",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3305",
+					"text": "Narrated By Jabir bin Abdullah : Allah's Apostle said, 'When night falls (or it is evening), keep your children close to you for the devils spread out at that time. But when an hour of the night elapses, you can let them free. Close the doors and mention the Name of Allah, for Satan does not open a closed door.'"
+				}]
+
+			},
+			{
+				"date": "2023-09-06",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3325",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3325",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'If somebody keeps a dog, he loses one Qirat (of the reward) of his good deeds everyday, except if he keeps it for the purpose of agriculture or for the protection of livestock.'"
+				}]
+
+			},
+			{
+				"date": "2023-09-07",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 60, Hadith 3332",
+					"volumeNumber": "4",
+					"bookNumber": "60",
+					"hadithNumber": "3332",
+					"text": "Narrated By Abu Huraira : Allah 's Apostle said, 'Treat women nicely, for a women is created from a rib, and the most curved portion of the rib is its upper portion, so, if you should try to straighten it, it will break, but if you leave it as it is, it will remain crooked. So treat women nicely.'"
+				}]
+
+			},
+			{
+				"date": "2023-09-08",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 60, Hadith 3339",
+					"volumeNumber": "4",
+					"bookNumber": "60",
+					"hadithNumber": "3339",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'Shall I not tell you about the Dajjal a story of which no prophet told his nation? The Dajjall is one-eyed and will bring with him what will resemble Hell and Paradise, and what he will call Paradise will be actually Hell; so I warn you (against him) as Noah warned his nation against him.'"
+				}]
+
+			},
+			{
+				"date": "2023-09-09",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 60, Hadith 3353",
+					"volumeNumber": "4",
+					"bookNumber": "60",
+					"hadithNumber": "3353",
+					"text": "Narrated By Ibn Abbas : When the Prophet saw pictures in the Ka'ba, he did not enter it till he ordered them to be erased. When he saw (the pictures of Abraham and Ishmael carrying the arrows of divination, he said, 'May Allah curse them (i.e. the Quraish)! By Allah, neither Abraham nor Ishmael practiced divination by arrows.'"
+				}]
+				},
+				{
+				"date": "2023-09-10",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 8",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "8",
+					"text": "Narrated By Ibn 'Umar : Allah's Apostle said: Islam is based on (the following) five (principles):1. To testify that none has the right to be worshipped but Allah and Muhammad is Allah's Apostle.2. To offer the (compulsory congregational) prayers dutifully and perfectly.3. To pay Zakat. (i.e. obligatory charity)4. To perform Hajj. (i.e. Pilgrimage to Mecca)5. To observe fast during the month of Ramadan."
+				}]
+			},
+			{
+				"date": "2023-09-11",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 9",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "9",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'Faith (Belief) consists of more than sixty branches (i.e. parts). And Haya (This term Haya covers a large number of concepts which are to be taken together; amongst them are self respect, modesty, bashfulness, and scruple, etc.) is a part of faith.'"
+				}]
+
+			},
+			{
+				"date": "2023-09-12",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 10",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "10",
+					"text": "Narrated By Abdullah bin Amr : The Prophet said, 'A Muslim is the one who avoids harming Muslims with his tongue and hands. And a Muhajir (emigrant) is the one who gives up (abandons) all what Allah has forbidden.'"
+				}]
+
+			},
+			{
+				"date": "2023-09-13",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 11",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "11",
+					"text": "Narrated By Abu Musa : Some people asked Allah's Apostle, 'Whose Islam is the best? i.e. (Who is a very good Muslim)?' He replied, 'One who avoids harming the Muslims with his tongue and hands.'"
+				}]
+
+			},
+			{
+				"date": "2023-09-14",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 12",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "12",
+					"text": "Narrated By 'Abdullah bin 'Amr : A man asked the Prophet , 'What sort of deeds or (what qualities of) Islam are good?' The Prophet replied, 'To feed (the poor) and greet those whom you know and those whom you do not know'"
+				}]
+
+			},
+			{
+				"date": "2023-09-15",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 13",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "13",
+					"text": "Narrated By Anas : The Prophet said, 'None of you will have faith till he wishes for his (Muslim) brother what he likes for himself.'"
+				}]
+
+			},
+			{
+				"date": "2023-09-16",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 14",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "14",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'By Him in Whose Hands my life is, none of you will have faith till he loves me more than his father and his children.'"
+				}]
+
+			},
+			{
+				"date": "2023-09-17",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 15",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "15",
+					"text": "Narrated By Anas : The Prophet said 'None of you will have faith till he loves me more than his father, his children and all mankind.'"
+				}]
+
+			},
+			{
+				"date": "2023-09-18",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 17",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "17",
+					"text": "Narrated By Anas : The Prophet said, 'Love for the Ansar is a sign of faith and hatred for the Ansar is a sign of hypocrisy.'"
+				}]
+
+			},
+			{
+				"date": "2023-09-19",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 19",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "19",
+					"text": "Narrated By Abu Said Al-Khudri : Allah's Apostle said, 'A time will come that the best property of a Muslim will be sheep which he will take on the top of mountains and the places of rainfall (valleys) so as to flee with his religion from afflictions.'"
+				}]
+
+			},
+			{
+				"date": "2023-09-20",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 24",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "24",
+					"text": "Narrated By 'Abdullah (bin 'Umar) : Once Allah's Apostle passed by an Ansari (man) who was admonishing to his brother regarding Haya'. On that Allah's Apostle said, 'Leave him as Haya is a part of faith.'"
+				}]
+
+			},
+			{
+				"date": "2023-09-21",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 28",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "28",
+					"text": "Narrated By 'Abdullah bin 'Amr : A person asked Allah's Apostle. 'What (sort of) deeds in or (what qualities of) Islam are good?' He replied, 'To feed (the poor) and greet those whom you know and those whom you dont know.'"
+				}]
+
+			},
+			{
+				"date": "2023-09-22",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 33",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "33",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'The signs of a hypocrite are three:1. Whenever he speaks, he tells a lie.2. Whenever he promises, he always breaks it (his promise).3. If you trust him, he proves to be dishonest. (If you keep something as a trust with him, he will not return it.)'"
+				}]
+
+			},
+			{
+				"date": "2023-09-23",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 35",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "35",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, Whoever establishes the prayers on the night of Qadr out of sincere faith and hoping to attain Allah's rewards (not to show off) then all his past sins will be forgiven."
+				}]
+
+			},
+			{
+				"date": "2023-09-24",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 37",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "37",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said: Whoever establishes prayers during the nights of Ramadan faithfully out of sincere faith and hoping to attain Allah's rewards (not for showing off), all his past sins will be forgiven."
+				}]
+
+			},
+			{
+				"date": "2023-09-25",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 38",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "38",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, Whoever observes fasts during the month of Ramadan out of sincere faith, and hoping to attain Allah's rewards, then all his past sins will be forgiven."
+				}]
+
+			},
+			{
+				"date": "2023-09-26",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 42",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "42",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'If any one of you improve (follows strictly) his Islamic religion then his good deeds will be rewarded ten times to seven hundred times for each good deed and a bad deed will be recorded as it is.'"
+				}]
+
+			},
+			{
+				"date": "2023-09-27",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 48",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "48",
+					"text": "Narrated By 'Abdullah : The Prophet said, 'Abusing a Muslim is Fusuq (an evil doing) and killing him is Kufr (disbelief).'"
+				}]
+
+			},
+			{
+				"date": "2023-09-28",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 55",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "55",
+					"text": "Narrated By Abu Mas'ud : The Prophet said, If a man spends on his family (with the intention of having a reward from Allah) sincerely for Allah's sake then it is a (kind of) alms-giving in reward for him."
+				}]
+
+			},
+			{
+				"date": "2023-09-29",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 56",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "56",
+					"text": "Narrated By Sa'd bin Abi Waqqas : Allah's Apostle said, You will be rewarded for whatever you spend for Allah's sake even if it were a morsel which you put in your wife's mouth."
+				}]
+
+			},
+			{
+				"date": "2023-09-30",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 2, Hadith 57",
+					"volumeNumber": "1",
+					"bookNumber": "2",
+					"hadithNumber": "57",
+					"text": "Narrated By Jarir bin Abdullah : I gave the pledge of allegiance to Allah's Apostle for the following:1. Offer prayers perfectly.2. Pay the Zakat. (obligatory charity)3. And be sincere and true to every Muslim."
+				}]
+
+			},
+			{
+				"date": "2023-10-01",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 3, Hadith 60",
+					"volumeNumber": "1",
+					"bookNumber": "3",
+					"hadithNumber": "60",
+					"text": "Narrated By 'Abdullah bin 'Amr : Once the Prophet remained behind us in a journey. He joined us while we were performing ablution for the prayer which was over-due. We were just passing wet hands over our feet (and not washing them properly) so the Prophet addressed us in a loud voice and said twice or thrice: 'Save your heels from the fire.'"
+				}]
+
+			},
+			{
+				"date": "2023-10-02",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 3, Hadith 68",
+					"volumeNumber": "1",
+					"bookNumber": "3",
+					"hadithNumber": "68",
+					"text": "Narrated By Ibn Mas'ud : The Prophet used to take care of us in preaching by selecting a suitable time, so that we might not get bored. (He abstained from pestering us with sermons and knowledge all the time"
+				}]
+
+			},
+			{
+				"date": "2023-10-03",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 3, Hadith 69",
+					"volumeNumber": "1",
+					"bookNumber": "3",
+					"hadithNumber": "69",
+					"text": "Narrated By Anas bin Malik : The Prophet said, 'Facilitate things to people (concerning religious matters), and do not make it hard for them and give them good tidings and do not make them run away (from Islam).'"
+				}]
+
+			},
+			{
+				"date": "2023-10-04",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 3, Hadith 80",
+					"volumeNumber": "1",
+					"bookNumber": "3",
+					"hadithNumber": "80",
+					"text": "Narrated By Anas : Allah's Apostle said, 'From among the portents of the Hour are (the following):1. Religious knowledge will be taken away (by the death of Religious learned men).2. (Religious) ignorance will prevail.3. Drinking of Alcoholic drinks (will be very common).4. There will be prevalence of open illegal sexual intercourse.'"
+				}]
+
+			},
+			{
+				"date": "2023-10-05",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 3, Hadith 94",
+					"volumeNumber": "1",
+					"bookNumber": "3",
+					"hadithNumber": "94",
+					"text": "Narrated By Anas : Whenever the Prophet asked permission to enter, he knocked the door thrice with greeting and whenever he spoke a sentence (said a thing) he used to repeat it thrice."
+				}]
+
+			},
+			{
+				"date": "2023-10-06",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 3, Hadith 106",
+					"volumeNumber": "1",
+					"bookNumber": "3",
+					"hadithNumber": "106",
+					"text": "Narrated By 'Ali : The Prophet said, 'Do not tell a lie against me for whoever tells a lie against me (intentionally) then he will surely enter the Hell-fire.'"
+				}]
+
+			},
+			{
+				"date": "2023-10-07",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 4, Hadith 142",
+					"volumeNumber": "1",
+					"bookNumber": "4",
+					"hadithNumber": "142",
+					"text": "Narrated By Anas : Whenever the Prophet went to answer the call of nature, he used to say, 'Allah-umma inni audhu bika minal khubuthi wal khabaith i.e. O Allah, I seek Refuge with You from all offensive and wicked things (evil deeds and evil spirits).'"
+				}]
+
+			},
+			{
+				"date": "2023-10-08",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 4, Hadith 144",
+					"volumeNumber": "1",
+					"bookNumber": "4",
+					"hadithNumber": "144",
+					"text": "Narrated By Abu Aiyub Al-Ansari : Allah's Apostle said, 'If anyone of you goes to an open space for answering the call of nature he should neither face nor turn his back towards the Qibla; he should either face the east or the west.'"
+				}]
+
+			},
+			{
+				"date": "2023-10-09",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 4, Hadith 168",
+					"volumeNumber": "1",
+					"bookNumber": "4",
+					"hadithNumber": "168",
+					"text": "Narrated By 'Aisha : The Prophet used to like to start from the right side on wearing shoes, combing his hair and cleaning or washing himself and on doing anything else."
+				}]
+
+			},
+			{
+				"date": "2023-10-10",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 4, Hadith 172",
+					"volumeNumber": "1",
+					"bookNumber": "4",
+					"hadithNumber": "172",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'If a dog drinks from the utensil of anyone of you it is essential to wash it seven times.'"
+				}]
+
+			},
+			{
+				"date": "2023-10-11",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 4, Hadith 176",
+					"volumeNumber": "1",
+					"bookNumber": "4",
+					"hadithNumber": "176",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'A person is considered in prayer as long as he is waiting for the prayer in the mosque as long as he does not do Hadath.' A non-Arab man asked, 'O Abii Huraira! What is Hadath?' I replied, 'It is the passing of wind (from the anus) (that is one of the types of Hadath).'"
+				}]
+
+			},
+			{
+				"date": "2023-10-12",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 4, Hadith 182",
+					"volumeNumber": "1",
+					"bookNumber": "4",
+					"hadithNumber": "182",
+					"text": "Narrated By Al-Mughira bin Shu'ba : I was in the company of Allah's Apostle on one of the journeys and he went out to answer the call of nature (and after he finished) I poured water and he performed ablution; he washed his face, forearms and passed his wet hand over his head and over the two Khuff, (leather socks)."
+				}]
+
+			},
+			{
+				"date": "2023-10-13",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 4, Hadith 205",
+					"volumeNumber": "1",
+					"bookNumber": "4",
+					"hadithNumber": "205",
+					"text": "Narrated By Ja'far bin 'Amr : My father said, 'I saw the Prophet passing wet hands over his turban and Khuffs (leather socks).'"
+				}]
+
+			},
+			{
+				"date": "2023-10-14",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 4, Hadith 206",
+					"volumeNumber": "1",
+					"bookNumber": "4",
+					"hadithNumber": "206",
+					"text": "Narrated By 'Urwa bin Al-Mughira : My father said, 'Once I was in the company of the Prophet on a journey and I dashed to take off his Khuffs. He ordered me to leave them as he had put them after performing ablution. So he passed wet hands or them.'"
+				}]
+
+			},
+			{
+				"date": "2023-10-15",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 4, Hadith 212",
+					"volumeNumber": "1",
+					"bookNumber": "4",
+					"hadithNumber": "212",
+					"text": "Narrated By 'Aisha : Allah's Apostle said, 'If anyone of you feels drowsy while praying he should go to bed (sleep) till his slumber is over because in praying while drowsy one does not know whether one is asking for forgiveness or for a bad thing for oneself.'"
+				}]
+
+			},
+			{
+				"date": "2023-10-16",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 4, Hadith 238",
+					"volumeNumber": "1",
+					"bookNumber": "4",
+					"hadithNumber": "238",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'We (Muslims) are the last (people to come in the world) but (will be) the foremost (on the Day of Resurrection).'"
+				}]
+
+			},
+			{
+				"date": "2023-10-17",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 4, Hadith 242",
+					"volumeNumber": "1",
+					"bookNumber": "4",
+					"hadithNumber": "242",
+					"text": "Narrated By 'Aisha : The Prophet said, 'All drinks that produce intoxication are Haram (forbidden to drink).'"
+				}]
+
+			},
+			{
+				"date": "2023-10-18",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 4, Hadith 245",
+					"volumeNumber": "1",
+					"bookNumber": "4",
+					"hadithNumber": "245",
+					"text": "Narrated By Hudhaifa : Whenever the Prophet got up at night, he used to clean his mouth with Siwak."
+				}]
+
+			},
+			{
+				"date": "2023-10-19",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 5, Hadith 248",
+					"volumeNumber": "1",
+					"bookNumber": "5",
+					"hadithNumber": "248",
+					"text": "Narrated By 'Aisha : Whenever the Prophet took a bath after Janaba he started by washing his hands and then performed ablution like that for the prayer. After that he would put his fingers in water and move the roots of his hair with them, and then pour three handfuls of water over his head and then pour water all over his body."
+				}]
+
+			},
+			{
+				"date": "2023-10-20",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 6, Hadith 307",
+					"volumeNumber": "1",
+					"bookNumber": "6",
+					"hadithNumber": "307",
+					"text": "Narrated By Asma' bint Abi Bakr : A woman asked Allah's Apostle, O Allah's Apostle! What should we do, if the blood of menses falls on our clothes? Allah's Apostle replied, 'If the blood of menses falls on the garment of anyone of you, she must take hold of the blood spot, rub it, and wash it with water and then pray in (with it).'"
+				}]
+
+			},
+			{
+				"date": "2023-10-21",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 6, Hadith 311",
+					"volumeNumber": "1",
+					"bookNumber": "6",
+					"hadithNumber": "311",
+					"text": "Narrated By 'Aisha : One of the mothers of the faithful believers (i.e. the wives of the Prophet) did Itikaf while she was having bleeding in between her periods."
+				}]
+
+			},
+			{
+				"date": "2023-10-22",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 7, Hadith 343",
+					"volumeNumber": "1",
+					"bookNumber": "7",
+					"hadithNumber": "343",
+					"text": "Narrated By 'Ammar : The Prophet stroked the earth with his hands and then passed them over his face and the backs of his hands (while demonstrating Tayammum)."
+				}]
+
+			},
+			{
+				"date": "2023-10-23",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 8, Hadith 359",
+					"volumeNumber": "1",
+					"bookNumber": "8",
+					"hadithNumber": "359",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'None of you should offer prayer in a single garment that does not cover the shoulders.'"
+				}]
+
+			},
+			{
+				"date": "2023-10-24",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 8, Hadith 372",
+					"volumeNumber": "1",
+					"bookNumber": "8",
+					"hadithNumber": "372",
+					"text": "Narrated By 'Aisha : Allah's Apostle used to offer the Fajr prayer and some believing women covered with their veiling sheets used to attend the Fajr prayer with him and then they would return to their homes unrecognised."
+				}]
+
+			},
+			{
+				"date": "2023-10-25",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 8, Hadith 391",
+					"volumeNumber": "1",
+					"bookNumber": "8",
+					"hadithNumber": "391",
+					"text": "Narrated By Anas bin Malik : Allah's Apostle said, 'Whoever prays like us and faces our Quibla and eats our slaughtered animals is a Muslim and is under Allah's and His Apostle's protection. So do not betray Allah by betraying those who are in His protection.'"
+				}]
+
+			},
+			{
+				"date": "2023-10-26",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 8, Hadith 408",
+					"volumeNumber": "1",
+					"bookNumber": "8",
+					"hadithNumber": "408",
+					"text": "Narrated By Abu Huraira and Abu Said : Allah's Apostle saw some expectoration on the wall of the mosque; he took gravel and scraped it off and said, 'If anyone of you wanted to spit he should neither spit in front of him nor on his right but he could spit either on his left or under his left foot.'"
+				}]
+
+			},
+			{
+				"date": "2023-10-27",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 8, Hadith 415",
+					"volumeNumber": "1",
+					"bookNumber": "8",
+					"hadithNumber": "415",
+					"text": "Narrated By Anas bin Malik : The Prophet said, 'Spitting in the mosque is a sin and its expiation is to bury it.'"
+				}]
+
+			},
+			{
+				"date": "2023-10-28",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 8, Hadith 419",
+					"volumeNumber": "1",
+					"bookNumber": "8",
+					"hadithNumber": "419",
+					"text": "Narrated By Anas bin Malik : The Prophet led us in a prayer and then got up on the pulpit and said, 'In your prayer and bowing, I certainly see you from my back as I see you (while looking at you.)'"
+				}]
+
+			},
+			{
+				"date": "2023-10-29",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 8, Hadith 426",
+					"volumeNumber": "1",
+					"bookNumber": "8",
+					"hadithNumber": "426",
+					"text": "Narrated By 'Aisha : The Prophet used to start every thing from the right (for good things) whenever it was possible in all his affairs; for example: in washing, combing or wearing shoes."
+				}]
+
+			},
+			{
+				"date": "2023-10-30",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 8, Hadith 431",
+					"volumeNumber": "1",
+					"bookNumber": "8",
+					"hadithNumber": "431",
+					"text": "Narrated By 'Abdullah bin 'Abbas : The sun eclipsed and Allah's Apostle offered the eclipse prayer and said, 'I have been shown the Hellfire (now) and I never saw a worse and horrible sight than the sight I have seen today.'"
+				}]
+
+			},
+			{
+				"date": "2023-10-31",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 8, Hadith 444",
+					"volumeNumber": "1",
+					"bookNumber": "8",
+					"hadithNumber": "444",
+					"text": "Narrated By Abu Qatada Al-Aslami : Allah's Apostle said, 'If anyone of you enters a mosque, he should pray two Rakat before sitting.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-01",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 8, Hadith 459",
+					"volumeNumber": "1",
+					"bookNumber": "8",
+					"hadithNumber": "459",
+					"text": "Narrated By 'Aisha : When the verses of Surat Al-Baqara about the usury Riba were revealed, the Prophet went to the mosque and recited them in front of the people and then banned the trade of alcohol."
+				}]
+
+			},
+			{
+				"date": "2023-11-02",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 8, Hadith 481",
+					"volumeNumber": "1",
+					"bookNumber": "8",
+					"hadithNumber": "481",
+					"text": "Narrated By Abu Musa : The Prophet said, 'A faithful believer to a faithful believer is like the bricks of a wall, enforcing each other.' While (saying that) the Prophet clasped his hands, by interlacing his fingers."
+				}]
+
+			},
+			{
+				"date": "2023-11-03",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 9, Hadith 532",
+					"volumeNumber": "1",
+					"bookNumber": "9",
+					"hadithNumber": "532",
+					"text": "Narrated By Anas : The Prophet said, 'Do the prostration properly and do not put your fore-arms flat with elbows touching the ground like a dog. And if you want to spit, do not spit in front, nor to the right for the person in prayer is speaking in private to his Lord.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-04",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 9, Hadith 536",
+					"volumeNumber": "1",
+					"bookNumber": "9",
+					"hadithNumber": "536",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'In very hot weather delay the Zuhr prayer till it becomes (a bit) cooler because the severity of heat is from the raging of Hell-fire.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-05",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 9, Hadith 544",
+					"volumeNumber": "1",
+					"bookNumber": "9",
+					"hadithNumber": "544",
+					"text": "Narrated By 'Aisha : Allah's Apostle used to offer the 'Asr prayer when the sunshine had not disappeared from my chamber."
+				}]
+
+			},
+			{
+				"date": "2023-11-06",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 9, Hadith 553",
+					"volumeNumber": "1",
+					"bookNumber": "9",
+					"hadithNumber": "553",
+					"text": "Narrated By Abu Al-Mahh : We were with Buraida in a battle on a cloudy day and he said, Offer the Asr prayer early as the Prophet said, 'Whoever leaves the Asr prayer, all his (good) deeds will be annulled.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-07",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 9, Hadith 556",
+					"volumeNumber": "1",
+					"bookNumber": "9",
+					"hadithNumber": "556",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'If anyone of you can get one Rak'a of the 'Asr prayer before sunset, he should complete his prayer. If any of you can get one Rak'a of the Fajr prayer before sunrise, he should complete his prayer.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-08",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 9, Hadith 568",
+					"volumeNumber": "1",
+					"bookNumber": "9",
+					"hadithNumber": "568",
+					"text": "Narrated By Abu Barza : Allah's Apostle disliked to sleep before the 'Isha prayer and to talk after it."
+				}]
+
+			},
+			{
+				"date": "2023-11-09",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 9, Hadith 578",
+					"volumeNumber": "1",
+					"bookNumber": "9",
+					"hadithNumber": "578",
+					"text": "Narrated By 'Aisha : The believing women covered with their veiling sheets used to attend the Fajr prayer with Allah's Apostle, and after finishing the prayer they would return to their home and nobody could recognize them because of darkness."
+				}]
+
+			},
+			{
+				"date": "2023-11-10",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 9, Hadith 580",
+					"volumeNumber": "1",
+					"bookNumber": "9",
+					"hadithNumber": "580",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'Whoever could get one Raka of a prayer, (in its proper time) he has got the prayer.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-11",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 9, Hadith 581",
+					"volumeNumber": "1",
+					"bookNumber": "9",
+					"hadithNumber": "581",
+					"text": "Narrated By 'Umar : 'The Prophet forbade praying after the Fajr prayer till the sun rises and after the Asr prayer till the sun sets.' Narrated By Ibn 'Abbas : Some people told me the same narration."
+				}]
+
+			},
+			{
+				"date": "2023-11-12",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 9, Hadith 585",
+					"volumeNumber": "1",
+					"bookNumber": "9",
+					"hadithNumber": "585",
+					"text": "Narrated By Ibn 'Umar : Allah's Apostle said, 'None of you should try to pray at sunrise or sunset.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-13",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 9, Hadith 597",
+					"volumeNumber": "1",
+					"bookNumber": "9",
+					"hadithNumber": "597",
+					"text": "Narrated By Anas : The Prophet said, 'If anyone forgets a prayer he should pray that prayer when he remembers it. There is no expiation except to pray the same.' Then he recited: 'Establish prayer for My (i.e. Allahs) remembrance.' (20.14)."
+				}]
+
+			},
+			{
+				"date": "2023-11-14",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 611",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "611",
+					"text": "Narrated By Abu Said Al-Khudri : Allah's Apostle said, 'Whenever you hear the Adhan, say what the Muadhdhin is saying.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-15",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 618",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "618",
+					"text": "Narrated By Hafsa : When the Muadh-dhin pronounced the Adhan for Fajr prayer and the dawn became evident the Prophet ordered a two Rakat light prayer (Sunna) before the Iqama of the compulsory (congregational) prayer."
+				}]
+
+			},
+			{
+				"date": "2023-11-16",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 619",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "619",
+					"text": "Narrated By 'Aisha : The Prophet used to offer two light Rakat between the Adhan and the Iqama of the Fajr prayer."
+				}]
+
+			},
+			{
+				"date": "2023-11-17",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 627",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "627",
+					"text": "Narrated By 'Abdullah bin Mughaffal : The prophet said, 'There is a prayer between the two Adhans (Adhan and Iqama), there is a prayer between the two Adhans.' And then while saying it the third time he added, 'For the one who wants to (pray).'"
+				}]
+
+			},
+			{
+				"date": "2023-11-18",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 636",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "636",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'When you hear the Iqama, proceed to offer the prayer with calmness and solemnity and do not make haste. And pray whatever you are able to pray and complete whatever you have missed.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-19",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 645",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "645",
+					"text": "Narrated By 'Abdullah bin Umar : Allah's Apostle said, 'The prayer in congregation is twenty seven times superior to the prayer offered by person alone.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-20",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 652",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "652",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'While a man was going on a way, he saw a thorny branch and removed it from the way and Allah became pleased by his action and forgave him for that.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-21",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 658",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "658",
+					"text": "Narrated By Malik bin Huwairith : Prophet said (to two persons), 'Whenever the prayer time becomes due, you should pronounce Adhan and then Iqama and the older of you should lead the prayer.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-22",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 662",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "662",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'Allah will prepare for him who goes to the mosque (every) morning and in the afternoon (for the congregational prayer) an honorable place in Paradise with good hospitality for (what he has done) every morning and afternoon goings.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-23",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 674",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "674",
+					"text": "Narrated By Ibn 'Umar: The Prophet said, 'If anyone of you is having his meals, he should not hurry up till he is; satisfied even if the prayer has been started.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-24",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 676",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "676",
+					"text": "Narrated By Al-Aswad : That he asked 'Aisha 'What did the Prophet use to do in his house?' She replied, 'He used to keep himself busy serving his family and when it was the time for prayer he would go for it.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-25",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 694",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "694",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'If the Imam leads the prayer correctly then he and you will receive the rewards but if he makes a mistake (in the prayer) then you will receive the reward for the prayer and the sin will be his.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-26",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 703",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "703",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'If anyone of you leads the people in the prayer, he should shorten it for amongst them are the weak, the sick and the old; and if anyone among your prays alone then he may prolong (the prayer) as much as he wishes.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-27",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 710",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "710",
+					"text": "Narrated By Anas bin Malik : The Prophet, said, 'Whenever I start the prayer I intend to prolong it, but on hearing the cries of a child, I cut short the prayer because I know that the cries of the child will incite its mother's passions.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-28",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 719",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "719",
+					"text": "Narrated By Anas bin Malik : Once the Iqama was pronounced and Allah's Apostle faced us and said, 'Straighten your rows and stand closer together, for I see you from behind my back.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-29",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 720",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "720",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'Martyrs are those who die because of drowning, plague, an abdominal disease, or of being buried alive by a falling building.'"
+				}]
+
+			},
+			{
+				"date": "2023-11-30",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 740",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "740",
+					"text": "Narrated By Sahl bin Sa'd : The people were ordered to place the right hand on the left forearm in the prayer. Abu Hazim said, 'I knew that the order was from the Prophet.'"
+				}]
+
+			},
+			{
+				"date": "2023-12-01",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 742",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "742",
+					"text": "Narrated By Anas bin Malik : The Prophet said, 'Perform the bowing and the prostrations properly. By Allah, I see you from behind me (or from behind my back) when you bow or prostrate.'"
+				}]
+
+			},
+			{
+				"date": "2023-12-02",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 751",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "751",
+					"text": "Narrated By 'Aisha : I asked Allah's Apostle about looking hither and thither in prayer. He replied, 'It is a way of stealing by which Satan takes away (a portion) from the prayer of a person.'"
+				}]
+
+			},
+			{
+				"date": "2023-12-03",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 756",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "756",
+					"text": "Narrated By 'Ubada bin As-Samit : Allah's Apostle said, 'Whoever does not recite Al-Fatiha in his prayer, his prayer is invalid.'"
+				}]
+
+			},
+			{
+				"date": "2023-12-04",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 780",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "780",
+					"text": "Narrated By 'Abdullah bin Abi Qatada : My father said, 'The Prophet used to prolong the first Rak'a of the Zuhr prayer and shorten the second one and used to do the same in the Fajr prayer.'"
+				}]
+
+			},
+			{
+				"date": "2023-12-05",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 782",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "782",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, If any one of you says, 'Amin' and the angels in the heavens say 'Amin' and the former coincides with the latter, all his past sins will be forgiven."
+				}]
+
+			},
+			{
+				"date": "2023-12-06",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 786",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "786",
+					"text": "Narrated By Abu Salama : When Abu Huraira led us in prayer he used to say Takbir on each bowing and rising. On the completion of the prayer he used to say, 'My prayer is more similar to the prayer of Allah's Apostle than that of anyone of you.'"
+				}]
+
+			},
+			{
+				"date": "2023-12-07",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 859",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "859",
+					"text": "Narrated By Abu Said Al-Khudri : The Prophet said, 'Ghusl (taking a bath) on Friday is compulsory for every Muslim reaching the age of puberty.'"
+				}]
+
+			},
+			{
+				"date": "2023-12-08",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 874",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "874",
+					"text": "Narrated By Salim bin 'Abdullah : My father said, The Prophet said, 'If the wife of any one of you asks permission (to go to the mosque) do not forbid her.'"
+				}]
+
+			},
+			{
+				"date": "2023-12-09",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 1, Book 10, Hadith 875",
+					"volumeNumber": "1",
+					"bookNumber": "10",
+					"hadithNumber": "875",
+					"text": "Narrated Anas (ra): The Prophet (saw) offered Salat (prayers) in the house of Umm Sulaim; and I, along with an orphan stood behind him while Umm Sulaim (stood) behind us."
+				}]
+
+			},
+			{
+				"date": "2023-12-10",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 11, Hadith 886",
+					"volumeNumber": "2",
+					"bookNumber": "11",
+					"hadithNumber": "886",
+					"text": "Narrated By Tawus : Ibn 'Abbas mentioned the statement of the Prophet regarding the taking of a bath on Friday and then I asked him whether the Prophet (p.b.u.h) had ordered perfume or (hair) oil to be used if they could be found in one's house. He (Ibn 'Abbas) replied that he did not know about it."
+				}]
+
+			},
+			{
+				"date": "2023-12-11",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 11, Hadith 888",
+					"volumeNumber": "2",
+					"bookNumber": "11",
+					"hadithNumber": "888",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'If I had not found it hard for my followers or the people, I would have ordered them to clean their teeth with Siwak for every prayer.'"
+				}]
+
+			},
+			{
+				"date": "2023-12-12",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 11, Hadith 908",
+					"volumeNumber": "2",
+					"bookNumber": "11",
+					"hadithNumber": "908",
+					"text": "Narrated By Abu 'Abs : I heard the Prophet saying, 'Anyone whose feet are covered with dust in Allah's cause, shall be saved by Allah from the Hell-Fire.'"
+				}]
+
+			},
+			{
+				"date": "2023-12-13",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 11, Hadith 909",
+					"volumeNumber": "2",
+					"bookNumber": "11",
+					"hadithNumber": "909",
+					"text": "Narrated By Abu Huraira : Heard Allah's Apostles (p.b.u.h) saying, 'If the prayer is started do not run for it but just walk for it calmly and pray whatever you get, and complete whatever is missed.'"
+				}]
+
+			},
+			{
+				"date": "2023-12-14",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 11, Hadith 916",
+					"volumeNumber": "2",
+					"bookNumber": "11",
+					"hadithNumber": "916",
+					"text": "Narrated By As-Sa'ib bin Yazid I : 'Uthman bin 'Affan introduced the second Adhan on Fridays when the number of the people in the mosque increased. Previously the Adhan on Fridays used to be pronounced only after the Imam had taken his seat (on the pulpit)."
+				}]
+
+			},
+			{
+				"date": "2023-12-15",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 11, Hadith 919",
+					"volumeNumber": "2",
+					"bookNumber": "11",
+					"hadithNumber": "919",
+					"text": "Narrated By Jabir bin 'Abdullah : The Prophet used to stand by a stem of a date-palm tree (while delivering a sermon). When the pulpit was placed for him we heard that stem crying like a pregnant she-camel till the Prophet got down from the pulpit and placed his hand over it."
+				}]
+
+			},
+			{
+				"date": "2023-12-16",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 11, Hadith 929",
+					"volumeNumber": "2",
+					"bookNumber": "11",
+					"hadithNumber": "929",
+					"text": "Narrated By 'Abdullah Ibn Umar : The Prophet used to deliver two Khutbas and sit in between them."
+				}]
+
+			},
+			{
+				"date": "2023-12-17",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 11, Hadith 932",
+					"volumeNumber": "2",
+					"bookNumber": "11",
+					"hadithNumber": "932",
+					"text": "Narrated By Jabir : A man entered the Mosque while the Prophet was delivering the Khutba. The Prophet said to him, 'Have you prayed?' The man replied in the negative. The Prophet said, 'Pray two Rakat.'"
+				}]
+
+			},
+			{
+				"date": "2023-12-18",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 11, Hadith 933",
+					"volumeNumber": "2",
+					"bookNumber": "11",
+					"hadithNumber": "933",
+					"text": "Narrated By Anas : While the Prophet was delivering the Khutba on a Friday, a man stood up and said, 'O, Allah's Apostle! The livestock and the sheep are dying, so pray to Allah for rain.' So he (the Prophet) raised both his hands and invoked Allah (for it)."
+				}]
+
+			},
+			{
+				"date": "2023-12-19",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 13, Hadith 952",
+					"volumeNumber": "2",
+					"bookNumber": "13",
+					"hadithNumber": "952",
+					"text": "Narrated By Al-Bara' : I heard the Prophet (p.b.u.h) delivering a Khutba saying, 'The first thing to be done on this day (first day of Id-ul-Adha) is to pray; and after returning from the prayer we slaughter our sacrifices (in the name of Allah) and whoever does so, he acted according to our Sunna (traditions).'"
+				}]
+
+			},
+			{
+				"date": "2023-12-20",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 13, Hadith 954",
+					"volumeNumber": "2",
+					"bookNumber": "13",
+					"hadithNumber": "954",
+					"text": "Narrated By Anas bin Malik : Allah's Apostle never proceeded (for the prayer) on the Day of 'Id-ul-Fitr unless he had eaten some dates. Anas also narrated: The Prophet used to eat odd number of dates."
+				}]
+
+			},
+			{
+				"date": "2023-12-21",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 13, Hadith 958",
+					"volumeNumber": "2",
+					"bookNumber": "13",
+					"hadithNumber": "958",
+					"text": "Narrated By 'Abdullah bin Umar : Allah's Apostle used to offer the prayer of 'Id-ul-Adha and 'Id-ul-Fitr and then deliver the Khutba after the prayer."
+				}]
+
+			},
+			{
+				"date": "2023-12-22",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 13, Hadith 976",
+					"volumeNumber": "2",
+					"bookNumber": "13",
+					"hadithNumber": "976",
+					"text": "Narrated By Ibn Abbas : I (in my boyhood) went out with the Prophet on the day of 'Id-ul-Fitr or Id-ul-Adha. The Prophet prayed and then delivered the Khutba and then went towards the women, preached and advised them and ordered them to give alms."
+				}]
+
+			},
+			{
+				"date": "2023-12-23",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 13, Hadith 990",
+					"volumeNumber": "2",
+					"bookNumber": "13",
+					"hadithNumber": "990",
+					"text": "Narrated By Ibn 'Abbas : The Prophet went out and offered a two Rakat prayer on the Day of 'Id-ul-Fitr and did not offer any other prayer before or after it and at that time Bilal was accompanying him."
+				}]
+
+			},
+			{
+				"date": "2023-12-24",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 14, Hadith 997",
+					"volumeNumber": "2",
+					"bookNumber": "14",
+					"hadithNumber": "997",
+					"text": "Narrated By 'Aisha : Allah's Apostle offered Witr prayer at different nights at various hours extending (from the 'Isha prayer) up to the last hour of the night."
+				}]
+
+			},
+			{
+				"date": "2023-12-25",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 14, Hadith 1004",
+					"volumeNumber": "2",
+					"bookNumber": "14",
+					"hadithNumber": "1004",
+					"text": "Narrated By Anas bin Malik : The Prophet recited Qunut for one month (in the Fajr prayer) asking Allah to punish the tribes of Ral and Dhakwan."
+				}]
+
+			},
+			{
+				"date": "2023-12-26",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 15, Hadith 1025",
+					"volumeNumber": "2",
+					"bookNumber": "15",
+					"hadithNumber": "1025",
+					"text": "Narrated By Abbad bin Tamim : From his uncle who said, 'The Prophet went out to invoke Allah for rain. He faced the Qibla invoking Allah. He turned over his cloak (inside out) and then offered two Rakat and recited the Qur'an aloud in them.'"
+				}]
+
+			},
+			{
+				"date": "2023-12-27",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 15, Hadith 1037",
+					"volumeNumber": "2",
+					"bookNumber": "15",
+					"hadithNumber": "1037",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'The Hour (Last Day) will not be established until (religious) knowledge will be taken away (by the death of religious learned men), earthquakes will be very frequent, time will pass quickly, afflictions will appear, murders will increase and money will overflow amongst you.'"
+				}]
+
+			},
+			{
+				"date": "2023-12-28",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 16, Hadith 1042",
+					"volumeNumber": "2",
+					"bookNumber": "16",
+					"hadithNumber": "1042",
+					"text": "Narrated By Abu Masud : The Prophet said, 'The sun and the moon do not eclipse because of the death of someone from the people but they are two signs amongst the signs of Allah. When you see them stand up and pray.'"
+				}]
+
+			},
+			{
+				"date": "2023-12-29",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 16, Hadith 1046",
+					"volumeNumber": "2",
+					"bookNumber": "16",
+					"hadithNumber": "1046",
+					"text": "Narrated By 'Abdullah bin 'Amr : 'When the sun eclipsed in the life-time of Allah's Apostle an announcement was made that a prayer was to be offered in congregation.'"
+				}]
+
+			},
+			{
+				"date": "2023-12-30",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 16, Hadith 1062",
+					"volumeNumber": "2",
+					"bookNumber": "16",
+					"hadithNumber": "1062",
+					"text": "Narrated By Asma who said, Allah's Apostle (s.a.w.) finished the eclipse prayer and by then the sun(eclipse) had cleared.Then he delivered the sermon and praised Allah as He deserved and then said,'Amma badu'."
+				}]
+
+			},
+			{
+				"date": "2023-12-31",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 17, Hadith 1077",
+					"volumeNumber": "2",
+					"bookNumber": "17",
+					"hadithNumber": "1077",
+					"text": "Narrated By Ibn 'Umar : When the Prophet recited Surat As-Sajda and we were with him, he would prostrate and we also would prostrate with him and some of us (because of the heavy rush) would not find a place (for our foreheads) to prostrate on."
+				}]
+
+			},
+			{
+				"date": "2024-01-01",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 18, Hadith 1081",
+					"volumeNumber": "2",
+					"bookNumber": "18",
+					"hadithNumber": "1081",
+					"text": "Narrated By Ibn Abbas : The Prophet once stayed for nineteen days and prayed shortened prayers. So when we travel led (and stayed) for nineteen days, we used to shorten the prayer but if we travelled (and stayed) for a longer period we used to offer the full prayer."
+				}]
+
+			},
+			{
+				"date": "2024-01-02",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 18, Hadith 1088",
+					"volumeNumber": "2",
+					"bookNumber": "18",
+					"hadithNumber": "1088",
+					"text": "Narrated By Ibn'Umar : The Prophet said, 'A woman should not travel for more than three days except with a Dhi-Mahram.'"
+				}]
+
+			},
+			{
+				"date": "2024-01-03",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 18, Hadith 1095",
+					"volumeNumber": "2",
+					"bookNumber": "18",
+					"hadithNumber": "1095",
+					"text": "Narrated By Jabir bin 'Abdullah : The Prophet used to offer the Nawafil, while riding, facing a direction other than that of the Qibla."
+				}]
+
+			},
+			{
+				"date": "2024-01-04",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 18, Hadith 1098",
+					"volumeNumber": "2",
+					"bookNumber": "18",
+					"hadithNumber": "1098",
+					"text": "Narrated By 'Amir bin Rabi'a : I saw the Prophet on his Mount praying Nawafil by nodding his head, whatever direction he faced, but Allah's Apostle never did the same in offering the compulsory prayers."
+				}]
+
+			},
+			{
+				"date": "2024-01-05",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 18, Hadith 1103",
+					"volumeNumber": "2",
+					"bookNumber": "18",
+					"hadithNumber": "1103",
+					"text": "Narrated By Ibn 'Umar : I accompanied Allah's Apostle and he never offered more than two Rakat during the journey. Abu Bakr, 'Umar and 'Uthman used to do the same."
+				}]
+
+			},
+			{
+				"date": "2024-01-06",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 18, Hadith 1107",
+					"volumeNumber": "2",
+					"bookNumber": "18",
+					"hadithNumber": "1107",
+					"text": "Narrated By Salim's father : The Prophet used to offer the Maghrib and 'Isha prayers together whenever he was in a hurry on a journey."
+				}]
+
+			},
+			{
+				"date": "2024-01-07",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 18, Hadith 1108",
+					"volumeNumber": "2",
+					"bookNumber": "18",
+					"hadithNumber": "1108",
+					"text": "Narrated Ibn Abbas: Allah's Apostle used to offer the Zuhr and 'Asr prayers together on journeys, and also used to offer the Maghrib and 'Isha prayers together."
+				}]
+
+			},
+			{
+				"date": "2024-01-08",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 19, Hadith 1131",
+					"volumeNumber": "2",
+					"bookNumber": "19",
+					"hadithNumber": "1131",
+					"text": "Narrated By Al-Mughira : The Prophet used to stand (in the prayer) or pray till both his feet or legs swelled. He was asked why (he offered such an unbearable prayer) and he said, 'should I not be a thankful slave.'"
+				}]
+
+			},
+			{
+				"date": "2024-01-09",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 19, Hadith 1137",
+					"volumeNumber": "2",
+					"bookNumber": "19",
+					"hadithNumber": "1137",
+					"text": "Narrated By Hudhaifa : Whenever the Prophet got up for Tahajjud prayer he used to clean his mouth (and teeth) with Siwak."
+				}]
+
+			},
+			{
+				"date": "2024-01-10",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 19, Hadith 1140",
+					"volumeNumber": "2",
+					"bookNumber": "19",
+					"hadithNumber": "1140",
+					"text": "Narrated By Masruq : I asked 'Aisha about the night prayer of Allah's Apostle and she said, 'It was seven, nine or eleven Rakat besides the two Rakat of the Fajr prayer (i.e. Sunna).'"
+				}]
+
+			},
+			{
+				"date": "2024-01-11",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 19, Hadith 1141",
+					"volumeNumber": "2",
+					"bookNumber": "19",
+					"hadithNumber": "1141",
+					"text": "Narrated By 'Aisha : The Prophet (p.b.u.h) used to offer thirteen Rakat of the night prayer and that included the Witr and two Rakat (Sunna) of the Fajr prayer."
+				}]
+
+			},
+			{
+				"date": "2024-01-12",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 19, Hadith 1145",
+					"volumeNumber": "2",
+					"bookNumber": "19",
+					"hadithNumber": "1145",
+					"text": "Narrated By 'Abdullah : A person was mentioned before the Prophet (p.b.u.h) and he was told that he had kept on sleeping till morning and had not got up for the prayer. The Prophet said, 'Satan urinated in his ears.'"
+				}]
+
+			},
+			{
+				"date": "2024-01-13",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 19, Hadith 1149",
+					"volumeNumber": "2",
+					"bookNumber": "19",
+					"hadithNumber": "1149",
+					"text": "Narrated By 'Aisha : I did not see the Prophet reciting (the Qur'an) in the night prayer while sitting except when he became old; when he used to recite while sitting, and when thirty or forty verses remained from the Sura, he would get up and recite them and then bow."
+				}]
+
+			},
+			{
+				"date": "2024-01-14",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 19, Hadith 1162",
+					"volumeNumber": "2",
+					"bookNumber": "19",
+					"hadithNumber": "1162",
+					"text": "Narrated By 'Aisha : After offering the Sunna of the Fajr prayer, the Prophet used to talk to me, if I happen to be awake; otherwise he would lie down till the Iqama call was proclaimed (for the Fajr prayer)."
+				}]
+
+			},
+			{
+				"date": "2024-01-15",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 19, Hadith 1167",
+					"volumeNumber": "2",
+					"bookNumber": "19",
+					"hadithNumber": "1167",
+					"text": "Narrated By Jabir bin 'Abdullah : While delivering a sermon, Allah's Apostle said, 'If anyone of you comes while the Imam is delivering the sermon or has come out for it, he should offer a two Rakat prayer.'"
+				}]
+
+			},
+			{
+				"date": "2024-01-16",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 19, Hadith 1173",
+					"volumeNumber": "2",
+					"bookNumber": "19",
+					"hadithNumber": "1173",
+					"text": "Narrated By Ibn 'Umar : I offered with the Prophet two Rakat before the Zuhr and two Rakat after the Zuhr prayer; two Rakat after Maghrib, 'Isha and the Jumua prayers. Those of the Maghrib and 'Isha were offered in his house."
+				}]
+
+			},
+			{
+				"date": "2024-01-17",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 19, Hadith 1179",
+					"volumeNumber": "2",
+					"bookNumber": "19",
+					"hadithNumber": "1179",
+					"text": "Narrated By Abu Huraira : My friend (the Prophet) advised me to do three things and I shall not leave them till I die, these are: To fast three days every month, to offer the Duha prayer, and to offer Witr before sleeping."
+				}]
+
+			},
+			{
+				"date": "2024-01-18",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 19, Hadith 1184",
+					"volumeNumber": "2",
+					"bookNumber": "19",
+					"hadithNumber": "1184",
+					"text": "Narrated By 'Abdullah Al-Muzni : The Prophet said, 'Pray before the Maghrib (compulsory) prayer.' He (said it thrice) and in the third time, he said, 'Whoever wants to offer it can do so.' He said so because he did not like the people to take it as a tradition."
+				}]
+
+			},
+			{
+				"date": "2024-01-19",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 20, Hadith 1197",
+					"volumeNumber": "2",
+					"bookNumber": "20",
+					"hadithNumber": "1197",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'Between my house and my pulpit there is a garden of the gardens of Paradise, and my pulpit is on my fountain tank (i.e. Al-Kauthar).'"
+				}]
+
+			},
+			{
+				"date": "2024-01-20",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 21, Hadith 1204",
+					"volumeNumber": "2",
+					"bookNumber": "21",
+					"hadithNumber": "1204",
+					"text": "Narrated By Abu Huraira : The Prophet said, The saying 'Sub Han Allah' is for men and clapping is for women. (If something happens in the prayer, the men can invite the attention of the Imam by saying 'Sub Han Allah'. And women, by clapping their hands)."
+				}]
+
+			},
+			{
+				"date": "2024-01-21",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 21, Hadith 1209",
+					"volumeNumber": "2",
+					"bookNumber": "21",
+					"hadithNumber": "1209",
+					"text": "Narrated By Anas bin Malik : We used to pray with the Prophet in scorching heat, and if someone of us could not put his face on the earth (because of the heat) then he would spread his clothes and prostrate over them."
+				}]
+
+			},
+			{
+				"date": "2024-01-22",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 21, Hadith 1216",
+					"volumeNumber": "2",
+					"bookNumber": "21",
+					"hadithNumber": "1216",
+					"text": "Narrated By Sahl bin Sad : The people used to offer the prayer with the Prophet with their waist-sheets tied round their necks because of the shortness of the sheets and the women were ordered not to lift their heads till the men had sat straight."
+				}]
+
+			},
+			{
+				"date": "2024-01-23",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 21, Hadith 1220",
+					"volumeNumber": "2",
+					"bookNumber": "21",
+					"hadithNumber": "1220",
+					"text": "Narrated By Abu Huraira : It was forbidden to keep the hands on the hips during the prayer. "
+				}]
+
+			},
+			{
+				"date": "2024-01-24",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 22, Hadith 1227",
+					"volumeNumber": "2",
+					"bookNumber": "22",
+					"hadithNumber": "1227",
+					"text": "Narrated By 'Abdullah : Once Allah's Apostle offered five Rakat in the Zuhr prayer, and somebody asked him whether there was some increase in the prayer. Allah's Apostle said, 'What is that?' He said, 'You have offered five Rakat.' So Allah's Apostle performed two prostrations of Sahu after Taslim."
+				}]
+
+			},
+			{
+				"date": "2024-01-25",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 22, Hadith 1233",
+					"volumeNumber": "2",
+					"bookNumber": "22",
+					"hadithNumber": "1233",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'When anyone of you stands for the prayers, Satan comes and puts him in doubts till he forgets how many Rakat he has prayed. So if this happens to anyone of you, he should perform two prostrations of Sahu while sitting.'"
+				}]
+
+			},
+			{
+				"date": "2024-01-26",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 22, Hadith 1237",
+					"volumeNumber": "2",
+					"bookNumber": "22",
+					"hadithNumber": "1237",
+					"text": "Narrated By 'Aisha the wife of the Prophet : Allah's Apostle during his illness prayed in his house sitting, whereas some people followed him standing, but the Prophet beckoned them to sit down. On completion of the prayer he said, 'The Imam is to be followed. So, bow when he bows, and raise your head when he raises his head.'"
+				}]
+
+			},
+			{
+				"date": "2024-01-27",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 23, Hadith 1246",
+					"volumeNumber": "2",
+					"bookNumber": "23",
+					"hadithNumber": "1246",
+					"text": "Narrated By Abu Huraira : Allah's Apostle informed (the people) about the death of An-Najashi on the very day he died. He went towards the Musalla (praying place) and the people stood behind him in rows. He said four Takbirs (i.e. offered the Funeral prayer)."
+				}]
+
+			},
+			{
+				"date": "2024-01-28",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 23, Hadith 1257",
+					"volumeNumber": "2",
+					"bookNumber": "23",
+					"hadithNumber": "1257",
+					"text": "Narrated By Um 'Atiyya : When we washed the deceased daughter of the Prophet, he said to us, while we were washing her, 'Start the bath from the right side and from the parts which are washed in ablution.'"
+				}]
+
+			},
+			{
+				"date": "2024-01-29",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 23, Hadith 1272",
+					"volumeNumber": "2",
+					"bookNumber": "23",
+					"hadithNumber": "1272",
+					"text": "Narrated By 'Aisha : The Prophet was shrouded in three pieces of cloth which were made of Suhul (a type of cotton), and neither a shirt nor a turban were used."
+				}]
+
+			},
+			{
+				"date": "2024-01-30",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 23, Hadith 1280",
+					"volumeNumber": "2",
+					"bookNumber": "23",
+					"hadithNumber": "1280",
+					"text": "Narrated By Muhammad bin Sirin : One of the sons of Um 'Atiyya died, and when it was the third day she asked for a yellow perfume and put it over her body, and said, 'We were forbidden to mourn for more than three days except for our husbands.'"
+				}]
+
+			},
+			{
+				"date": "2024-01-31",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 23, Hadith 1282",
+					"volumeNumber": "2",
+					"bookNumber": "23",
+					"hadithNumber": "1282",
+					"text": "Narrated By Zainab bint Abi Salama : I went to Um Habiba, the wife of Prophet, who said, I heard the Prophets saying, 'It is not legal for a woman who believes in Allah and the Last Day to mourn for any dead person for more than three days except for her husband, (for whom she should mourn) for four months and ten days'."
+				}]
+
+			},
+			{
+				"date": "2024-02-01",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 23, Hadith 1295",
+					"volumeNumber": "2",
+					"bookNumber": "23",
+					"hadithNumber": "1295",
+					"text": "Narrated By 'Abdullah : The Prophet said, 'He who slaps his cheeks, tears his clothes and follows the ways and traditions of the Days of Ignorance is not one of us.'"
+				}]
+
+			},
+			{
+				"date": "2024-02-02",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 23, Hadith 1301",
+					"volumeNumber": "2",
+					"bookNumber": "23",
+					"hadithNumber": "1301",
+					"text": "Narrated By Anas : When the reciters of Qur'an were martyred, Allah's Apostle recited Qunut for one month and I never saw him (i.e. Allah's Apostle) so sad as he was on that day."
+				}]
+
+			},
+			{
+				"date": "2024-02-03",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 23, Hadith 1309",
+					"volumeNumber": "2",
+					"bookNumber": "23",
+					"hadithNumber": "1309",
+					"text": "Narrated By 'Amir bin Rabi'a : The Prophet said, 'If any one of you see a funeral procession and he is not going along with it, then he should stand and remain standing till he gets behind it, or it leaves him behind, or the coffin is put down before it goes ahead of him.'"
+				}]
+
+			},
+			{
+				"date": "2024-02-04",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 23, Hadith 1312",
+					"volumeNumber": "2",
+					"bookNumber": "23",
+					"hadithNumber": "1312",
+					"text": "Narrated By Jabir bin 'Abdullah : A funeral procession passed in front of us and the Prophet stood up and we too stood up. We said, 'O Allah's Apostle! This is the funeral procession of a Jew.' He said, 'Whenever you see a funeral procession, you should stand up.'"
+				}]
+
+			},
+			{
+				"date": "2024-02-05",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 23, Hadith 1316",
+					"volumeNumber": "2",
+					"bookNumber": "23",
+					"hadithNumber": "1316",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'Hurry up with the dead body for if it was righteous, you are forwarding it to welfare; and if it was otherwise, then you are putting off an evil thing down your necks.'"
+				}]
+
+			},
+			{
+				"date": "2024-02-06",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 23, Hadith 1336",
+					"volumeNumber": "2",
+					"bookNumber": "23",
+					"hadithNumber": "1336",
+					"text": "Narrated By Talha bin 'Abdullah bin 'Auf : I offered the funeral prayer behind Ibn Abbas and he recited Al-Fatiha and said, 'You should know that it (i.e. recitation of Al-Fatiha) is the tradition of the Prophet Muhammad.'"
+				}]
+
+			},
+			{
+				"date": "2024-02-07",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 23, Hadith 1347",
+					"volumeNumber": "2",
+					"bookNumber": "23",
+					"hadithNumber": "1347",
+					"text": "Narrated By Jabir : The Prophet said, 'Bury them (i.e. martyrs) with their blood.' (that was) On the day of the Battle of Uhud. He did not get them washed."
+				}]
+
+			},
+			{
+				"date": "2024-02-08",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 23, Hadith 1365",
+					"volumeNumber": "2",
+					"bookNumber": "23",
+					"hadithNumber": "1365",
+					"text": "Narrated Jundab the Prophet said, 'A man was inflicted with wounds and he committed suicide, and so Allah said: My slave has caused death on himself hurriedly, so I forbid Paradise for him.'"
+				}]
+
+			},
+			{
+				"date": "2024-02-09",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 23, Hadith 1366",
+					"volumeNumber": "2",
+					"bookNumber": "23",
+					"hadithNumber": "1366",
+					"text": "Narrated By Abu Huraira- : The Prophet said, 'He who commits suicide by throttling shall keep on throttling himself in the Hell Fire (forever) and he who commits suicide by stabbing himself shall keep on stabbing himself in the Hell-Fire.'"
+				}]
+
+			},
+			{
+				"date": "2024-02-10",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 23, Hadith 1386",
+					"volumeNumber": "2",
+					"bookNumber": "23",
+					"hadithNumber": "1386",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'Every child is born with a true faith of Islam (i.e. to worship none but Allah Alone) and his parents convert him to Judaism or Christianity or Magianism, as an animal delivers a perfect baby animal. Do you find it mutilated?'"
+				}]
+
+			},
+			{
+				"date": "2024-02-11",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 23, Hadith 1394",
+					"volumeNumber": "2",
+					"bookNumber": "23",
+					"hadithNumber": "1394",
+					"text": "Narrated By 'Aisha : The Prophet (p.b.u.h) said, Don't abuse the dead, because they have reached the result of what they forwarded."
+				}]
+
+			},
+			{
+				"date": "2024-02-12",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 24, Hadith 1415",
+					"volumeNumber": "2",
+					"bookNumber": "24",
+					"hadithNumber": "1415",
+					"text": "Narrated By Abu Musa : The Prophet (p.b.u.h) said, 'A time will come upon the people when a person will wander about with gold as Zakat and will not find anybody to accept it, and one man will be seen followed by forty women to be their guardian because of scarcity of men and great number of women.'"
+				}]
+
+			},
+			{
+				"date": "2024-02-13",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 24, Hadith 1418",
+					"volumeNumber": "2",
+					"bookNumber": "24",
+					"hadithNumber": "1418",
+					"text": "Narrated By 'Adi bin Hatim : Heard the Prophet saying: 'Save yourself from Hell-fire even by giving half a date-fruit in charity.'"
+				}]
+
+			},
+			{
+				"date": "2024-02-14",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 24, Hadith 1427",
+					"volumeNumber": "2",
+					"bookNumber": "24",
+					"hadithNumber": "1427",
+					"text": "Narrated By Abu Huraira : The Prophet (p.b.u.h) said, 'The best charity is that which is practiced by a wealthy person. And start giving first to your dependents.'"
+				}]
+
+			},
+			{
+				"date": "2024-02-15",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 24, Hadith 1435",
+					"volumeNumber": "2",
+					"bookNumber": "24",
+					"hadithNumber": "1435",
+					"text": "Narrated By Asma' bint Abu Bakr : That she had gone to the Prophet and he said, Do not shut your money bag; otherwise Allah too will with-hold His blessings from you. Spend (in Allah's Cause) as much as you can afford."
+				}]
+
+			},
+			{
+				"date": "2024-02-16",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 24, Hadith 1441",
+					"volumeNumber": "2",
+					"bookNumber": "24",
+					"hadithNumber": "1441",
+					"text": "Narrated By 'Aisha : The Prophet (p.b.u.h) also said, If a lady gives meals (in charity) from her husband's house without spoiling her husband's property, she will get a reward and her husband will also get a reward likewise. The husband will get a reward because of his earnings and the woman because of her spending."
+				}]
+
+			},
+			{
+				"date": "2024-02-17",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 24, Hadith 1451",
+					"volumeNumber": "2",
+					"bookNumber": "24",
+					"hadithNumber": "1451",
+					"text": "Narrated By Anas : Abu Bakr wrote to me what was made compulsory by Allah's Apostle and that was (regarding the payments of Zakat): Neither the property of different people may be taken together nor the joint property may be split for fear of (paying more, or receiving less) Zakat."
+				}]
+
+			},
+			{
+				"date": "2024-02-18",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 24, Hadith 1452",
+					"volumeNumber": "2",
+					"bookNumber": "24",
+					"hadithNumber": "1452",
+					"text": "Narrated By Anas : Abu Bakr wrote to me what Allah's Apostle has made compulsory (regarding Zakat) and this was mentioned in it: If a property is equally owned by two partners, they should pay the combined Zakat and it will be considered that both of them have paid their Zakat equally."
+				}]
+
+			},
+			{
+				"date": "2024-02-19",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 24, Hadith 1456",
+					"volumeNumber": "2",
+					"bookNumber": "24",
+					"hadithNumber": "1456",
+					"text": "Narrated By Anas : Abu Bakr wrote to me what Allah had ordered His Apostle (about Zakat) which goes: Neither an old nor a defected animal, nor a male-goat may be taken as Zakat except if the Zakat collector wishes (to take it)."
+				}]
+
+			},
+			{
+				"date": "2024-02-20",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 24, Hadith 1460",
+					"volumeNumber": "2",
+					"bookNumber": "24",
+					"hadithNumber": "1460",
+					"text": "Narrated By Abu Said Al-Khudri : Allah's Apostle said, 'No Zakat is imposed on less than five Awsuq of dates; no Zakat is imposed on less than five Awaq of silver, and no Zakat is imposed on less than five camels.'"
+				}]
+
+			},
+			{
+				"date": "2024-02-21",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 24, Hadith 1464",
+					"volumeNumber": "2",
+					"bookNumber": "24",
+					"hadithNumber": "1464",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'There is no Zakat either on a horse or a slave belonging to a Muslim.'"
+				}]
+
+			},
+			{
+				"date": "2024-02-22",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 24, Hadith 1477",
+					"volumeNumber": "2",
+					"bookNumber": "24",
+					"hadithNumber": "1477",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'The poor person is not the one who asks a morsel or two (of meals) from the others, but the poor is the one who has nothing and is ashamed to beg from others.'"
+				}]
+
+			},
+			{
+				"date": "2024-02-23",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 24, Hadith 1481",
+					"volumeNumber": "2",
+					"bookNumber": "24",
+					"hadithNumber": "1481",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'No doubt, it is better for a person to take a rope and proceed in the morning to the mountains and cut the wood and then sell it, and eat from this income and give alms from it than to ask others for something.'"
+				}]
+
+			},
+			{
+				"date": "2024-02-24",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 24, Hadith 1487",
+					"volumeNumber": "2",
+					"bookNumber": "24",
+					"hadithNumber": "1487",
+					"text": "Narrated By Ibn 'Umar : The Prophet had forbidden the sale of dates till they were good (ripe), and when it was asked what it meant, the Prophet said, 'Till there is no danger of blight.'"
+				}]
+
+			},
+			{
+				"date": "2024-02-25",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 24, Hadith 1492",
+					"volumeNumber": "2",
+					"bookNumber": "24",
+					"hadithNumber": "1492",
+					"text": "Narrated By Abu Huraira : Al-Hasan bin 'Ali took a date from the dates given in charity and put it in his mouth. The Prophet said, 'Expel it from your mouth. Don't you know that we do not eat a thing which is given in charity?'"
+				}]
+
+			},
+			{
+				"date": "2024-02-26",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 24, Hadith 1505",
+					"volumeNumber": "2",
+					"bookNumber": "24",
+					"hadithNumber": "1505",
+					"text": "Narrated By Ibn 'Umar : Allah's Apostle made it incumbent on all the slave or free Muslims, male or female, to pay one Sa' of dates or barley as Zakat-ul-Fitr."
+				}]
+
+			},
+			{
+				"date": "2024-02-27",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 24, Hadith 1507",
+					"volumeNumber": "2",
+					"bookNumber": "24",
+					"hadithNumber": "1507",
+					"text": "Narrated By Abu Said Al-Khudri : We used to give one Sa' of meal or one Sa' of barley or one Sa' of dates, or one Sa' of cottage cheese or one Sa' of Raisins (dried grapes) as Zakat-ul-Fitr."
+				}]
+
+			},
+			{
+				"date": "2024-02-28",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 24, Hadith 1510",
+					"volumeNumber": "2",
+					"bookNumber": "24",
+					"hadithNumber": "1510",
+					"text": "Narrated By Ibn 'Umar : The Prophet ordered the people to pay Zakat-ul-Fitr before going to the 'Id prayer."
+				}]
+
+			},
+			{
+				"date": "2024-03-01",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1515",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1515",
+					"text": "Narrated By Ibn 'Umar : I saw that Allah's Apostle used to ride on his Mount at Dhul Hulaifa and used to start saying, 'Labbaik' when the Mount stood upright."
+				}]
+
+			},
+			{
+				"date": "2024-03-02",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1521",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1521",
+					"text": "Narrated By 'Aisha : (The mother of the faithful believers) I said, O Allah's Apostle! We consider Jihad as the best deed. The Prophet said, The best Jihad (for women) is Hajj Mabrur."
+				}]
+
+			},
+			{
+				"date": "2024-03-03",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1535",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1535",
+					"text": "Narrated By 'Umar : In the valley of Al-'Aqiq I heard Allah's Apostle saying, 'To night a messenger came to me from my Lord and asked me to pray in this blessed valley and to assume Ihram for Hajj and Umra together.'"
+				}]
+
+			},
+			{
+				"date": "2024-03-04",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1540",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1540",
+					"text": "Narrated By 'Aisha : (The wife of the Prophet (p.b.u.h)) I used to scent Allah's Apostle when he wanted to assume Ihram and also on finishing Ihram before the Tawaf round the Ka'ba (Tawaf-al-ifada)."
+				}]
+
+			},
+			{
+				"date": "2024-03-05",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1549",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1549",
+					"text": "Narrated By Anas : The Prophet offered four Rakat of the Zuhr prayer in Medina and two Rakat of the 'Asr prayer in Dhul-Hulaifa and I heard them (the companions of the Prophet) reciting Talbiya together loudly to the extent of shouting."
+				}]
+
+			},
+			{
+				"date": "2024-03-06",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1551",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1551",
+					"text": "Narrated By 'Aisha : I know how the Prophet used to say (Talbiya) and it was: 'Labbaika Allahumma Labbaik, Labbaika la sharika Laka labbaik, Inna-l-hamda wan-ni'mata Laka walmu Lk, La sharika Laka'."
+				}]
+
+			},
+			{
+				"date": "2024-03-07",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1574",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1574",
+					"text": "Narrated By Nafi : On reaching the sanctuary of Mecca, Ibn 'Umar used to stop, reciting Talbiya and then he would pass the night at Dhi-Tuwa and then offer the Fajr prayer and take a bath. He used to say that the Prophet used to do the same."
+				}]
+
+			},
+			{
+				"date": "2024-03-08",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1578",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1578",
+					"text": "Narrated By 'Aisha : When the Prophet came to Mecca he entered from its higher side and left from its lower side."
+				}]
+
+			},
+			{
+				"date": "2024-03-09",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1588",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1588",
+					"text": "Narrated By Ibn Abbas : On the Day of the Conquest of Mecca, Allah's Apostle said, 'Allah has made this town a sanctuary. Its thorny bushes should not be cut, its game should not be chased, and its fallen things should not be picked up except by one who would announce it publicly.'"
+				}]
+
+			},
+			{
+				"date": "2024-03-10",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1594",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1594",
+					"text": "Narrated By Abu Said Al-Khudri : The Prophet said 'The people will continue performing the Hajj and Umra to the Kaba even after the appearance of Gog and Magog.' Narrated Shu'ba extra: The Hour (Day of Judgment) will not be established till the Hajj (to the Ka'ba) is abandoned."
+				}]
+
+			},
+			{
+				"date": "2024-03-11",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1596",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1596",
+					"text": "Narrated By Ibn Abbas : The Prophet said, 'As if I were looking at him, a black person with thin legs plucking the stones of the Ka'ba one after another.'"
+				}]
+
+			},
+			{
+				"date": "2024-03-12",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1598",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1598",
+					"text": "Narrated By 'Abis bin Rabia : 'Umar came near the Black Stone and kissed it and said 'No doubt, I know that you are a stone and can neither benefit anyone nor harm anyone. Had I not seen Allah's Apostle kissing you I would not have kissed you.'"
+				}]
+
+			},
+			{
+				"date": "2024-03-13",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1608",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1608",
+					"text": "Narrated By Ibn Abbas. : In his Last Hajj the Prophet performed Tawaf of the Ka'ba riding a camel and pointed a bent-headed stick towards the Corner (Black Stone)."
+				}]
+
+			},
+			{
+				"date": "2024-03-14",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1621",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1621",
+					"text": "Narrated By Ibn Abbas : While the Prophet was performing Tawaf of the Kaba, he passed by a person who had tied his hands to another person with a rope or string or something like that. The Prophet cut it with his own hands and said, 'Lead him by the hand.'"
+				}]
+
+			},
+			{
+				"date": "2024-03-15",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1623",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1623",
+					"text": "Narrated By Abu Huraira : In the year prior to the last Hajj of the Prophet when Allahs Apostle made Abu Bakr the leader of the pilgrims, the latter (Abu Bakr) sent me in the company of a group of people to make a public announcement: 'No pagan is allowed to perform Hajj after this year, and no naked person is allowed to perform Tawaf of the Kaba.'"
+				}]
+
+			},
+			{
+				"date": "2024-03-16",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1628",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1628",
+					"text": "Narrated By Ibn Umar : The Prophet reached Mecca, circumambulating the Kaba seven times and then offered a two Rakat prayer behind Maqam ibrahim. Then he went towards the Safa. Allah has said, Verily, in Allah's Apostle you have a good example."
+				}]
+
+			},
+			{
+				"date": "2024-03-17",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1650",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1650",
+					"text": "Narrated By Ibn Abbas : Allah's Apostle performed Tawaf of the Ka'ba and the Sa'i of Safa and Marwa so as to show his strength to the pagans."
+				}]
+
+			},
+			{
+				"date": "2024-03-18",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1651",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1651",
+					"text": "Narrated By 'Aisha : I was menstruating when I reached Mecca. So, I neither performed Tawaf of the Ka'ba, nor the Tawaf between Safa and Marwa. Then I informed Allah's Apostle about it. He replied, 'Perform all the ceremonies of Hajj like the other pilgrims, but do not perform Tawaf of the Ka'ba till you get clean (from your menses).'"
+				}]
+
+			},
+			{
+				"date": "2024-03-19",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1662",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1662",
+					"text": "Narrated By Um Al-Fadl bint Al Harith : On the day of 'Arafat, some people who were with me, differed about the fasting of the Prophet (p.b.u.h) some said that he was fasting while others said that he was not fasting. So I sent a bowl full of milk to him while he was riding his camel, and he drank that milk."
+				}]
+
+			},
+			{
+				"date": "2024-03-20",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1672",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1672",
+					"text": "Narrated By Ibn Abbas. : I proceeded along with the Prophet on the day of 'Arafat (9th Dhul-Hijja). The Prophet heard a great hue and cry and the beating of camels behind him. So he beckoned to the people with his lash, 'O people! Be quiet. Hastening is not a sign of righteousness.'"
+				}]
+
+			},
+			{
+				"date": "2024-03-21",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1674",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1674",
+					"text": "Narrated By Ibn 'Umar : The Prophet offered the Maghrib and 'Isha prayers together at Jam' (i.e. Al-Muzdalifa) with a separate Iqama for each of them and did not offer any optional prayer in between them or after each of them."
+				}]
+
+			},
+			{
+				"date": "2024-03-22",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1722",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1722",
+					"text": "Narrated By Ibn Abbas : The Prophet was asked about a person who had his head shaved before slaughtering (his Hadi) (or other similar ceremonies of Hajj). He replied, 'There is no harm, there is no harm.'"
+				}]
+
+			},
+			{
+				"date": "2024-03-23",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1732",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1732",
+					"text": "Narrated By Ibn Abbas : When the Prophet came to Mecca, he ordered his Companions to perform Tawaf round the Ka'ba and between Safa and Marwa, to finish their Ihram and get their hair shaved off or cut short."
+				}]
+
+			},
+			{
+				"date": "2024-03-24",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 2, Book 25, Hadith 1771",
+					"volumeNumber": "2",
+					"bookNumber": "25",
+					"hadithNumber": "1771",
+					"text": "Narrated By Ibn 'Abbas : Dhul-Majaz and 'Ukaz were the markets of the people during the Pre-Islamic period of ignorance. When the people embraced Islam, they disliked to do bargaining there till the following Holy Verses were revealed: There is no harm for you If you seek of the bounty Of your Lord (during Hajj by trading, etc.) (2.198)"
+				}]
+
+			},
+			{
+				"date": "2024-03-25",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 26, Hadith 1774",
+					"volumeNumber": "3",
+					"bookNumber": "26",
+					"hadithNumber": "1774",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, '(The performance of) 'Umra is an expiation for the sins committed (between it and the previous one). And the reward of Hajj Mabrur (the one accepted by Allah) is nothing except Paradise.'"
+				}]
+
+			},
+			{
+				"date": "2024-03-26",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 26, Hadith 1778",
+					"volumeNumber": "3",
+					"bookNumber": "26",
+					"hadithNumber": "1778",
+					"text": "Narrated By 'Urwa bin Az-Zubair : I asked 'Aisha (whether the Prophet had performed 'Umra in Rajab). She replied, Allah's Apostle never performed any 'Umra in Rajab."
+				}]
+
+			},
+			{
+				"date": "2024-03-27",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 26, Hadith 1800",
+					"volumeNumber": "3",
+					"bookNumber": "26",
+					"hadithNumber": "1800",
+					"text": "Narrated By Ibn Umar : Whenever Allah's Apostle left for Mecca, he used to pray in the mosque of Ash-Shajra, and when he returned (to Medina), he used to pray in the middle of the valley of Dhul-Hulaifa and used to pass the night there till morning."
+				}]
+
+			},
+			{
+				"date": "2024-03-28",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 26, Hadith 1801",
+					"volumeNumber": "3",
+					"bookNumber": "26",
+					"hadithNumber": "1801",
+					"text": "Narrated By Anas : The Prophet never returned to his family from a journey at night. He used to return either in the morning or in the afternoon."
+				}]
+
+			},
+			{
+				"date": "2024-03-29",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 26, Hadith 1805",
+					"volumeNumber": "3",
+					"bookNumber": "26",
+					"hadithNumber": "1805",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'Travelling is a kind of torture as it prevents one from eating, drinking and sleeping properly. So, when ones needs are fulfilled, one should return quickly to ones family.'"
+				}]
+
+			},
+			{
+				"date": "2024-03-30",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 28, Hadith 1842",
+					"volumeNumber": "3",
+					"bookNumber": "28",
+					"hadithNumber": "1842",
+					"text": "Narrated By Ibn 'Abbas : I heard the Prophet delivering a sermon at 'Arafat saying, 'If a Muhrim does not find slippers, he could wear Khuffs (but he has to cut short the Khuffs below the ankles), and if he does not find an Izar (a waist sheet for wrapping the lower half of the body) he could wear trousers.'"
+				}]
+
+			},
+			{
+				"date": "2024-03-31",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 28, Hadith 1843",
+					"volumeNumber": "3",
+					"bookNumber": "28",
+					"hadithNumber": "1843",
+					"text": "Narrated By Abdullah : Allah's Apostle was asked what sort of clothes a Muhrim should wear. He replied, 'He should not wear a shirt, turbans, trousers, a hooded cloak, or a dress perfumed with saffron or Wars; and if slippers are not available he can wear Khuffs but he should cut them so that they reach below the ankles.'"
+				}]
+
+			},
+			{
+				"date": "2024-04-01",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 28, Hadith 1866",
+					"volumeNumber": "3",
+					"bookNumber": "28",
+					"hadithNumber": "1866",
+					"text": "Narrated By Anas : The Prophet saw an old man walking, supported by his two sons, and asked about him. The people informed him that he had vowed to go on foot (to the Ka'ba). He said, 'Allah is not in need of this old mans torturing himself,' and ordered him to ride."
+				}]
+
+			},
+			{
+				"date": "2024-04-02",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 29, Hadith 1868",
+					"volumeNumber": "3",
+					"bookNumber": "29",
+					"hadithNumber": "1868",
+					"text": "Narrated By Anas : The Prophet said, 'Medina is a sanctuary from that place to that. Its trees should not be cut and no heresy should be innovated nor any sin should be committed in it, and whoever innovates in it an heresy or commits sins (bad deeds), then he will incur the curse of Allah, the angels, and all the people.'"
+				}]
+
+			},
+			{
+				"date": "2024-04-03",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 29, Hadith 1878",
+					"volumeNumber": "3",
+					"bookNumber": "29",
+					"hadithNumber": "1878",
+					"text": "Narrated By Sad : I heard the Prophet saying, 'None plots against the people of Medina but that he will be dissolved (destroyed) like the salt is dissolved in water.'"
+				}]
+
+			},
+			{
+				"date": "2024-04-04",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 29, Hadith 1880",
+					"volumeNumber": "3",
+					"bookNumber": "29",
+					"hadithNumber": "1880",
+					"text": "Narrated By Abu Bakra : The Prophet said, 'The terror caused by Al-Masih Ad-Dajjal will not enter Medina and at that time Medina will have seven gates and there will be two angels at each gate guarding them.'"
+				}]
+
+			},
+			{
+				"date": "2024-04-05",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 29, Hadith 1887",
+					"volumeNumber": "3",
+					"bookNumber": "29",
+					"hadithNumber": "1887",
+					"text": "Narrated By Anas : Whenever the Prophet returned from a journey and observed the walls of Medina, he would make his Mount go fast, and if he was on an animal (i.e. a horse), he would make it gallop because of his love for Medina."
+				}]
+
+			},
+			{
+				"date": "2024-04-06",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 29, Hadith 1888",
+					"volumeNumber": "3",
+					"bookNumber": "29",
+					"hadithNumber": "1888",
+					"text": "Narrated By Anas : (The people of) Bani Salama intended to shift near the mosque (of the Prophet) but Allah's Apostle disliked to see Medina vacated and said, 'O the people of Bani Salama! Don't you think that you will be rewarded for your footsteps which you take towards the mosque?' So, they stayed at their old places."
+				}]
+
+			},
+			{
+				"date": "2024-04-07",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 29, Hadith 1889",
+					"volumeNumber": "3",
+					"bookNumber": "29",
+					"hadithNumber": "1889",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'There is a garden from the gardens of Paradise between my house and my pulpit, and my pulpit is on my Lake Fount (Al-Kauthar).'"
+				}]
+
+			},
+			{
+				"date": "2024-04-08",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 30, Hadith 1893",
+					"volumeNumber": "3",
+					"bookNumber": "30",
+					"hadithNumber": "1893",
+					"text": "Narrated By Ibn 'Umar : The Prophet observed the fast on the 10th of Muharram ('Ashura), and ordered (Muslims) to fast on that day, but when the fasting of the month of Ramadan was prescribed, the fasting of the 'Ashura was abandoned. 'Abdullah did not use to fast on that day unless it coincided with his routine fasting by chance."
+				}]
+
+			},
+			{
+				"date": "2024-04-09",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 30, Hadith 1900",
+					"volumeNumber": "3",
+					"bookNumber": "30",
+					"hadithNumber": "1900",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'When the month of Ramadan starts, the gates of the heaven are opened and the gates of Hell are closed and the devils are chained.'"
+				}]
+
+			},
+			{
+				"date": "2024-04-10",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 30, Hadith 1901",
+					"volumeNumber": "3",
+					"bookNumber": "30",
+					"hadithNumber": "1901",
+					"text": "Narrated By Ibn Umar : I heard Allah's Apostle saying, 'When you see the crescent (of the month of Ramadan), start fasting, and when you see the crescent (of the month of Shawwal), stop fasting; and if the sky is overcast (and you cant see It) then regard the crescent (month) of Ramadan (as of 30 days).'"
+				}]
+
+			},
+			{
+				"date": "2024-04-11",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 30, Hadith 1902",
+					"volumeNumber": "3",
+					"bookNumber": "30",
+					"hadithNumber": "1902",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'Whoever established prayers on the night of Qadr out of sincere faith and hoping for a reward from Allah, then all his previous sins will be forgiven; and whoever fasts in the month of Ramadan out of sincere faith, and hoping for a reward from Allah, then all his previous sins will be forgiven.'"
+				}]
+
+			},
+			{
+				"date": "2024-04-12",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 30, Hadith 1904",
+					"volumeNumber": "3",
+					"bookNumber": "30",
+					"hadithNumber": "1904",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'Whoever does not give up forged speech and evil actions, Allah is not in need of his leaving his food and drink (i.e. Allah will not accept his fasting.)'"
+				}]
+
+			},
+			{
+				"date": "2024-04-13",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 30, Hadith 1934",
+					"volumeNumber": "3",
+					"bookNumber": "30",
+					"hadithNumber": "1934",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'If somebody eats or drinks forgetfully then he should complete his fast, for what he has eaten or drunk, has been given to him by Allah.'"
+				}]
+
+			},
+			{
+				"date": "2024-04-14",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 30, Hadith 1970",
+					"volumeNumber": "3",
+					"bookNumber": "30",
+					"hadithNumber": "1970",
+					"text": "Narrated By 'Aisha : Allah's Apostle used to fast till one would say that he would never stop fasting, and he would abandon fasting till one would say that he would never fast. I never saw Allah's Apostle fasting for a whole month except the month of Ramadan, and did not see him fasting in any month more than in the month of Sha'ban."
+				}]
+
+			},
+			{
+				"date": "2024-04-15",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 30, Hadith 1982",
+					"volumeNumber": "3",
+					"bookNumber": "30",
+					"hadithNumber": "1982",
+					"text": "Narrated By Abu Huraira : My friend (the Prophet) advised me to observe three things: 1. To fast three days a month. 2. To pray two Rakat of Duha prayer. (fore-noon prayer) 3. To pray Witr before sleeping."
+				}]
+
+			},
+			{
+				"date": "2024-04-16",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 30, Hadith 1986",
+					"volumeNumber": "3",
+					"bookNumber": "30",
+					"hadithNumber": "1986",
+					"text": "Narrated By Abu Huraira : I heard the Prophet saying, 'None of you should fast on Friday unless he fasts a day before or after it.'"
+				}]
+
+			},
+			{
+				"date": "2024-04-17",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 30, Hadith 1989",
+					"volumeNumber": "3",
+					"bookNumber": "30",
+					"hadithNumber": "1989",
+					"text": "Narrated By Um Al-Fadl bint Al-Harith : While the people were with me on the day of 'Arafat they differed as to whether the Prophet was fasting or not; some said that he was fasting while others said that he was not fasting. So, I sent to him a bowl full of milk while he was riding over his camel and he drank it."
+				}]
+
+			},
+			{
+				"date": "2024-04-18",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 30, Hadith 1992",
+					"volumeNumber": "3",
+					"bookNumber": "30",
+					"hadithNumber": "1992",
+					"text": "Narrated By Abu Sa'id : The Prophet forbade the fasting of 'Id-ul-Fitr and 'Id-ul-Adha (two feast days) and also the wearing of As-Samma' (a single garment covering the whole body), and sitting with one's leg drawn up while being wrapped in one garment."
+				}]
+
+			},
+			{
+				"date": "2024-04-19",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 30, Hadith 2000",
+					"volumeNumber": "3",
+					"bookNumber": "30",
+					"hadithNumber": "2000",
+					"text": "Narrated By Ibn 'Umar : Fasting for those who perform ,Hajj-at-Tamattu' (in lieu of the Hadi which they cannot afford) may be performed up to the day of 'Arafat. And if one does not get a Hadi and has not fasted (before the 'Id) then one should fast of the days of Mina. (11, 12 and 13th of Dhul Hajja)."
+				}]
+
+			},
+			{
+				"date": "2024-04-20",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 30, Hadith 2002",
+					"volumeNumber": "3",
+					"bookNumber": "30",
+					"hadithNumber": "2002",
+					"text": "Narrated By 'Aisha : Allah's Apostle ordered (the Muslims) to fast on the day of 'Ashura', and when fasting in the month of Ramadan was prescribed, it became optional for one to fast on that day ('Ashura') or not."
+				}]
+
+			},
+			{
+				"date": "2024-04-21",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 30, Hadith 2003",
+					"volumeNumber": "3",
+					"bookNumber": "30",
+					"hadithNumber": "2003",
+					"text": "Narrated By 'Aisha : Quraish used to fast on the day of 'Ashura' in the Pre-Islamic period, and Allah's Apostle too, used to fast on that day. When he came to Medina, he fasted on that day and ordered others to fast, too. Later when the fasting of the month of Ramadan was prescribed, he gave up fasting on the day of 'Ashura' and it became optional for one to fast on it or not."
+				}]
+
+			},
+			{
+				"date": "2024-04-22",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 30, Hadith 2007",
+					"volumeNumber": "3",
+					"bookNumber": "30",
+					"hadithNumber": "2007",
+					"text": "Narrated By Ibn 'Abbas : I never saw the Prophet seeking to fast on a day more (preferable to him) than this day, the day of 'Ashura', or this month, i.e. the month of Ramadan."
+				}]
+
+			},
+			{
+				"date": "2024-04-23",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 32, Hadith 2015",
+					"volumeNumber": "3",
+					"bookNumber": "32",
+					"hadithNumber": "2015",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'Whoever fasted the month of Ramadan out of sincere Faith (i.e. belief) and hoping for a reward from Allah, then all his past sins will be forgiven, and whoever stood for the prayers in the night of Qadr out of sincere Faith and hoping for a reward from Allah, then all his previous sins will be forgiven.'"
+				}]
+
+			},
+			{
+				"date": "2024-04-24",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 32, Hadith 2018",
+					"volumeNumber": "3",
+					"bookNumber": "32",
+					"hadithNumber": "2018",
+					"text": "Narrated By 'Aisha : Allah's Apostle said, 'Search for the Night of Qadr in the odd nights of the last ten days of Ramadan.'"
+				}]
+
+			},
+			{
+				"date": "2024-04-25",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 32, Hadith 2024",
+					"volumeNumber": "3",
+					"bookNumber": "32",
+					"hadithNumber": "2024",
+					"text": "Narrated By 'Aisha : Allah's Apostle used to practice Itikaf in the last ten nights of Ramadan and used to say, 'Look for the Night of Qadr in the last ten nights of the month of Ramadan.'"
+				}]
+
+			},
+			{
+				"date": "2024-04-26",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2059",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2059",
+					"text": "Narrated By Jabir : While we were offering the prayer with the Prophet a caravan carrying food came from Sham. The people looked towards the caravan (and went to it) and only twelve persons remained with the Prophet. So, the Divine Inspiration came; 'But when they see some bargain or some amusement, they disperse headlong to it.' (62.11)"
+				}]
+
+			},
+			{
+				"date": "2024-04-27",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2060",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2060",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'A time will come when one will not care how he earns money, legally (halal) or illegally (haram).'"
+				}]
+
+			},
+			{
+				"date": "2024-04-28",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2068",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2068",
+					"text": "Narrated By Anas bin Malik : I heard Allah's Apostle saying, 'whoever desires an expansion in his sustenance and age, should keep good relations with his Kith and kin.'"
+				}]
+
+			},
+			{
+				"date": "2024-04-29",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2073",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2073",
+					"text": "Narrated By Al-Miqdam : The Prophet said, 'Nobody has ever eaten a better meal than that which one has earned by working with ones own hands. The Prophet of Allah, David used to eat from the earnings of his manual labour.'"
+				}]
+
+			},
+			{
+				"date": "2024-04-30",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2075",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2075",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'One would rather cut and carry a bundle of wood on his back than ask somebody who may or may not give him.'"
+				}]
+
+			},
+			{
+				"date": "2024-05-01",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2077",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2077",
+					"text": "Narrated By Jabir bin 'Abdullah : Allah's Apostle said, May Allah's mercy be on him who is lenient in his buying, selling, and in demanding back his money."
+				}]
+
+			},
+			{
+				"date": "2024-05-02",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2079",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2079",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'There was a merchant who used to lend the people, and whenever his debtor was in straitened circumstances, he would say to his employees, Forgive him so that Allah may forgive us. So, Allah forgave him.'"
+				}]
+
+			},
+			{
+				"date": "2024-05-03",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2081",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2081",
+					"text": "Narrated By Abu Said : We used to be given mixed dates (from the booty) and used to sell (barter) two Sas of those dates) for one Sa (of good dates). The Prophet said (to us), 'No (bartering of) two Sas for one Sa nor two Dirhams for one Dirham is permissible', (as that is a kind of usury)."
+				}]
+
+			},
+			{
+				"date": "2024-05-04",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2083",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2083",
+					"text": "Narrated By Hakim bin Hizam : The Prophet said, 'The buyer and the seller have the option to cancel or to confirm the deal, as long as they have not parted or till they part, and if they spoke the truth and told each other the defects of the things, then blessings would be in their deal, and if they hid something and told lies, the blessing of the deal would be lost.'"
+				}]
+
+			},
+			{
+				"date": "2024-05-05",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2084",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2084",
+					"text": "Narrated Abu Hurairah(R.A.): The prophet(s.a.w.) said:'Certainly a time will come when people will not bother to know from where they earned the money, by lawful means or the unlawful means.'"
+				}]
+
+			},
+			{
+				"date": "2024-05-06",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2085",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2085",
+					"text": "Narrated By 'Aisha : When the last Verses of Surat al-Baqara were revealed, the Prophet recited them in the mosque and proclaimed the trade of alcohol as illegal."
+				}]
+
+			},
+			{
+				"date": "2024-05-07",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2088",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2088",
+					"text": "Narrated By Abu Huraira : I heard Allah's Apostle saying, 'The swearing (by the seller) may persuade the buyer to purchase the goods but that will be deprived of Allah's blessing.'"
+				}]
+
+			},
+			{
+				"date": "2024-05-08",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2105",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2105",
+					"text": "Narrated By 'Abdullah bin Umar : Once the Prophet sent to 'Umar a silken two-piece garment, and when he saw 'Umar wearing it, he said to him, 'I have not sent it to you to wear. It is worn by him who has no share in the Hereafter, and I have sent it to you so that you could benefit by it (i.e. sell it).'"
+				}]
+
+			},
+			{
+				"date": "2024-05-09",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2114",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2114",
+					"text": "Narrated By Ibn 'Umar : The Prophet said, 'No deal is settled and finalized unless the buyer and the seller separate, except if the deal is optional (whereby the validity of the bargain depends on the stipulations agreed upon).'"
+				}]
+
+			},
+			{
+				"date": "2024-05-10",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2124",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2124",
+					"text": "Narrated By Nafi : Ibn 'Umar told us that the people used to buy food from the caravans in the lifetime of the Prophet. The Prophet used to forbid them to sell it at the very place where they had purchased it (but they were to wait) till they carried it to the market where foodstuff was sold."
+				}]
+
+			},
+			{
+				"date": "2024-05-11",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2127",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2127",
+					"text": "Narrated By Abdullah ibn Umar : Allah's Apostle said, 'He who buys foodstuff should not sell it till he is satisfied with the measure with which he has bought it.'"
+				}]
+
+			},
+			{
+				"date": "2024-05-12",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2130",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2130",
+					"text": "Narrated By 'Abdullah bin Zaid : The Prophet said, The Prophet Abraham made Mecca a sanctuary, and asked for Allah's blessing in it. I made Medina a sanctuary as Abraham made Mecca a sanctuary and I asked for Allah's Blessing in its measures the Mudd and the Sa as Abraham did for Mecca."
+				}]
+
+			},
+			{
+				"date": "2024-05-13",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2131",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2131",
+					"text": "Narrated By Anas bin Malik : Allah's Apostle said, 'O Allah bestow your blessings on their measures, bless their Mudd and Sa.' The Prophet meant the people of Medina."
+				}]
+
+			},
+			{
+				"date": "2024-05-14",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2138",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2138",
+					"text": "Narrated By Ibn 'Umar : I saw the people buy foodstuff randomly (i.e. blindly without measuring it) in the life-time of Allah's Apostle and they were punished (by beating), if they tried to sell it before carrying it to their own houses."
+				}]
+
+			},
+			{
+				"date": "2024-05-15",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2140",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2140",
+					"text": "Narrated By 'Abdullah bin 'Umar : Allah's Apostle said, 'Do not urge somebody to return what he has already bought (i.e. in optional sale) from another seller so as to sell him your own goods.'"
+				}]
+
+			},
+			{
+				"date": "2024-05-16",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2144",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2144",
+					"text": "Narrated By 'Abdullah bin 'Umar : Allah's Apostle forbade the sale called 'Habal-al-Habala which was a kind of sale practiced in the Pre-Islamic Period of ignorance. One would pay the price of a she-camel which was not born yet would be born by the immediate offspring of an extant she-camel."
+				}]
+
+			},
+			{
+				"date": "2024-05-17",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2145",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2145",
+					"text": "Narrated By Abu Said : Allah's Apostle forbade the selling by Munabadha, i.e. to sell one's garment by casting it to the buyer not allowing him to examine or see it. Similarly he forbade the selling by Mulamasa. Mulamasa is to buy a garment, for example, by merely touching it, not looking at it."
+				}]
+
+			},
+			{
+				"date": "2024-05-18",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2152",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2152",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'Whoever buys a sheep which has been kept un-milked for a long period, and milks it, can keep it if he is satisfied, and if he is not satisfied, he can return it, but he should pay one Sa of dates for the milk.'"
+				}]
+
+			},
+			{
+				"date": "2024-05-19",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2161",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2161",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'A buyer should not urge a seller to restore a purchase so as to buy it himself, and do not practice Najsh; and a town dweller should not sell goods of a desert dweller.'"
+				}]
+
+			},
+			{
+				"date": "2024-05-20",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2166",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2166",
+					"text": "Narrated By 'Abdullah bin Umar : Allah's Apostle said, 'You should not try to cancel the purchases of one another (to get a benefit thereof), and do not go ahead to meet the caravan (for buying the goods) (but wait) till it reaches the market.'"
+				}]
+
+			},
+			{
+				"date": "2024-05-21",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2172",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2172",
+					"text": "Narrated By Ibn 'Umar : Allah's Apostle forbade Muzabana; and Muzabana is the selling of fresh dates for dried old dates by measure, and the selling of fresh grapes for dried grapes by measure."
+				}]
+
+			},
+			{
+				"date": "2024-05-22",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2174",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2174",
+					"text": "Narrated Ibn 'Umar from Zaid bin Thabit that the Prophet allowed the selling of the fruits on the trees after estimation (when they are ripe)."
+				}]
+
+			},
+			{
+				"date": "2024-05-23",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2176",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2176",
+					"text": "Narrated By Abu Bakra : Allah's Apostle said, Don't sell gold for gold unless equal in weight, nor silver for silver unless equal in weight, but you could sell gold for silver or silver for gold as you like."
+				}]
+
+			},
+			{
+				"date": "2024-05-24",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2184",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2184",
+					"text": "Narrated By 'Abdullah bin 'Umar : Allah's Apostle said, 'Do not sell fruits of dates until they become free from all the dangers of being spoilt or blighted; and do not sell fresh dates for dry dates.'"
+				}]
+
+			},
+			{
+				"date": "2024-05-25",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2198",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2198",
+					"text": "Narrated By Anas bin Malik : The Prophet forbade the sale of fruits till their benefit is evident; and the sale of date palms till the dates are almost ripe. He was asked what 'are almost ripe' meant. He replied, 'Got red and yellow.'"
+				}]
+
+			},
+			{
+				"date": "2024-05-26",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2200",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2200",
+					"text": "Narrated Ibn Shihab: If somebody bought fruits before their benefit is evident and then the fruits were spoiled with blights, the loss would be suffered by the owner (not the buyer). Narrated Salim bin 'Abdullah from Ibn Umar: Allah's Apostle said, 'Do not sell or buy fruits before their benefit was evident and do not sell fresh fruits (dates) for dried dates.'"
+				}]
+
+			},
+			{
+				"date": "2024-05-27",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2205",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2205",
+					"text": "Narrated By 'Abdullah bin 'Umar : Allah's Apostle said, 'If somebody sells pollinated date palms, the fruits will be for the seller unless the buyer stipulates that they will be for himself (and the seller agrees).'"
+				}]
+
+			},
+			{
+				"date": "2024-05-28",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2210",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2210",
+					"text": "Narrated By Ibn 'Umar : I was with the Prophet while he was eating spadix. He said, 'From the trees there is a tree which resembles a faithful believer.' I wanted to say that it was the date palm, but I was the youngest among them (so I kept quiet). He added, 'It is the date palm.'"
+				}]
+
+			},
+			{
+				"date": "2024-05-29",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2211",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2211",
+					"text": "Narrated By Anas bin Malik : Abu Taiba cupped Allah's Apostle and so Allah's Apostle ordered that a Sa of dates be paid to him and ordered his masters (for he was a slave) to reduce his tax."
+				}]
+
+			},
+			{
+				"date": "2024-05-30",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2222",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2222",
+					"text": "Narrated By 'Abdullah bin 'Abbas : Once Allah's Apostle passed by a dead sheep and said to the people, Wouldn't you benefit by its skin? The people replied that it was dead. The Prophet said, 'But its eating only is illegal.'"
+				}]
+
+			},
+			{
+				"date": "2024-05-31",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2238",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2238",
+					"text": "Narrated By Abu Mas'ud Al-Ansari : Allah's Apostle forbade taking the price of a dog, money earned by prostitution and the earnings of a soothsayer."
+				}]
+
+			},
+			{
+				"date": "2024-06-01",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 34, Hadith 2239",
+					"volumeNumber": "3",
+					"bookNumber": "34",
+					"hadithNumber": "2239",
+					"text": "Narrated By Aun bin Abu Juhaifa : I saw my father buying a slave whose profession was cupping, and ordered that his instruments (of cupping) be broken. I asked him the reason for doing so. He replied, Allah's Apostle prohibited taking money for blood, the price of a dog, and the earnings of a slave-girl by prostitution; he cursed her who tattoos and her who gets tattooed, the eater of Riba (usury), and the maker of pictures."
+				}]
+
+			},
+			{
+				"date": "2024-06-02",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 36, Hadith 2260",
+					"volumeNumber": "3",
+					"bookNumber": "36",
+					"hadithNumber": "2260",
+					"text": "Narrated By 'Aisha : I said, O Allah's Apostle! I have two neighbours and would like to know to which of them I should give presents. He replied, 'To the one whose door is nearer to you.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-03",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 37, Hadith 2261",
+					"volumeNumber": "3",
+					"bookNumber": "37",
+					"hadithNumber": "2261",
+					"text": "Narrated By Abu Musa Al-Ashari : The Prophet said, 'The honest treasurer who gives willingly what he is ordered to give, is one of the two charitable persons, (the second being the owner).'"
+				}]
+
+			},
+			{
+				"date": "2024-06-04",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 37, Hadith 2271",
+					"volumeNumber": "3",
+					"bookNumber": "37",
+					"hadithNumber": "2271",
+					"text": "Narrated By Abu Huraira : The Prophet said, Allah said, 'I will be an opponent to three types of people on the Day of Resurrection:1. One who makes a covenant in My Name, but proves treacherous.2. One who sells a free person and eats his price.3. One who employs a labourer and takes full work from him but does not pay him for his labour.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-05",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 38, Hadith 2288",
+					"volumeNumber": "3",
+					"bookNumber": "38",
+					"hadithNumber": "2288",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'Procrastination (delay) in paying debts by a wealthy man is injustice. So, if your debt is transferred from your debtor to a rich debtor, you should agree.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-06",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 41, Hadith 2321",
+					"volumeNumber": "3",
+					"bookNumber": "41",
+					"hadithNumber": "2321",
+					"text": "Narrated By Anas bin Malik : Allah's Apostle said, 'There is none amongst the Muslims who plants a tree or sows seeds, and then a bird, or a person or an animal eats from it, but is regarded as a charitable gift for him.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-07",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 41, Hadith 2332",
+					"volumeNumber": "3",
+					"bookNumber": "41",
+					"hadithNumber": "2332",
+					"text": "Narrated By Ibn 'Umar : Allah's Apostle gave the land of Khaibar to the Jew's on the condition that they work on it and cultivate it, and be given half of its yield."
+				}]
+
+			},
+			{
+				"date": "2024-06-08",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 41, Hadith 2333",
+					"volumeNumber": "3",
+					"bookNumber": "41",
+					"hadithNumber": "2333",
+					"text": "Narrated By Rafi : We worked on farms more than anybody else in Medina. We used to rent the land and say to the owner, 'The yield of this portion is for us and the yield of that portion is for you (as the rent).' One of those portions might yield something and the other might not. So, the Prophet forbade us to do so."
+				}]
+
+			},
+			{
+				"date": "2024-06-09",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 41, Hadith 2336",
+					"volumeNumber": "3",
+					"bookNumber": "41",
+					"hadithNumber": "2336",
+					"text": "Narrated By 'Aisha : The Prophet said, 'He who cultivates land that does not belong to anybody is more rightful (to own it).' 'Urwa said, 'Umar gave the same verdict in his Caliphate.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-10",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 41, Hadith 2341",
+					"volumeNumber": "3",
+					"bookNumber": "41",
+					"hadithNumber": "2341",
+					"text": "Narrated By Jabir : The people used to rent their land for cultivation for one-third, one-fourth or half its yield. The Prophet said, 'Whoever has land should cultivate it himself or give it to his (Muslim) brother gratis; otherwise keep it uncultivated.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-11",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 42, Hadith 2354",
+					"volumeNumber": "3",
+					"bookNumber": "42",
+					"hadithNumber": "2354",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'Do not withhold the superfluous water, for that will prevent people from grazing their cattle.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-12",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 42, Hadith 2382",
+					"volumeNumber": "3",
+					"bookNumber": "42",
+					"hadithNumber": "2382",
+					"text": "Narrated By Jabir bin 'Abdullah : The Prophet forbade the sales called Al-Mukhabara, Al-Muhaqala and Al-Muzabana and the selling of fruits till they are free from blights. He forbade the selling of the fruits except for money, except the 'Araya."
+				}]
+
+			},
+			{
+				"date": "2024-06-13",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 43, Hadith 2388",
+					"volumeNumber": "3",
+					"bookNumber": "43",
+					"hadithNumber": "2388",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'Whoever takes the money of the people with the intention of repaying it, Allah will repay it on his behalf, and whoever takes it in order to spoil it, then Allah will spoil him.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-14",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 43, Hadith 2390",
+					"volumeNumber": "3",
+					"bookNumber": "43",
+					"hadithNumber": "2390",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'If I had gold equal to the mountain of Uhud, it would not please me that it should remain with me for more than three days, except an amount which I would keep for repaying debts.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-15",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 43, Hadith 2399",
+					"volumeNumber": "3",
+					"bookNumber": "43",
+					"hadithNumber": "2399",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'If someone leaves some property, it will be for the inheritors, and if he leaves some weak offspring, it will be for us to support them.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-16",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 43, Hadith 2401",
+					"volumeNumber": "3",
+					"bookNumber": "43",
+					"hadithNumber": "2401",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'Procrastination (delay) in repaying debts by a wealthy person is injustice.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-17",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 46, Hadith 2447",
+					"volumeNumber": "3",
+					"bookNumber": "46",
+					"hadithNumber": "2447",
+					"text": "Narrated By Abu Musa : The Prophet said, 'A believer to another believer is like a building whose different parts enforce each other.' The Prophet then clasped his hands with the fingers interlaced (while saying that)."
+				}]
+
+			},
+			{
+				"date": "2024-06-18",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 46, Hadith 2449",
+					"volumeNumber": "3",
+					"bookNumber": "46",
+					"hadithNumber": "2449",
+					"text": "Narrated By Ibn 'Abbas : The Prophet sent Mu'adh to Yemen and said, 'Be afraid, from the curse of the oppressed as there is no screen between his invocation and Allah.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-19",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 46, Hadith 2455",
+					"volumeNumber": "3",
+					"bookNumber": "46",
+					"hadithNumber": "2455",
+					"text": "Narrated By Salim's father ('Abdullah) : The Prophet said, 'Whoever takes a piece of the land of others unjustly, he will sink down the seven earths on the Day of Resurrection.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-20",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 46, Hadith 2458",
+					"volumeNumber": "3",
+					"bookNumber": "46",
+					"hadithNumber": "2458",
+					"text": "Narrated By 'Aisha : The Prophet said, 'The most hated person in the sight of Allah is the most quarrelsome person.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-21",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 46, Hadith 2479",
+					"volumeNumber": "3",
+					"bookNumber": "46",
+					"hadithNumber": "2479",
+					"text": "Narrated By 'Abdullah bin Masud : The Prophet entered Mecca and (at that time) there were three hundred-and-sixty idols around the Ka'ba. He started stabbing the idols with a stick he had in his hand and reciting: 'Truth (Islam) has come and Falsehood (disbelief) has vanished.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-22",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 47, Hadith 2488",
+					"volumeNumber": "3",
+					"bookNumber": "47",
+					"hadithNumber": "2488",
+					"text": "Narrated By Anas : That Abu Bakr As-Siddiq wrote to him the law of Zakat which was made obligatory by Allah's Apostle. He wrote: 'Partners possessing joint property (sheep) have to pay its Zakat equally.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-23",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 47, Hadith 2500",
+					"volumeNumber": "3",
+					"bookNumber": "47",
+					"hadithNumber": "2500",
+					"text": "Narrated By Abdullah : Allah's Apostle rented the land of Khaibar to the Jews on the condition that they would work on it and cultivate it and take half of its yield."
+				}]
+
+			},
+			{
+				"date": "2024-06-24",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 49, Hadith 2529",
+					"volumeNumber": "3",
+					"bookNumber": "49",
+					"hadithNumber": "2529",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'Allah has accepted my invocation to forgive what whispers in the hearts of my followers, unless they put it to action or utter it.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-25",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 49, Hadith 2533",
+					"volumeNumber": "3",
+					"bookNumber": "49",
+					"hadithNumber": "2533",
+					"text": "Narrated By Qais : When Abu Huraira accompanied by his slave came intending to embrace Islam, they lost each other on the way. (When the slave showed up) Abu Huraira said (to the Prophet), 'I make you witness that the slave is free for Allah's Cause.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-26",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 51, Hadith 2577",
+					"volumeNumber": "3",
+					"bookNumber": "51",
+					"hadithNumber": "2577",
+					"text": "Narrated By Abu Huraira : Whenever a meal was brought to Allah's Apostle, he would ask whether it was a gift or Sadaqa (something given in charity). If he was told that it was Sadaqa, he would tell his companions to eat it, but if it was a gift, he would hurry to share it with them."
+				}]
+
+			},
+			{
+				"date": "2024-06-27",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 51, Hadith 2590",
+					"volumeNumber": "3",
+					"bookNumber": "51",
+					"hadithNumber": "2590",
+					"text": "Narrated By Ibn 'Abbas : The Prophet said, 'One who takes back his gift (which he has already given) is like a dog that swallows its vomit.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-28",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 51, Hadith 2592",
+					"volumeNumber": "3",
+					"bookNumber": "51",
+					"hadithNumber": "2592",
+					"text": "Narrated By Asma : Allah's Apostle said, 'Give (in charity) and do not give reluctantly lest Allah should give you in a limited amount; and do not withhold your money lest Allah should withhold it from you.'"
+				}]
+
+			},
+			{
+				"date": "2024-06-29",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 51, Hadith 2594",
+					"volumeNumber": "3",
+					"bookNumber": "51",
+					"hadithNumber": "2594",
+					"text": "Narrated By 'Aisha : Whenever Allah's Apostle wanted to go on a journey, he would draw lots as to which of his wives would accompany him. He would take her whose name came out. He used to fix for each of them a day and a night. But Sauda bint Zam'a gave up her (turn) day and night to 'Aisha, the wife of the Prophet in order to seek the pleasure of Allah's Apostle (by that action)."
+				}]
+
+			},
+			{
+				"date": "2024-06-30",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 52, Hadith 2674",
+					"volumeNumber": "3",
+					"bookNumber": "52",
+					"hadithNumber": "2674",
+					"text": "Narrated By Ibn Mas'ud : The Prophet said, 'Whoever takes a (false) oath in order to grab (others) property, then Allah will be angry with him when he will meet Him.'"
+				}]
+
+			},
+			{
+				"date": "2024-07-01",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 52, Hadith 2680",
+					"volumeNumber": "3",
+					"bookNumber": "52",
+					"hadithNumber": "2680",
+					"text": "Narrated By Abdullah : The Prophet said, 'Whoever has to take an oath should swear by Allah or remain silent.' (i.e. He should not swear by other than Allah.)"
+				}]
+
+			},
+			{
+				"date": "2024-07-02",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 52, Hadith 2683",
+					"volumeNumber": "3",
+					"bookNumber": "52",
+					"hadithNumber": "2683",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'The signs of a hypocrite are three:1. Whenever he speaks, he tells a lie.2. Whenever he is entrusted, he proves to be dishonest.3. Whenever he promises, he breaks his promise.'"
+				}]
+
+			},
+			{
+				"date": "2024-07-03",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 54, Hadith 2715",
+					"volumeNumber": "3",
+					"bookNumber": "54",
+					"hadithNumber": "2715",
+					"text": "Narrated By Jabir bin 'Abdullah : I gave the pledge of allegiance to Allah's Apostle for offering the prayers perfectly paying the Zakat and giving good advice to every Muslim."
+				}]
+
+			},
+			{
+				"date": "2024-07-04",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 3, Book 54, Hadith 2737",
+					"volumeNumber": "3",
+					"bookNumber": "54",
+					"hadithNumber": "2737",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'Allah has ninety-nine names, i.e. one-hundred minus one, and whoever knows them will go to Paradise.'"
+				}]
+
+			},
+			{
+				"date": "2024-07-05",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 55, Hadith 2774",
+					"volumeNumber": "4",
+					"bookNumber": "55",
+					"hadithNumber": "2774",
+					"text": "Narrated By Ibn 'Umar : Umar got some property in Khaibar and he came to the Prophet and informed him about it. The Prophet said to him, 'If you wish you can give it in charity.' So 'Umar gave it in charity (i.e. as an endowment) the yield of which was to be used for the good of the poor, the needy, the kinsmen and the guests."
+				}]
+
+			},
+			{
+				"date": "2024-07-06",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 55, Hadith 2775",
+					"volumeNumber": "4",
+					"bookNumber": "55",
+					"hadithNumber": "2775",
+					"text": "Narrated By Anas bin Malik : When Allah's Apostle came to Medina, he ordered that a mosque be built. He said, 'O Bani An-Najjar! Suggest me a price for the garden of yours.' They replied, 'By Allah, we will not ask its price except from Allah.'"
+				}]
+
+			},
+			{
+				"date": "2024-07-07",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 55, Hadith 2777",
+					"volumeNumber": "4",
+					"bookNumber": "55",
+					"hadithNumber": "2777",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'My heirs will not inherit a Dinar or a Dirham (i.e. money), for whatever I leave (excluding the adequate support of my wives and the wages of my employees) is given in charity.'"
+				}]
+
+			},
+			{
+				"date": "2024-07-08",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2784",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2784",
+					"text": "Narrated By Ibn 'Abbas : Allah's Apostle said, 'There is no Hijra (i.e. migration) (from Mecca to Medina) after the Conquest (of Mecca), but Jihad and good intention remain; and if you are called (by the Muslim ruler) for fighting, go forth immediately.'"
+				}]
+
+			},
+			{
+				"date": "2024-07-09",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2785",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2785",
+					"text": "Narrated By 'Aisha : (That she said), O Allah's Apostle! We consider Jihad as the best deed. Should we not fight in Allah's Cause? He said, The best Jihad (for women) is Hajj-Mabrur (i.e. Hajj which is done according to the Prophet's tradition and is accepted by Allah)."
+				}]
+
+			},
+			{
+				"date": "2024-07-10",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2788",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2788",
+					"text": "Narrated By Abu Huraira : I heard Allah's Apostle saying, The example of a Mujahid in Allah's cause... and Allah knows better who really strives in his cause... is like a person who fasts and prays continuously. Allah guarantees that He will admit the Mujahid in His Cause into Paradise if he is killed, otherwise He will return him to his home safely with rewards and war booty."
+				}]
+
+			},
+			{
+				"date": "2024-07-11",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2793",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2793",
+					"text": "Narrated By Anas bin Malik : The Prophet said, A single endeavour (of fighting) in Allah's Cause in the forenoon or in the afternoon is better than the world and whatever is in it."
+				}]
+
+			},
+			{
+				"date": "2024-07-12",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2796",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2796",
+					"text": "Narrated By Anas bin Malik : The Prophet said, Nobody who dies and finds good from Allah (in the Hereafter) would wish to come back to this world even if he were given the whole world and whatever is in it, except the martyr who, on seeing the superiority of martyrdom, would like to come back to the world and get killed again (in Allah's cause)."
+				}]
+
+			},
+			{
+				"date": "2024-07-13",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2803",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2803",
+					"text": "Narrated By Jundab bin Sufyan : In one of the holy Battles a finger of Allah's Apostle (got wounded and) bled. He said, You are just a finger that bled, and what you got is in Allah's Cause."
+				}]
+
+			},
+			{
+				"date": "2024-07-14",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2804",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2804",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, By Him in Whose Hands my soul is! Whoever is wounded in Allah's Cause... and Allah knows well who gets wounded in His Cause... will come on the Day of Resurrection with his wound having the colour of blood but the scent of musk."
+				}]
+
+			},
+			{
+				"date": "2024-07-15",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2811",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2811",
+					"text": "Narrated By Abu Musa : A man came to the Prophet and asked, A man fights for war booty; another fights for fame and a third fights for showing off; which of them fights in Allah's Cause? The Prophet said, He who fights that Allah's Word (i.e. Islam) should be superior, fights in Allah's Cause."
+				}]
+
+			},
+			{
+				"date": "2024-07-16",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2812",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2812",
+					"text": "Narrated By Abu Abs : (Who is 'Abdur-Rahman bin Jabir) Allah's Apostle said, Anyone whose both feet get covered with dust in Allah's Cause will not be touched by the (Hell) fire."
+				}]
+
+			},
+			{
+				"date": "2024-07-17",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2818",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2818",
+					"text": "Narrated By Anas bin Malik : The Prophet said, 'Nobody who enters Paradise likes to go back to the world even if he got everything on the earth, except a Mujahid who wishes to return to the world so that he may be martyred ten times because of the dignity he receives (from Allah).'"
+				}]
+
+			},
+			{
+				"date": "2024-07-18",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2824",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2824",
+					"text": "Narrated By Anas bin Malik : The Prophet used to say, 'O Allah! I seek refuge with You from helplessness, laziness, cowardice and feeble old age; I seek refuge with You from afflictions of life and death and seek refuge with You from the punishment in the grave.'"
+				}]
+
+			},
+			{
+				"date": "2024-07-19",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2830",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2830",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'Five are regarded as martyrs: They are those who die because of plague, abdominal disease, drowning or a falling building etc., and the martyrs in Allah's Cause.'"
+				}]
+
+			},
+			{
+				"date": "2024-07-20",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2841",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2841",
+					"text": "Narrated By Abu Said : I heard the Prophet saying, Indeed, anyone who fasts for one day for Allah's Pleasure, Allah will keep his face away from the (Hell) fire for (a distance covered by a journey of) seventy years."
+				}]
+
+			},
+			{
+				"date": "2024-07-21",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2854",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2854",
+					"text": "Narrated By Abu Huraira : The Prophet said, If somebody keeps a horse in Allah's Cause motivated by his faith in Allah and his belief in His Promise, then he will be rewarded on the Day of Resurrection for what the horse has eaten or drunk and for its dung and urine."
+				}]
+
+			},
+			{
+				"date": "2024-07-22",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2874",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2874",
+					"text": "Narrated By 'Amr bin Al-Harith : The Prophet did not leave anything behind him after his death except a white mule, his arms and a piece of land which he left to be given in charity."
+				}]
+
+			},
+			{
+				"date": "2024-07-23",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2932",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2932",
+					"text": "Narrated By 'Ali : When it was the day of the battle of Al-Ahzab (i.e. the clans), Allah's Apostle said, O Allah! Fill their (i.e. the infidels') houses and graves with fire as they busied us so much that we did not perform the prayer (i.e. 'Asr) till the sun set."
+				}]
+
+			},
+			{
+				"date": "2024-07-24",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2939",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2939",
+					"text": "Narrated By Anas : When the Prophet intended to write a letter to the ruler of the Byzantines, he was told that those people did not read any letter unless it was stamped with a seal. So, the Prophet got a silver ring... as if I were just looking at its white glitter on his hand... and stamped on it the expression 'Muhammad, Apostle of Allah'."
+				}]
+
+			},
+			{
+				"date": "2024-07-25",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2956",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2956",
+					"text": "Narrated By Ibn 'Umar : The 'Prophet said, It is obligatory for one to listen to and obey (the ruler's orders) unless these orders involve one disobedience (to Allah); but if an act of disobedience (to Allah) is imposed, he should not listen to or obey it."
+				}]
+
+			},
+			{
+				"date": "2024-07-26",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2981",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2981",
+					"text": "Narrated By Jabir bin 'Abdullah : During the life-time of the Prophet we used to take the meat of sacrificed animals (as journey food) to Medina."
+				}]
+
+			},
+			{
+				"date": "2024-07-27",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2994",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2994",
+					"text": "Narrated By Jabir bin 'Abdullah : Whenever we went up a place we would say, Allahu-Akbar (i.e. Allah is Greater), and whenever we went down a place we would say, Subhan Allah."
+				}]
+
+			},
+			{
+				"date": "2024-07-28",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 2999",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "2999",
+					"text": "Narrated By Ibn 'Umar : The Prophet said, 'If the people knew what I know about travelling alone, then nobody would travel alone at night.'"
+				}]
+
+			},
+			{
+				"date": "2024-07-29",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 3003",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "40",
+					"text": "Narrated By 'Abdullah bin 'Umar : Umar bin Al-Khattab gave a horse to be ridden in Allah's Cause and then he found it being sold. He intended to purchase it. So, he consulted Allah's Apostle who said, Don't buy it and don't take back your gift of charity."
+				}]
+
+			},
+			{
+				"date": "2024-07-30",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 3005",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "3005",
+					"text": "Narrated By 'Abdullah bin 'Amr : A man came to the Prophet asking his permission to take part in Jihad. The Prophet asked him, 'Are your parents alive?' He replied in the affirmative. The Prophet said to him, 'Then exert yourself in their service.'"
+				}]
+
+			},
+			{
+				"date": "2024-07-31",
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 3027",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "3027",
+					"text": "Narrated By Abu Huraira : The Prophet said: 'Do not wish to meet the enemy, but when you meet face) the enemy, be patient.'"
+				}]
+
+			}	
+		]
+
+	}]
+}]

@@ -1,0 +1,150 @@
+---
+import NewsletterSubscription from "./NewsletterSubscription.jsx";
+---
+
+<section class="footer footer-bg pt-12 pb-12">
+    <div class="container max-w-screen-xl mx-auto px-4">
+    <div class="grid  md:grid-cols-12 gap-0 md:gap-4 mt-8 md:mb-16 mb-8">
+      <div class="md:col-span-6 lg:col-span-7 mb-8 md:mb-0">
+        <img src="images/alim-logo-126.png" class="mt-2"/>
+      </div>
+      <div class="md:col-span-6 lg:col-span-5">
+        <NewsletterSubscription client:load></NewsletterSubscription>
+      </div>
+    </div>
+    <div class="grid  md:grid-cols-12 gap-0 md:gap-4">
+      <div class="md:col-span-6 lg:col-span-7 md:pr-44">
+        <h2 class="text-deep-red mb-10"> “The Qur'an is a guidance for humanity. It is the eternal and literal word of Allah.” </h2>
+        <div class="flex w-32  mb-8">
+          <div class="flex-1 p-1">
+          <img src="images/twitter.svg" class="w-24"/>
+          </div>
+          <div class="flex-1 p-1">
+          <img src="images/linkedin.svg" class="w-24"/>
+          </div>
+          <div class="flex-1 p-1">
+          <img src="images/facebook.svg" class="w-24"/>
+          </div>
+          <div class="flex-1 p-1">
+          <img src="images/youtube.svg" class="w-24"/>
+          </div>
+        </div>
+      </div>
+      <div class="md:col-span-2">
+        <h4 class="text-white mb-3">Sitemap</h4>
+        <ul class="list-none text-white">
+          <li class="mb-1"><a href="#"> Home </a></li>
+          <li class="mb-1"><a href="#"> Qur'an </a></li>
+          <li class="mb-1"><a href="#"> Hadith </a></li>
+          <li class="mb-1"><a href="#"> History </a></li>
+          <li class="mb-1"><a href="#"> About </a></li>
+          <li class="mb-1"><a href="#"> Blogs </a></li>
+        </ul>
+      </div>
+      <div class="md:col-span-2 mt-5 md:mt-0">
+        <h4 class="text-white mb-3">Resources</h4>
+        <ul class="list-none text-white">
+          <li class="mb-1"><a href="#"> Funeral Services </a></li>
+          <li class="mb-1"><a href="#"> Arabic Playhouse </a></li>
+          <li class="mb-1"><a href="#"> Insight of the Day </a></li>
+          <li class="mb-1"><a href="#"> Hadith of the Day </a></li>
+          <li class="mb-1"><a href="#"> Get Involved </a></li>
+        </ul>
+        
+      </div>
+    </div>
+    <div class="grid md:grid-cols-12 gap-0 md:gap-4">
+      <div class="md:col-span-6">
+        <p class="text-base text-white mt-8"> Alim.org © 2023. All Rights Reserved </p>
+      </div>
+      <div class="md:col-span-6">
+        <p class="text-base text-white md:text-right mt-8"> Built by Brillionhouse </p>
+      </div>
+    </div>
+    </div>
+  </section>
+  <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
+	<script is:inline src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+	<script is:inline>
+		var swiper = new Swiper(".mySwiper", {
+			loop: true
+		});
+    var swiper1 = new Swiper(".mySwiper1", {
+			loop: true
+		});
+		let recentInsightsArr=JSON.parse(localStorage.getItem('recentInsights'));
+		let recentInsightCounter=0;
+    if(recentInsightsArr!==null)
+    {
+      recentInsightsArr.map((item)=>{
+        const titleMeaning='titleMeaning'+recentInsightCounter;
+          const title='title'+recentInsightCounter;
+          const arbTitle='arbTitle'+recentInsightCounter;
+          const ayahnumber='ayahnumber'+recentInsightCounter;
+        document.getElementById(titleMeaning).innerHTML=item.titleMeaning;
+        document.getElementById(title).innerHTML=item.title;
+        document.getElementById(arbTitle).innerHTML=item.arbTitle;
+        document.getElementById(ayahnumber).innerHTML=item.ayahCount+' Ayahs';
+        recentInsightCounter++;
+		  });
+    }
+    else
+    {
+      const recetInsightsArr=[
+            {
+                "titleMeaning":"The Inevitable",
+                "title":"Al-Waqi'ah",
+                "arbTitle":"الواقعة",
+                "ayahCount":"96"
+            },
+            {
+                "titleMeaning":"The Beneficent",
+                "title":"Ar-Rahman",
+                "arbTitle":"الرحمن",
+                "ayahCount":"78"
+            },
+            {
+                "titleMeaning":"The Dunes",
+                "title":"Al-Ahqaf",
+                "arbTitle":"الأحقاف",
+                "ayahCount":"35"
+            },
+            {
+                "titleMeaning":"The Smoke",
+                "title":"Ad-Dukhan",
+                "arbTitle":"الدخان",
+                "ayahCount":"59"
+            },
+            {
+                "titleMeaning":"The Opening",
+                "title":"Al-Fatiha",
+                "arbTitle":"الفاتحة",
+                "ayahCount":"7"
+            },
+            {
+                "titleMeaning":"Yaseen",
+                "title":"Yasin",
+                "arbTitle":"يس",
+                "ayahCount":"83"
+            },
+            {
+                "titleMeaning":"Sincerity",
+                "title":"Al-Ikhlas",
+                "arbTitle":"الإخلاص",
+                "ayahCount":"4"
+            }
+    ];
+
+    recetInsightsArr.map((item)=>{
+        const titleMeaning='titleMeaning'+recentInsightCounter;
+          const title='title'+recentInsightCounter;
+          const arbTitle='arbTitle'+recentInsightCounter;
+          const ayahnumber='ayahnumber'+recentInsightCounter;
+        document.getElementById(titleMeaning).innerHTML=item.titleMeaning;
+        document.getElementById(title).innerHTML=item.title;
+        document.getElementById(arbTitle).innerHTML=item.arbTitle;
+        document.getElementById(ayahnumber).innerHTML=item.ayahCount+' Ayahs';
+        recentInsightCounter++;
+		  });
+    }
+	</script>

@@ -1,0 +1,65 @@
+[
+    {
+        "volume": 1,
+        "first_book": 1,
+        "last_book": 10,
+        "first_hadith": 1,
+        "last_hadith": 876
+    },
+    {
+        "volume": 2,
+        "first_book": 11,
+        "last_book": 25,
+        "first_hadith": 877,
+        "last_hadith": 1773
+    },
+    {
+        "volume": 3,
+        "first_book": 26,
+        "last_book": 54,
+        "first_hadith": 1774,
+        "last_hadith": 2738
+    },
+    {
+        "volume": 4,
+        "first_book": 55,
+        "last_book": 61,
+        "first_hadith": 2739,
+        "last_hadith": 3650
+    },
+    {
+        "volume": 5,
+        "first_book": 62,
+        "last_book": 64,
+        "first_hadith": 3651,
+        "last_hadith": 4475
+    },
+    {
+        "volume": 6,
+        "first_book": 65,
+        "last_book": 66,
+        "first_hadith": 4476,
+        "last_hadith": 5064
+    },
+    {
+        "volume": 7,
+        "first_book": 67,
+        "last_book": 77,
+        "first_hadith": 5065,
+        "last_hadith": 5971
+    },
+    {
+        "volume": 8,
+        "first_book": 78,
+        "last_book": 86,
+        "first_hadith": 5972,
+        "last_hadith": 6862
+    },
+    {
+        "volume": 9,
+        "first_book": 87,
+        "last_book": 97,
+        "first_hadith": 6863,
+        "last_hadith": 7565
+    }
+]

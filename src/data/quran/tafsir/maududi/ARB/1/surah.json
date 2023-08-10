@@ -1,0 +1,44 @@
+[
+    {
+        "BookCode": "ARB",
+        "SurahNumber": "1",
+        "AyahNumber": "1",
+        "Body": "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ"
+    },
+    {
+        "BookCode": "ARB",
+        "SurahNumber": "1",
+        "AyahNumber": "2",
+        "Body": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ"
+    },
+    {
+        "BookCode": "ARB",
+        "SurahNumber": "1",
+        "AyahNumber": "3",
+        "Body": "ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ"
+    },
+    {
+        "BookCode": "ARB",
+        "SurahNumber": "1",
+        "AyahNumber": "4",
+        "Body": "مَـٰلِكِ يَوْمِ ٱلدِّينِ"
+    },
+    {
+        "BookCode": "ARB",
+        "SurahNumber": "1",
+        "AyahNumber": "5",
+        "Body": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ"
+    },
+    {
+        "BookCode": "ARB",
+        "SurahNumber": "1",
+        "AyahNumber": "6",
+        "Body": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ"
+    },
+    {
+        "BookCode": "ARB",
+        "SurahNumber": "1",
+        "AyahNumber": "7",
+        "Body": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ"
+    }
+]

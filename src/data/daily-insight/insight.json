@@ -1,0 +1,527 @@
+[{
+	"book": [{
+		"type": "quran",
+		"name": "Al Quran Memorization",
+		"bookCode": "ARB",
+		"dates": [
+			{
+				"date": "2023-07-31",
+				"ayah": [{
+					"name": "Ar-Rum",
+					"surahNumber": "31",
+					"ayahNumber": "15",
+					"text": "فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَهُمْ فِى رَوْضَةٍ يُحْبَرُونَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 3027",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "3027",
+					"text": "Narrated By Abu Huraira : The Prophet said: 'Do not wish to meet the enemy, but when you meet face) the enemy, be patient.'"
+				}]
+			},
+			{
+				"date": "2023-08-01",
+				"ayah": [{
+					"name": "Ar-Rum",
+					"surahNumber": "31",
+					"ayahNumber": "16",
+					"text": "وَأَمَّا ٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَـٰتِنَا وَلِقَآئِ ٱلْـَٔاخِرَةِ فَأُو۟لَـٰٓئِكَ فِى ٱلْعَذَابِ مُحْضَرُونَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 3062",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "3062",
+					"text": "Narrated By Ibn 'Abbas : A man came to the Prophet and said, O Allah's Apostle! I have enlisted in the army for such-and-such Ghazwa, and my wife is leaving for Hajj. Allah's Apostle said, Go back and perform Hajj with your wife."
+				}]
+			},
+			{
+				"date": "2023-08-02",
+				"ayah": [{
+					"name": "Ar-Rum",
+					"surahNumber": "31",
+					"ayahNumber": "19",
+					"text": "يُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَيُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ وَيُحْىِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا ۚ وَكَذَٰلِكَ تُخْرَجُونَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 3078",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "3078",
+					"text": "Narrated By Ibn 'Abbas : The Prophet said, on the day of the Conquest of Mecca, 'There is no migration (after the Conquest), but Jihad and good intentions, and when you are called for Jihad, you should immediately respond to the call.'"
+				}]
+			},
+			{
+				"date": "2023-08-03",
+				"ayah": [{
+					"name": "Ar-Rum",
+					"surahNumber": "31",
+					"ayahNumber": "20",
+					"text": "وَمِنْ ءَايَـٰتِهِۦٓ أَنْ خَلَقَكُم مِّن تُرَابٍ ثُمَّ إِذَآ أَنتُم بَشَرٌ تَنتَشِرُونَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 56, Hadith 3085",
+					"volumeNumber": "4",
+					"bookNumber": "56",
+					"hadithNumber": "3085",
+					"text": "Narrated By Abdullah : When the Prophet returned (from Jihad), he would say Takbir thrice and add, 'We are returning, if Allah wishes, with repentance and worshipping and praising (our Lord) and prostrating ourselves before our Lord. Allah fulfilled His Promise and helped His Slave, and He Alone defeated the (infidel) clans.'"
+				}]
+			},
+			{
+				"date": "2023-08-04",
+				"ayah": [{
+					"name": "Ar-Rum",
+					"surahNumber": "31",
+					"ayahNumber": "23",
+					"text": "وَمِنْ ءَايَـٰتِهِۦ مَنَامُكُم بِٱلَّيْلِ وَٱلنَّهَارِ وَٱبْتِغَآؤُكُم مِّن فَضْلِهِۦٓ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّقَوْمٍ يَسْمَعُونَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 57, Hadith 3097",
+					"volumeNumber": "4",
+					"bookNumber": "57",
+					"hadithNumber": "3097",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, 'My heirs should not take even a single Dinar (i.e. anything from my property), and whatever I leave, excluding the expenditure of my wives and my labourers, will be Sadaqa (i.e. be used for charity).'"
+				}]
+			},
+			{
+				"date": "2023-08-05",
+				"ayah": [{
+					"name": "Ar-Rum",
+					"surahNumber": "31",
+					"ayahNumber": "25",
+					"text": "وَمِنْ ءَايَـٰتِهِۦٓ أَن تَقُومَ ٱلسَّمَآءُ وَٱلْأَرْضُ بِأَمْرِهِۦ ۚ ثُمَّ إِذَا دَعَاكُمْ دَعْوَةً مِّنَ ٱلْأَرْضِ إِذَآ أَنتُمْ تَخْرُجُونَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 57, Hadith 3100",
+					"volumeNumber": "4",
+					"bookNumber": "57",
+					"hadithNumber": "3100",
+					"text": "Narrated By 'Aisha : (The wife of the Prophet) When the sickness of Allah's Apostle got aggravated, he asked the permission of his wives that he should be treated in my house, and they permitted him."
+				}]
+			},
+			{
+				"date": "2023-08-06",
+				"ayah": [{
+					"name": "Ar-Rum",
+					"surahNumber": "31",
+					"ayahNumber": "31",
+					"text": "مُنِيبِينَ إِلَيْهِ وَٱتَّقُوهُ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَلَا تَكُونُوا۟ مِنَ ٱلْمُشْرِكِينَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 57, Hadith 3117",
+					"volumeNumber": "4",
+					"bookNumber": "57",
+					"hadithNumber": "3117",
+					"text": "Narrated By Muawiya : Allah's Apostle said, If Allah wants to do good for somebody, he makes him comprehend the Religion (i.e. Islam), and Allah is the Giver and I am Al-Qasim (i.e. the distributor), and this (Muslim) nation will remain victorious over their opponents, till Allah's Order comes and they will still be victorious."
+				}]
+			},
+			{
+				"date": "2023-08-07",
+				"ayah": [{
+					"name": "Ar-Rum",
+					"surahNumber": "31",
+					"ayahNumber": "36",
+					"text": "وَإِذَآ أَذَقْنَا ٱلنَّاسَ رَحْمَةً فَرِحُوا۟ بِهَا ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ إِذَا هُمْ يَقْنَطُونَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 57, Hadith 3118",
+					"volumeNumber": "4",
+					"bookNumber": "57",
+					"hadithNumber": "3118",
+					"text": "Narrated Abu Huraira: Allah's Apostle said, 'Neither do I give you (anything) nor withhold (anything) from you, but I am just a distributor (i.e. Qasim), and I give as I am ordered.'"
+				}]
+			},
+			{
+				"date": "2023-08-08",
+				"ayah": [{
+					"name": "Ar-Rum",
+					"surahNumber": "31",
+					"ayahNumber": "44",
+					"text": "مَن كَفَرَ فَعَلَيْهِ كُفْرُهُۥ ۖ وَمَنْ عَمِلَ صَـٰلِحًا فَلِأَنفُسِهِمْ يَمْهَدُونَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 57, Hadith 3119",
+					"volumeNumber": "4",
+					"bookNumber": "57",
+					"hadithNumber": "3119",
+					"text": "Narrated By Khaula Al-Ansariya : I heard Allah's Apostle saying, Some people spend Allah's Wealth (i.e. Muslim's wealth) in an unjust manner; such people will be put in the (Hell) Fire on the Day of Resurrection."
+				}]
+			},
+			{
+				"date": "2023-08-09",
+				"ayah": [{
+					"name": "Ar-Rum",
+					"surahNumber": "31",
+					"ayahNumber": "57",
+					"text": "فَيَوْمَئِذٍ لَّا يَنفَعُ ٱلَّذِينَ ظَلَمُوا۟ مَعْذِرَتُهُمْ وَلَا هُمْ يُسْتَعْتَبُونَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 58, Hadith 3167",
+					"volumeNumber": "4",
+					"bookNumber": "58",
+					"hadithNumber": "3167",
+					"text": "Narrated By 'Abdullah bin 'Amr : The Prophet said, 'Whoever killed a person having a treaty with the Muslims, shall not smell the smell of Paradise though its smell is perceived from a distance of forty years.'"
+				}]
+			},
+			{
+				"date": "2023-08-10",
+				"ayah": [{
+					"name": "Ar-Rum",
+					"surahNumber": "31",
+					"ayahNumber": "60",
+					"text": "فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ ۖ وَلَا يَسْتَخِفَّنَّكَ ٱلَّذِينَ لَا يُوقِنُونَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 58, Hadith 3189",
+					"volumeNumber": "4",
+					"bookNumber": "58",
+					"hadithNumber": "3189",
+					"text": "Narrated By Ibn Umar : The Prophet said, 'Every betrayer will have a flag which will be fixed on the Day of Resurrection, and the flag's prominence will be made in order to show the betrayal he committed.'"
+				}]
+			},
+			{
+				"date": "2023-08-11",
+				"ayah": [{
+					"name": "Al-Mu'min",
+					"surahNumber": "40",
+					"ayahNumber": "60",
+					"text": "وَقَالَ رَبُّكُمُ ٱدْعُونِىٓ أَسْتَجِبْ لَكُمْ ۚ إِنَّ ٱلَّذِينَ يَسْتَكْبِرُونَ عَنْ عِبَادَتِى سَيَدْخُلُونَ جَهَنَّمَ دَاخِرِينَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3201",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3201",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'The sun and the moon will be folded up (deprived of their light) on the Day of Resurrection.'"
+				}]
+			},
+			{
+				"date": "2023-08-12",
+				"ayah": [{
+					"name": "Al-Mu'min",
+					"surahNumber": "40",
+					"ayahNumber": "61",
+					"text": "ٱللَّهُ ٱلَّذِى جَعَلَ لَكُمُ ٱلَّيْلَ لِتَسْكُنُوا۟ فِيهِ وَٱلنَّهَارَ مُبْصِرًا ۚ إِنَّ ٱللَّهَ لَذُو فَضْلٍ عَلَى ٱلنَّاسِ وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَشْكُرُونَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3203",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3203",
+					"text": "Narrated By 'Abdullah bin 'Abbas : The Prophet said, 'The sun and the moon are two signs amongst the Signs of Allah. They do not eclipse because of someones death or life. So, if you see them (i.e. eclipse), celebrate the Praises of Allah (i.e. pray).'"
+				}]
+			},
+			{
+				"date": "2023-08-13",
+				"ayah": [{
+					"name": "Al-Anfal",
+					"surahNumber": "8",
+					"ayahNumber": "33",
+					"text": "وَمَا كَانَ ٱللَّهُ لِيُعَذِّبَهُمْ وَأَنتَ فِيهِمْ ۚ وَمَا كَانَ ٱللَّهُ مُعَذِّبَهُمْ وَهُمْ يَسْتَغْفِرُونَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3206",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3206",
+					"text": "Narrated By Ibn 'Abbas : The Prophet said, I have been made victorious with the Saba (i.e. easterly wind) and the people of 'Ad were destroyed with the Dabur (i.e. westerly wind)."
+				}]
+			},
+			{
+				"date": "2023-08-14",
+				"ayah": [{
+					"name": "Al-Baqara",
+					"surahNumber": "2",
+					"ayahNumber": "152",
+					"text": "فَٱذْكُرُونِىٓ أَذْكُرْكُمْ وَٱشْكُرُوا۟ لِى وَلَا تَكْفُرُونِ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3212",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3212",
+					"text": "Narrated By Abu Huraira : The Prophet said, 'On every Friday the angels take heir stand at every gate of the mosques to write the names of the people chronologically (i.e. according to the time of their arrival for the Friday prayer and when the Imam sits (on the pulpit) they fold up their scrolls and get ready to listen to the sermon.'"
+				}]
+			},
+			{
+				"date": "2023-08-15",
+				"ayah": [{
+					"name": "Al-Baqara",
+					"surahNumber": "2",
+					"ayahNumber": "153",
+					"text": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّـٰبِرِينَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3220",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3220",
+					"text": "Narrated By Ibn Abbas : Allah's Apostle said, 'Gabriel read the Quran to me in one way (i.e. dialect) and I continued asking him to read it in different ways till he read it in seven different ways.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-16",
+				"ayah": [{
+					"name": "Maryam",
+					"surahNumber": "19",
+					"ayahNumber": "31",
+					"text": "وَجَعَلَنِى مُبَارَكًا أَيْنَ مَا كُنتُ وَأَوْصَـٰنِى بِٱلصَّلَوٰةِ وَٱلزَّكَوٰةِ مَا دُمْتُ حَيًّا"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3221",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3221",
+					"text": "Narrated By Ibn 'Abbas : Allah's Apostle was the most generous of all the people, and he used to be more generous in the month of Ramadan when Gabriel used to meet him. Gabriel used to meet him every night in Ramadan to study the Holy Qur'an carefully together. Allah's Apostle used to become more generous than the fast wind when he met Gabriel."
+				}]
+
+			},
+			{
+				"date": "2023-08-17",
+				"ayah": [{
+					"name": "At-Taghabun",
+					"surahNumber": "64",
+					"ayahNumber": "4",
+					"text": "يَعْلَمُ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَيَعْلَمُ مَا تُسِرُّونَ وَمَا تُعْلِنُونَ ۚ وَٱللَّهُ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3235",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3235",
+					"text": "Narrated By 'Aisha : Whoever claimed that (the Prophet) Muhammad saw his Lord, is committing a great fault, for he only saw Gabriel in his genuine shape in which he was created covering the whole horizon."
+				}]
+			},
+			{
+				"date": "2023-08-18",
+				"ayah": [{
+					"name": "Al-Buruj",
+					"surahNumber": "85",
+					"ayahNumber": "11",
+					"text": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3241",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3241",
+					"text": "Narrated By Abdullah bin 'Umar : Allah's Apostle said, 'When anyone of you dies, he will be shown his destination both in the morning and in the evening, and if he belongs to the people of Paradise, he will be shown his place in Paradise, and if he is from the people of Hell, he will be shown his place in Hell.'"
+				}]
+			},
+			{
+				"date": "2023-08-19",
+				"ayah": [{
+					"name": "Ibrahim",
+					"surahNumber": "14",
+					"ayahNumber": "7",
+					"text": "وَإِذْ تَأَذَّنَ رَبُّكُمْ لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ ۖ وَلَئِن كَفَرْتُمْ إِنَّ عَذَابِى لَشَدِيدٌ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3245",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3245",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, Allah said, 'I have prepared for My Pious slaves things which have never been seen by an eye, or heard by an ear, or imagined by a human being.' If you wish, you can recite this Verse from the Holy Qur'an: 'No soul knows what is kept hidden for them, of joy as a reward for what they used to do.' (32.17)"
+				}]
+			},
+			{
+				"date": "2023-08-20",
+				"ayah": [{
+					"name": "Ad-Duhaa",
+					"surahNumber": "93",
+					"ayahNumber": "7",
+					"text": "وَوَجَدَكَ ضَآلًّا فَهَدَىٰ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3248",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3248",
+					"text": "Narrated By Sahl bin Sad : The Prophet said, 'Verily! 70,000 or 700,000 of my followers will enter Paradise altogether; so that the first and the last amongst them will enter at the same time, and their faces will be glittering like the bright full moon.'"
+				}]
+			},
+			{
+				"date": "2023-08-21",
+				"ayah": [{
+					"name": " Al-Kahf",
+					"surahNumber": "18",
+					"ayahNumber": "109",
+					"text": "قُل لَّوْ كَانَ ٱلْبَحْرُ مِدَادًا لِّكَلِمَـٰتِ رَبِّى لَنَفِدَ ٱلْبَحْرُ قَبْلَ أَن تَنفَدَ كَلِمَـٰتُ رَبِّى وَلَوْ جِئْنَا بِمِثْلِهِۦ مَدَدًا"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3249",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3249",
+					"text": "Narrated By Anas bin Malik : A silken cloak was presented to the Prophet and he used to forbid the usage of silk (by men). When the people were fascinated by the cloak. he said, 'By Allah in Whose Hands the life of Muhammad is, the handkerchiefs of Sad bin Muadh in Paradise are better than this.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-22",
+				"ayah": [{
+					"name": "Ali ‘Imran",
+					"surahNumber": "3",
+					"ayahNumber": "104",
+					"text": "وَلْتَكُن مِّنكُمْ أُمَّةٌ يَدْعُونَ إِلَى ٱلْخَيْرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ ۚ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3251",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3251",
+					"text": "Narrated By Sahl bin Sad Al-Saidi : Allah's Apostle said, 'A place in Paradise equal to the size of a lash is better than the whole world and whatever is in it.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-23",
+				"ayah": [{
+					"name": "Ibrahim",
+					"surahNumber": "14",
+					"ayahNumber": "41",
+					"text": "رَبَّنَا ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ ٱلْحِسَابُ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3252",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3252",
+					"text": "Narrated By Anas bin Malik : The Prophet said, 'There is a tree in Paradise (which is so big and huge that) if a rider travels in its shade for one hundred years, he would not be able to cross it.'"
+				}]
+			},
+			{
+				"date": "2023-08-24",
+				"ayah": [{
+					"name": "Ali ‘Imran",
+					"surahNumber": "3",
+					"ayahNumber": "51",
+					"text": "إِنَّ ٱللَّهَ رَبِّى وَرَبُّكُمْ فَٱعْبُدُوهُ ۗ هَـٰذَا صِرَٰطٌ مُّسْتَقِيمٌ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3256",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3256",
+					"text": "Narrated By Al-Bara (bin Azib) : The Prophet, after the death of his son Ibrahim, said, 'There is a wet-nurse for him (i.e. Ibrahim) in Paradise.'"
+				}]
+			},
+			{
+				"date": "2023-08-25",
+				"ayah": [{
+					"name": "Al-Hijr",
+					"surahNumber": "15",
+					"ayahNumber": "56",
+					"text": "قَالَ وَمَن يَقْنَطُ مِن رَّحْمَةِ رَبِّهِۦٓ إِلَّا ٱلضَّآلُّونَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3258",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3258",
+					"text": "Narrated By Sahl bin Sad : The Prophet said, 'Paradise has eight gates, and one of them is called Ar-Raiyan through which none will enter but those who observe fasting.' The Prophet also said, 'If a person spends two different kinds of something (for Allah's Cause), he will be called from the gates of Paradise.'"
+				}]
+			},
+			{
+				"date": "2023-08-26",
+				"ayah": [{
+					"name": "Ali ‘Imran",
+					"surahNumber": "3",
+					"ayahNumber": "54",
+					"text": "وَمَكَرُوا۟ وَمَكَرَ ٱللَّهُ ۖ وَٱللَّهُ خَيْرُ ٱلْمَـٰكِرِينَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3261",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3261",
+					"text": "Narrated By Abu Huraira : Allah's Apostle said, The (Hell) Fire complained to its Lord saying, 'O my Lord! My different parts eat up each other.' So, He allowed it to take two breaths, one in the winter and the other in summer, and this is the reason for the severe heat and the bitter cold you find (in weather)."
+				}]
+			},
+			{
+				"date": "2023-08-27",
+				"ayah": [{
+					"name": "Ali ‘Imran",
+					"surahNumber": "3",
+					"ayahNumber": "58",
+					"text": "ذَٰلِكَ نَتْلُوهُ عَلَيْكَ مِنَ ٱلْـَٔايَـٰتِ وَٱلذِّكْرِ ٱلْحَكِيمِ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3263",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3263",
+					"text": "Narrated By Rafi bin Khadij : I heard the Prophet saying, 'Fever is from the heat of the (Hell) Fire; so cool it with water.'"
+				}]
+			},
+			{
+				"date": "2023-08-28",
+				"ayah": [{
+					"name": "Ali ‘Imran",
+					"surahNumber": "3",
+					"ayahNumber": "92",
+					"text": "لَن تَنَالُوا۟ ٱلْبِرَّ حَتَّىٰ تُنفِقُوا۟ مِمَّا تُحِبُّونَ ۚ وَمَا تُنفِقُوا۟ مِن شَىْءٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3271",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3271",
+					"text": "Narrated By 'Abdullah : It was mentioned before the Prophet that there was a man who slept the night till morning (after sunrise). The Prophet said, 'He is a man in whose ears (or ear) Satan had urinated.'"
+				}]
+
+			},
+			{
+				"date": "2023-08-29",
+				"ayah": [{
+					"name": "Ali ‘Imran",
+					"surahNumber": "3",
+					"ayahNumber": "109",
+					"text": "وَلِلَّهِ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3273",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3273",
+					"text": "Narrated By Ibn Umar : Allah's Apostle said, When the (upper) edge of the sun appears (in the morning), don't perform a prayer till the sun appears in full, and when the lower edge of the sun sets, don't perform a prayer till it sets completely."
+				}]
+			},
+			{
+				"date": "2023-08-30",
+				"ayah": [{
+					"name": "Ali ‘Imran",
+					"surahNumber": "3",
+					"ayahNumber": "133",
+					"text": "وَسَارِعُوٓا۟ إِلَىٰ مَغْفِرَةٍ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا ٱلسَّمَـٰوَٰتُ وَٱلْأَرْضُ أُعِدَّتْ لِلْمُتَّقِينَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3275",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3275",
+					"text": "Narrated By Abu Said Al-Khudri : The Prophet said, 'If while you are praying, somebody intends to pass in front of you, prevent him; and should he insist, prevent him again; and if he insists again, fight with him (i.e. prevent him violently e.g. pushing him violently), because such a person is (like) a devil.'"
+				}]
+			},
+			{
+				"date": "2023-08-31",
+				"ayah": [{
+					"name": "Ali ‘Imran",
+					"surahNumber": "3",
+					"ayahNumber": "138",
+					"text": "هَـٰذَا بَيَانٌ لِّلنَّاسِ وَهُدًى وَمَوْعِظَةٌ لِّلْمُتَّقِينَ"
+				}],
+				"hadith": [{
+					"title": "Sahih Al-Bukhari Volume 4, Book 59, Hadith 3285",
+					"volumeNumber": "4",
+					"bookNumber": "59",
+					"hadithNumber": "3285",
+					"text": "Narrated By Abu Huraira : The Prophet offered a prayer, and (after finishing) he said, 'Satan came in front of me trying persistently to divert my attention from the prayer, but Allah gave me the strength to over-power him.'"
+				}]
+
+			}
+		]
+	}]
+}]

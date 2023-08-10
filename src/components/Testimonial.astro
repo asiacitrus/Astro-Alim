@@ -1,0 +1,25 @@
+---
+const { testimonial,count } = Astro.props;
+const elemId1="testimonialSh"+count;
+const elemId2="testimonialLg"+count;
+const btnF="btnF"+count;
+const btnL="btnL"+count;
+const funcProto1="showFull('"+elemId2+"','"+elemId1+"','"+btnF+"','"+btnL+"')";
+const funcProto2="showLess('"+elemId2+"','"+elemId1+"','"+btnF+"','"+btnL+"')";
+---
+
+<div class="md:col-span-4 mx-auto">
+    <div class="blue-gr-box p-8">
+        <h3 class="text-white mb-2">{testimonial.Name.split('-')[0]}</h3>
+        <p class="text-white text-opacity-75" id={elemId1}>
+            {testimonial.Testimonial.toString().substring(0,50)}...
+            <br/><br/>
+        </p>
+        <p class="text-white text-opacity-75" id={elemId2} style="display:none;">
+            {testimonial.Testimonial.toString()}
+            <br/><br/>
+        </p>
+        <button onclick={funcProto1} class="bg-deep-red rounded-sm text-base font-medium text-white px-6 py-3" id={btnF}>Show more</button>
+        <button onclick={funcProto2} class="bg-deep-red rounded-sm text-base font-medium text-white px-6 py-3" id={btnL} style="display: none;">Show less</button>
+    </div>
+</div> 

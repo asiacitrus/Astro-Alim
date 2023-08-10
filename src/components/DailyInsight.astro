@@ -1,0 +1,24 @@
+---
+import quranref from '../data/quran/insight/quranref-complete.json';
+import hadithref from '../data/hadith/insight/hadithref-complete.json';
+import DailyInsightSlide from './DailyInsightSlide.astro'
+
+let numArr=[0,1,2,3,4,5,6];
+---
+<audio id="myAudio">
+  <source src="">
+  Your browser does not support the audio element.
+</audio>
+<div class="swiper mySwiper1">
+  <div class="swiper-wrapper">
+
+    {numArr.map((num)=>{
+
+      return(<DailyInsightSlide num={num} quran={quranref[0].book[0].dates[num].ayah[0]} hadith={hadithref[0].book[0].dates[num].hadith[0]} />);
+
+    })}
+    
+    
+
+  </div>
+</div>

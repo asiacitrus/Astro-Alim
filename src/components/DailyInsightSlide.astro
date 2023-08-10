@@ -1,0 +1,80 @@
+---
+const {num,quran,hadith}=Astro.props;
+let surah="";
+let ayah="";
+if(quran.surahNumber.length===2)
+{
+  surah="0"+quran.surahNumber;
+}
+if(quran.surahNumber.length===1)
+{
+  surah="00"+quran.surahNumber;
+}
+if(quran.ayahNumber.length===2)
+{
+  ayah="0"+quran.ayahNumber;
+}
+if(quran.ayahNumber.length===1)
+{
+  ayah="00"+quran.ayahNumber;
+}
+let encAudPath=btoa("https://alim-quran.s3.amazonaws.com/recitation/Alafasy_128kbps/"+surah+ayah+".mp3");
+let decAudPath="javascript:playAyah('"+encAudPath+"')";
+const popupID="dropdown"+num;
+---
+
+<div class="swiper-slide">
+    <div class="grid md:grid-cols-12 gap-0 md:gap-16 pt-20 md:pt-36  pb-20 md:pb-60">
+        <div class="md:col-span-1 relative">
+            <ul class="list-none text-white icon-btn-list">
+                <li class="mb-3">
+                <a href={decAudPath}> <svg width="22" height="22" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.66406 2.19922L13.9249 8.79547L3.66406 15.3917V2.19922Z" stroke="white" stroke-opacity="0.75" stroke-width="1.46615" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg></a>
+                </li>
+                <li class="mb-3">
+                <a href="#"> <svg width="22" height="22" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.79401 5.52151C8.79401 4.74398 8.48514 3.9983 7.93535 3.44851C7.38555 2.89871 6.63987 2.58984 5.86234 2.58984H1.46484V13.5836H6.59526C7.17841 13.5836 7.73767 13.8152 8.15001 14.2276C8.56236 14.6399 8.79401 15.1992 8.79401 15.7823M8.79401 5.52151V15.7823M8.79401 5.52151C8.79401 4.74398 9.10288 3.9983 9.65268 3.44851C10.2025 2.89871 10.9482 2.58984 11.7257 2.58984H16.1232V13.5836H10.9928C10.4096 13.5836 9.85036 13.8152 9.43801 14.2276C9.02566 14.6399 8.79401 15.1992 8.79401 15.7823" stroke="white" stroke-opacity="0.75" stroke-width="1.46615" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg> </a>
+                </li>
+                <li class="mb-3">
+                <a href="#"> <svg width="22" height="23" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.3917 9.20833C15.3942 10.1757 15.1682 11.13 14.7321 11.9934C14.215 13.0281 13.42 13.8984 12.4362 14.5068C11.4524 15.1152 10.3186 15.4377 9.16193 15.4381C8.19457 15.4407 7.24029 15.2147 6.37684 14.7785L2.19922 16.171L3.59176 11.9934C3.15562 11.13 2.92961 10.1757 2.93214 9.20833C2.93258 8.05161 3.25507 6.91785 3.86347 5.93406C4.47187 4.95026 5.34215 4.15528 6.37684 3.63816C7.2403 3.20203 8.19457 2.97601 9.16193 2.97854H9.52839C11.056 3.06282 12.4989 3.70761 13.5808 4.78947C14.6626 5.87133 15.3074 7.31422 15.3917 8.84187V9.20833Z" stroke="white" stroke-opacity="0.75" stroke-width="1.46615" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg> </a>
+                </li>
+                <li>{quran.surahNumber}:{quran.ayahNumber}</li>
+                <li class="mb-3">
+                <button data-dropdown-toggle={popupID}> <svg width="22" height="23" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8.79693 10.499C8.99131 10.499 9.17773 10.4218 9.31518 10.2844C9.45263 10.1469 9.52984 9.9605 9.52984 9.76612C9.52984 9.57174 9.45263 9.38532 9.31518 9.24787C9.17773 9.11042 8.99131 9.0332 8.79693 9.0332C8.60255 9.0332 8.41613 9.11042 8.27868 9.24787C8.14123 9.38532 8.06401 9.57174 8.06401 9.76612C8.06401 9.9605 8.14123 10.1469 8.27868 10.2844C8.41613 10.4218 8.60255 10.499 8.79693 10.499ZM13.9273 10.499C14.1217 10.499 14.3081 10.4218 14.4456 10.2844C14.583 10.1469 14.6603 9.9605 14.6603 9.76612C14.6603 9.57174 14.583 9.38532 14.4456 9.24787C14.3081 9.11042 14.1217 9.0332 13.9273 9.0332C13.733 9.0332 13.5465 9.11042 13.4091 9.24787C13.2716 9.38532 13.1944 9.57174 13.1944 9.76612C13.1944 9.9605 13.2716 10.1469 13.4091 10.2844C13.5465 10.4218 13.733 10.499 13.9273 10.499ZM3.66651 10.499C3.86089 10.499 4.04731 10.4218 4.18476 10.2844C4.32221 10.1469 4.39943 9.9605 4.39943 9.76612C4.39943 9.57174 4.32221 9.38532 4.18476 9.24787C4.04731 9.11042 3.86089 9.0332 3.66651 9.0332C3.47213 9.0332 3.28571 9.11042 3.14826 9.24787C3.01081 9.38532 2.93359 9.57174 2.93359 9.76612C2.93359 9.9605 3.01081 10.1469 3.14826 10.2844C3.28571 10.4218 3.47213 10.499 3.66651 10.499Z" fill="white" fill-opacity="0.75" stroke="white" stroke-opacity="0.75" stroke-width="1.46615" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>  </button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="md:col-span-5">
+            <h3 class="text-left md:text-right text-white mb-5 pr-52 md:pr-0">Qur'an</h3>
+            <p class="text-right text-white font-bold text-3xl mb-10 mt-10 md:mb-5 md:mt-0">{quran.text}</p>
+        </div>
+
+        <div class="md:col-span-6">
+          <div class="">
+            <h3 class="text-white mb-5">Hadith</h3>
+          
+            <p class="text-white font-medium text-xl text-opacity-75 mb-2"> Narration by : <span class="text-white">{hadith.text.substring(12, hadith.text.indexOf(":"))}</span> <a href="#" class="text-deep-red">Change</a></p>
+            <p class="text-white font-medium text-xl text-opacity-75 mb-5"> 
+              “{hadith.text.substring(hadith.text.indexOf(":")+2)}”
+            </p>
+            <p class="text-white font-medium text-xl text-opacity-75 mb-5"></p>
+            <a href="#" class="text-white text-btn-style"> Related History </a>
+            <div class="flex mt-12 mb-10 w-28 gap-2">
+              <div class="flex-1 p-1">
+                  <a href="javascript:movePrev1()" class="block w-12 h-12 hover:bg-deep-red rounded-full p-3"> <img src="images/left-arrow.svg" class="w-full"/></a>
+              </div>
+              <div class="flex-1 p-1">
+                <a href="javascript:moveNext1()" class="block w-12 h-12 hover:bg-deep-red rounded-full p-3"> <img src="images/right-arrow.svg" class="w-full"/></a>
+              </div>
+            </div>
+          </div>
+        </div> 
+    </div>
+</div>

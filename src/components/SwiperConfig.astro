@@ -1,0 +1,48 @@
+---
+
+---
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <style>
+        .swiper {
+          width: 100%;
+          height: 100%;
+        }
+    
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+    
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      </style>
+
+    <script is:inline>
+        const movePrev=()=>{
+            const swiper = document.querySelector('.swiper').swiper;
+            swiper.slidePrev()
+        }
+
+        const moveNext=()=>{
+            const swiper = document.querySelector('.swiper').swiper;
+            swiper.slideNext();
+        }
+
+        const movePrev1=()=>{
+            const swiper = document.querySelector('.mySwiper1').swiper;
+            swiper.slidePrev()
+        }
+
+        const moveNext1=()=>{
+            const swiper = document.querySelector('.mySwiper1').swiper;
+            swiper.slideNext();
+        }
+    </script>

@@ -1,0 +1,42 @@
+---
+import json from '../../data/structure/arb.json';
+import Ayath from '../../components/Ayath.astro';
+
+export function getStaticPaths() {
+    let pageArray:object[]=[]
+    for(let i=0;i<115;i++)
+    {
+        pageArray.push({params: {page: i}})
+    }
+    return pageArray
+  }
+  
+const { page } = Astro.params;
+
+const index=Number(page);
+
+const mushafLink="../readSurahMushaf/"+page;
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verses</title>
+    <script is:inline src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container mx-auto">
+        <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-black text-center">Verses</h1><br/>
+        <br/><div class="text-center"><a href={mushafLink}><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Read in mushaf format</button></a></div>
+        <br/><br/>
+        {json[0].book[0].surahs[index-1].ayahs.map((item)=>{return <Ayath ayah={item.text}/>})}
+        <br/><div class="text-center"><a href="../quran"><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Back to Quran</button></a></div>
+        <br/><br/>
+    </div>
+</body>
+</html>
+
+  

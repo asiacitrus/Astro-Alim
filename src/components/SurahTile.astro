@@ -1,0 +1,28 @@
+---
+import surahJson from '../data/structure/structure.json'
+let counter=0;
+let path="";
+---
+{surahJson.map((surah)=>{
+    counter++;
+    path="/readSurah/"+counter;
+    return(
+        <div class="col-span-12 md:col-span-6 lg:col-span-4  blue-gr-box p-5">
+        <div class="flex">
+            <div class="flex-none mr-6">
+            <div class="p-2 bg-deep-red rounded text-center origin-center -rotate-45  w-12 h-10">
+                <a href={path}><p class="text-white origin-center rotate-45 text-base">{counter}</p></a>
+            </div>
+            </div>
+            <div class="grow mr-3">
+            <p class="text-white text-base">{surah.title}</p>
+            <p class="text-base text-deep-grey">{surah.titleEn}</p>
+            </div>
+            <div class="flex-none text-center">
+                <p class="text-white text-base">{surah.index}</p>
+                <p class=" text-base text-deep-grey">{surah.count} Ayahs</p>
+            </div>
+        </div>
+        </div>
+    );
+})}

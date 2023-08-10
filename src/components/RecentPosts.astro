@@ -1,0 +1,23 @@
+---
+const { postDate,postTitle,postContent,imgPath } = Astro.props;
+
+const date=postDate.toLocaleString('default', {  month:'long', day: 'numeric', year: 'numeric' }).split(" ");
+
+
+
+---
+
+<div class="blue-gr-box md:mb-4 mb-6  p-0 pb-5">
+    <div class="grid  md:grid-cols-12 gap-0 md:gap-8">
+        <div class="md:col-span-4">
+            <img src={imgPath} class="rounded-bl-full rounded-br-full object-center"/>
+        </div>
+        <div class="md:col-span-8">
+            <div class=" mt-5 mb-10 px-4">
+                <img src="images/calendar.svg" class="mr-1 float-left"/><p class="text-white text-xl inline-block mt-1">{date[1]} {date[0]}, {date[2]}</p>
+                <h2 class=" text-white mb-8 mt-4">{postTitle}</h2>
+                <p class="text-white text-opacity-75  mt-5">{postContent}...</p>
+            </div>
+        </div>
+    </div>
+</div>

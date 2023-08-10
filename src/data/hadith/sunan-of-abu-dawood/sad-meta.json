@@ -1,0 +1,260 @@
+{
+    "1": {
+        "bookNumber": 1,
+        "bookNname": "Purification (Kitab Al-Taharah)",
+        "startingHadith": 1,
+        "endingHadith": 390
+    },
+    "2": {
+        "bookNumber": 2,
+        "bookNname": "Prayer (Kitab Al-Salat)",
+        "startingHadith": 391,
+        "endingHadith": 1160
+    },
+    "3": {
+        "bookNumber": 3,
+        "bookNname": "The Book Of The Prayer For Rain (Kitab al-Istisqa')",
+        "startingHadith": 1161,
+        "endingHadith": 1197
+    },
+    "4": {
+        "bookNumber": 4,
+        "bookNname": "Prayer (Kitab Al-Salat): Detailed Rules of Law about the Prayer during Journey",
+        "startingHadith": 1198,
+        "endingHadith": 1249
+    },
+    "5": {
+        "bookNumber": 5,
+        "bookNname": "Prayer (Kitab Al-Salat): Voluntary Prayers",
+        "startingHadith": 1250,
+        "endingHadith": 1370
+    },
+    "6": {
+        "bookNumber": 6,
+        "bookNname": "Prayer (Kitab Al-Salat): Detailed Injunctions about Ramadan",
+        "startingHadith": 1371,
+        "endingHadith": 1400
+    },
+    "7": {
+        "bookNumber": 7,
+        "bookNname": "Prayer (Kitab Al-Salat): Prostration while reciting the Qur'an",
+        "startingHadith": 1401,
+        "endingHadith": 1415
+    },
+    "8": {
+        "bookNumber": 8,
+        "bookNname": "Prayer (Kitab Al-Salat): Detailed Injunctions about Witr",
+        "startingHadith": 1416,
+        "endingHadith": 1555
+    },
+    "9": {
+        "bookNumber": 9,
+        "bookNname": "Zakat (Kitab Al-Zakat)",
+        "startingHadith": 1556,
+        "endingHadith": 1700
+    },
+    "10": {
+        "bookNumber": 10,
+        "bookNname": "The Book of Lost and Found Items",
+        "startingHadith": 1701,
+        "endingHadith": 1720
+    },
+    "11": {
+        "bookNumber": 11,
+        "bookNname": "The Rites of Hajj (Kitab Al-Manasik Wa'l-Hajj)",
+        "startingHadith": 1721,
+        "endingHadith": 2045
+    },
+    "12": {
+        "bookNumber": 12,
+        "bookNname": "Marriage (Kitab Al-Nikah)",
+        "startingHadith": 2046,
+        "endingHadith": 2174
+    },
+    "13": {
+        "bookNumber": 13,
+        "bookNname": "Divorce (Kitab Al-Talaq)",
+        "startingHadith": 2175,
+        "endingHadith": 2312
+    },
+    "14": {
+        "bookNumber": 14,
+        "bookNname": "Fasting (Kitab Al-Siyam)",
+        "startingHadith": 2313,
+        "endingHadith": 2476
+    },
+    "15": {
+        "bookNumber": 15,
+        "bookNname": "Jihad (Kitab Al-Jihad)",
+        "startingHadith": 2477,
+        "endingHadith": 2787
+    },
+    "16": {
+        "bookNumber": 16,
+        "bookNname": "Sacrifice (Kitab Al-Dahaya)",
+        "startingHadith": 2788,
+        "endingHadith": 2843
+    },
+    "17": {
+        "bookNumber": 17,
+        "bookNname": "Game (Kitab Al-Said)",
+        "startingHadith": 2844,
+        "endingHadith": 2861
+    },
+    "18": {
+        "bookNumber": 18,
+        "bookNname": "Wills (Kitab Al-Wasaya)",
+        "startingHadith": 2862,
+        "endingHadith": 2884
+    },
+    "19": {
+        "bookNumber": 19,
+        "bookNname": "Shares of Inheritance (Kitab Al-Fara'id)",
+        "startingHadith": 2885,
+        "endingHadith": 2927
+    },
+    "20": {
+        "bookNumber": 20,
+        "bookNname": "Tribute, Spoils, and Rulership (Kitab Al-Kharaj, Wal-Fai' Wal-Imarah)",
+        "startingHadith": 2928,
+        "endingHadith": 3088
+    },
+    "21": {
+        "bookNumber": 21,
+        "bookNname": "Funerals (Kitab Al-Jana'iz)",
+        "startingHadith": 3089,
+        "endingHadith": 3241
+    },
+    "22": {
+        "bookNumber": 22,
+        "bookNname": "Oaths and Vows (Kitab Al-Aiman Wa Al-Nudhur)",
+        "startingHadith": 3242,
+        "endingHadith": 3325
+    },
+    "23": {
+        "bookNumber": 23,
+        "bookNname": "Commercial Transactions (Kitab Al-Buyu)",
+        "startingHadith": 3326,
+        "endingHadith": 3415
+    },
+    "24": {
+        "bookNumber": 24,
+        "bookNname": "Wages (Kitab Al-Ijarah)",
+        "startingHadith": 3416,
+        "endingHadith": 3570
+    },
+    "25": {
+        "bookNumber": 25,
+        "bookNname": "The Office of the Judge (Kitab Al-Aqdiyah)",
+        "startingHadith": 3571,
+        "endingHadith": 3640
+    },
+    "26": {
+        "bookNumber": 26,
+        "bookNname": "Knowledge (Kitab Al-Ilm)",
+        "startingHadith": 3641,
+        "endingHadith": 3668
+    },
+    "27": {
+        "bookNumber": 27,
+        "bookNname": "Drinks (Kitab Al-Ashribah)",
+        "startingHadith": 3669,
+        "endingHadith": 3735
+    },
+    "28": {
+        "bookNumber": 28,
+        "bookNname": "Foods (Kitab Al-At'imah)",
+        "startingHadith": 3736,
+        "endingHadith": 3854
+    },
+    "29": {
+        "bookNumber": 29,
+        "bookNname": "Medicine (Kitab Al-Tibb)",
+        "startingHadith": 3855,
+        "endingHadith": 3903
+    },
+    "30": {
+        "bookNumber": 30,
+        "bookNname": "Divination and Omens (Kitab Al-Kahanah Wa Al-Tatayyur)",
+        "startingHadith": 3904,
+        "endingHadith": 3925
+    },
+    "31": {
+        "bookNumber": 31,
+        "bookNname": "The Book of Manumission of Slaves",
+        "startingHadith": 3926,
+        "endingHadith": 3968
+    },
+    "32": {
+        "bookNumber": 32,
+        "bookNname": "Dialects and Readings of the Qur'an (Kitab Al-Huruf Wa Al-Qira'at)",
+        "startingHadith": 3969,
+        "endingHadith": 4008
+    },
+    "33": {
+        "bookNumber": 33,
+        "bookNname": "Hot Baths (Kitab Al-Hammam)",
+        "startingHadith": 4009,
+        "endingHadith": 4019
+    },
+    "34": {
+        "bookNumber": 34,
+        "bookNname": "Clothing (Kitab Al-Libas)",
+        "startingHadith": 4020,
+        "endingHadith": 4158
+    },
+    "35": {
+        "bookNumber": 35,
+        "bookNname": "Combing the Hair (Kitab Al-Tarajjul)",
+        "startingHadith": 4159,
+        "endingHadith": 4213
+    },
+    "36": {
+        "bookNumber": 36,
+        "bookNname": "Signet-Rings (Kitab Al-Khatam)",
+        "startingHadith": 4214,
+        "endingHadith": 4239
+    },
+    "37": {
+        "bookNumber": 37,
+        "bookNname": "Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)",
+        "startingHadith": 4240,
+        "endingHadith": 4278
+    },
+    "38": {
+        "bookNumber": 38,
+        "bookNname": "The Promised Deliverer (Kitab Al-Mahdi)",
+        "startingHadith": 4279,
+        "endingHadith": 4290
+    },
+    "39": {
+        "bookNumber": 39,
+        "bookNname": "Battles (Kitab Al-Malahim)",
+        "startingHadith": 4291,
+        "endingHadith": 4350
+    },
+    "40": {
+        "bookNumber": 40,
+        "bookNname": "Prescribed Punishments (Kitab Al-Hudud)",
+        "startingHadith": 4351,
+        "endingHadith": 4493
+    },
+    "41": {
+        "bookNumber": 41,
+        "bookNname": "Types of Blood-Wit (Kitab Al-Diyat)",
+        "startingHadith": 4494,
+        "endingHadith": 4595
+    },
+    "42": {
+        "bookNumber": 42,
+        "bookNname": "Model Behavior of the Prophet (Kitab Al-Sunnah)",
+        "startingHadith": 4596,
+        "endingHadith": 4772
+    },
+    "43": {
+        "bookNumber": 43,
+        "bookNname": "General Behavior (Kitab Al-Adab)",
+        "startingHadith": 4773,
+        "endingHadith": 5274
+    }
+}

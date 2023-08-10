@@ -1,0 +1,1248 @@
+[
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "18",
+    "StartAyah": "14",
+    "EndAyah": "14",
+    "Dua": "Confirmation of Iman"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "18",
+    "StartAyah": "14",
+    "EndAyah": "14",
+    "Dua": "Confirmation of Iman"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "3",
+    "StartAyah": "53",
+    "EndAyah": "53",
+    "Dua": "Confirmation of Iman"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "3",
+    "StartAyah": "53",
+    "EndAyah": "53",
+    "Dua": "Confirmation of Iman"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "39",
+    "StartAyah": "11",
+    "EndAyah": "12",
+    "Dua": "Confirmation of Iman"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "39",
+    "StartAyah": "11",
+    "EndAyah": "12",
+    "Dua": "Confirmation of Iman"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "5",
+    "StartAyah": "114",
+    "EndAyah": "114",
+    "Dua": "Confirmation of Iman"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "5",
+    "StartAyah": "114",
+    "EndAyah": "114",
+    "Dua": "Confirmation of Iman"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "2",
+    "StartAyah": "139",
+    "EndAyah": "139",
+    "Dua": "Confirmation of Iman"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "2",
+    "StartAyah": "139",
+    "EndAyah": "139",
+    "Dua": "Confirmation of Iman"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "12",
+    "StartAyah": "108",
+    "EndAyah": "108",
+    "Dua": "Confirmation of Iman"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "12",
+    "StartAyah": "108",
+    "EndAyah": "108",
+    "Dua": "Confirmation of Iman"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "6",
+    "StartAyah": "100",
+    "EndAyah": "101",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "6",
+    "StartAyah": "100",
+    "EndAyah": "101",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "43",
+    "StartAyah": "82",
+    "EndAyah": "82",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "43",
+    "StartAyah": "82",
+    "EndAyah": "82",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "59",
+    "StartAyah": "23",
+    "EndAyah": "23",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "59",
+    "StartAyah": "23",
+    "EndAyah": "23",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "55",
+    "StartAyah": "78",
+    "EndAyah": "78",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "55",
+    "StartAyah": "78",
+    "EndAyah": "78",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "4",
+    "StartAyah": "171",
+    "EndAyah": "171",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "4",
+    "StartAyah": "171",
+    "EndAyah": "171",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "23",
+    "StartAyah": "14",
+    "EndAyah": "14",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "23",
+    "StartAyah": "14",
+    "EndAyah": "14",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "43",
+    "StartAyah": "85",
+    "EndAyah": "85",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "43",
+    "StartAyah": "85",
+    "EndAyah": "85",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "25",
+    "StartAyah": "61",
+    "EndAyah": "61",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "25",
+    "StartAyah": "61",
+    "EndAyah": "61",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "7",
+    "StartAyah": "54",
+    "EndAyah": "54",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "7",
+    "StartAyah": "54",
+    "EndAyah": "54",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "59",
+    "StartAyah": "56",
+    "EndAyah": "56",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "59",
+    "StartAyah": "56",
+    "EndAyah": "56",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "15",
+    "StartAyah": "98",
+    "EndAyah": "98",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "15",
+    "StartAyah": "98",
+    "EndAyah": "98",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "17",
+    "StartAyah": "108",
+    "EndAyah": "108",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "17",
+    "StartAyah": "108",
+    "EndAyah": "108",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "30",
+    "StartAyah": "17",
+    "EndAyah": "17",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "30",
+    "StartAyah": "17",
+    "EndAyah": "17",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "3",
+    "StartAyah": "191",
+    "EndAyah": "191",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "3",
+    "StartAyah": "191",
+    "EndAyah": "191",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "36",
+    "StartAyah": "83",
+    "EndAyah": "83",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "36",
+    "StartAyah": "83",
+    "EndAyah": "83",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "67",
+    "StartAyah": "1",
+    "EndAyah": "1",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "67",
+    "StartAyah": "1",
+    "EndAyah": "1",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "40",
+    "StartAyah": "64",
+    "EndAyah": "64",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "40",
+    "StartAyah": "64",
+    "EndAyah": "64",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "87",
+    "StartAyah": "1",
+    "EndAyah": "1",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "87",
+    "StartAyah": "1",
+    "EndAyah": "1",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "110",
+    "StartAyah": "3",
+    "EndAyah": "3",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "110",
+    "StartAyah": "3",
+    "EndAyah": "3",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "64",
+    "StartAyah": "1",
+    "EndAyah": "1",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "64",
+    "StartAyah": "1",
+    "EndAyah": "1",
+    "Dua": "Glorification of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "6",
+    "StartAyah": "162",
+    "EndAyah": "163",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "6",
+    "StartAyah": "162",
+    "EndAyah": "163",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "26",
+    "StartAyah": "78",
+    "EndAyah": "82",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "26",
+    "StartAyah": "78",
+    "EndAyah": "82",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "11",
+    "StartAyah": "123",
+    "EndAyah": "123",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "11",
+    "StartAyah": "123",
+    "EndAyah": "123",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "11",
+    "StartAyah": "56",
+    "EndAyah": "56",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "11",
+    "StartAyah": "56",
+    "EndAyah": "56",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "3",
+    "StartAyah": "20",
+    "EndAyah": "20",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "3",
+    "StartAyah": "20",
+    "EndAyah": "20",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "67",
+    "StartAyah": "29",
+    "EndAyah": "29",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "67",
+    "StartAyah": "29",
+    "EndAyah": "29",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "7",
+    "StartAyah": "196",
+    "EndAyah": "196",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "7",
+    "StartAyah": "196",
+    "EndAyah": "196",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "6",
+    "StartAyah": "79",
+    "EndAyah": "79",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "6",
+    "StartAyah": "79",
+    "EndAyah": "79",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "14",
+    "StartAyah": "38",
+    "EndAyah": "38",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "14",
+    "StartAyah": "38",
+    "EndAyah": "38",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "39",
+    "StartAyah": "46",
+    "EndAyah": "46",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "39",
+    "StartAyah": "46",
+    "EndAyah": "46",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "25",
+    "StartAyah": "58",
+    "EndAyah": "58",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "25",
+    "StartAyah": "58",
+    "EndAyah": "58",
+    "Dua": "Submission to,and dependence on,Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "6",
+    "StartAyah": "77",
+    "EndAyah": "77",
+    "Dua": "Seeking Guidance"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "6",
+    "StartAyah": "77",
+    "EndAyah": "77",
+    "Dua": "Seeking Guidance"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "28",
+    "StartAyah": "22",
+    "EndAyah": "22",
+    "Dua": "Seeking Guidance"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "28",
+    "StartAyah": "22",
+    "EndAyah": "22",
+    "Dua": "Seeking Guidance"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "18",
+    "StartAyah": "10",
+    "EndAyah": "10",
+    "Dua": "Seeking Guidance"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "18",
+    "StartAyah": "10",
+    "EndAyah": "10",
+    "Dua": "Seeking Guidance"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "3",
+    "StartAyah": "8",
+    "EndAyah": "8",
+    "Dua": "Seeking Guidance"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "3",
+    "StartAyah": "8",
+    "EndAyah": "8",
+    "Dua": "Seeking Guidance"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "21",
+    "StartAyah": "87",
+    "EndAyah": "87",
+    "Dua": "Seeking Forgiveness"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "21",
+    "StartAyah": "87",
+    "EndAyah": "87",
+    "Dua": "Seeking Forgiveness"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "28",
+    "StartAyah": "16",
+    "EndAyah": "16",
+    "Dua": "Seeking Forgiveness"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "28",
+    "StartAyah": "16",
+    "EndAyah": "16",
+    "Dua": "Seeking Forgiveness"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "3",
+    "StartAyah": "16",
+    "EndAyah": "16",
+    "Dua": "Seeking Forgiveness"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "3",
+    "StartAyah": "16",
+    "EndAyah": "16",
+    "Dua": "Seeking Forgiveness"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "68",
+    "StartAyah": "29",
+    "EndAyah": "29",
+    "Dua": "Seeking Forgiveness"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "68",
+    "StartAyah": "29",
+    "EndAyah": "29",
+    "Dua": "Seeking Forgiveness"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "2",
+    "StartAyah": "286",
+    "EndAyah": "286",
+    "Dua": "Seeking Forgiveness"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "2",
+    "StartAyah": "286",
+    "EndAyah": "286",
+    "Dua": "Seeking Forgiveness"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "59",
+    "StartAyah": "10",
+    "EndAyah": "10",
+    "Dua": "Seeking Forgiveness"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "59",
+    "StartAyah": "10",
+    "EndAyah": "10",
+    "Dua": "Seeking Forgiveness"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "23",
+    "StartAyah": "118",
+    "EndAyah": "118",
+    "Dua": "Seeking Forgiveness"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "23",
+    "StartAyah": "118",
+    "EndAyah": "118",
+    "Dua": "Seeking Forgiveness"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "7",
+    "StartAyah": "143",
+    "EndAyah": "143",
+    "Dua": "Seeking Forgiveness"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "7",
+    "StartAyah": "143",
+    "EndAyah": "143",
+    "Dua": "Seeking Forgiveness"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "2",
+    "StartAyah": "285",
+    "EndAyah": "285",
+    "Dua": "Seeking Forgiveness"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "2",
+    "StartAyah": "285",
+    "EndAyah": "285",
+    "Dua": "Seeking Forgiveness"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "20",
+    "StartAyah": "114",
+    "EndAyah": "114",
+    "Dua": "Seeking Knowledge and Wisdom"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "20",
+    "StartAyah": "114",
+    "EndAyah": "114",
+    "Dua": "Seeking Knowledge and Wisdom"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "26",
+    "StartAyah": "83",
+    "EndAyah": "83",
+    "Dua": "Seeking Knowledge and Wisdom"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "26",
+    "StartAyah": "83",
+    "EndAyah": "83",
+    "Dua": "Seeking Knowledge and Wisdom"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "16",
+    "StartAyah": "127",
+    "EndAyah": "128",
+    "Dua": "Prayer for Patience,Perseverence,and Steadfastness"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "16",
+    "StartAyah": "127",
+    "EndAyah": "128",
+    "Dua": "Prayer for Patience,Perseverence,and Steadfastness"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "44",
+    "StartAyah": "12",
+    "EndAyah": "12",
+    "Dua": "Prayer for Patience,Perseverence,and Steadfastness"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "44",
+    "StartAyah": "12",
+    "EndAyah": "12",
+    "Dua": "Prayer for Patience,Perseverence,and Steadfastness"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "12",
+    "StartAyah": "86",
+    "EndAyah": "86",
+    "Dua": "Prayer for Patience,Perseverence,and Steadfastness"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "12",
+    "StartAyah": "86",
+    "EndAyah": "86",
+    "Dua": "Prayer for Patience,Perseverence,and Steadfastness"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "2",
+    "StartAyah": "250",
+    "EndAyah": "250",
+    "Dua": "Prayer for Patience,Perseverence,and Steadfastness"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "2",
+    "StartAyah": "250",
+    "EndAyah": "250",
+    "Dua": "Prayer for Patience,Perseverence,and Steadfastness"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "7",
+    "StartAyah": "126",
+    "EndAyah": "126",
+    "Dua": "Prayer for Patience,Perseverence,and Steadfastness"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "7",
+    "StartAyah": "126",
+    "EndAyah": "126",
+    "Dua": "Prayer for Patience,Perseverence,and Steadfastness"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "17",
+    "StartAyah": "96",
+    "EndAyah": "96",
+    "Dua": "Prayer for Patience,Perseverence,and Steadfastness"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "17",
+    "StartAyah": "96",
+    "EndAyah": "96",
+    "Dua": "Prayer for Patience,Perseverence,and Steadfastness"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "14",
+    "StartAyah": "12",
+    "EndAyah": "12",
+    "Dua": "Prayer for Patience,Perseverence,and Steadfastness"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "14",
+    "StartAyah": "12",
+    "EndAyah": "12",
+    "Dua": "Prayer for Patience,Perseverence,and Steadfastness"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "20",
+    "StartAyah": "25",
+    "EndAyah": "28",
+    "Dua": "Seeking Provisions"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "20",
+    "StartAyah": "25",
+    "EndAyah": "28",
+    "Dua": "Seeking Provisions"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "28",
+    "StartAyah": "24",
+    "EndAyah": "24",
+    "Dua": "Seeking Provisions"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "28",
+    "StartAyah": "24",
+    "EndAyah": "24",
+    "Dua": "Seeking Provisions"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "23",
+    "StartAyah": "97",
+    "EndAyah": "98",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "23",
+    "StartAyah": "97",
+    "EndAyah": "98",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "10",
+    "StartAyah": "85",
+    "EndAyah": "86",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "10",
+    "StartAyah": "85",
+    "EndAyah": "86",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "113",
+    "StartAyah": "1",
+    "EndAyah": "5",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "113",
+    "StartAyah": "1",
+    "EndAyah": "5",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "114",
+    "StartAyah": "1",
+    "EndAyah": "1",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "114",
+    "StartAyah": "1",
+    "EndAyah": "1",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "34",
+    "StartAyah": "41",
+    "EndAyah": "41",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "34",
+    "StartAyah": "41",
+    "EndAyah": "41",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "9",
+    "StartAyah": "126",
+    "EndAyah": "126",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "9",
+    "StartAyah": "126",
+    "EndAyah": "126",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "11",
+    "StartAyah": "47",
+    "EndAyah": "47",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "11",
+    "StartAyah": "47",
+    "EndAyah": "47",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "12",
+    "StartAyah": "64",
+    "EndAyah": "64",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "12",
+    "StartAyah": "64",
+    "EndAyah": "64",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "12",
+    "StartAyah": "101",
+    "EndAyah": "101",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "12",
+    "StartAyah": "101",
+    "EndAyah": "101",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "25",
+    "StartAyah": "65",
+    "EndAyah": "65",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "25",
+    "StartAyah": "65",
+    "EndAyah": "65",
+    "Dua": "Seeking Protection of Allah"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "45",
+    "StartAyah": "36",
+    "EndAyah": "37",
+    "Dua": "Offering of Thanks"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "45",
+    "StartAyah": "36",
+    "EndAyah": "37",
+    "Dua": "Offering of Thanks"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "39",
+    "StartAyah": "66",
+    "EndAyah": "66",
+    "Dua": "Offering of Thanks"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "39",
+    "StartAyah": "66",
+    "EndAyah": "66",
+    "Dua": "Offering of Thanks"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "27",
+    "StartAyah": "40",
+    "EndAyah": "40",
+    "Dua": "Offering of Thanks"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "27",
+    "StartAyah": "40",
+    "EndAyah": "40",
+    "Dua": "Offering of Thanks"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "7",
+    "StartAyah": "43",
+    "EndAyah": "43",
+    "Dua": "Offering of Thanks"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "7",
+    "StartAyah": "43",
+    "EndAyah": "43",
+    "Dua": "Offering of Thanks"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "28",
+    "StartAyah": "70",
+    "EndAyah": "70",
+    "Dua": "Offering of Thanks"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "28",
+    "StartAyah": "70",
+    "EndAyah": "70",
+    "Dua": "Offering of Thanks"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "14",
+    "StartAyah": "40",
+    "EndAyah": "41",
+    "Dua": "Prayers for Family"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "14",
+    "StartAyah": "40",
+    "EndAyah": "41",
+    "Dua": "Prayers for Family"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "21",
+    "StartAyah": "89",
+    "EndAyah": "89",
+    "Dua": "Prayers for Family"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "21",
+    "StartAyah": "89",
+    "EndAyah": "89",
+    "Dua": "Prayers for Family"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "37",
+    "StartAyah": "100",
+    "EndAyah": "100",
+    "Dua": "Prayers for Family"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "37",
+    "StartAyah": "100",
+    "EndAyah": "100",
+    "Dua": "Prayers for Family"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "3",
+    "StartAyah": "38",
+    "EndAyah": "38",
+    "Dua": "Prayers for Family"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "3",
+    "StartAyah": "38",
+    "EndAyah": "38",
+    "Dua": "Prayers for Family"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "25",
+    "StartAyah": "74",
+    "EndAyah": "74",
+    "Dua": "Prayers for Family"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "25",
+    "StartAyah": "74",
+    "EndAyah": "74",
+    "Dua": "Prayers for Family"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "2",
+    "StartAyah": "128",
+    "EndAyah": "128",
+    "Dua": "Prayers for Family"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "2",
+    "StartAyah": "128",
+    "EndAyah": "128",
+    "Dua": "Prayers for Family"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "46",
+    "StartAyah": "15",
+    "EndAyah": "15",
+    "Dua": "Prayers for Family"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "46",
+    "StartAyah": "15",
+    "EndAyah": "15",
+    "Dua": "Prayers for Family"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "17",
+    "StartAyah": "24",
+    "EndAyah": "24",
+    "Dua": "Prayers for Family"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "17",
+    "StartAyah": "24",
+    "EndAyah": "24",
+    "Dua": "Prayers for Family"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "71",
+    "StartAyah": "28",
+    "EndAyah": "28",
+    "Dua": "Prayers for Family"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "71",
+    "StartAyah": "28",
+    "EndAyah": "28",
+    "Dua": "Prayers for Family"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "40",
+    "StartAyah": "1",
+    "EndAyah": "9",
+    "Dua": "General"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "40",
+    "StartAyah": "1",
+    "EndAyah": "9",
+    "Dua": "General"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "2",
+    "StartAyah": "201",
+    "EndAyah": "201",
+    "Dua": "General"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "2",
+    "StartAyah": "201",
+    "EndAyah": "201",
+    "Dua": "General"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "7",
+    "StartAyah": "156",
+    "EndAyah": "156",
+    "Dua": "General"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "7",
+    "StartAyah": "156",
+    "EndAyah": "156",
+    "Dua": "General"
+  },
+  {
+    "BookCode": "ARB",
+    "SurahNumber": "7",
+    "StartAyah": "89",
+    "EndAyah": "89",
+    "Dua": "General"
+  },
+  {
+    "BookCode": "YAT",
+    "SurahNumber": "7",
+    "StartAyah": "89",
+    "EndAyah": "89",
+    "Dua": "General"
+  }
+]
