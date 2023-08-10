@@ -6,7 +6,7 @@ draft: false
 description: "The Quran is a guidance for humanity. It is the eternal and literal word of Allah. It is a divine book of wisdom, commands, and laws with instructions for nearly every aspect of life." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Quran"]
 blogtags: ["quran"]

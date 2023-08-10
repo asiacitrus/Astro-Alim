@@ -6,7 +6,7 @@ draft: false
 description: "This is a wonderful article on suicide and its haram in Islam. The author of this article Saba Malik shares some knowledge he got from a depression mastery seminar by a prominent Muslim Shaykh, eight years back." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Knowledge"]
 blogtags: ["knowledge","suicide"]

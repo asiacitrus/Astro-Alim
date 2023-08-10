@@ -6,7 +6,7 @@ draft: false
 description: "A faithful and God-fearing spouse can lead a good life with his or her partner." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Marriage"]
 blogtags: ["nikkah"]

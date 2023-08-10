@@ -6,7 +6,7 @@ draft: false
 description: "We have released a new Alim.org with the popular features we served from 2010 onwards."
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Announcements"]
 blogtags: ["alim features"]

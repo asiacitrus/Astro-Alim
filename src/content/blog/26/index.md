@@ -6,7 +6,7 @@ draft: false
 description: "Make a target of your earning and work for that and spend the rest of your time to talk and listen to your kids. Life is not all about making money, but it's all about happiness and peace." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Parenting"]
 blogtags: ["kids"]

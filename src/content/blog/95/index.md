@@ -6,7 +6,7 @@ draft: false
 description: "Hiba Masood a writer, speaker and a story teller talks about her Baba's influence in teaching Quran and its holy threads in her wonderful opinion piece 'Baba, The Quran and Me'." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Stories"]
 blogtags: ["stories"]

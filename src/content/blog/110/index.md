@@ -6,7 +6,7 @@ draft: false
 description: "Alhamdulillah, every time I read the Prophet's (sallallahu alayhi wasallam) sermon on Ramadan I find something new and moving in it." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Prophet Muhammad"]
 blogtags: ["prophet muhammad"]

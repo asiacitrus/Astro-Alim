@@ -6,7 +6,7 @@ draft: false
 description: "Delaying marriage without a legitimate reason is a sin in Islam." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Marriage"]
 blogtags: ["nikkah"]

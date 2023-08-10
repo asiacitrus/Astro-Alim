@@ -6,7 +6,7 @@ draft: false
 description: "In very simple words Allah [SWT] says - Whatever your soul wishes will be there in heaven. Everything that you need will be rewarded to you in abundance and to your wish." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Knowledge"]
 blogtags: ["jannah"]

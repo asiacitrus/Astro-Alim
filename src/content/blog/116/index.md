@@ -6,7 +6,7 @@ draft: false
 description: "Both Zakah and Zakat al-Fitr are obligatory upon every Muslim who fulfills the requirements." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Zakat"]
 blogtags: ["zakat"]

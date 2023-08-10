@@ -6,7 +6,7 @@ draft: false
 description: "Salah is a good practice to reach God and keep calm while going to do the Salah." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Prayer"]
 blogtags: ["salah"]

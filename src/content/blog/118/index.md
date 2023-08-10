@@ -6,7 +6,7 @@ draft: false
 description: "Mohammad (PBUH) was born (and passed away) on the 12th day of Rabi al-Awwal, 570 AD of the Islamic calendar." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Prophet Muhammad"]
 blogtags: ["prophet muhammad"]

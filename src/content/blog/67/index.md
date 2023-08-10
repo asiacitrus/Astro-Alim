@@ -6,7 +6,7 @@ draft: false
 description: "Parenting is the most admirable and challenging task that a family need to work out a lifetime." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Parenting"]
 blogtags: ["family"]

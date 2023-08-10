@@ -6,7 +6,7 @@ draft: false
 description: "Sheima Salam Sumer, a trained counselor by profession explains that faith should be a source of achieving felicity and joy, paving the way for happy individuals and happy societies." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Books"]
 blogtags: ["books"]

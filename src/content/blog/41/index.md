@@ -6,7 +6,7 @@ draft: false
 description: "Dr. Bilal Philips says that drinking with your left hand is a major widespread haram in Islam." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Knowledge"]
 blogtags: ["food and drinks"]

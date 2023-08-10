@@ -6,7 +6,7 @@ draft: false
 description: "Fasting during Ramadan is one of the five fundamental pillars of Islam and mandatory for all healthy adult Muslims to fast from sunrise to sunset for a period of a month." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Ramadan","Fasting"]
 blogtags: ["ramadan","fasting"]

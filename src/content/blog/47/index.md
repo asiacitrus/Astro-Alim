@@ -6,7 +6,7 @@ draft: false
 description: "According to authentic traditions (ahadith), this journey took place a year before Hijrah on 27th of Rajab in the year 621 A.D." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Knowledge","Prophet Muhammad"]
 blogtags: ["isra and al-miraj","prophet muhammad"]

@@ -6,7 +6,7 @@ draft: false
 description: "This article on Alim.org describes some benefits of fasting." 
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Ramadan","Fasting"]
 blogtags: ["ramadan","fasting"]

@@ -6,7 +6,7 @@ draft: false
 description: "Alexander, a French pilgrim who embraced Islam and adopted his Muslim name, Hamza is recently blessed by King Abdullah to do Haj as his guest." 
 type: "blog"
 sub-type: "current-events" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Stories"]
 blogtags: ["news","hajj and umrah"]

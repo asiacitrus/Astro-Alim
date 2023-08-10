@@ -6,7 +6,7 @@ draft: false
 description: "Safar is the second month of the Islamic calendar. This article refutes the superstitions associated with Safar." 
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Months"]
 blogtags: ["safar"]

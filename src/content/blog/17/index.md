@@ -6,7 +6,7 @@ draft: false
 description: "Ramadan is approaching fast, insha'Allah, are you ready? What goals have you set for yourself this year?" 
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Ramadan"]
 blogtags: ["ramadan"]

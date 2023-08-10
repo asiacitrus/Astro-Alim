@@ -6,7 +6,7 @@ draft: false
 description: "We are excited to announce that the Alim team will be at the annual ICNA-MAS Convention in Baltimore, MD this coming Memorial Day Weekend, May 28-30. Booth # 838" 
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Announcements", "Events"]
 blogtags: ["events"]

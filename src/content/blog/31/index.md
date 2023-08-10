@@ -6,7 +6,7 @@ draft: false
 description: "With a very simple act, we can wash away the depression. The act is known as Sujood ash-Shukr." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["General"]
 blogtags: ["depression"]

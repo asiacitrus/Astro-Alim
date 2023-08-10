@@ -6,7 +6,7 @@ draft: false
 description: "Allah has created his servants to lead an equal life. There is no inequality in treating women and men in Islam." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Knowledge"]
 blogtags: ["knowledge"]

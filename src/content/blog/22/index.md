@@ -6,7 +6,7 @@ draft: false
 description: "Alim announces its new feature of linking hadiths with the related Quran ayahs."
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Announcements"]
 blogtags: ["alim features"]

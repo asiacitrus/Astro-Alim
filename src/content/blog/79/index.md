@@ -6,7 +6,7 @@ draft: false
 description: "Shahroz, a pure devotee of Allah expresses his thoughts, learning and healings come from a conversation with Allah." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Stories"]
 blogtags: ["blessings"]

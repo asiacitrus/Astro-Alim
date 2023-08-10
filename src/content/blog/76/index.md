@@ -6,7 +6,7 @@ draft: false
 description: "Fasting is a holy act of prayer and sacrifice for the sake of Allah and your sins will be forgiven by Allah." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Fasting"]
 blogtags: ["fasting"]

@@ -6,7 +6,7 @@ draft: false
 description: "This article discusses the effect of fasting on cardiac patients." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Knowledge"]
 blogtags: ["ramadan","hajj and umrah"]

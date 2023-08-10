@@ -6,7 +6,7 @@ draft: false
 description: "This article describes the attrocities suffered by the people of Gaza." 
 type: "blog"
 sub-type: "current-events" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Stories"]
 blogtags: ["news"]

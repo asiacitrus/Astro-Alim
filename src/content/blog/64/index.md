@@ -6,7 +6,7 @@ draft: false
 description: "Even if we hadn't really experienced the unconditional love from our parents, we must know that our children need it." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Parenting","Islamic Family"]
 blogtags: ["family"]

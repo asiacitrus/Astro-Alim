@@ -6,7 +6,7 @@ draft: false
 description: "Here is an incident story that a couple experienced rude behavior from a girl in hijab." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Stories"]
 blogtags: ["stories"]

@@ -6,7 +6,7 @@ draft: false
 description: "Mecca is the holy city in the World. This title has been given to Mecca because, Prophet Muhammad was born here." 
 type: "blog"
 sub-type: "current-events" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["General"]
 blogtags: ["mecca"]

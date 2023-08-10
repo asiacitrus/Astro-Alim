@@ -6,7 +6,7 @@ draft: false
 description: "Alhamdulilah, we're very pleased to announce that we've added Tafsir Ibn Kathir in english to Alim.org." 
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Announcements"]
 blogtags: ["alim features", "tafsir ibn kathir"]

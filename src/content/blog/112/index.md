@@ -6,7 +6,7 @@ draft: false
 description: "Fasting is a manifestation of man's determined will and his relationship with his Lord which is based on total submission to Him." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Fasting"]
 blogtags: ["fasting"]

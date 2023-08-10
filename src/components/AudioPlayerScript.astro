@@ -3,7 +3,7 @@
 ---
 <script is:inline>
     let playing=false;
-	const playAyah=(audSrc)=> { 
+	const playAyah=(audSrc,num)=> { 
 		const srcURL = document.getElementById("myAudio").src;
 		const audURL=atob(audSrc);
 		if(srcURL!==audURL)
@@ -14,11 +14,21 @@
 		if(playing)
 		{
 			document.getElementById("myAudio").pause();
+			document.getElementById("playBtn"+num).style.display="inline";
+			document.getElementById("pauseBtn"+num).style.display="none";
 		}
 		else
 		{
 			document.getElementById("myAudio").play();
+			document.getElementById("playBtn"+num).style.display="none";
+			document.getElementById("pauseBtn"+num).style.display="inline";
 		}
 		playing=!playing;
+		if (document.getElementById("myAudio").getAttribute('listener') !== 'true') {
+			document.getElementById("myAudio").addEventListener("ended", function(){
+				document.getElementById("playBtn"+num).style.display="inline";
+				document.getElementById("pauseBtn"+num).style.display="none";
+			});
+		}
 	} 
 </script>

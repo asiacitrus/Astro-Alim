@@ -6,7 +6,7 @@ draft: false
 description: "What are the good ways to lead a balanced family atmosphere? Did you ever think of?" 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Parenting"]
 blogtags: ["family"]

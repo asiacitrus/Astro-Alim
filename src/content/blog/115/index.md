@@ -6,7 +6,7 @@ draft: false
 description: "This article explains the night during which Quran was sent down by Allah (SWT) to mankind." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Quran"]
 blogtags: ["quran"]

@@ -6,7 +6,7 @@ draft: false
 description: "We have recently added a Frequently Asked Questions section to Alim.org. Now you can see a list of questions that are most commonly asked by users of the site in one convenient place."
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Announcements"]
 blogtags: ["alim features"]

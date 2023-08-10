@@ -6,7 +6,7 @@ draft: false
 description: "Beautify yourself when you take the prayer. Dress nicely when you stand in front of Allah." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Prayer"]
 blogtags: ["salah"]

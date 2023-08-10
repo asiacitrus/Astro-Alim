@@ -6,7 +6,7 @@ draft: false
 description: "Did you know that Alim.org has a section on biographies?  Just visit Alim.org and click on History."
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Announcements"]
 blogtags: ["alim features"]

@@ -6,7 +6,7 @@ draft: false
 description: "This study was designed to determine the effect of Quran listening without its musical tone (Tartil) on the mental health of personnel in Zahedan University of Medical Sciences, southeast of Iran." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Quran"]
 blogtags: ["quran"]

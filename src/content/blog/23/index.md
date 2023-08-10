@@ -6,7 +6,7 @@ draft: false
 description: "In the great epic books, it is noted that Aisha Ra was the most beloved to the Prophet SAW. She is known as the woman who exonerated by Allah SWT in the Quran." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Great Personalities"]
 blogtags: ["aisha"]

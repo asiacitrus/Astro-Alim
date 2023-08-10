@@ -6,7 +6,7 @@ draft: false
 description: "Coming soon on Alim.org - collaborative editing, comments, rating, Arabic Quran, Q&A, Arabic Playhouse, and video Islam." 
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Announcements"]
 blogtags: ["alim features"]

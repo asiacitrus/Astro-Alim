@@ -6,7 +6,7 @@ draft: false
 description: "Eid al-Fitr will fall on May 23rd or 24th this year and many of us are unsure of what to do given the current pandemic situation causing a shutdown of all places of worship." 
 type: "blog"
 sub-type: "current-events" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Stories"]
 blogtags: ["news"]

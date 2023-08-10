@@ -6,7 +6,7 @@ draft: false
 description: "This article lists some of the historic events occured during the month of Rabi-ul-Awwal."
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Months"]
 blogtags: ["rabi-ul-awwal"]

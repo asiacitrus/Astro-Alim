@@ -6,7 +6,7 @@ draft: false
 description: "The Muslims should, enhance their eagerness and passion to seek the benefits from the virtues of Lailat-ul-Qadr." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Months"]
 blogtags: ["ramadan","lailat ul-qadar"]

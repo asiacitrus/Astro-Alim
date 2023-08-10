@@ -1,0 +1,41 @@
+[
+    {
+        "head": "Qur'an",
+        "subhead":[
+            {
+                "text":"Al-Qur'an",
+                "url":"/quran",
+                "haveSub":false
+            }
+        ]
+    },
+    {
+        "head": "Hadith",
+        "subhead":[
+            {
+                "text":"Hadith Collection",
+                "url":"/hadith",
+                "haveSub":false
+            }
+        ]
+    },
+    {
+        "head": "History",
+        "subhead":[
+            {
+                "text":"Islamic History",
+                "url":"#",
+                "haveSub":false
+            }
+        ]
+    },
+    {
+        "head":"About",
+        "url":"#"
+    },
+    {
+        "head":"Mission",
+        "url":"#"
+    }
+
+]

@@ -6,7 +6,7 @@ draft: false
 description: "Alim.org has published the classical sources of Islamic knowledge - Quran, Ahadith, and Islamic history."
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Announcements"]
 blogtags: ["alim features"]

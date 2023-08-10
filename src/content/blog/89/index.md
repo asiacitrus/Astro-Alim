@@ -6,7 +6,7 @@ draft: false
 description: "Ibtihaj Muhammad, bagged a bronze medal in the Women’s Sabre World Cup and qualified to participate in the 2016 Rio Olympics to represent United States fencing team." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Stories"]
 blogtags: ["stories"]

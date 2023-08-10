@@ -6,7 +6,7 @@ draft: false
 description: "Many Muslims waits the month of Ramadan with mixed feelings. Some love to fast and celebrate Ramadan. Some fear genuinely by thinking of the long hours of fasting." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Months", "Ramadan"]
 blogtags: ["ramadan"]

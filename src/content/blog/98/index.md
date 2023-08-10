@@ -6,7 +6,7 @@ draft: false
 description: "The last messenger of Allah, the Prophet Muhammad was born in Mecca,a city in Hejaz in Saudi Arabia." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Prophet Muhammad"]
 blogtags: ["prophet muhammad"]

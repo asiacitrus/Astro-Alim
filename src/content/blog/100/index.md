@@ -6,7 +6,7 @@ draft: false
 description: "Parenting is a great time in one’s life and it is a challenging and lovely responsibility." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Parenting"]
 blogtags: ["family"]

@@ -6,7 +6,7 @@ draft: false
 description: "Depression usually comes from being far from Allah. We need remembrance of Allah to wash away depression." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["General"]
 blogtags: ["depression"]

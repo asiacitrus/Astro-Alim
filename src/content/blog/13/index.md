@@ -6,7 +6,7 @@ draft: false
 description: "This article describes the infallibility of Prophet Muhammad(SAW) based on the Quran, Ahadith, and true facts."
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Prophet Muhammad"]
 blogtags: ["prophet muhammad"]

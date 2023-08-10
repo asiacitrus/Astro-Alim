@@ -6,7 +6,7 @@ draft: false
 description: "The month of Shawwal, which follows Ramadan, also has unique opportunities to continue to earn Allah’s blessings." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Months","Fasting"]
 blogtags: ["fasting","shawwal"]

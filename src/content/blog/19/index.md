@@ -6,7 +6,7 @@ draft: false
 description: "The year 2017 is coming to an end, inshaAllah, and it has been a year full of turmoil and emotional ups and downs."
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["General"]
 blogtags: ["general"]

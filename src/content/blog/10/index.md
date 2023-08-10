@@ -6,7 +6,7 @@ draft: false
 description: "Alhamdulilah, the Alim Foundation is pleased to present to you the launch of its new Android and Apple apps."
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Announcements"]
 blogtags: ["mobile apps"]

@@ -6,7 +6,7 @@ draft: false
 description: "Zakat is one of the five pillars of Islam. The word Zakat means purification and growth." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Zakat"]
 blogtags: ["zakat"]

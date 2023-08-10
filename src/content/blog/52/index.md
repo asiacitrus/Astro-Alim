@@ -6,7 +6,7 @@ draft: false
 description: "Fasting in the month of Ramadan is one of the five pillars that form the basis of Islam. These pillars lay the foundations of a believer and a Muslim must adhere to them with devotion." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Months","Ramadan","Fasting"]
 blogtags: ["ramadan","fasting"]

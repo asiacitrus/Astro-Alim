@@ -6,7 +6,7 @@ draft: false
 description: "When we say Bismillahi Ar-Rahmani Ar-Raheem, we are asking Allah’s help which may be different for different people." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Knowledge"]
 blogtags: ["knowledge"]

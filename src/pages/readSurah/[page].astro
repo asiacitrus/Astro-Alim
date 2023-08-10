@@ -1,6 +1,7 @@
 ---
 import json from '../../data/structure/arb.json';
 import Ayath from '../../components/Ayath.astro';
+import AudioPlayerScript from '../../components/AudioPlayerScript.astro';
 
 export function getStaticPaths() {
     let pageArray:object[]=[]
@@ -17,6 +18,17 @@ const index=Number(page);
 
 const mushafLink="../readSurahMushaf/"+page;
 
+let surahID=json[0].book[0].surahs[index-1]?.surahNumber;
+
+if(surahID?.length===1)
+{
+    surahID="00"+surahID;
+}
+if(surahID?.length===2)
+{
+    surahID="0"+surahID;
+}
+
 ---
 
 <!DOCTYPE html>
@@ -25,14 +37,36 @@ const mushafLink="../readSurahMushaf/"+page;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verses</title>
+    <style>
+        @font-face {
+            font-family: myFirstFont;
+            src: url("/fonts/arb.ttf");
+        }
+    </style>
     <script is:inline src="https://cdn.tailwindcss.com"></script>
+    <AudioPlayerScript/>
 </head>
 <body>
-    <div class="container mx-auto">
+    <div class="container mx-auto" style="font-family: myFirstFont;">
         <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-black text-center">Verses</h1><br/>
         <br/><div class="text-center"><a href={mushafLink}><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Read in mushaf format</button></a></div>
+        <audio id="myAudio">
+            <source src="">
+            Your browser does not support the audio element.
+          </audio>
         <br/><br/>
-        {json[0].book[0].surahs[index-1].ayahs.map((item)=>{return <Ayath ayah={item.text}/>})}
+        {json[0].book[0].surahs[index-1]?.ayahs?.map((item)=>{
+            let ayahID=item.ayahNumber;
+            if(ayahID?.length===1)
+            {
+                ayahID="00"+ayahID;
+            }
+            if(ayahID?.length===2)
+            {
+                ayahID="0"+ayahID;
+            }
+            return (<Ayath ayah={item.text} audioID={surahID+ayahID}/>);
+            })}
         <br/><div class="text-center"><a href="../quran"><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Back to Quran</button></a></div>
         <br/><br/>
     </div>

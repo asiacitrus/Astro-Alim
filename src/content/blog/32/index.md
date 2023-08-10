@@ -6,7 +6,7 @@ draft: false
 description: "Allah teaches us that man should keep his wife happy and lead a wonderful life with prayers and thanks giving." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Family"]
 blogtags: ["family"]

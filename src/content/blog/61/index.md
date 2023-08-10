@@ -6,7 +6,7 @@ draft: false
 description: "Author states that blindness has become a way of life, to be open, a disguising to lead the life." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["General"]
 blogtags: ["general"]

@@ -6,7 +6,7 @@ draft: false
 description: "Salah (Prayer) is one of the Five Pillars in the faith of Islam and an obligatory religious duty for every Muslim." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Knowledge"]
 blogtags: ["salah"]

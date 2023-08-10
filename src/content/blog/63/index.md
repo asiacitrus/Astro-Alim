@@ -6,7 +6,7 @@ draft: false
 description: "Prophet Muhammad SAW is the wisest in this universe and his goodness of mind was only excelled by his goodness of character, whose creation and nobility was not narrowed or ruffled by anything." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Prophet Muhammad"]
 blogtags: ["prophet muhammad"]

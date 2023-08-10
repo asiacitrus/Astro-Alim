@@ -6,7 +6,7 @@ draft: false
 description: "Common question that come across many in Islam religion is that to whom I should seek questions." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Knowledge"]
 blogtags: ["knowledge"]

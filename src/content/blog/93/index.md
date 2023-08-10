@@ -6,7 +6,7 @@ draft: false
 description: "The author Jameel Syed expresses his experience in Umrah that he witnessed while his pilgrimage." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Hajj and Umrah"]
 blogtags: ["stories","hajj and umrah"]

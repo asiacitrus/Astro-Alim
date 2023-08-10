@@ -6,7 +6,7 @@ draft: false
 description: "Giving to Eternity directed by Ayed Nabaa is a visual treat to the film lovers which explores the history of the Waqf tradition seen through the eyes of Tunisian historians and others." 
 type: "blog"
 sub-type: "current-events" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Stories"]
 blogtags: ["stories"]

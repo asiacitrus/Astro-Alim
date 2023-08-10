@@ -6,7 +6,7 @@ draft: false
 description: "Reem Shaikh is a 17-year-old Muslim hails from Houston. She was the only young Muslim girl who addressed UN delegates and answered their questions on role of youth in fighting crimes around the world." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic News"]
 blogtags: ["news"]

@@ -6,7 +6,7 @@ draft: false
 description: "In the holy month of Ramadan and there after we should attempt to focus on the wisdom of Quran and the idealistic ways of Prophet Muhammed." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Quran"]
 blogtags: ["quran"]

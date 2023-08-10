@@ -6,7 +6,7 @@ draft: false
 description: "When you see the eclipse, remember Allah, SWT, raise His Praise, His Greatness (say Takbir), pray, and give charity." 
 type: "blog"
 sub-type: "current-events" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["General","Islamic Knowledge"]
 blogtags: ["knowledge"]

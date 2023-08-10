@@ -6,7 +6,7 @@ draft: false
 description: "This article describes the scientifically proven benefits of salah." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Knowledge"]
 blogtags: ["salah"]

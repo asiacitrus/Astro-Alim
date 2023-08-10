@@ -6,7 +6,7 @@ draft: false
 description: "Alim.org now has recitation for the Quran!  We have added 13 popular recitations in both Murattal and Mujawwad styles."
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Announcements"]
 blogtags: ["alim features"]

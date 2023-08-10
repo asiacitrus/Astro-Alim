@@ -6,7 +6,7 @@ draft: false
 description: "Mufti Menk reminds us about the usage and bad usage of social networking sites and applications." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Internet and Social Media"]
 blogtags: ["social media"]

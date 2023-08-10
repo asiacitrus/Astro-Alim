@@ -6,7 +6,7 @@ draft: false
 description: "One of the most commented verses in Quran is the Verse of Light (24th Surah - An-Nur). The Surah unveils how Allah is the light of heaven and earth." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Quran"]
 blogtags: ["quran"]

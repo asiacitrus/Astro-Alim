@@ -6,7 +6,7 @@ draft: false
 description: "Here is a wonderful and heart touching post from a disabled US Navy Veteran." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Stories"]
 blogtags: ["stories"]

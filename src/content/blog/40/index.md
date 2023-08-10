@@ -6,7 +6,7 @@ draft: false
 description: "If you break the wudu in between the prayer, you should restart the prayer after performing wudu again." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Knowledge"]
 blogtags: ["wudu"]

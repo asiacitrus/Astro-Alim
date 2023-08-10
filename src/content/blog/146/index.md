@@ -6,7 +6,7 @@ draft: false
 description: "Some months of the Islamic calendar have more virtues than the other, and Muharram is one among them." 
 type: "blog"
 sub-type: "current-events" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Months"]
 blogtags: ["muharram"]

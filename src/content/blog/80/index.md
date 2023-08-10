@@ -6,7 +6,7 @@ draft: false
 description: "Dr Abdullah Al-Kadi researched for years and wrote the book Makkah to Madinah: A Photographic Journey of the Hijrah Route." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Books"]
 blogtags: ["books","hijra"]

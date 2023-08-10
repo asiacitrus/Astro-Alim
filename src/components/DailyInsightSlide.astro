@@ -19,8 +19,11 @@ if(quran.ayahNumber.length===1)
   ayah="00"+quran.ayahNumber;
 }
 let encAudPath=btoa("https://alim-quran.s3.amazonaws.com/recitation/Alafasy_128kbps/"+surah+ayah+".mp3");
-let decAudPath="javascript:playAyah('"+encAudPath+"')";
 const popupID="dropdown"+num;
+const ayahId="ayah"+num;
+const playBtnlID="playBtn"+num;
+const pauseBtnID="pauseBtn"+num;
+let decAudPath="javascript:playAyah('"+encAudPath+"','"+num+"')";
 ---
 
 <div class="swiper-slide">
@@ -28,9 +31,27 @@ const popupID="dropdown"+num;
         <div class="md:col-span-1 relative">
             <ul class="list-none text-white icon-btn-list">
                 <li class="mb-3">
-                <a href={decAudPath}> <svg width="22" height="22" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <a href={decAudPath}> <svg id={playBtnlID} width="22" height="22" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M3.66406 2.19922L13.9249 8.79547L3.66406 15.3917V2.19922Z" stroke="white" stroke-opacity="0.75" stroke-width="1.46615" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg></a>
+                <a href={decAudPath}> <svg id={pauseBtnID} style="display: none;" fill="#ffffff" height="22px" width="22px" version="1.1" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
+                  <g>
+                    <g>
+                      <g>
+                        <path d="M440.7,501H71.2C38,501,11,474,11,440.8V71.2C11,38,38,11,71.2,11h369.5C474,11,501,38,501,71.2v369.5     C501,474,474,501,440.7,501z M71.2,51.8c-10.7,0-19.4,8.7-19.4,19.4v369.5c0,10.7,8.7,19.4,19.4,19.4h369.5     c10.7,0,19.4-8.7,19.4-19.4V71.2c0-10.7-8.7-19.4-19.4-19.4H71.2z"/>
+                      </g>
+                      <g>
+                        <g>
+                          <path d="m182.4,385.5c-11.3,0-20.4-9.1-20.4-20.4v-218.2c0-11.3 9.1-20.4 20.4-20.4 11.3,0 20.4,9.1 20.4,20.4v218.2c0,11.3-9.1,20.4-20.4,20.4z"/>
+                        </g>
+                        <g>
+                          <path d="m329.6,385.5c-11.3,0-20.4-9.1-20.4-20.4v-218.2c0-11.3 9.1-20.4 20.4-20.4s20.4,9.1 20.4,20.4v218.2c0,11.3-9.2,20.4-20.4,20.4z"/>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                </a>
                 </li>
                 <li class="mb-3">
                 <a href="#"> <svg width="22" height="22" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -53,7 +74,7 @@ const popupID="dropdown"+num;
 
         <div class="md:col-span-5">
             <h3 class="text-left md:text-right text-white mb-5 pr-52 md:pr-0">Qur'an</h3>
-            <p class="text-right text-white font-bold text-3xl mb-10 mt-10 md:mb-5 md:mt-0">{quran.text}</p>
+            <p class="text-right text-white font-bold text-3xl mb-10 mt-10 md:mb-5 md:mt-0" id={ayahId} style="font-family: myFirstFont;">{quran.text}</p>
         </div>
 
         <div class="md:col-span-6">

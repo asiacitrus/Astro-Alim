@@ -6,7 +6,7 @@ draft: false
 description: "The Arabic word Hijra means migration. It marks the beginning of the new year in the Islamic calendar and refers to the migration of Muhammad (SAW) and his companions, from Mecca to Madina." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Knowledge"]
 blogtags: ["hijra"]

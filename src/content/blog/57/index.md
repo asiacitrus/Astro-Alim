@@ -6,7 +6,7 @@ draft: false
 description: "This is a great article by Muhammad Zafar, who talks about the evil side of suicide." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Knowledge"]
 blogtags: ["knowledge"]

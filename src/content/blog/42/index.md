@@ -6,7 +6,7 @@ draft: false
 description: "This is part of Mufti Menk’s powerful speech on the topic - Focus on What You Have -  an understanding of our achievements and thanking Allah almighty for that." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["General"]
 blogtags: ["blessings"]

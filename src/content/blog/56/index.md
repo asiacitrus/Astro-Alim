@@ -6,7 +6,7 @@ draft: false
 description: "Be a good believer of Allah and it will strengthen your spirit." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Knowledge"]
 blogtags: ["knowledge"]

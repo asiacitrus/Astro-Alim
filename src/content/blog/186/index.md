@@ -6,7 +6,7 @@ draft: false
 description: "The Alim Foundation Inc. is pleased to announce Alim Burial, Funeral & Janazah Services." 
 type: "blog"
 sub-type: "current-events" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Announcements"]
 blogtags: ["alim funeral services"]

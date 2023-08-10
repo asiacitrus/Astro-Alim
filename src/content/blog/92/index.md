@@ -6,7 +6,7 @@ draft: false
 description: "In her opinion blog-happymuslimah.com, Umm Salihah talks about her love, learn and inspire lists." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Stories"]
 blogtags: ["stories","nouman ali khan"]

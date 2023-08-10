@@ -6,7 +6,7 @@ draft: false
 description: "Not only is Muharram sacred, but also referred to as the month of Allah, as mentioned by the Prophet Muhammad, peace be upon him."
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Months"]
 blogtags: ["muharram"]

@@ -6,7 +6,7 @@ draft: false
 description: "The month of Safar is one of the 12 months of the Hijri calendar, the month succeeds Muharram." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Months"]
 blogtags: ["safar"]

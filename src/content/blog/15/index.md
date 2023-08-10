@@ -6,7 +6,7 @@ draft: false
 description: "Alim.org is a non-profit 501 c organization, and your donations are tax deductible." 
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Donate"]
 blogtags: ["donate"]

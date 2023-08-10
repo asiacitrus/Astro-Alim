@@ -6,7 +6,7 @@ draft: false
 description: "Reports say that 78 Americans die every day due to over dosage of pain killers and other pills mixed with Alcohol." 
 type: "blog"
 sub-type: "current-events" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Stories"]
 blogtags: ["stories"]

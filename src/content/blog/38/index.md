@@ -6,7 +6,7 @@ draft: false
 description: "Every Muslim should learn and listen to Quran with devotion and love to receive the pleasure of Allah, the Exalted." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Knowledge"]
 blogtags: ["quran"]

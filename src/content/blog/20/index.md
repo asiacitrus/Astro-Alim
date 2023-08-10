@@ -6,7 +6,7 @@ draft: false
 description: "This #GivingTuesday, please consider donating to the Alim Foundation by visiting to our secure site." 
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Donate"]
 blogtags: ["donate","givingtuesday"]

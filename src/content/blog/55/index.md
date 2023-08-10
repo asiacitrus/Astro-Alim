@@ -6,7 +6,7 @@ draft: false
 description: "Allah is the best teacher in the universe for your grief and happiness." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Knowledge"]
 blogtags: ["knowledge"]

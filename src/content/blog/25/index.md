@@ -6,7 +6,7 @@ draft: false
 description: "Sheikh Navaid Aziz, well known speaker on Islamic knowledge and thoughts delivered a wonderful speech on ‘The Accepted Dua’ or the accepted prayer." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Prayer"]
 blogtags: ["dua"]

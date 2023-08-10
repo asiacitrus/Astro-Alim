@@ -6,7 +6,7 @@ draft: false
 description: "Please dont expose your body parts or never publish your photos in social networking sites. To keep the family life risk free and peaceful, please avoid using snaps in social networking sites." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Internet and Social Media"]
 blogtags: ["internet","social media"]

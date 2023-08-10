@@ -6,7 +6,7 @@ draft: false
 description: "Surah Fatiha is the opening chapter and introduction to the Quran. It was the first complete Surah revealed to Prophet Muhammad (SAW) in Mecca, during the early period of prophethood." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Quran"]
 blogtags: ["quran"]

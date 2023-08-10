@@ -1,5 +1,5 @@
 ---
-import json from '../../data/structure/arb.json';
+import json from '../../data/quran/read/ARB/arb.json';
 import Ayath from '../../components/AyathMushaf.astro';
 
 export function getStaticPaths() {
@@ -27,13 +27,19 @@ let numb=0;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verses</title>
+    <style>
+        @font-face {
+            font-family: myFirstFont;
+            src: url("/fonts/arb.ttf");
+        }
+    </style>
     <script is:inline src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <div class="container mx-auto">
         <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-black text-center">Verses</h1><br/>
         <br/><div class="text-center"><a href={mushafLink}><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Read line by line</button></a></div>
-        {json[0].book[0].surahs[index-1].ayahs.map((item)=>{numb++; return <Ayath ayah={item.text} num={numb}/>})}
+        {json[0].book[0].surahs[index-1]?.ayahs?.map((item)=>{numb++; return <Ayath ayah={item.text} num={numb}/>})}
         <br/><div class="text-center"><a href="../quran"><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Back to Quran</button></a></div>
         <br/><br/>
     </div>

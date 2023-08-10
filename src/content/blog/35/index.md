@@ -6,7 +6,7 @@ draft: false
 description: "By knowing and studying the nature of your spouse, make him or her happy with your smile." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Family"]
 blogtags: ["family"]

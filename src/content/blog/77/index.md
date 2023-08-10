@@ -6,7 +6,7 @@ draft: false
 description: "You should keep a disciplinary eating habit for Ramadan." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Ramadan","Fasting"]
 blogtags: ["ramadan","fasting"]

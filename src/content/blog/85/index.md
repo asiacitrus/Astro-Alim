@@ -6,7 +6,7 @@ draft: false
 description: "Umm Salihah Ahmed, a wonderful mother explains her love to her kids and the specialty of mother’s day in her life." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Stories","Islamic Parenting"]
 blogtags: ["stories","family"]

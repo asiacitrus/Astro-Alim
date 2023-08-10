@@ -6,7 +6,7 @@ draft: false
 description: "Alim announces roll out of Arabic Playhouse - a free, unique and exciting educational software product that makes learning Quranic Arabic fun and interesting for the whole family." 
 type: "blog" 
 sub-type: "blog" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Announcements"]
 blogtags: ["alim features","arabic playhouse"]

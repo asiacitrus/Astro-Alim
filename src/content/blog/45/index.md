@@ -6,7 +6,7 @@ draft: false
 description: "Islam is a religion which teaches us to be dutiful and to show respect to our parents. Allah (SWT) has gifted us with parents which we did not choose, instead HE chose them for us." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Family"]
 blogtags: ["family"]

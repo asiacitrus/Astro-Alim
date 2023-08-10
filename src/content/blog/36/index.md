@@ -6,7 +6,7 @@ draft: false
 description: "Mr.Altaf Hussain delivered a wonderful speech at MSA National on body image-reality and standards." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["General"]
 blogtags: ["general"]

@@ -6,7 +6,7 @@ draft: false
 description: "This article explains how to locate the Qiblah without any electronic device." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["General"]
 blogtags: ["qiblah"]

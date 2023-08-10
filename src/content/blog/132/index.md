@@ -6,7 +6,7 @@ draft: false
 description: "Ramadan literally termed as the ninth month of calendar and the month of fasting for preaching and reaching Allah." 
 type: "blog"
 sub-type: "current-events" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Ramadan"]
 blogtags: ["ramadan"]

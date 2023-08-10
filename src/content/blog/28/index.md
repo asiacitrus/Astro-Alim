@@ -6,7 +6,7 @@ draft: false
 description: "Mufti Menk answered wisely to a question on how to keep away of quarrels in a joint family especially between husband's relatives and daughter in law." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Family"]
 blogtags: ["family"]

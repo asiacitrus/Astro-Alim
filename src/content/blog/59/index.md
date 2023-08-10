@@ -6,7 +6,7 @@ draft: false
 description: "This is a blog by a mother about her child’s behaviour at school and her reply to the child to make him the best boy in the world." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Parenting"]
 blogtags: ["family"]

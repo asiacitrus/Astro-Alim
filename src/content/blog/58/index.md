@@ -6,7 +6,7 @@ draft: false
 description: "Umm Salihah Ahmed, a blog writer and a loving mother tells about a flexible reward chart on pleasurable parenting." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Parenting"]
 blogtags: ["family"]

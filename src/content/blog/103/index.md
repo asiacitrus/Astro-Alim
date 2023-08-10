@@ -6,7 +6,7 @@ draft: false
 description: "This video describes about the unhealthy eating habits, the main cause of sickness in human body." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Knowledge"]
 blogtags: ["knowledge"]

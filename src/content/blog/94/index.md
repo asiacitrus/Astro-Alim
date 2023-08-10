@@ -6,7 +6,7 @@ draft: false
 description: "Ramadan Journal- Day 2 is a great piece of writing from Umm Salihah’s blog Happy Muslim Mama. The author talks about a beautiful Hadith about Ramadan." 
 type: "blog"
 sub-type: "opinion" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Months","Ramadan"]
 blogtags: ["ramadan"]

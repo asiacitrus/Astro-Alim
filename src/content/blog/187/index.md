@@ -6,7 +6,7 @@ draft: false
 description: "After extensive pilot testing and methodical curation, as claimed by II&M, they have announced the launch of a self-paced, multi-modal course named 'An Introduction to the Field of Islamic Bioethics'." 
 type: "blog"
 sub-type: "course" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Courses"]
 blogtags: ["islam","bioethics"]

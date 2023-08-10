@@ -6,7 +6,7 @@ draft: false
 description: "Usthad Nouman Ali Khan is a great speaker and Islamic thinker well known for his video speeches on Islamic subjects. He is the CEO and founder of Bayyinah Institute, an Arabic studies, educational institution in the United States." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Great Personalities"]
 blogtags: ["ustadh nouman ali khan"]

@@ -6,7 +6,7 @@ draft: false
 description: "Allah SWT has chosen to give us another ten highly blessed days: first ten days of Dhul Hijjah. These are the best days of the year." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Islamic Months"]
 blogtags: ["dhul-hijjah"]

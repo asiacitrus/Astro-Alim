@@ -6,7 +6,7 @@ draft: false
 description: "Alim has released 6 videos explaining the features of the various Islamic knowledge sections in the 2021 revamped Alim.org website." 
 type: "blog"
 sub-type: "recent-lectures" 
-layout: "blog" 
+ 
 BookCode: "blog"
 blogcategories: ["Announcements"]
 blogtags: ["alim features"]
