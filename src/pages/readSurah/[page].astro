@@ -16,7 +16,7 @@ const { page } = Astro.params;
 
 const index=Number(page);
 
-const mushafLink="../readSurahMushaf/"+page;
+const mushafLink="/../readSurahMushaf/"+page;
 
 let surahID=json[0].book[0].surahs[index-1]?.surahNumber;
 
