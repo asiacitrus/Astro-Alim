@@ -1,23 +1,76 @@
 ---
-const { postDate,postTitle,postContent,imgPath } = Astro.props;
+import { getCollection } from 'astro:content';
+const posts=await getCollection('blog');
+const sorted = posts.sort(
+  (objA, objB) => Number(objA.data.date) - Number(objB.data.date),
+).reverse();
 
-const date=postDate.toLocaleString('default', {  month:'long', day: 'numeric', year: 'numeric' }).split(" ");
+const postArr=[0,3,6,9,12];
 
 
+const postImg=['/images/tips1-img.jpg','/images/tips2-img.jpg','/images/tips3-img.jpg'];
 
 ---
+{
+    postArr.map((item)=>{
+        const date=sorted[item+0].data.date.toLocaleString('default', {  month:'long', day: 'numeric', year: 'numeric' }).split(" ");
+        const postTitle=sorted[item+0].data.title;
+        const postContent=sorted[item+0].body.substring(0,130);
 
-<div class="blue-gr-box md:mb-4 mb-6  p-0 pb-5">
-    <div class="grid  md:grid-cols-12 gap-0 md:gap-8">
-        <div class="md:col-span-4">
-            <img src={imgPath} class="rounded-bl-full rounded-br-full object-center"/>
-        </div>
-        <div class="md:col-span-8">
-            <div class=" mt-5 mb-10 px-4">
-                <img src="images/calendar.svg" class="mr-1 float-left"/><p class="text-white text-xl inline-block mt-1">{date[1]} {date[0]}, {date[2]}</p>
-                <h2 class=" text-white mb-8 mt-4">{postTitle}</h2>
-                <p class="text-white text-opacity-75  mt-5">{postContent}...</p>
+        const date1=sorted[item+1].data.date.toLocaleString('default', {  month:'long', day: 'numeric', year: 'numeric' }).split(" ");
+        const postTitle1=sorted[item+1].data.title;
+        const postContent1=sorted[item+1].body.substring(0,130);
+
+        const date2=sorted[item+2].data.date.toLocaleString('default', {  month:'long', day: 'numeric', year: 'numeric' }).split(" ");
+        const postTitle2=sorted[item+2].data.title;
+        const postContent2=sorted[item+2].body.substring(0,130);
+        return(
+
+        <div class="swiper-slide">
+            <div class="blue-gr-box md:mb-4 mb-6  p-0 pb-5">
+                <div class="grid  md:grid-cols-12 gap-0 md:gap-8">
+                    <div class="md:col-span-4">
+                        <img src={postImg[0]} class="rounded-bl-full rounded-br-full object-center"/>
+                    </div>
+                    <div class="md:col-span-8">
+                        <div class=" mt-5 mb-10 px-4">
+                            <img src="/images/calendar.svg" class="mr-1 float-left"/><p class="text-white text-xl inline-block mt-1">{date[1]} {date[0]}, {date[2]}</p>
+                            <h2 class=" text-white mb-8 mt-4" title={postTitle}>{postTitle.substring(0,20)}...</h2>
+                            <p class="text-white text-opacity-75  mt-5">{postContent}...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blue-gr-box md:mb-4 mb-6  p-0 pb-5">
+                <div class="grid  md:grid-cols-12 gap-0 md:gap-8">
+                    <div class="md:col-span-4">
+                        <img src={postImg[1]} class="rounded-bl-full rounded-br-full object-center"/>
+                    </div>
+                    <div class="md:col-span-8">
+                        <div class=" mt-5 mb-10 px-4">
+                            <img src="/images/calendar.svg" class="mr-1 float-left"/><p class="text-white text-xl inline-block mt-1">{date1[1]} {date1[0]}, {date1[2]}</p>
+                            <h2 class=" text-white mb-8 mt-4" title={postTitle1}>{postTitle1.substring(0,20)}...</h2>
+                            <p class="text-white text-opacity-75  mt-5">{postContent1}...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blue-gr-box md:mb-4 mb-6  p-0 pb-5">
+                <div class="grid  md:grid-cols-12 gap-0 md:gap-8">
+                    <div class="md:col-span-4">
+                        <img src={postImg[2]} class="rounded-bl-full rounded-br-full object-center"/>
+                    </div>
+                    <div class="md:col-span-8">
+                        <div class=" mt-5 mb-10 px-4">
+                            <img src="/images/calendar.svg" class="mr-1 float-left"/><p class="text-white text-xl inline-block mt-1">{date2[1]} {date2[0]}, {date2[2]}</p>
+                            <h2 class=" text-white mb-8 mt-4" title={postTitle2}>{postTitle2.substring(0,20)}...</h2>
+                            <p class="text-white text-opacity-75  mt-5">{postContent2}...</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
+
+        );
+    })
+}

@@ -16,7 +16,7 @@ const { page } = Astro.params;
 
 const index=Number(page);
 
-const mushafLink="/../readSurahMushaf/"+page;
+const mushafLink="/readSurahMushaf/"+page;
 
 let surahID=json[0].book[0].surahs[index-1]?.surahNumber;
 
@@ -67,7 +67,7 @@ if(surahID?.length===2)
             }
             return (<Ayath ayah={item.text} audioID={surahID+ayahID}/>);
             })}
-        <br/><div class="text-center"><a href="../quran"><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Back to Quran</button></a></div>
+        <br/><div class="text-center"><a href="/quran"><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Back to Quran</button></a></div>
         <br/><br/>
     </div>
 </body>

@@ -31,4 +31,23 @@
 			});
 		}
 	} 
+
+	const playAyahQuran=(audSrc)=> { 
+		const srcURL = document.getElementById("myAudio").src;
+		const audURL=atob(audSrc);
+		if(srcURL!==audURL)
+		{
+			document.getElementById("myAudio").src=audURL;
+		}
+		
+		if(playing)
+		{
+			document.getElementById("myAudio").pause();
+		}
+		else
+		{
+			document.getElementById("myAudio").play();
+		}
+		playing=!playing;
+	} 
 </script>

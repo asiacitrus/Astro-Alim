@@ -2,6 +2,6 @@
 // Usage: <GreetingHeadline greeting="Howdy" name="Partner" />
 const { audioID,ayah } = Astro.props;
 let encAudPath=btoa("https://alim-quran.s3.amazonaws.com/recitation/Alafasy_128kbps/"+audioID+".mp3");
-let decAudPath="javascript:playAyah('"+encAudPath+"')";
+let decAudPath="javascript:playAyahQuran('"+encAudPath+"')";
 ---
 <h1 class="text-4xl" style="text-align: right; line-height: 80px;">{ayah}</h1><a href={decAudPath}>Play</a><br/><br/><br/><br/>

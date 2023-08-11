@@ -17,16 +17,16 @@ import NewsletterSubscription from "./NewsletterSubscription.jsx";
         <h2 class="text-deep-red mb-10"> “The Qur'an is a guidance for humanity. It is the eternal and literal word of Allah.” </h2>
         <div class="flex w-32  mb-8">
           <div class="flex-1 p-1">
-          <img src="/images/twitter.svg" class="w-24"/>
+          <a href="https://twitter.com/alim_inc"><img src="/images/twitter.svg" class="w-24"/></a>
           </div>
           <div class="flex-1 p-1">
-          <img src="/images/linkedin.svg" class="w-24"/>
+          <a href="https://www.linkedin.com/company/the-alim-foundation/"><img src="/images/linkedin.svg" class="w-24"/></a>
           </div>
           <div class="flex-1 p-1">
-          <img src="/images/facebook.svg" class="w-24"/>
+          <a href="https://www.facebook.com/alimfoundation"><img src="/images/facebook.svg" class="w-24"/></a>
           </div>
           <div class="flex-1 p-1">
-          <img src="/images/youtube.svg" class="w-24"/>
+          <a href="https://www.youtube.com/channel/UCIO9DrXm-myDFACoS7zYC9g"><img src="/images/youtube.svg" class="w-24"/></a>
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@ import NewsletterSubscription from "./NewsletterSubscription.jsx";
     </div>
     <div class="grid md:grid-cols-12 gap-0 md:gap-4">
       <div class="md:col-span-6">
-        <p class="text-base text-white mt-8"> Alim.org © 2023. All Rights Reserved </p>
+        <p class="text-base text-white mt-8"> Alim.org © {new Date().getFullYear()}. All Rights Reserved </p>
       </div>
       <div class="md:col-span-6">
         <p class="text-base text-white md:text-right mt-8"> Built by Brillionhouse </p>
@@ -72,6 +72,14 @@ import NewsletterSubscription from "./NewsletterSubscription.jsx";
     var swiper1 = new Swiper(".mySwiper1", {
 			loop: true
 		});
+    var swiper2 = new Swiper(".mySwiper2", {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 50,
+      mousewheel: {
+        releaseOnEdges: true,
+      }
+    });
 		let recentInsightsArr=JSON.parse(localStorage.getItem('recentInsights'));
 		let recentInsightCounter=0;
     if(recentInsightsArr!==null)

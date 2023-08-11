@@ -6,7 +6,7 @@
     <style>
         .swiper {
           width: 100%;
-          height: 100%;
+          height: 100%
         }
     
         .swiper-slide {
@@ -47,6 +47,16 @@
 
         const moveNext1=()=>{
             const swiper = document.querySelector('.mySwiper1').swiper;
+            swiper.slideNext();
+        }
+
+        const movePrev2=()=>{
+            const swiper = document.querySelector('.mySwiper2').swiper;
+            swiper.slidePrev()
+        }
+
+        const moveNext2=()=>{
+            const swiper = document.querySelector('.mySwiper2').swiper;
             swiper.slideNext();
         }
 

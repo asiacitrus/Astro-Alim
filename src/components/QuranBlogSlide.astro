@@ -9,7 +9,7 @@ let numArr=[0,1,2,3,4,5,6]
 {
     numArr.map((num)=>{
         const date=sorted[num].data.date.toLocaleString('default', {  month:'long', day: 'numeric', year: 'numeric',weekday: 'long' }).split(" ");
-        const path="blog/"+sorted[num].slug;
+        const path="/blog/"+sorted[num].slug;
         return(
             <div class="swiper-slide">
                 <div class="grid md:grid-cols-12 gap-0 md:gap-10">
