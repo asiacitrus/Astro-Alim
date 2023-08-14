@@ -1,5 +1,6 @@
 ---
 import json from '../../data/structure/arb.json';
+import detailsJson from '../../data/structure/structure.json';
 import Ayath from '../../components/Ayath.astro';
 import AudioPlayerScript from '../../components/AudioPlayerScript.astro';
 
@@ -43,10 +44,15 @@ if(surahID?.length===2)
             src: url("/fonts/arb.ttf");
         }
     </style>
-    <script is:inline src="https://cdn.tailwindcss.com"></script>
+    
     <AudioPlayerScript/>
 </head>
 <body>
+    <input type="hidden" id="snum" value={detailsJson[index-1]?.index}/>
+    <input type="hidden" id="titleMeaning" value={detailsJson[index-1]?.titleEn}/>
+    <input type="hidden" id="title" value={detailsJson[index-1]?.title}/>
+    <input type="hidden" id="titleAr" value={detailsJson[index-1]?.titleAr}/>
+    <input type="hidden" id="aCount" value={detailsJson[index-1]?.count}/>
     <div class="container mx-auto" style="font-family: myFirstFont;">
         <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-black text-center">Verses</h1><br/>
         <br/><div class="text-center"><a href={mushafLink}><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Read in mushaf format</button></a></div>
@@ -70,6 +76,26 @@ if(surahID?.length===2)
         <br/><div class="text-center"><a href="/quran"><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Back to Quran</button></a></div>
         <br/><br/>
     </div>
+
+
+    <script is:inline src="https://cdn.tailwindcss.com"></script>
+    <script is:inline>
+        let recentInsightsArr=JSON.parse(localStorage.getItem('recentInsights'));
+		let recentInsightCounter=0;
+        if(recentInsightsArr!==null)
+        {
+            let surahObj={};
+            surahObj.surahNumber=document.getElementById('snum').value;
+            surahObj.titleMeaning=document.getElementById('titleMeaning').value;
+            surahObj.title=document.getElementById('title').value;
+            surahObj.arbTitle=document.getElementById('titleAr').value;
+            surahObj.ayahCount=document.getElementById('aCount').value;
+            recentInsightsArr.pop(recentInsightsArr);
+            recentInsightsArr.unshift(surahObj)
+            console.log(recentInsightsArr);
+            localStorage.setItem('recentInsights',JSON.stringify(recentInsightsArr));
+        }
+    </script>
 </body>
 </html>
 

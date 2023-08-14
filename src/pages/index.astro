@@ -2,20 +2,11 @@
 import HomeLayout from "../template/HomeLayout.astro";
 import AudioPlayerScript from "../components/AudioPlayerScript.astro";
 import SwiperConfig from "../components/SwiperConfig.astro";
+import HTMLHeadComponent from "../components/HTMLHeadComponent.astro";
 
 ---
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="stylesheet" href="/css/style.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-    	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Alim</title>
+	<HTMLHeadComponent/>
 
 		<SwiperConfig/>
 
