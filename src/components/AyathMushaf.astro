@@ -1,11 +1,14 @@
 ---
 // Usage: <GreetingHeadline greeting="Howdy" name="Partner" />
-const { ayah,num } = Astro.props;
+const { ayah,num,audioID } = Astro.props;
+let encAudPath="https://alim-quran.s3.amazonaws.com/recitation/Alafasy_128kbps/"+audioID+".mp3";
 function toArabicNumeral(en) {
     return ("" + en).replace(/[0-9]/g, function(t) {
         return "٠١٢٣٤٥٦٧٨٩".slice(+t, +t+1);
     });
 }
+let inpID="hiddenInp"+num;
 const punctuation='\xa0\xa0\xa0\xa0'+toArabicNumeral(num)+'\xa0\xa0\xa0\xa0';
+const startPath="javascript:playAyahMushaf('"+num+"')";
 ---
-<div style="display: inline;">  <span class="text-4xl" style="line-height: 80px;">&nbsp;{ayah}&nbsp; <div style="display: inline; width: 60px; height: 65px; padding: 10px; background: #fff; text-align: center; background-image: url('/images/punctuation.png'); background-repeat: no-repeat; background-position: 50% 50%; background-size: 45px 45px; text-align: right;"><a class="text-xl">&nbsp{punctuation}&nbsp;</a></div></span> </div>
+<div style="display: inline;">  <span class="text-4xl" style="line-height: 80px;">&nbsp;{ayah}&nbsp; <div style="display: inline; width: 60px; height: 65px; padding: 10px; background: #fff; text-align: center; background-image: url('/images/punctuation.png'); background-repeat: no-repeat; background-position: 50% 50%; background-size: 45px 45px; text-align: right;"><a href={startPath} class="text-xl">&nbsp{punctuation}&nbsp;</a><input type="hidden" value={encAudPath} id={inpID}></div></span> </div>

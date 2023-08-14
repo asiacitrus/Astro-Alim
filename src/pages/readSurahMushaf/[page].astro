@@ -1,6 +1,10 @@
 ---
 import json from '../../data/quran/read/ARB/arb.json';
+import structureData from '../../data/quran/overview/structure.json';
 import Ayath from '../../components/AyathMushaf.astro';
+import MediaPlayerHead from '../../components/MediaPlayerHead.astro';
+import MediaPlayerFooter from '../../components/MediaPlayerFooter.astro';
+import MediaPlayerBody from '../../components/MediaPlayerBody.astro';
 
 export function getStaticPaths() {
     let pageArray:object[]=[]
@@ -19,13 +23,26 @@ const mushafLink="/readSurah/"+page;
 
 let numb=0;
 
+let surahID=json[0].book[0].surahs[index-1]?.surahNumber;
+
+if(surahID?.length===1)
+{
+    surahID="00"+surahID;
+}
+if(surahID?.length===2)
+{
+    surahID="0"+surahID;
+}
+
+const startPath="javascript:playAyahMushaf('1')";
 ---
 
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://icono-49d6.kxcdn.com/icono.min.css'>
     <title>Verses</title>
     <style>
         @font-face {
@@ -34,15 +51,37 @@ let numb=0;
         }
     </style>
     <script is:inline src="https://cdn.tailwindcss.com"></script>
+    
+    
 </head>
 <body>
-    <div class="container mx-auto">
+    
+    <div class="container mx-auto" style="direction: rtl;">
         <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-black text-center">Verses</h1><br/>
         <br/><div class="text-center"><a href={mushafLink}><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Read line by line</button></a></div>
-        {json[0].book[0].surahs[index-1]?.ayahs?.map((item)=>{numb++; return <Ayath ayah={item.text} num={numb}/>})}
+          <a href={startPath}>start</a>
+          
+        <input type="hidden" id="lenInput" value={json[0].book[0].surahs[index-1]?.ayahs?.length}/>
+        {json[0].book[0].surahs[index-1]?.ayahs?.map((item)=>{
+            let ayahID=item.ayahNumber;
+            if(ayahID?.length===1)
+            {
+                ayahID="00"+ayahID;
+            }
+            if(ayahID?.length===2)
+            {
+                ayahID="0"+ayahID;
+            }
+            numb++; 
+            return <Ayath ayah={item.text} num={numb} audioID={surahID+ayahID}/>
+        })}
         <br/><div class="text-center"><a href="/quran"><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Back to Quran</button></a></div>
-        <br/><br/>
+        <br/><br/><br/><br/><br/>
     </div>
+    <MediaPlayerBody surah={structureData[index-1].title}/>
+    <MediaPlayerFooter/>
+    <MediaPlayerHead/>
+    <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
 </body>
 </html>
 
