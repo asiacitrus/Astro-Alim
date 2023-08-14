@@ -1,0 +1,156 @@
+---
+
+---
+
+<link rel="stylesheet" href="/css/styleMediaPlayer.css">
+
+<script is:inline>
+    let idCount=1;
+	let loopPlay=false;
+    let rangeRepeat=false;
+    let playing=false;
+    let eventListening=false;
+    let ayahStart=1;
+    let lenInput=0;
+    let repeatAmount=0;
+
+    const setFromMax=()=>{
+        document.getElementById("fromRange").max=document.getElementById("toRange").value
+    }
+
+    const toggleLoopsOff=()=>{
+        document.getElementById("loopToggle").innerHTML="Turn loop on";
+        ayahStart=1;
+        lenInput=Number(document.getElementById("lenInput").value);
+        rangeRepeat=false;
+        document.getElementById("fromRange").value="";
+        document.getElementById("toRange").value="";
+        document.getElementById("repeatAmt").value="";
+        idCount=1;
+        audio.src=document.getElementById("hiddenInp"+ayahStart).value;
+        playBtn.classList.remove("pause");
+        playBtn.classList.add("play");
+    }
+
+	const toggleLoop=()=>{
+        let fromRange=document.getElementById("fromRange").value;
+        let toRange=document.getElementById("toRange").value;
+        repeatAmount=Number(document.getElementById("repeatAmt").value)-1;
+
+        if(fromRange===""&&toRange==="")
+        {
+            if(!loopPlay)
+            {
+                document.getElementById("loopToggle").innerHTML="Turn loop off";
+            }
+            else
+            {
+                document.getElementById("loopToggle").innerHTML="Turn loop on";
+            }
+            loopPlay=!loopPlay;
+        }
+        else
+        {
+            if(!rangeRepeat)
+            {
+                document.getElementById("loopToggle").innerHTML="Turn loop off";
+                if(fromRange==="")
+                {
+                    fromRange=0;
+                }
+                ayahStart=fromRange;
+                if(toRange==="")
+                {
+                    toRange=Number(document.getElementById("lenInput").value);
+                }
+                lenInput=toRange;
+                rangeRepeat=!rangeRepeat;
+                playAyahMushaf(ayahStart);
+            }
+            else
+            {
+                document.getElementById("loopToggle").innerHTML="Turn loop on";
+                ayahStart=1;
+                repeatAmount=0;
+                lenInput=Number(document.getElementById("lenInput").value);
+                rangeRepeat=!rangeRepeat;
+                document.getElementById("fromRange").value="";
+                document.getElementById("toRange").value="";
+                document.getElementById("repeatAmt").value="";
+            }
+        }
+	}
+
+	const playAyahMushaf=(audNum)=> { 
+        if(!rangeRepeat)
+        {
+            lenInput= Number(document.getElementById("lenInput").value);
+        }
+		
+		const srcURL = audio.src;
+		const audURL=document.getElementById("hiddenInp"+audNum).value;
+		if(srcURL!==audURL)
+		{
+			audio.src=audURL;
+            playing=false;
+            idCount=Number(audNum);
+		}
+		
+		if(playing)
+		{
+            playBtn.click();
+		}
+		else
+		{
+            playBtn.click();
+		}
+		playing=!playing;
+		if (!eventListening) {
+            eventListening=!eventListening;
+			audio.addEventListener("ended", function(){
+				if(!loopPlay)
+				{
+					idCount++;
+				}
+				
+				if(idCount<=lenInput)
+				{
+					audio.src=document.getElementById("hiddenInp"+idCount).value;
+					audio.play();
+                    if(repeatAmount>0){
+                        if(loopPlay){
+                            repeatAmount--;
+                        }
+                    }
+                    else
+                    {
+                        loopPlay=false;
+                        document.getElementById("loopToggle").innerHTML="Turn loop on";
+                    }
+				}
+				else
+				{
+                    if(!rangeRepeat){
+                        playBtn.classList.remove("pause");
+                        playBtn.classList.add("play");
+                    }
+                    
+                    audio.pause();
+                    audio.src=document.getElementById("hiddenInp"+ayahStart).value;
+                    idCount=ayahStart;
+                    if(repeatAmount>0){
+                        repeatAmount--;
+                        audio.play();
+                    }
+                    else
+                    {
+                        if(rangeRepeat)
+                        {
+                            toggleLoopsOff();
+                        }
+                    }
+				}
+			});
+		}
+	}
+</script>
