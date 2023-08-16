@@ -78,7 +78,7 @@ const startPath="javascript:playAyahMushaf('1')";
         <br/><div class="text-center"><a href="/quran"><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Back to Quran</button></a></div>
         <br/><br/><br/><br/><br/>
     </div>
-    <MediaPlayerBody surah={structureData[index-1].title} surahLength={json[0].book[0].surahs[index-1]?.ayahs?.length}/>
+    <MediaPlayerBody surah={structureData[index-1]?.title} surahLength={json[0].book[0].surahs[index-1]?.ayahs?.length}/>
     <MediaPlayerFooter/>
     <MediaPlayerHead/>
     <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
