@@ -2,7 +2,7 @@
 const {surah,surahLength}=Astro.props;
 ---
 
-<div class="audio-player">
+<div class="audio-player" style="visibility: visible;" id="mediaPlayer">
 
     <div class="timeline">
       <div class="progress"></div>
@@ -44,37 +44,71 @@ const {surah,surahLength}=Astro.props;
     </div>
   </div>
 
-  <div id="dropdownSearch" class="z-10 hidden bg-white rounded-lg shadow w-60 dark:bg-gray-700">
+  <div id="dropdownSearch" class="z-10 hidden bg-white rounded-lg shadow w-80 dark:bg-gray-700">
     <form action="javascript:toggleLoop()">
     <div class="p-3">
-      <span class="dark:text-white">Loop from :</span>
+      <span class="dark:text-white">Play from :</span>
     </div>
 
     <div class="p-3">
       <div class="relative">
-        <input type="number" min="1" max={surahLength} id="fromRange" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="From">
+        <input type="number" min="1" max={surahLength} id="fromRange" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Ayah no. to begin">
       </div>
     </div>
 
     <div class="p-3">
-      <span class="dark:text-white">Loop to :</span>
+      <span class="dark:text-white">Play to :</span>
     </div>
 
     <div class="p-3">
       <div class="relative">
-        <input type="number" onchange="setFromMax()" min="1" max={surahLength} id="toRange" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="To">
+        <input type="number" onchange="setFromMax();" min="1" max={surahLength} id="toRange" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Ayah no. to end">
       </div>
     </div>
 
+    <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownToggleButton">
+      <li>
+        <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+          <label class="relative inline-flex items-center w-full cursor-pointer">
+            <input type="checkbox" value="" class="sr-only peer" id="repeatAllAyahsRange" onchange="setRepeat();">
+            <div class="w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-500 peer-checked:bg-blue-600"></div>
+            <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Repeat all Ayahs in range</span>
+          </label>
+        </div>
+      </li>
+    </ul>
+
     <div class="p-3">
-      <span class="dark:text-white">Loop times :</span>
+      <span class="dark:text-white">Repeat count for ayahs in range :</span>
     </div>
 
     <div class="p-3">
       <div class="relative">
-        <input required type="number" min="1" max="8" id="repeatAmt" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="From">
+        <input disabled type="number" min="1" max="8" id="repeatAmtRange" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Repeat count for range" disabled>
       </div>
     </div>
+
+    <div class="p-3">
+      <span class="dark:text-white">Repeat :</span>
+    </div>
+
+    <div class="p-3">
+      <div class="relative">
+        <input required type="number" min="1" max="8" id="repeatAmt" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Repeat count">
+      </div>
+    </div>
+
+    <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownToggleButton">
+      <li>
+        <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+          <label class="relative inline-flex items-center w-full cursor-pointer">
+            <input type="checkbox" value="" class="sr-only peer" id="repeatAllAyahs">
+            <div class="w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-500 peer-checked:bg-blue-600"></div>
+            <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Repeat all Ayahs</span>
+          </label>
+        </div>
+      </li>
+    </ul>
     
     <button type="submit" style="width: 100%;" id="loopToggle" class="flex items-center p-3 text-sm font-medium text-red-600 border-t border-gray-200 rounded-b-lg bg-gray-50 dark:border-gray-600 hover:bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-red-500 hover:underline">
       Turn loop on

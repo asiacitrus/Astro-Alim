@@ -14,22 +14,6 @@
     let lenInput=0;
     let repeatAmount=0;
     let repeatAllAyahs=false;
-    let repeatAllAyahsInRange=false;
-    let repeatAmountRange=0;
-
-    const setRepeat=()=>{
-        if(document.getElementById('repeatAllAyahsRange').checked)
-        {
-            document.getElementById('repeatAllAyahs').disabled=true;
-            document.getElementById('repeatAllAyahs').checked=false;
-            document.getElementById('repeatAmtRange').disabled=false;
-        }
-        else
-        {
-            document.getElementById('repeatAllAyahs').disabled=false;
-            document.getElementById('repeatAmtRange').disabled=true;
-        }
-    }
 
     const setFromMax=()=>{
         document.getElementById("fromRange").max=document.getElementById("toRange").value
@@ -43,8 +27,6 @@
         document.getElementById("fromRange").value="";
         document.getElementById("toRange").value="";
         document.getElementById("repeatAmt").value="";
-        document.getElementById("repeatAmtRange").value="";
-        document.getElementById("repeatAllAyahsRange").checked=false;
         idCount=1;
         audio.src=document.getElementById("hiddenInp"+ayahStart).value;
         playBtn.classList.remove("pause");
@@ -56,12 +38,6 @@
         let toRange=document.getElementById("toRange").value;
         repeatAmount=Number(document.getElementById("repeatAmt").value)-1;
         repeatAllAyahs=document.getElementById('repeatAllAyahs').checked;
-        repeatAllAyahsInRange=document.getElementById('repeatAllAyahsRange').checked;
-
-        if(repeatAllAyahsInRange)
-        {
-            repeatAmountRange=Number(document.getElementById("repeatAmtRange").value)-2;
-        }
 
         if(fromRange===""&&toRange==="")
         {
@@ -135,8 +111,7 @@
 		if (!eventListening) {
             eventListening=!eventListening;
 			audio.addEventListener("ended", function(){
-				
-                if(!loopPlay&&!repeatAllAyahsInRange)
+				if(!loopPlay)
 				{
 					idCount++;
 				}
@@ -160,27 +135,7 @@
                         else
                         {
                             loopPlay=false;
-                            if(!repeatAllAyahsInRange)
-                            {
-                                document.getElementById("loopToggle").innerHTML="Turn loop on";
-                            }
-                            
-                        }
-                    }
-
-
-                    if(repeatAmountRange>0){
-                        console.log(repeatAmountRange);
-                        if(repeatAllAyahsInRange){
-                            repeatAmountRange--;
-                        }
-                    }
-                    else
-                    {
-                        if(repeatAllAyahsInRange)
-                        {
-                            repeatAmountRange=Number(document.getElementById("repeatAmtRange").value)-1;
-                            idCount++;
+                            document.getElementById("loopToggle").innerHTML="Turn loop on";
                         }
                     }
 				}
@@ -203,12 +158,8 @@
                     audio.pause();
                     audio.src=document.getElementById("hiddenInp"+ayahStart).value;
                     idCount=ayahStart;
-                    
                     if(repeatAmount>0){
                         repeatAmount--;
-                        if(repeatAllAyahsInRange){
-                            repeatAmountRange=Number(document.getElementById("repeatAmtRange").value)-2;
-                        }
                         audio.play();
                     }
                     else
@@ -216,12 +167,6 @@
                         if(rangeRepeat)
                         {
                             toggleLoopsOff();
-                        }
-                        if(repeatAllAyahsInRange)
-                        {
-                            repeatAllAyahsInRange=false;
-                            repeatAmountRange=0;
-                            document.getElementById("loopToggle").innerHTML="Turn loop on";
                         }
                     }
 				}
