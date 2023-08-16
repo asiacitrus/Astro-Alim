@@ -80,94 +80,98 @@ import NewsletterSubscription from "./NewsletterSubscription.jsx";
         releaseOnEdges: true,
       }
     });
-		let recentInsightsArr=JSON.parse(localStorage.getItem('recentInsights'));
-		let recentInsightCounter=0;
-    if(recentInsightsArr!==null)
-    {
-      recentInsightsArr.map((item)=>{
-        const snum='snum'+recentInsightCounter;
-        const titleMeaning='titleMeaning'+recentInsightCounter;
-        const title='title'+recentInsightCounter;
-        const arbTitle='arbTitle'+recentInsightCounter;
-        const ayahnumber='ayahnumber'+recentInsightCounter;
-        const hyperLnk='hyper'+recentInsightCounter;
-        document.getElementById(hyperLnk).href='/readSurah/'+parseInt(item.surahNumber);
-        document.getElementById(titleMeaning).innerHTML=item.titleMeaning;
-        document.getElementById(title).innerHTML=item.title;
-        document.getElementById(snum).innerHTML='Surah '+item.surahNumber;
-        document.getElementById(arbTitle).innerHTML=item.arbTitle;
-        document.getElementById(ayahnumber).innerHTML=item.ayahCount+' Ayahs';
-        recentInsightCounter++;
-		  });
-    }
-    else
-    {
-      const recetInsightsArr=[
-            {
-                "surahNumber":"056",
-                "titleMeaning":"The Inevitable",
-                "title":"Al-Waqi'ah",
-                "arbTitle":"الواقعة",
-                "ayahCount":"96"
-            },
-            {
-                "surahNumber":"055",
-                "titleMeaning":"The Beneficent",
-                "title":"Ar-Rahman",
-                "arbTitle":"الرحمن",
-                "ayahCount":"78"
-            },
-            {
-                "surahNumber":"046",
-                "titleMeaning":"The Wind-Curved Sandhills",
-                "title":"Al-Ahqaf",
-                "arbTitle":"الأحقاف",
-                "ayahCount":"35"
-            },
-            {
-                "surahNumber":"044",
-                "titleMeaning":"The Smoke",
-                "title":"Ad-Dukhan",
-                "arbTitle":"الدخان",
-                "ayahCount":"59"
-            },
-            {
-                "surahNumber":"001",
-                "titleMeaning":"The Opening",
-                "title":"Al-Fatiha",
-                "arbTitle":"الفاتحة",
-                "ayahCount":"7"
-            },
-            {
-                "surahNumber":"036",
-                "titleMeaning":"Yaseen",
-                "title":"Yasin",
-                "arbTitle":"يس",
-                "ayahCount":"83"
-            },
-            {
-                "surahNumber":"112",
-                "titleMeaning":"Sincerity",
-                "title":"Al-Ikhlas",
-                "arbTitle":"الإخلاص",
-                "ayahCount":"4"
-            }
-    ];
 
-    recetInsightsArr.map((item)=>{
-        const titleMeaning='titleMeaning'+recentInsightCounter;
+    if(recentInsights)
+    {
+      let recentInsightsArr=JSON.parse(localStorage.getItem('recentInsights'));
+      let recentInsightCounter=0;
+      if(recentInsightsArr!==null)
+      {
+        recentInsightsArr.map((item)=>{
+          const snum='snum'+recentInsightCounter;
+          const titleMeaning='titleMeaning'+recentInsightCounter;
+          const title='title'+recentInsightCounter;
+          const arbTitle='arbTitle'+recentInsightCounter;
+          const ayahnumber='ayahnumber'+recentInsightCounter;
+          const hyperLnk='hyper'+recentInsightCounter;
+          document.getElementById(hyperLnk).href='/readSurah/'+parseInt(item.surahNumber);
+          document.getElementById(titleMeaning).innerHTML=item.titleMeaning;
+          document.getElementById(title).innerHTML=item.title;
+          document.getElementById(snum).innerHTML='Surah '+item.surahNumber;
+          document.getElementById(arbTitle).innerHTML=item.arbTitle;
+          document.getElementById(ayahnumber).innerHTML=item.ayahCount+' Ayahs';
+          recentInsightCounter++;
+        });
+      }
+      else
+      {
+        const recetInsightsArr=[
+              {
+                  "surahNumber":"056",
+                  "titleMeaning":"The Inevitable",
+                  "title":"Al-Waqi'ah",
+                  "arbTitle":"الواقعة",
+                  "ayahCount":"96"
+              },
+              {
+                  "surahNumber":"055",
+                  "titleMeaning":"The Beneficent",
+                  "title":"Ar-Rahman",
+                  "arbTitle":"الرحمن",
+                  "ayahCount":"78"
+              },
+              {
+                  "surahNumber":"046",
+                  "titleMeaning":"The Wind-Curved Sandhills",
+                  "title":"Al-Ahqaf",
+                  "arbTitle":"الأحقاف",
+                  "ayahCount":"35"
+              },
+              {
+                  "surahNumber":"044",
+                  "titleMeaning":"The Smoke",
+                  "title":"Ad-Dukhan",
+                  "arbTitle":"الدخان",
+                  "ayahCount":"59"
+              },
+              {
+                  "surahNumber":"001",
+                  "titleMeaning":"The Opening",
+                  "title":"Al-Fatiha",
+                  "arbTitle":"الفاتحة",
+                  "ayahCount":"7"
+              },
+              {
+                  "surahNumber":"036",
+                  "titleMeaning":"Yaseen",
+                  "title":"Yasin",
+                  "arbTitle":"يس",
+                  "ayahCount":"83"
+              },
+              {
+                  "surahNumber":"112",
+                  "titleMeaning":"Sincerity",
+                  "title":"Al-Ikhlas",
+                  "arbTitle":"الإخلاص",
+                  "ayahCount":"4"
+              }
+      ];
+
+      recetInsightsArr.map((item)=>{
+          const titleMeaning='titleMeaning'+recentInsightCounter;
           const snum='snum'+recentInsightCounter;
           const title='title'+recentInsightCounter;
           const arbTitle='arbTitle'+recentInsightCounter;
           const ayahnumber='ayahnumber'+recentInsightCounter;
-        document.getElementById(titleMeaning).innerHTML=item.titleMeaning;
-        document.getElementById(title).innerHTML=item.title;
-        document.getElementById(snum).innerHTML='Surah '+item.surahNumber;
-        document.getElementById(arbTitle).innerHTML=item.arbTitle;
-        document.getElementById(ayahnumber).innerHTML=item.ayahCount+' Ayahs';
-        recentInsightCounter++;
-		  });
+          document.getElementById(titleMeaning).innerHTML=item.titleMeaning;
+          document.getElementById(title).innerHTML=item.title;
+          document.getElementById(snum).innerHTML='Surah '+item.surahNumber;
+          document.getElementById(arbTitle).innerHTML=item.arbTitle;
+          document.getElementById(ayahnumber).innerHTML=item.ayahCount+' Ayahs';
+          recentInsightCounter++;
+        });
 
-      localStorage.setItem('recentInsights',JSON.stringify(recetInsightsArr));
+        localStorage.setItem('recentInsights',JSON.stringify(recetInsightsArr));
+      }
     }
 	</script>

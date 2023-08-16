@@ -3,11 +3,15 @@ import FooterComponent from "../components/FooterComponent.astro";
 import HTMLHeadComponent from "../components/HTMLHeadComponent.astro";
 import Navbar from "../components/Navbar.astro";
 
+const title="Islamic History";
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-  <HTMLHeadComponent/>
+  <HTMLHeadComponent title={title}/>
+  <script is:inline>
+    const recentInsights=false;
+</script>
 </head>
 <body class="bg-dark_blue font-Inter">
 <Navbar/>

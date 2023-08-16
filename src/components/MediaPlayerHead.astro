@@ -17,6 +17,32 @@
     let repeatAllAyahsInRange=false;
     let repeatAmountRange=0;
 
+    const showRange=()=>{
+        if(document.getElementById('rangeRepeatToggle').checked)
+        {
+            document.getElementById('rangeCtrls').style.display='inline';
+            document.getElementById('surahCtrls').style.display='inline';
+            document.getElementById('surahToggle').style.display='none';
+        }
+        else
+        {
+            document.getElementById('rangeCtrls').style.display='none';
+            document.getElementById('surahCtrls').style.display='none';
+            document.getElementById('surahToggle').style.display='inline';
+        }
+    }
+
+    const showSurahControls=()=>{
+        if(document.getElementById('surahRepeatToggle').checked)
+        {
+            document.getElementById('surahCtrls').style.display='inline';
+        }
+        else
+        {
+            document.getElementById('surahCtrls').style.display='none';
+        }
+    }
+
     const setRepeat=()=>{
         if(document.getElementById('repeatAllAyahsRange').checked)
         {
@@ -82,7 +108,7 @@
                 document.getElementById("loopToggle").innerHTML="Turn loop off";
                 if(fromRange==="")
                 {
-                    fromRange=0;
+                    fromRange=1;
                 }
                 ayahStart=fromRange;
                 if(toRange==="")
@@ -135,7 +161,7 @@
 		if (!eventListening) {
             eventListening=!eventListening;
 			audio.addEventListener("ended", function(){
-				
+				console.log(repeatAmountRange);
                 if(!loopPlay&&!repeatAllAyahsInRange)
 				{
 					idCount++;
@@ -160,7 +186,7 @@
                         else
                         {
                             loopPlay=false;
-                            if(!repeatAllAyahsInRange)
+                            if(!repeatAllAyahsInRange&&!rangeRepeat)
                             {
                                 document.getElementById("loopToggle").innerHTML="Turn loop on";
                             }

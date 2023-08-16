@@ -9,17 +9,19 @@ let numArr=[0,1,2,3,4,5,6];
   const ayahnumber='ayahnumber'+item;
   const hypId='hyper'+item;
   return(
+  <a href="#" id={hypId}>
     <div class="mb-4 md:mb-0">
       <div class="blue-gr-box">
           <p class="text-white text-xs text-opacity-75 mb-2" id={titleMeaning}></p>
           <h5 class="text-white text-xs font-medium" id={snum}> Surah </h5>
-          <a href="#" id={hypId}><h5 class="text-white text-xs font-medium" id={title}></h5></a>
+          <h5 class="text-white text-xs font-medium" id={title}></h5>
           <div class="text-center bg-light-blue py-4 px-2 mt-3 rounded">
             <h5 class="text-white text-sm font-medium mb-1" id={arbTitle}></h5>
             <p class="text-white text-opacity-75 text-xs font-medium" id={ayahnumber}></p>
           </div>
       </div>
-    </div>  
+    </div> 
+  </a> 
   );
 })}
           

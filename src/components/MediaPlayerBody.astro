@@ -23,7 +23,7 @@ const {surah,surahLength}=Astro.props;
       <div class="name">{surah}</div>
 
       <div class="name">
-        <button data-dropdown-toggle="dropdownSearch"> 
+        <button data-dropdown-toggle="mainMenu"> 
           <svg width="22" height="23" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M8.79693 10.499C8.99131 10.499 9.17773 10.4218 9.31518 10.2844C9.45263 10.1469 9.52984 9.9605 9.52984 9.76612C9.52984 9.57174 9.45263 9.38532 9.31518 9.24787C9.17773 9.11042 8.99131 9.0332 8.79693 9.0332C8.60255 9.0332 8.41613 9.11042 8.27868 9.24787C8.14123 9.38532 8.06401 9.57174 8.06401 9.76612C8.06401 9.9605 8.14123 10.1469 8.27868 10.2844C8.41613 10.4218 8.60255 10.499 8.79693 10.499ZM13.9273 10.499C14.1217 10.499 14.3081 10.4218 14.4456 10.2844C14.583 10.1469 14.6603 9.9605 14.6603 9.76612C14.6603 9.57174 14.583 9.38532 14.4456 9.24787C14.3081 9.11042 14.1217 9.0332 13.9273 9.0332C13.733 9.0332 13.5465 9.11042 13.4091 9.24787C13.2716 9.38532 13.1944 9.57174 13.1944 9.76612C13.1944 9.9605 13.2716 10.1469 13.4091 10.2844C13.5465 10.4218 13.733 10.499 13.9273 10.499ZM3.66651 10.499C3.86089 10.499 4.04731 10.4218 4.18476 10.2844C4.32221 10.1469 4.39943 9.9605 4.39943 9.76612C4.39943 9.57174 4.32221 9.38532 4.18476 9.24787C4.04731 9.11042 3.86089 9.0332 3.66651 9.0332C3.47213 9.0332 3.28571 9.11042 3.14826 9.24787C3.01081 9.38532 2.93359 9.57174 2.93359 9.76612C2.93359 9.9605 3.01081 10.1469 3.14826 10.2844C3.28571 10.4218 3.47213 10.499 3.66651 10.499Z" fill="white" fill-opacity="0.75" stroke="white" stroke-opacity="0.75" stroke-width="1.46615" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
@@ -44,8 +44,52 @@ const {surah,surahLength}=Astro.props;
     </div>
   </div>
 
-  <div id="dropdownSearch" class="z-10 hidden bg-white rounded-lg shadow w-80 dark:bg-gray-700">
+  <div id="mainMenu" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="multiLevelDropdownButton">
+      
+      <li>
+        <button id="doubleDropdownButton" data-dropdown-toggle="repeatDropdown" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Repeat settings<svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+  </svg></button>
+      </li>
+      <li>
+        <button id="doubleDropdownButton" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Reciter settings<svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+  </svg></button>
+      </li>
+    </ul>
+</div>
+
+  <div id="repeatDropdown" class="z-10 hidden bg-white rounded-lg shadow w-72 dark:bg-gray-700">
     <form action="javascript:toggleLoop()">
+
+      <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownToggleButton" id="rangeToggle">
+        <li>
+          <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+            <label class="relative inline-flex items-center w-full cursor-pointer">
+              <input type="checkbox" value="" class="sr-only peer" id="rangeRepeatToggle" onchange="showRange();">
+              <div class="w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-500 peer-checked:bg-blue-600"></div>
+              <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Range repetition</span>
+            </label>
+          </div>
+        </li>
+      </ul>
+
+      <div id="surahToggle">
+      <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownToggleButton">
+        <li>
+          <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
+            <label class="relative inline-flex items-center w-full cursor-pointer">
+              <input type="checkbox" value="" class="sr-only peer" id="surahRepeatToggle" onchange="showSurahControls();">
+              <div class="w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-500 peer-checked:bg-blue-600"></div>
+              <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Surah repetition</span>
+            </label>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+      <div id="rangeCtrls" style="display: none">
     <div class="p-3">
       <span class="dark:text-white">Play from :</span>
     </div>
@@ -66,13 +110,17 @@ const {surah,surahLength}=Astro.props;
       </div>
     </div>
 
+  </div>
+
+  <div id="surahCtrls" style="display:none;">
+
     <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownToggleButton">
       <li>
         <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
           <label class="relative inline-flex items-center w-full cursor-pointer">
             <input type="checkbox" value="" class="sr-only peer" id="repeatAllAyahsRange" onchange="setRepeat();">
             <div class="w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-500 peer-checked:bg-blue-600"></div>
-            <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Repeat all Ayahs in range</span>
+            <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Repeat all Ayahs</span>
           </label>
         </div>
       </li>
@@ -84,10 +132,9 @@ const {surah,surahLength}=Astro.props;
 
     <div class="p-3">
       <div class="relative">
-        <input disabled type="number" min="1" max="8" id="repeatAmtRange" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Repeat count for range" disabled>
+        <input disabled type="number" min="2" max="8" id="repeatAmtRange" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Repeat count for range" disabled>
       </div>
     </div>
-
     <div class="p-3">
       <span class="dark:text-white">Repeat :</span>
     </div>
@@ -98,7 +145,9 @@ const {surah,surahLength}=Astro.props;
       </div>
     </div>
 
-    <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownToggleButton">
+  </div>
+
+    <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownToggleButton" style="display: none;">
       <li>
         <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
           <label class="relative inline-flex items-center w-full cursor-pointer">

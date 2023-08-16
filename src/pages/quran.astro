@@ -4,15 +4,19 @@ import HTMLHeadComponent from "../components/HTMLHeadComponent.astro";
 import Navbar from "../components/Navbar.astro";
 import QuranBlogSlide from "../components/QuranBlogSlide.astro";
 import RecentInsights from "../components/RecentInsights.astro";
+import RecentInsightsHead from "../components/RecentInsightsHead.astro";
 import SurahTile from "../components/SurahTile.astro";
 import SwiperConfig from "../components/SwiperConfig.astro";
 
+const title="Al Qur'an";
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-    <HTMLHeadComponent/>
+    <HTMLHeadComponent title={title}/>
     <SwiperConfig/>
+
+    <RecentInsightsHead/>
 
 </head>
 <body class="bg-dark_blue font-Inter">

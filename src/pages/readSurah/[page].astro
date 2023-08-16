@@ -90,8 +90,11 @@ if(surahID?.length===2)
             surahObj.title=document.getElementById('title').value;
             surahObj.arbTitle=document.getElementById('titleAr').value;
             surahObj.ayahCount=document.getElementById('aCount').value;
-            recentInsightsArr.pop(recentInsightsArr);
-            recentInsightsArr.unshift(surahObj)
+            if(!recentInsightsArr.some(el => el.surahNumber === surahObj.surahNumber))
+            {
+                recentInsightsArr.pop(recentInsightsArr);
+                recentInsightsArr.unshift(surahObj)
+            }
             console.log(recentInsightsArr);
             localStorage.setItem('recentInsights',JSON.stringify(recentInsightsArr));
         }

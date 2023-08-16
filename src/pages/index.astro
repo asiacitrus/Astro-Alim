@@ -3,10 +3,12 @@ import HomeLayout from "../template/HomeLayout.astro";
 import AudioPlayerScript from "../components/AudioPlayerScript.astro";
 import SwiperConfig from "../components/SwiperConfig.astro";
 import HTMLHeadComponent from "../components/HTMLHeadComponent.astro";
+import RecentInsightsHead from '../components/RecentInsightsHead.astro';
 
+const title="Alim";
 ---
 <html lang="en">
-	<HTMLHeadComponent/>
+	<HTMLHeadComponent title={title}/>
 
 		<SwiperConfig/>
 
@@ -24,6 +26,8 @@ import HTMLHeadComponent from "../components/HTMLHeadComponent.astro";
 				document.getElementById(btnF).style.display="inline";
 			}
 		</script>
+
+		<RecentInsightsHead/>
 
 		<AudioPlayerScript/>
 	</head>
