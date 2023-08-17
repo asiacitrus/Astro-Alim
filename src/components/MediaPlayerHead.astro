@@ -36,24 +36,25 @@
         if(document.getElementById('surahRepeatToggle').checked)
         {
             document.getElementById('surahCtrls').style.display='inline';
+            document.getElementById('rangeToggle').style.display='none';
         }
         else
         {
             document.getElementById('surahCtrls').style.display='none';
+            document.getElementById('rangeToggle').style.display='inline';
         }
     }
 
     const setRepeat=()=>{
-        if(document.getElementById('repeatAllAyahsRange').checked)
+        const repeatValue=document.getElementById('repeatAmtRange').value;
+        console.log(repeatValue)
+        if(repeatValue==="")
         {
-            document.getElementById('repeatAllAyahs').disabled=true;
-            document.getElementById('repeatAllAyahs').checked=false;
-            document.getElementById('repeatAmtRange').disabled=false;
+            document.getElementById('repeatAllAyahsRange').checked=false;
         }
         else
         {
-            document.getElementById('repeatAllAyahs').disabled=false;
-            document.getElementById('repeatAmtRange').disabled=true;
+            document.getElementById('repeatAllAyahsRange').checked=true;
         }
     }
 
@@ -161,7 +162,6 @@
 		if (!eventListening) {
             eventListening=!eventListening;
 			audio.addEventListener("ended", function(){
-				console.log(repeatAmountRange);
                 if(!loopPlay&&!repeatAllAyahsInRange)
 				{
 					idCount++;
@@ -196,7 +196,6 @@
 
 
                     if(repeatAmountRange>0){
-                        console.log(repeatAmountRange);
                         if(repeatAllAyahsInRange){
                             repeatAmountRange--;
                         }

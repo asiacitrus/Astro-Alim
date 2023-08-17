@@ -60,10 +60,11 @@ const {surah,surahLength}=Astro.props;
     </ul>
 </div>
 
-  <div id="repeatDropdown" class="z-10 hidden bg-white rounded-lg shadow w-72 dark:bg-gray-700">
+  <div id="repeatDropdown" class="z-10 hidden bg-white rounded-lg shadow w-auto dark:bg-gray-700">
     <form action="javascript:toggleLoop()">
 
-      <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownToggleButton" id="rangeToggle">
+      <div id="rangeToggle">
+      <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownToggleButton">
         <li>
           <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
             <label class="relative inline-flex items-center w-full cursor-pointer">
@@ -74,6 +75,7 @@ const {surah,surahLength}=Astro.props;
           </div>
         </li>
       </ul>
+    </div>
 
       <div id="surahToggle">
       <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownToggleButton">
@@ -91,23 +93,25 @@ const {surah,surahLength}=Astro.props;
 
       <div id="rangeCtrls" style="display: none">
     <div class="p-3">
-      <span class="dark:text-white">Play from :</span>
+      
     </div>
 
     <div class="p-3">
       <div class="relative">
-        <input type="number" min="1" max={surahLength} id="fromRange" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Ayah no. to begin">
+        <div style="width: 165px;"><span class="dark:text-white">From :</span> </div>
+        <input required type="number" min="1" max={surahLength} id="fromRange" class="flex-1 inline w-20 p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
       </div>
-    </div>
-
-    <div class="p-3">
-      <span class="dark:text-white">Play to :</span>
     </div>
 
     <div class="p-3">
       <div class="relative">
-        <input type="number" onchange="setFromMax();" min="1" max={surahLength} id="toRange" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Ayah no. to end">
+        <div style="width: 165px;"><label class="dark:text-white">To :</label> </div>
+        <input required type="number" onchange="setFromMax();" min="1" max={surahLength} id="toRange" class="flex-1 inline w-20 p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
       </div>
+    </div>
+
+    <div class="p-3">
+      
     </div>
 
   </div>
@@ -118,21 +122,22 @@ const {surah,surahLength}=Astro.props;
       <li>
         <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
           <label class="relative inline-flex items-center w-full cursor-pointer">
-            <input type="checkbox" value="" class="sr-only peer" id="repeatAllAyahsRange" onchange="setRepeat();">
+            <input type="checkbox" value="" class="sr-only peer" id="repeatAllAyahsRange">
             <div class="w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-500 peer-checked:bg-blue-600"></div>
-            <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Repeat all Ayahs</span>
+            <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Repeat each Ayahs</span>
           </label>
         </div>
       </li>
     </ul>
 
     <div class="p-3">
-      <span class="dark:text-white">Repeat count for ayahs in range :</span>
+      <div style="width: 165px;"><span class="dark:text-white">Repeat count of ayahs :</span></div>
+      
     </div>
 
     <div class="p-3">
       <div class="relative">
-        <input disabled type="number" min="2" max="8" id="repeatAmtRange" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Repeat count for range" disabled>
+        <input type="number" min="2" max="8" id="repeatAmtRange" class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Repeat count for range" onchange="setRepeat();">
       </div>
     </div>
     <div class="p-3">
