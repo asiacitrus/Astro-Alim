@@ -95,7 +95,15 @@ import NewsletterSubscription from "./NewsletterSubscription.jsx";
           const ayahnumber='ayahnumber'+recentInsightCounter;
           const hyperLnk='hyper'+recentInsightCounter;
           document.getElementById(hyperLnk).href='/readSurah/'+parseInt(item.surahNumber);
-          document.getElementById(titleMeaning).innerHTML=item.titleMeaning;
+          if(item.titleMeaning.length>14)
+          {
+            document.getElementById(titleMeaning).innerHTML=item.titleMeaning.substring(0, 13)+"...";
+            document.getElementById(titleMeaning).title=item.titleMeaning;
+          }
+          else
+          {
+            document.getElementById(titleMeaning).innerHTML=item.titleMeaning;
+          }
           document.getElementById(title).innerHTML=item.title;
           document.getElementById(snum).innerHTML='Surah '+item.surahNumber;
           document.getElementById(arbTitle).innerHTML=item.arbTitle;
@@ -163,7 +171,15 @@ import NewsletterSubscription from "./NewsletterSubscription.jsx";
           const title='title'+recentInsightCounter;
           const arbTitle='arbTitle'+recentInsightCounter;
           const ayahnumber='ayahnumber'+recentInsightCounter;
-          document.getElementById(titleMeaning).innerHTML=item.titleMeaning;
+          if(item.titleMeaning.length>14)
+          {
+            document.getElementById(titleMeaning).innerHTML=item.titleMeaning.substring(0, 13)+"...";
+            document.getElementById(titleMeaning).title=item.titleMeaning;
+          }
+          else
+          {
+            document.getElementById(titleMeaning).innerHTML=item.titleMeaning;
+          }
           document.getElementById(title).innerHTML=item.title;
           document.getElementById(snum).innerHTML='Surah '+item.surahNumber;
           document.getElementById(arbTitle).innerHTML=item.arbTitle;
