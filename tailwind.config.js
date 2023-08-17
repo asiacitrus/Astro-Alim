@@ -20,6 +20,7 @@ module.exports = {
         'quran-banner-bg': "url('../images/quran-banner-bg.png')",
         'hadith-banner-bg': "url('../images/hadith-image-banner.jpg')",
         'history-banner-bg': "url('../images/history-image-banner.jpg')",
+        'blog-banner-bg': "url('../images/blog-image-banner.jpg')",
       },
       backgroundSize: {
         'size-100':"100%",

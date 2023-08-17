@@ -1,48 +1,11 @@
 ---
-import { CollectionEntry, getCollection } from 'astro:content';
-import FooterComponent from '../../components/FooterComponent.astro';
-import HTMLHeadComponent from '../../components/HTMLHeadComponent.astro';
-import Navbar from '../../components/Navbar.astro';
-import RecentPostsBlogsPage from '../../components/RecentPostsBlogsPage.astro';
-import SwiperConfig from '../../components/SwiperConfig.astro';
-export async function getStaticPaths() {
-	const posts = await getCollection('blog');
-	return posts.map((post) => ({
-		params: { slug: post.slug },
-		props: post,
-	}));
-}
-type Props = CollectionEntry<'blog'>;
-
-const post = Astro.props;
-
-const title=post.data.title;
+import FooterComponent from "../components/FooterComponent.astro";
+import HTMLHeadComponent from "../components/HTMLHeadComponent.astro";
+import Navbar from "../components/Navbar.astro";
+import RecentPostsBlogsPage from "../components/RecentPostsBlogsPage.astro";
+import SwiperConfig from "../components/SwiperConfig.astro";
+const title="Blogs";
 ---
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{post.data.title}</title>
-</head>
-<body>
-	<div class="container mx-auto">
-		<h1 class="text-4xl font-extrabold dark:text-black text-center">{post.data.title}</h1><br/>
-		<h6 class="mb-3 font-extrabold text-gray-700 dark:text-black text-center">{post.data.date.toISOString().substring(0, 10)}</h6><br/>
-		<p class="mb-3 font-extrabold text-gray-700 dark:text-black">Catagories: {post.data.blogcategories}</p>
-		<p class="mb-3 font-extrabold text-gray-700 dark:text-black">Tags: {post.data.blogtags}</p><br/>
-		<pre class="text-l" style="white-space: pre-wrap">{post.body}</pre>
-		<br/><br/>
-		<div class="text-center"><a href="/"><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Back to home</button></a></div>
-		<br/><br/>
-	</div>
-	
-
-	
-</body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
     <HTMLHeadComponent title={title}/>
@@ -55,21 +18,21 @@ const title=post.data.title;
 
     <div class="banner-section bg-blog-banner-bg bg-top mb-10 md:mb-40 bg-size-100 bg-no-repeat">
       <div class="container max-w-screen-xl mx-auto px-4">
-        <div class="grid  md:grid-cols-12 gap-0 md:gap-5"></div>
+        <div class="grid  md:grid-cols-12 gap-0 md:gap-5">
           <div class="lg:col-span-8 md:col-span-10 sm:col-span-10">
               <div class="">
-                  <h1 class="h1-style text-white mt-28 md:mt-80 mb-5 md:mb-16 main-title">{post.data.title}</h1>
-                  <p class="text-white">{post.data.date.toISOString().substring(0, 10)}</p><br/>
-				  <p class="text-white">{post.data.blogcategories}</p><br/>
-				  <p class="text-white">Tags: {post.data.blogtags}</p><br/><br/>
-				  <pre class="text-white" style="white-space: pre-wrap">{post.body}</pre>
-
+                  <h1 class="h1-style text-white mt-28 md:mt-80 mb-5 md:mb-16 main-title">Blog</h1>
+                  <p class="text-white">Anas Ibn Malik reported the Prophet (ﷺ) as saying:
+                  </br></br>
+                    “Seeking knowledge is an obligation upon every Muslim.”
+                  </br></br>
+                    Join us on this journey towards spiritual and intellectual growth. Delve into our enlightening articles and enrich your understanding of your faith.</p>
                     <p class="text-right mt-5"><a href="#" class="text-deep-red"> Sunan Ibn Mājah : 224 </a></p>
               </div>
           </div>
           <div class="lg:col-span-4 md:col-span-2  sm:col-span-2">
           </div>        
-        
+        </div>
         <div class="grid md:grid-cols-12 gap-0 md:gap-5 mt-10 md:mt-36">
             <div class="md:col-span-6 mb-4 md:mb-0">
                 <div class="blue-gr-box relative pr-12"> 
@@ -137,4 +100,3 @@ const title=post.data.title;
     <FooterComponent/>
 </body>
 </html>
-

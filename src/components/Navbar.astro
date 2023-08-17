@@ -52,8 +52,10 @@ let dropDownName="";
       {
         return(
         <li>
-      <button id="dropdownNavbarLink" class="flex text-white items-center justify-between w-full py-2 pl-3 pr-4  md:hover:text-deep-red md:p-0 md:w-auto dark:text-deep-red md:dark:hover:text-deep-red dark:focus:text-deep-red">{item.head}</button>
-    </li>
+          <a href={item.url}>
+            <button id="dropdownNavbarLink" class="flex text-white items-center justify-between w-full py-2 pl-3 pr-4  md:hover:text-deep-red md:p-0 md:w-auto dark:text-deep-red md:dark:hover:text-deep-red dark:focus:text-deep-red">{item.head}</button>
+          </a>
+      </li>
     )
       }
       })}

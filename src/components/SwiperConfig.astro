@@ -60,6 +60,16 @@
             swiper.slideNext();
         }
 
+        const movePrev3=()=>{
+            const swiper = document.querySelector('.mySwiper3').swiper;
+            swiper.slidePrev()
+        }
+
+        const moveNext3=()=>{
+            const swiper = document.querySelector('.mySwiper3').swiper;
+            swiper.slideNext();
+        }
+
         const copyToClipBoard=(ayahID)=>{
           navigator.clipboard.writeText(document.getElementById(ayahID).textContent);
         }

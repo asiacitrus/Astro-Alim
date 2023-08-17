@@ -30,6 +30,10 @@
         ]
     },
     {
+        "head":"Blogs",
+        "url":"/blogs"
+    },
+    {
         "head":"About",
         "url":"#"
     },

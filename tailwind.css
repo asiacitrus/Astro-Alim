@@ -18,6 +18,9 @@
     p{
         @apply text-xl font-normal;
     }
+    .main-title{
+        @apply text-6xl md:text-9xl;
+    }
     .text-btn-style{
         @apply text-base font-medium capitalize no-underline;
     }

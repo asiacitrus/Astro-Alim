@@ -66,19 +66,23 @@ import NewsletterSubscription from "./NewsletterSubscription.jsx";
   <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
 	<script is:inline src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 	<script is:inline>
-		var swiper = new Swiper(".mySwiper", {
+		const swiper = new Swiper(".mySwiper", {
 			loop: true
 		});
-    var swiper1 = new Swiper(".mySwiper1", {
+    const swiper1 = new Swiper(".mySwiper1", {
 			loop: true
 		});
-    var swiper2 = new Swiper(".mySwiper2", {
+    const swiper2 = new Swiper(".mySwiper2", {
       loop: true,
       slidesPerView: 1,
       spaceBetween: 50,
       mousewheel: {
         releaseOnEdges: true,
       }
+    });
+    const swiper3 = new Swiper(".mySwiper3", {
+      loop: true,
+      spaceBetween: 50
     });
 
     if(recentInsights)

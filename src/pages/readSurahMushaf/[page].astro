@@ -5,6 +5,13 @@ import Ayath from '../../components/AyathMushaf.astro';
 import MediaPlayerHead from '../../components/MediaPlayerHead.astro';
 import MediaPlayerFooter from '../../components/MediaPlayerFooter.astro';
 import MediaPlayerBody from '../../components/MediaPlayerBody.astro';
+import detailsJson from '../../data/structure/structure.json';
+import AudioPlayerScript from '../../components/AudioPlayerScript.astro';
+import HTMLHeadComponent from '../../components/HTMLHeadComponent.astro';
+import Navbar from '../../components/Navbar.astro';
+import SwiperConfig from '../../components/SwiperConfig.astro';
+import FooterComponent from '../../components/FooterComponent.astro';
+import QuranBlogSlide from '../../components/QuranBlogSlide.astro';
 
 export function getStaticPaths() {
     let pageArray:object[]=[]
@@ -35,31 +42,37 @@ if(surahID?.length===2)
 }
 
 const startPath="javascript:playAyahMushaf('1')";
+const title="Al Qur'an";
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href='https://icono-49d6.kxcdn.com/icono.min.css'>
-    <title>Verses</title>
+    <HTMLHeadComponent title={title}/>
+    <SwiperConfig/>
+
     <style>
         @font-face {
             font-family: myFirstFont;
             src: url("/fonts/arb.ttf");
         }
     </style>
-    <script is:inline src="https://cdn.tailwindcss.com"></script>
-    
-    
+
+    <script is:inline>
+        const recentInsights=false;
+    </script>
+
 </head>
-<body>
-    
-    <div class="container mx-auto" style="direction: rtl;">
-        <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-black text-center">Verses</h1><br/>
+<body class="bg-dark_blue font-Inter">
+
+<Navbar/>
+
+<section class="banner-quran bg-quran-banner-bg bg-size-100 bg-no-repeat">
+     <div class="container max-w-screen-xl mx-auto px-4" style="direction: rtl;">
+        <div class="grid  grid-cols-none"></div>
+            <div class="mx-auto">
+                <h1 class="mt-20 md:mt-48 mb-10 text-white text-center"> {detailsJson[index-1]?.title} </h1>
         <br/><div class="text-center"><a href={mushafLink}><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Read line by line</button></a></div>
-          <a href={startPath}>start</a>
+          <a href={startPath}><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">start</button></a><br/><br/>
           
         <input type="hidden" id="lenInput" value={json[0].book[0].surahs[index-1]?.ayahs?.length}/>
         {json[0].book[0].surahs[index-1]?.ayahs?.map((item)=>{
@@ -75,13 +88,49 @@ const startPath="javascript:playAyahMushaf('1')";
             numb++; 
             return <Ayath ayah={item.text} num={numb} audioID={surahID+ayahID}/>
         })}
-        <br/><div class="text-center"><a href="/quran"><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Back to Quran</button></a></div>
+        <br/><br/><br/>
+        <div class="text-center"><a href="/quran"><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Back to Quran</button></a></div>
         <br/><br/><br/><br/><br/>
     </div>
-    <MediaPlayerBody surah={structureData[index-1]?.title} surahLength={json[0].book[0].surahs[index-1]?.ayahs?.length}/>
-    <MediaPlayerFooter/>
-    <MediaPlayerHead/>
-    <script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"></script>
+</div>
+</section>
+
+<section class="quran-resources mb-20 md:mb-36">
+<div class="container max-w-screen-xl mx-auto px-4">
+    <div class="grid md:grid-cols-12 gap-0 md:gap-5">
+        <div class="md:col-span-8">
+            <div class="mt-6 md:mt-12 mb-6 md:mb-12">
+                <h2 class=" text-white mb-2">Qur'anic Resources</h2>
+                <p class="text-white text-opacity-75  mt-4">Explore new and unique ways to discuss and share Islamic knowledge.</p>
+            </div>
+        </div>  
+        <div class="md:col-span-4">
+          <div class="flex mt-2 md:mt-20  mb-8 md:mb-16 float-right gap-2">
+            <div class="flex-1 p-1">
+                <a href="javascript:movePrev()" class="block w-12 h-12 hover:bg-deep-red rounded-full p-3"> <img src="/images/left-arrow.svg" class="w-full"/></a>
+            </div>
+            <div class="flex-1 p-1">
+              <a href="javascript:moveNext()" class="block w-12 h-12 hover:bg-deep-red rounded-full p-3"> <img src="/images/right-arrow.svg" class="w-full"/></a>
+            </div>
+          </div>
+      </div>     
+    </div>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+    
+            <QuranBlogSlide/>
+
+        </div>
+    </div>
+
+</div>
+</section>
+    
+<FooterComponent/>
+<MediaPlayerBody surah={structureData[index-1]?.title} surahLength={json[0].book[0].surahs[index-1]?.ayahs?.length}/>
+<MediaPlayerFooter/>
+<MediaPlayerHead/>
 </body>
 </html>
 

@@ -215,16 +215,21 @@ for(let i=0;i<6;i++)
       <div class="md:col-span-4  md:col-start-2 ">
         
         <h3 class=" md:mt-32 md:mb-12 mt-20 mb-8 text-center text-white"> Tips on Living A Better life  </h3>
-        <div class="flex md:mt-20 md:mb-10 mt-5 mb-5 float-right gap-2">
-          <div class="flex-1 p-1">
-            <a href="javascript:movePrev2()" class="block w-12 h-12 hover:bg-deep-red rounded-full p-3"> <img src="/images/left-arrow.svg" class="w-full"/></a>
-          </div>
-          <div class="flex-1 p-1">
-          <a href="javascript:moveNext2()" class="block w-12 h-12 hover:bg-deep-red rounded-full p-3"> <img src="/images/right-arrow.svg" class="w-full"/></a>
-          </div>
-        </div>
 
-        <div class="swiper mySwiper2" style="height:900px;">
+        <div class="grid md:grid-cols-6 gap-0 md:gap-5">
+          <div class="md:col-span-6">
+                    <div class="flex md:mt-20 md:mb-10 mt-5 mb-5 float-right gap-2">
+                  <div class="flex-1 p-1">
+                    <a href="javascript:movePrev2()" class="block w-12 h-12 hover:bg-deep-red rounded-full p-3"> <img src="/images/left-arrow.svg" class="w-full"></a>
+                  </div>
+                  <div class="flex-1 p-1">
+                  <a href="javascript:moveNext2()" class="block w-12 h-12 hover:bg-deep-red rounded-full p-3"> <img src="/images/right-arrow.svg" class="w-full"></a>
+                  </div>
+                </div>
+          </div>
+          </div>
+
+        <div class="swiper mySwiper2">
           <div class="swiper-wrapper">
             <RecentPosts/>
           </div>
