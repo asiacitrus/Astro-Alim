@@ -2,7 +2,7 @@
 const {surah,surahLength}=Astro.props;
 ---
 
-<div class="audio-player" style="visibility: visible; z-index: 10;" id="mediaPlayer">
+<div class="audio-player" style="visibility: hidden; z-index: 10;" id="mediaPlayer">
 
     <div class="timeline">
       <div class="progress"></div>
@@ -53,7 +53,7 @@ const {surah,surahLength}=Astro.props;
   </svg></button>
       </li>
       <li>
-        <button id="doubleDropdownButton" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Reciter settings<svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+        <button id="doubleDropdownButton" data-dropdown-toggle="dropdownReciter" data-dropdown-placement="top" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Reciter settings<svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
   </svg></button>
       </li>
@@ -170,4 +170,129 @@ const {surah,surahLength}=Astro.props;
     </button>
   </div>
     </form>
+</div>
+
+<div id="dropdownReciter" class="z-10 hidden w-48 bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600">
+  <ul class="p-3 space-y-3 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownRadioButton">
+    <li>
+      <div class="flex items-center">
+          <input checked id="default-radio-1" type="radio" value="abdul_basit_mujawwad_128kbps" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-1" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">AbdulBasit(Mujawwad)</label>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center">
+          <input id="default-radio-2" type="radio" value="abdul_basit_murattal_192kbps" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-2" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">AbdulBasit(Murattal)</label>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center">
+          <input id="default-radio-3" type="radio" value="abdullah_basfar_192kbps" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-3" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">AbdullahBasfar</label>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center">
+          <input id="default-radio-4" type="radio" value="abdurrahmaan_as-sudais_192kbps" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-4" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Abdurrahmaan-As-Sudais</label>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center">
+          <input id="default-radio-5" type="radio" value="hudhaify_128kbps" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-5" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Al-Hudhaify</label>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center">
+          <input id="default-radio-6" type="radio" value="husary_128kbps_mujawwad" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-6" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Al-Husary(Mujawwad)</label>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center">
+          <input id="default-radio-7" type="radio" value="minshawy_mujawwad_192kbps" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-7" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Al-Minshawy(Mujawwad)</label>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center">
+          <input id="default-radio-8" type="radio" value="minshawy_murattal_128kbps" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-8" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Al-Minshawy(Murattal)</label>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center">
+          <input id="default-radio-9" type="radio" value="abu_bakr_ash-shaatree_128kbps" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-9" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Ash-Shaatree</label>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center">
+          <input id="default-radio-10" type="radio" value="saood_ash-shuraym_128kbps" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-10" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Ash-Shuraym</label>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center">
+          <input id="default-radio-11" type="radio" value="hani_rifai_192kbps" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-11" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Hani-Rifai</label>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center">
+          <input id="default-radio-12" type="radio" value="alafasy_128kbps" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-12" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">MisharyRashidAl-Afasy</label>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center">
+          <input id="default-radio-13" type="radio" value="muhammad_Jibreel_128kbps" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-13" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">MuhammadJibreel</label>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center">
+          <input id="default-radio-14" type="radio" value="ahmed_ibn_ali_al_ajamy_128kbps" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-14" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Ahmed Ibn Ali Al-Ajamy</label>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center">
+          <input id="default-radio-15" type="radio" value="Muhammad_Jibreel_64kbps" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-15" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Muhammad Jibreel</label>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center">
+          <input id="default-radio-16" type="radio" value="Ali_Jaber_64kbps" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-16" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Ali Jaber</label>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center">
+          <input id="default-radio-17" type="radio" value="Muhsin_Al_Qasim_192kbps" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-17" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Muhsin Al Qasim</label>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center">
+          <input id="default-radio-18" type="radio" value="Nasser_Alqatami_128kbps" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-18" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Nasser Alqatami</label>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center">
+          <input id="default-radio-19" type="radio" value="Fares_Abbad_64kbps" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-19" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Fares Abbad</label>
+      </div>
+    </li>
+    <li>
+      <div class="flex items-center">
+          <input id="default-radio-20" type="radio" value="Abdullaah_3awwaad_Al-Juhaynee_128kbps" name="default-radio" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-700 dark:focus:ring-offset-gray-700 focus:ring-2 dark:bg-gray-600 dark:border-gray-500">
+          <label for="default-radio-20" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Abdullaah Awwaad Al-Juhaynee</label>
+      </div>
+    </li>
+  </ul>
 </div>
