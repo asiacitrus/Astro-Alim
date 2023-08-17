@@ -4,4 +4,4 @@ const { audioID,ayah } = Astro.props;
 let encAudPath=btoa("https://alim-quran.s3.amazonaws.com/recitation/Alafasy_128kbps/"+audioID+".mp3");
 let decAudPath="javascript:playAyahQuran('"+encAudPath+"')";
 ---
-<h1 class="text-4xl text-white" style="text-align: right; line-height: 80px; font-family: myFirstFont;">{ayah}</h1><a href={decAudPath}><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Play</button></a><br/><br/><br/><br/>
+<h3 class="text-white" style="direction:rtl; line-height: 80px; font-family: myFirstFont;">{ayah}</h3><a href={decAudPath}><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Play</button></a><br/><br/><br/><br/>

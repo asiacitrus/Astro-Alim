@@ -22,26 +22,31 @@
         {
             document.getElementById('rangeCtrls').style.display='inline';
             document.getElementById('surahCtrls').style.display='inline';
-            document.getElementById('surahToggle').style.display='none';
+            document.getElementById('submitBtn').style.display='inline';
+            document.getElementById('surahRepeatToggle').checked=false;
         }
         else
         {
             document.getElementById('rangeCtrls').style.display='none';
             document.getElementById('surahCtrls').style.display='none';
-            document.getElementById('surahToggle').style.display='inline';
+            document.getElementById('submitBtn').style.display='none';
         }
     }
 
     const showSurahControls=()=>{
         if(document.getElementById('surahRepeatToggle').checked)
         {
+            document.getElementById('fromRange').value="1";
+            document.getElementById('toRange').value=document.getElementById("lenInput").value;
+            document.getElementById('rangeCtrls').style.display='none';
             document.getElementById('surahCtrls').style.display='inline';
-            document.getElementById('rangeToggle').style.display='none';
+            document.getElementById('submitBtn').style.display='inline';
+            document.getElementById('rangeRepeatToggle').checked=false;
         }
         else
         {
             document.getElementById('surahCtrls').style.display='none';
-            document.getElementById('rangeToggle').style.display='inline';
+            document.getElementById('submitBtn').style.display='none';
         }
     }
 

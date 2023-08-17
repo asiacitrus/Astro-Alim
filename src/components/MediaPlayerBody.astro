@@ -23,7 +23,7 @@ const {surah,surahLength}=Astro.props;
       <div class="name">{surah}</div>
 
       <div class="name">
-        <button data-dropdown-toggle="mainMenu"> 
+        <button data-dropdown-toggle="mainMenu" data-dropdown-placement="top"> 
           <svg width="22" height="23" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M8.79693 10.499C8.99131 10.499 9.17773 10.4218 9.31518 10.2844C9.45263 10.1469 9.52984 9.9605 9.52984 9.76612C9.52984 9.57174 9.45263 9.38532 9.31518 9.24787C9.17773 9.11042 8.99131 9.0332 8.79693 9.0332C8.60255 9.0332 8.41613 9.11042 8.27868 9.24787C8.14123 9.38532 8.06401 9.57174 8.06401 9.76612C8.06401 9.9605 8.14123 10.1469 8.27868 10.2844C8.41613 10.4218 8.60255 10.499 8.79693 10.499ZM13.9273 10.499C14.1217 10.499 14.3081 10.4218 14.4456 10.2844C14.583 10.1469 14.6603 9.9605 14.6603 9.76612C14.6603 9.57174 14.583 9.38532 14.4456 9.24787C14.3081 9.11042 14.1217 9.0332 13.9273 9.0332C13.733 9.0332 13.5465 9.11042 13.4091 9.24787C13.2716 9.38532 13.1944 9.57174 13.1944 9.76612C13.1944 9.9605 13.2716 10.1469 13.4091 10.2844C13.5465 10.4218 13.733 10.499 13.9273 10.499ZM3.66651 10.499C3.86089 10.499 4.04731 10.4218 4.18476 10.2844C4.32221 10.1469 4.39943 9.9605 4.39943 9.76612C4.39943 9.57174 4.32221 9.38532 4.18476 9.24787C4.04731 9.11042 3.86089 9.0332 3.66651 9.0332C3.47213 9.0332 3.28571 9.11042 3.14826 9.24787C3.01081 9.38532 2.93359 9.57174 2.93359 9.76612C2.93359 9.9605 3.01081 10.1469 3.14826 10.2844C3.28571 10.4218 3.47213 10.499 3.66651 10.499Z" fill="white" fill-opacity="0.75" stroke="white" stroke-opacity="0.75" stroke-width="1.46615" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
@@ -48,7 +48,7 @@ const {surah,surahLength}=Astro.props;
     <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="multiLevelDropdownButton">
       
       <li>
-        <button id="doubleDropdownButton" data-dropdown-toggle="repeatDropdown" data-dropdown-placement="right-start" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Repeat settings<svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+        <button id="doubleDropdownButton" data-dropdown-toggle="repeatDropdown" data-dropdown-placement="top" type="button" class="flex items-center justify-between w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Repeat settings<svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
   </svg></button>
       </li>
@@ -118,7 +118,7 @@ const {surah,surahLength}=Astro.props;
 
   <div id="surahCtrls" style="display:none;">
 
-    <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownToggleButton">
+    <ul class="p-3 space-y-1 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownToggleButton" style="display:none">
       <li>
         <div class="flex p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-600">
           <label class="relative inline-flex items-center w-full cursor-pointer">
@@ -164,8 +164,10 @@ const {surah,surahLength}=Astro.props;
       </li>
     </ul>
     
+    <div id="submitBtn" style="display: none;">
     <button type="submit" style="width: 100%;" id="loopToggle" class="flex items-center p-3 text-sm font-medium text-red-600 border-t border-gray-200 rounded-b-lg bg-gray-50 dark:border-gray-600 hover:bg-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-red-500 hover:underline">
       Turn loop on
     </button>
+  </div>
     </form>
 </div>
