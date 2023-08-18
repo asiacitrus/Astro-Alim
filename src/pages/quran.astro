@@ -18,6 +18,12 @@ const title="Al Qur'an";
 
     <RecentInsightsHead/>
 
+    <script is:inline>
+        const mySubmitFunction=()=>{
+            return false;
+        }
+    </script>
+
 </head>
 <body class="bg-dark_blue font-Inter">
 
@@ -29,13 +35,13 @@ const title="Al Qur'an";
             <div class="col-span-12 md:col-start-4 md:col-span-6 mx-auto">
                 <h1 class="mt-20 md:mt-48 mb-10 text-white text-center"> Read & listen to the Holy Qur'an </h1>
                 <div class="w-full mb-10 md:mb-32">
-                    <form class="bg-light-blue  flex   rounded-full relative">
+                    <form action="javascript:mySubmitFunction(event)" class="bg-light-blue  flex   rounded-full relative">
                         <button type="submit" class=" block bg-transparent absolute left-4 top-3.5">
                             <svg width="20" height="20" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M16.7201 15.3845L12.9868 11.6499C14.1062 10.1913 14.6288 8.36152 14.4486 6.5318C14.2684 4.70208 13.399 3.00939 12.0166 1.79711C10.6343 0.584833 8.84252 -0.0562613 7.00484 0.00387866C5.16717 0.0640186 3.42118 0.820889 2.12105 2.12096C0.820927 3.42102 0.0640216 5.16693 0.00387884 7.00452C-0.0562639 8.84211 0.58486 10.6338 1.79719 12.0161C3.00953 13.3983 4.70229 14.2678 6.5321 14.4479C8.36191 14.6281 10.1917 14.1055 11.6504 12.9862L15.3868 16.7232C15.4746 16.811 15.5787 16.8806 15.6934 16.9281C15.808 16.9756 15.9309 17 16.055 17C16.1791 17 16.302 16.9756 16.4167 16.9281C16.5313 16.8806 16.6355 16.811 16.7232 16.7232C16.811 16.6355 16.8806 16.5313 16.9281 16.4167C16.9756 16.302 17 16.1792 17 16.0551C17 15.931 16.9756 15.8081 16.9281 15.6935C16.8806 15.5788 16.811 15.4746 16.7232 15.3869L16.7201 15.3845ZM1.90254 7.24781C1.90254 6.1906 2.21606 5.15713 2.80344 4.27809C3.39082 3.39905 4.22569 2.71392 5.20247 2.30935C6.17925 1.90477 7.25408 1.79891 8.29102 2.00516C9.32796 2.21142 10.2805 2.72051 11.0281 3.46807C11.7757 4.21563 12.2848 5.16809 12.491 6.20498C12.6973 7.24188 12.5914 8.31665 12.1868 9.29339C11.7822 10.2701 11.0971 11.105 10.218 11.6923C9.33892 12.2797 8.3054 12.5932 7.24814 12.5932C5.83085 12.5917 4.47202 12.0281 3.46984 11.0259C2.46766 10.0238 1.904 8.66504 1.90254 7.24781Z" fill="white"/>
                             </svg> 
                         </button>
-                        <input type="text" name="first-name" id="first-name" autocomplete="given-name" placeholder="What would you like to ask?" class="h-12 bg-transparent flex  border-0  text-gray-900  placeholder:text-gray-400  sm:text-sm sm:leading-6 text-white rounded w-full px-12 py-2">
+                        <input required type="text" name="first-name" id="searchbox" autocomplete="given-name" placeholder="What would you like to ask?" class="h-12 bg-transparent flex  border-0  text-gray-900  placeholder:text-gray-400  sm:text-sm sm:leading-6 text-white rounded w-full px-12 py-2">
                         <button type="submit" class=" block bg-transparent absolute right-4 top-3.5">
                             <svg width="17" height="22" viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7 12C8.66 12 9.99 10.66 9.99 9L10 3C10 1.34 8.66 0 7 0C5.34 0 4 1.34 4 3V9C4 10.66 5.34 12 7 12ZM12.3 9C12.3 12 9.76 14.1 7 14.1C4.24 14.1 1.7 12 1.7 9H0C0 12.41 2.72 15.23 6 15.72V19H8V15.72C11.28 15.24 14 12.42 14 9H12.3Z" fill="#C72D3C"/>
@@ -89,5 +95,38 @@ const title="Al Qur'an";
     </div>
 </section>
 <FooterComponent/>
+<script is:inline>
+    
+    function liveSearch() {
+  // Locate the card elements
+  let cards = document.querySelectorAll('.search');
+  console.log(cards.length);
+  console.log(cards[0].innerText);
+  // Locate the search input
+  let search_query = document.getElementById("searchbox").value;
+  // Loop through the cards
+  for (var i = 0; i < cards.length; i++) {
+    // If the text is within the card...
+    if(cards[i].innerText.toLowerCase()
+      // ...and the text matches the search query...
+      .includes(search_query.toLowerCase())) {
+        // ...remove the `.is-hidden` class.
+        cards[i].style.display="inline";
+    } else {
+      // Otherwise, add the class.
+      cards[i].style.display="none";
+    }
+  }
+}
+
+let typingTimer;               
+let typeInterval = 500;  
+let searchInput = document.getElementById('searchbox');
+
+searchInput.addEventListener('keyup', () => {
+    clearTimeout(typingTimer);
+    typingTimer = setTimeout(liveSearch, typeInterval);
+});
+</script>
 </body>
 </html>

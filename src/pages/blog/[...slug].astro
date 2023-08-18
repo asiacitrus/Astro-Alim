@@ -3,7 +3,6 @@ import { CollectionEntry, getCollection } from 'astro:content';
 import FooterComponent from '../../components/FooterComponent.astro';
 import HTMLHeadComponent from '../../components/HTMLHeadComponent.astro';
 import Navbar from '../../components/Navbar.astro';
-import RecentPostsBlogsPage from '../../components/RecentPostsBlogsPage.astro';
 import SwiperConfig from '../../components/SwiperConfig.astro';
 export async function getStaticPaths() {
 	const posts = await getCollection('blog');

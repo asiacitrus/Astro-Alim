@@ -116,6 +116,14 @@
         playBtn.classList.add("play");
     }
 
+    const goToNext=()=>{
+        playAyahMushaf(idCount+1)
+    }
+
+    const goToPrev=()=>{
+        playAyahMushaf(idCount-1)
+    }
+
 	const toggleLoop=()=>{
         let fromRange=document.getElementById("fromRange").value;
         let toRange=document.getElementById("toRange").value;

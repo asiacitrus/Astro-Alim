@@ -3,15 +3,17 @@ import surahJson from '../data/structure/structure.json'
 let counter=0;
 let path="";
 ---
+
 {surahJson.map((surah)=>{
     counter++;
     path="/readSurah/"+counter;
     return(
-        <div class="col-span-12 md:col-span-6 lg:col-span-4  blue-gr-box p-5">
+        <div class="col-span-12 md:col-span-6 lg:col-span-4  blue-gr-box p-5 search">
+        <a href={path}>
         <div class="flex">
             <div class="flex-none mr-6">
             <div class="p-2 bg-deep-red rounded text-center origin-center -rotate-45  w-12 h-10">
-                <a href={path}><p class="text-white origin-center rotate-45 text-base">{counter}</p></a>
+                <p class="text-white origin-center rotate-45 text-base">{counter}</p>
             </div>
             </div>
             <div class="grow mr-3">
@@ -23,6 +25,7 @@ let path="";
                 <p class=" text-base text-deep-grey">{surah.count} Ayahs</p>
             </div>
         </div>
+        </a>
         </div>
     );
 })}

@@ -109,7 +109,7 @@
 .audio-player .controls .volume-container .volume-slider .volume-percentage {
   background: coral;
   height: 100%;
-  width: 75%;
+  width: 25%;
 }
 .audio-player .controls .volume-container:hover .volume-slider {
   left: -123px;
