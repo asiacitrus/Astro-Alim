@@ -6,12 +6,9 @@ import MediaPlayerHead from '../../components/MediaPlayerHead.astro';
 import MediaPlayerFooter from '../../components/MediaPlayerFooter.astro';
 import MediaPlayerBody from '../../components/MediaPlayerBody.astro';
 import detailsJson from '../../data/structure/structure.json';
-import AudioPlayerScript from '../../components/AudioPlayerScript.astro';
 import HTMLHeadComponent from '../../components/HTMLHeadComponent.astro';
 import Navbar from '../../components/Navbar.astro';
-import SwiperConfig from '../../components/SwiperConfig.astro';
 import FooterComponent from '../../components/FooterComponent.astro';
-import QuranBlogSlide from '../../components/QuranBlogSlide.astro';
 
 export function getStaticPaths() {
     let pageArray:object[]=[]
@@ -50,7 +47,6 @@ const title="Al Qur'an";
     <HTMLHeadComponent title={title}/>
     <link rel='stylesheet' href='https://icono-49d6.kxcdn.com/icono.min.css'>
     <link rel="stylesheet" href="/css/styleMediaPlayer.css">
-    <SwiperConfig/>
 
     <style>
         @font-face {

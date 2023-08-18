@@ -3,10 +3,10 @@ import AudioPlayerScript from "../../components/AudioPlayerScript.astro";
 import FooterComponent from "../../components/FooterComponent.astro";
 import HTMLHeadComponent from "../../components/HTMLHeadComponent.astro";
 import Navbar from "../../components/Navbar.astro";
-import SwiperConfig from "../../components/SwiperConfig.astro";
 import json from '../../data/structure/arb.json';
 import detailsJson from '../../data/structure/structure.json';
 import Ayath from '../../components/Ayath.astro';
+import SidebarScript from "../../components/SidebarScript.astro";
 
 export function getStaticPaths() {
     let pageArray:object[]=[]
@@ -22,6 +22,8 @@ const { page } = Astro.params;
 const index=Number(page);
 
 const mushafLink="/readSurahMushaf/"+page;
+
+let ayahCount=0;
 
 let surahID=json[0].book[0].surahs[index-1]?.surahNumber;
 
@@ -40,8 +42,7 @@ const title="Al Qur'an";
 <!DOCTYPE html>
 <html lang="en">
     <HTMLHeadComponent title={title}/>
-    <SwiperConfig/>
-
+    
     <style>
         @font-face {
             font-family: myFirstFont;
@@ -54,6 +55,8 @@ const title="Al Qur'an";
     <script is:inline>
         const recentInsights=false;
     </script>
+
+    <SidebarScript/>
 
 </head>
 <body class="bg-dark_blue font-Inter">
@@ -77,8 +80,12 @@ const title="Al Qur'an";
                         <source src="">
                         Your browser does not support the audio element.
                     </audio>
+                    <div>
+                        <button class=" text-white font-bold py-2 px-4 rounded" data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation" aria-controls="drawer-navigation">Change</button>
+                    </div>
                     <br/><br/>
                     {json[0].book[0].surahs[index-1]?.ayahs?.map((item)=>{
+                        ayahCount++;
                         let ayahID=item.ayahNumber;
                         if(ayahID?.length===1)
                         {
@@ -88,7 +95,7 @@ const title="Al Qur'an";
                         {
                             ayahID="0"+ayahID;
                         }
-                        return (<Ayath ayah={item.text} audioID={surahID+ayahID}/>);
+                        return (<Ayath ayah={item.text} audioID={surahID+ayahID} surahNum={index-1} ayahNum={ayahCount-1}/>);
                         })}
                     <br/><div class="text-center"><a href="/quran"><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Back to Quran</button></a></div>
                     <br/><br/>
@@ -122,6 +129,64 @@ const title="Al Qur'an";
             </div>
         </div> -->
     </div>
+
+    <div id="drawer-navigation" class="fixed top-0 left-0 z-40 w-64 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white dark:bg-gray-800" tabindex="-1" aria-labelledby="drawer-navigation-label">
+        <h5 id="drawer-navigation-label" class="text-base font-semibold text-gray-500 uppercase dark:text-gray-400">Menu</h5>
+        <button type="button" data-drawer-hide="drawer-navigation" aria-controls="drawer-navigation" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" >
+            <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            <span class="sr-only">Close menu</span>
+        </button>
+      <div class="py-4 overflow-y-auto">
+          <ul class="space-y-2 font-medium">
+             <li>
+                <br/><br/>
+                <h4>Transliteration</h4><br/>
+                <label class="relative inline-flex items-center cursor-pointer">
+                    <input type="checkbox" value="" id="translitToggle" onchange="toggleTranslit();" class="sr-only peer">
+                    <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                    <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Enable</span>
+                </label>
+             </li>
+             <li>
+                <br/><br/>
+                <h4>Translation</h4><br/>
+                <label class="relative inline-flex items-center cursor-pointer">
+                    <input type="checkbox" value="" id="asadTranslationToggle" onchange="toggleAsdTranslate();" class="sr-only peer">
+                    <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                    <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Asad</span>
+                </label>
+             </li>
+             <li>
+                <label class="relative inline-flex items-center cursor-pointer">
+                    <input type="checkbox" value="" id="malikTranslationToggle" onchange="toggleMalikTranslate();" class="sr-only peer">
+                    <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                    <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Malik</span>
+                </label>
+             </li>
+             <li>
+                <label class="relative inline-flex items-center cursor-pointer">
+                    <input type="checkbox" value="" id="mustafaTranslationToggle" onchange="toggleMustafaTranslate();" class="sr-only peer">
+                    <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                    <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Mustafa Khattab</span>
+                </label>
+             </li>
+             <li>
+                <label class="relative inline-flex items-center cursor-pointer">
+                    <input type="checkbox" value="" id="picktalTranslationToggle" onchange="togglePicktalTranslate();" class="sr-only peer">
+                    <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                    <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Picktal</span>
+                </label>
+             </li>
+             <li>
+                <label class="relative inline-flex items-center cursor-pointer">
+                    <input type="checkbox" value="" id="yusufTranslateToggle" onchange="toggleYusufTranslate();" class="sr-only peer">
+                    <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                    <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300">Yusuf Ali</span>
+                </label>
+             </li>
+          </ul>
+       </div>
+    </div>
 </section>
 
 
@@ -142,7 +207,6 @@ const title="Al Qur'an";
             recentInsightsArr.pop(recentInsightsArr);
             recentInsightsArr.unshift(surahObj)
         }
-        console.log(recentInsightsArr);
         localStorage.setItem('recentInsights',JSON.stringify(recentInsightsArr));
     }
 </script>

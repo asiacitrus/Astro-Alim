@@ -1,11 +1,46 @@
 ---
 // Usage: <GreetingHeadline greeting="Howdy" name="Partner" />
-const { audioID,ayah } = Astro.props;
+import translitJson from '../data/transliteration/TLT/quran_transliteration.json';
+import translateAsd from '../data/translation/asd.json';
+import translateMal from '../data/translation/mal.json';
+import translateMkt from '../data/translation/mkt.json';
+import translatePik from '../data/translation/pik.json';
+import translateYat from '../data/translation/yat.json';
+ 
+const { audioID,ayah,surahNum,ayahNum } = Astro.props;
+
+
 let encAudPath=btoa("https://alim-quran.s3.amazonaws.com/recitation/Alafasy_128kbps/"+audioID+".mp3");
 let decAudPath="javascript:playAyahQuran('"+encAudPath+"')";
 ---
 <div style="direction: rtl;">
-    <span class="text-4xl text-white" style="line-height: 25px; font-family: myFirstFont;">{ayah}</span>
+    <a href={decAudPath}><button class=" text-white font-bold py-2 px-4 rounded">Play</button></a>
+    <span class="text-4xl text-white" style="line-height: 65px; font-family: myFirstFont;">{ayah}</span><br/>
+
+    <div class="ayahTranslit" style="display:none;">
+        <span class="text-lg text-white">{translitJson[0].book[0].surahs[surahNum].ayahs[ayahNum].text}</span><br/><br/>
+    </div>
+    <br/><br/>
 </div>
-<a href={decAudPath}><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Play</button></a>
+
+<div class="ayahTransation1" style="display:none;">
+    <h5 class="text-white" set:html={translateAsd[0].book[0].surahs[surahNum].ayahs[ayahNum].text.replace(/(\\n|\\r|\\t)/gm," ")}></h5>
+    <h6 class="text-white">&nbsp;&nbsp- Mohammad Asad</h6><br/>
+</div>
+<div class="ayahTransation2" style="display:none;">
+    <h5 class="text-white" set:html={translateMal[0].book[0].surahs[surahNum].ayahs[ayahNum].text.replace(/(\\n|\\r|\\t)/gm," ")}></h5>
+    <h6 class="text-white">&nbsp;&nbsp- Muhammad Farooq-i-Azam Malik</h6><br/>
+</div>
+<div class="ayahTransation3" style="display:none;">
+    <h5 class="text-white" set:html={translateMkt[0].book[0].surahs[surahNum].ayahs[ayahNum].text.replace(/(\\n|\\r|\\t)/gm," ")}></h5>
+    <h6 class="text-white">&nbsp;&nbsp- Mustafa Khattab</h6></br>
+</div>
+<div class="ayahTransation4" style="display:none;">
+    <h5 class="text-white" set:html={translatePik[0].book[0].surahs[surahNum].ayahs[ayahNum].text.replace(/(\\n|\\r|\\t)/gm," ")}></h5>
+    <h6 class="text-white">&nbsp;&nbsp- Marmaduke Pickthall</h6></br>
+</div> 
+<div class="ayahTransation5" style="display:none;">
+    <h5 class="text-white" set:html={translateYat[0].book[0].surahs[surahNum].ayahs[ayahNum].text.replace(/(\\n|\\r|\\t)/gm," ")}></h5>
+    <h6 class="text-white">&nbsp;&nbsp- Abdullah Yusuf Ali</h6></br>
+</div>
 <br/><br/><br/><br/>
