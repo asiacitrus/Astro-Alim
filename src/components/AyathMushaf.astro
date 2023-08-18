@@ -1,7 +1,7 @@
 ---
 // Usage: <GreetingHeadline greeting="Howdy" name="Partner" />
 const { ayah,num,audioID } = Astro.props;
-let encAudPath="https://alim-quran.s3.amazonaws.com/recitation/Alafasy_128kbps/"+audioID+".mp3";
+let encAudPath=audioID+".mp3";
 function toArabicNumeral(en) {
     return ("" + en).replace(/[0-9]/g, function(t) {
         return "٠١٢٣٤٥٦٧٨٩".slice(+t, +t+1);
@@ -9,6 +9,12 @@ function toArabicNumeral(en) {
 }
 let inpID="hiddenInp"+num;
 const punctuation='\xa0\xa0\xa0\xa0'+toArabicNumeral(num)+'\xa0\xa0\xa0\xa0';
-const startPath="javascript:playAyahMushaf('"+num+"')";
+const ayahPath="javascript:playAyah('"+num+"')";
 ---
-<div style="display: inline;">  <span class="text-4xl text-white" style="line-height: 80px; font-family: myFirstFont;">&nbsp;{ayah}&nbsp; </span> <div style="display: inline; width: 60px; height: 65px; padding: 10px; color:#fff; text-align: center; background-image: url('/images/punctuation.png'); background-repeat: no-repeat; background-position: 50% 50%; background-size: 45px 45px; text-align: right;"><a href={startPath} class="text-xl">&nbsp{punctuation}&nbsp;</a><input type="hidden" value={encAudPath} id={inpID}></div></div>
+<div style="display: inline;">  
+    <a href={ayahPath}><span class="text-4xl text-white" style="line-height: 80px; font-family: myFirstFont;">&nbsp;{ayah}&nbsp; </span></a>
+    <div style="display: inline; width: 60px; height: 65px; padding: 10px; color:#fff; text-align: center; background-image: url('/images/punctuation.png'); background-repeat: no-repeat; background-position: 50% 50%; background-size: 45px 45px; text-align: right;">
+        &nbsp{punctuation}&nbsp;
+        <input type="hidden" value={encAudPath} id={inpID}>
+    </div>
+</div>

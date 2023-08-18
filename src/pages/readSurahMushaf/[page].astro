@@ -48,6 +48,8 @@ const title="Al Qur'an";
 <!DOCTYPE html>
 <html lang="en">
     <HTMLHeadComponent title={title}/>
+    <link rel='stylesheet' href='https://icono-49d6.kxcdn.com/icono.min.css'>
+    <link rel="stylesheet" href="/css/styleMediaPlayer.css">
     <SwiperConfig/>
 
     <style>
@@ -59,9 +61,6 @@ const title="Al Qur'an";
 
     <script is:inline>
         const recentInsights=false;
-        const checkRadio=()=>{
-            alert(document.querySelector('input[name="default-radio"]:checked').value);
-        }
     </script>
 
 </head>
@@ -76,7 +75,7 @@ const title="Al Qur'an";
                 <h1 class="mt-20 md:mt-48 mb-10 text-white text-center"> {detailsJson[index-1]?.title} </h1>
         <br/><div class="text-center"><a href={mushafLink}><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">Read line by line</button></a></div>
           <a href={startPath}><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">start</button></a><br/><br/>
-          <a href="javascript:checkRadio()"><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">check radio</button></a><br/><br/>
+          <!-- <a href="javascript:checkRadio()"><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">check radio</button></a><br/><br/> -->
           
         <input type="hidden" id="lenInput" value={json[0].book[0].surahs[index-1]?.ayahs?.length}/>
         {json[0].book[0].surahs[index-1]?.ayahs?.map((item)=>{

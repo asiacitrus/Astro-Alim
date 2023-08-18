@@ -16,6 +16,38 @@
     let repeatAllAyahs=false;
     let repeatAllAyahsInRange=false;
     let repeatAmountRange=0;
+    let singleAyah=false;
+
+    const computeAudioSource=(sourceId)=>{
+        const serverUrl="https://alim-quran.s3.amazonaws.com/recitation/";
+        const reciter=document.querySelector('input[name="default-radio"]:checked').value;
+        const fileName=document.getElementById("hiddenInp"+sourceId).value;
+        const audSource=serverUrl+reciter+"/"+fileName;
+        return audSource;
+    }
+
+    const playAyah=(audNum)=> { 
+        document.getElementById('mediaPlayer').style.visibility="visible";
+        singleAyah=true;
+        lenInput=Number(document.getElementById("lenInput").value);
+		const srcURL = audio.src;
+		const audURL=computeAudioSource(audNum);
+		if(srcURL!==audURL)
+		{
+			audio.src=audURL;
+			playing=false;
+		}
+		
+		if(playing)
+		{
+			playBtn.click();
+		}
+		else
+		{
+			playBtn.click();
+		}
+		playing=!playing;
+	}  
 
     const showRange=()=>{
         if(document.getElementById('rangeRepeatToggle').checked)
@@ -78,7 +110,8 @@
         document.getElementById("repeatAmtRange").value="";
         document.getElementById("repeatAllAyahsRange").checked=false;
         idCount=1;
-        audio.src=document.getElementById("hiddenInp"+ayahStart).value;
+        //audio.src=document.getElementById("hiddenInp"+ayahStart).value;
+        audio.src=computeAudioSource(ayahStart);
         playBtn.classList.remove("pause");
         playBtn.classList.add("play");
     }
@@ -141,13 +174,16 @@
 
 	const playAyahMushaf=(audNum)=> { 
         document.getElementById('mediaPlayer').style.visibility="visible";
+        singleAyah=false;
         if(!rangeRepeat)
         {
             lenInput= Number(document.getElementById("lenInput").value);
         }
 		
 		const srcURL = audio.src;
-		const audURL=document.getElementById("hiddenInp"+audNum).value;
+		//const audURL=document.getElementById("hiddenInp"+audNum).value;
+		const audURL=computeAudioSource(audNum);
+
 		if(srcURL!==audURL)
 		{
 			audio.src=audURL;
@@ -167,6 +203,13 @@
 		if (!eventListening) {
             eventListening=!eventListening;
 			audio.addEventListener("ended", function(){
+
+                if(singleAyah)
+                {
+                    idCount=lenInput+1;
+                    singleAyah=false;
+                }
+
                 if(!loopPlay&&!repeatAllAyahsInRange)
 				{
 					idCount++;
@@ -174,7 +217,8 @@
 				
 				if(idCount<=lenInput)
 				{
-					audio.src=document.getElementById("hiddenInp"+idCount).value;
+					//audio.src=document.getElementById("hiddenInp"+idCount).value;
+					audio.src=computeAudioSource(idCount);
 					audio.play();
                     if(repeatAmount>0){
                         if(loopPlay){
@@ -231,7 +275,8 @@
                     }
                     
                     audio.pause();
-                    audio.src=document.getElementById("hiddenInp"+ayahStart).value;
+                    //audio.src=document.getElementById("hiddenInp"+ayahStart).value;
+                    audio.src=computeAudioSource(ayahStart);
                     idCount=ayahStart;
                     
                     if(repeatAmount>0){

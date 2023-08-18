@@ -35,13 +35,13 @@ const title=post.data.title;
         <div class="grid  md:grid-cols-12 gap-0 md:gap-5"></div>
           <div class="lg:col-span-8 md:col-span-10 sm:col-span-10">
               <div class="">
-                  <h1 class="h1-style text-white mt-28 md:mt-80 mb-5 md:mb-16 main-title">{post.data.title}</h1>
+                  <h1 class="h1-style text-white mt-28 md:mt-80 mb-5 md:mb-16">{post.data.title}</h1>
                   <p class="text-white">{post.data.date.toISOString().substring(0, 10)}</p><br/>
 				  <p class="text-white">{post.data.blogcategories}</p><br/>
 				  <p class="text-white">Tags: {post.data.blogtags}</p><br/><br/>
 				  <pre class="text-white" style="white-space: pre-wrap">{post.body}</pre>
 
-                    <p class="text-right mt-5"><a href="#" class="text-deep-red"> Sunan Ibn Mājah : 224 </a></p>
+                    <!-- <p class="text-right mt-5"><a href="#" class="text-deep-red"> Sunan Ibn Mājah : 224 </a></p> -->
               </div>
           </div>
           <div class="lg:col-span-4 md:col-span-2  sm:col-span-2">

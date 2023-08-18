@@ -6,6 +6,7 @@
     const audio = new Audio(
     ""
     );
+    audio.volume = .25;
     //credit for song: Adrian kreativaweb@gmail.com
 
     //console.dir(audio);
@@ -16,7 +17,7 @@
         audioPlayer.querySelector(".time .length").textContent = getTimeCodeFromNum(
         audio.duration
         );
-        audio.volume = .25;
+        //audio.volume = .25;
     },
     false
     );
