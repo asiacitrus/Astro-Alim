@@ -58,7 +58,7 @@ import NewsletterSubscription from "./NewsletterSubscription.jsx";
         <p class="text-base text-white mt-8"> Alim.org © {new Date().getFullYear()}. All Rights Reserved </p>
       </div>
       <div class="md:col-span-6">
-        <p class="text-base text-white md:text-right mt-8"> Built by Brillionhouse </p>
+        <p class="text-base text-white md:text-right mt-8"></p>
       </div>
     </div>
     </div>
@@ -74,7 +74,7 @@ import NewsletterSubscription from "./NewsletterSubscription.jsx";
 		});
     const swiper2 = new Swiper(".mySwiper2", {
       loop: true,
-      slidesPerView: 1,
+      slidesPerView: 'auto',
       spaceBetween: 50,
       mousewheel: {
         releaseOnEdges: true,
@@ -82,6 +82,7 @@ import NewsletterSubscription from "./NewsletterSubscription.jsx";
     });
     const swiper3 = new Swiper(".mySwiper3", {
       loop: true,
+      slidesPerView: 'auto',
       spaceBetween: 50
     });
 

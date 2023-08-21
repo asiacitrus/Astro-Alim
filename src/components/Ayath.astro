@@ -6,15 +6,35 @@ import translateMal from '../data/translation/mal.json';
 import translateMkt from '../data/translation/mkt.json';
 import translatePik from '../data/translation/pik.json';
 import translateYat from '../data/translation/yat.json';
+import asdFootNotes from '../data/translation/asad/ASDNOTES.json';
+import mktFootNotes from '../data/translation/khattab/MKTNOTES.json';
+import yatFootNotes from '../data/translation/yusuf-ali/YATNOTES.json';
+
  
 const { audioID,ayah,surahNum,ayahNum } = Astro.props;
 
+const surahId=surahNum+1;
+const ayahId=ayahNum+1;
+
+const asdTranslationId="asdTranslation"+ayahId;
+const asdfootNoteId=asdTranslationId+"FootNote"+ayahId;
+
+const mktTranslationId="mktTranslation"+ayahId;
+const mktfootNoteId=mktTranslationId+"FootNote"+ayahId;
+
+const yatTranslationId="yatTranslation"+ayahId;
+const yatfootNoteId=yatTranslationId+"FootNote"+ayahId;
 
 let encAudPath=btoa("https://alim-quran.s3.amazonaws.com/recitation/Alafasy_128kbps/"+audioID+".mp3");
 let decAudPath="javascript:playAyahQuran('"+encAudPath+"')";
 ---
+
+<button data-modal-target="staticModal" data-modal-toggle="staticModal" class="text-white font-bold py-2 px-4 rounded" type="button">
+    Tafsir
+</button>
+
 <div style="direction: rtl;">
-    <a href={decAudPath}><button class=" text-white font-bold py-2 px-4 rounded">Play</button></a>
+    <a href={decAudPath}><button class="text-white font-bold py-2 px-4 rounded">Play</button></a>
     <span class="text-4xl text-white" style="line-height: 65px; font-family: myFirstFont;">{ayah}</span><br/>
 
     <div class="ayahTranslit" style="display:none;">
@@ -23,24 +43,59 @@ let decAudPath="javascript:playAyahQuran('"+encAudPath+"')";
     <br/><br/>
 </div>
 
-<div class="ayahTransation1" style="display:none;">
+
+
+<div class="ayahTransation1" id={asdTranslationId} style="display:none;">
     <h5 class="text-white" set:html={translateAsd[0].book[0].surahs[surahNum]?.ayahs[ayahNum]?.text.replace(/(\\n|\\r|\\t)/gm," ")}></h5>
     <h6 class="text-white">&nbsp;&nbsp- Mohammad Asad</h6><br/>
+    <div class="text-white" id={asdfootNoteId} style="display: none;">
+        {
+            
+            asdFootNotes.map((item)=>{
+                if(item.SurahNumber===surahId.toString()&&item.AyahNumber===ayahId.toString())
+                {
+                    return <p set:html={item.Body.replace(/(\\n|\\r|\\t)/gm," ")}></p>;
+                }
+            })
+        }
+    </div>
 </div>
 <div class="ayahTransation2" style="display:none;">
     <h5 class="text-white" set:html={translateMal[0].book[0].surahs[surahNum]?.ayahs[ayahNum]?.text.replace(/(\\n|\\r|\\t)/gm," ")}></h5>
     <h6 class="text-white">&nbsp;&nbsp- Muhammad Farooq-i-Azam Malik</h6><br/>
 </div>
-<div class="ayahTransation3" style="display:none;">
+<div class="ayahTransation3" id={mktTranslationId} style="display:none;">
     <h5 class="text-white" set:html={translateMkt[0].book[0].surahs[surahNum]?.ayahs[ayahNum]?.text.replace(/(\\n|\\r|\\t)/gm," ")}></h5>
     <h6 class="text-white">&nbsp;&nbsp- Mustafa Khattab</h6></br>
+    <div class="text-white" id={mktfootNoteId} style="display: none;">
+        {
+            
+            mktFootNotes.map((item)=>{
+                if(item.SurahNumber===surahId.toString()&&item.AyahNumber===ayahId.toString())
+                {
+                    return <p set:html={item.Text.replace(/(\\n|\\r|\\t)/gm," ")}></p>;
+                }
+            })
+        }
+    </div>
 </div>
 <div class="ayahTransation4" style="display:none;">
     <h5 class="text-white" set:html={translatePik[0].book[0].surahs[surahNum]?.ayahs[ayahNum]?.text.replace(/(\\n|\\r|\\t)/gm," ")}></h5>
     <h6 class="text-white">&nbsp;&nbsp- Marmaduke Pickthall</h6></br>
 </div> 
-<div class="ayahTransation5" style="display:none;">
+<div class="ayahTransation5" id={yatTranslationId} style="display:none;">
     <h5 class="text-white" set:html={translateYat[0].book[0].surahs[surahNum]?.ayahs[ayahNum]?.text.replace(/(\\n|\\r|\\t)/gm," ")}></h5>
     <h6 class="text-white">&nbsp;&nbsp- Abdullah Yusuf Ali</h6></br>
+    <div class="text-white" id={yatfootNoteId} style="display: none;">
+        {
+            
+            yatFootNotes.map((item)=>{
+                if(item.SurahNumber===surahId.toString()&&item.AyahNumber===ayahId.toString())
+                {
+                    return <br/><p set:html={item.Body.replace(/(\\n|\\r|\\t)/gm," ")}></p>;
+                }
+            })
+        }
+    </div>
 </div>
 <br/><br/><br/><br/>
