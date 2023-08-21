@@ -230,7 +230,11 @@ const title="Al Qur'an";
                     </button>
                 </div>
                 <div class="p-6 space-y-6" >
-                    {tafsir[index-1]?.default.map((item)=>{return <TafsirAyahDisplay text={item.Text.replace(/(\\n|\\r|\\t)/gm,"")}/>})}
+                    {
+                        tafsir[index-1]?.default.map((item)=>{
+                            return <TafsirAyahDisplay text={item.Text.replace(/(\\n|\\r|\\t)/gm,"")}/>
+                            })
+                    }
                 </div>
                 <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
                     <button data-modal-hide="staticModal" type="button" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">I accept</button>
@@ -282,6 +286,34 @@ const title="Al Qur'an";
     const goToSurah=()=>{
         window.location=document.getElementById("surahs").value;
     }
+ 
+    if(translationSettinsArr===null)
+    {
+        const translationSettings={
+            translit:false,
+            asdTranslate:false,
+            malikTranslate:false,
+            mustafaTranslate:false,
+            piktcalTranslate:false,
+            yusufTranslate:false
+        }
+        localStorage.setItem('translationSettings',JSON.stringify(translationSettings));
+    }
+    else
+    {
+        document.getElementById("translitToggle").checked=translationSettinsArr.translit;
+        toggleTranslit();
+        document.getElementById("asadTranslationToggle").checked=translationSettinsArr.asdTranslate;
+        toggleAsdTranslate();
+        document.getElementById("malikTranslationToggle").checked=translationSettinsArr.malikTranslate;
+        toggleMalikTranslate();
+        document.getElementById("mustafaTranslationToggle").checked=translationSettinsArr.mustafaTranslate;
+        toggleMustafaTranslate();
+        document.getElementById("picktalTranslationToggle").checked=translationSettinsArr.piktcalTranslate;
+        togglePicktalTranslate();
+        document.getElementById("yusufTranslateToggle").checked=translationSettinsArr.yusufTranslate;
+        toggleYusufTranslate();
+    }   
 </script>
 </body>
 </html>

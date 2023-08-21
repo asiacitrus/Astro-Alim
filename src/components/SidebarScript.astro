@@ -3,6 +3,7 @@
 ---
 
 <script is:inline>
+    let translationSettinsArr=JSON.parse(localStorage.getItem('translationSettings'));
     const toggleTranslit=()=>{
         const cards = document.querySelectorAll('.ayahTranslit');
         if(document.getElementById("translitToggle").checked)
@@ -17,6 +18,8 @@
                 item.style.display="none";
             })
         }
+        translationSettinsArr.translit=document.getElementById("translitToggle").checked;
+        localStorage.setItem('translationSettings',JSON.stringify(translationSettinsArr));
     }
 
     const toggleAsdTranslate=()=>{
@@ -33,6 +36,8 @@
                 item.style.display="none";
             })
         }
+        translationSettinsArr.asdTranslate=document.getElementById("asadTranslationToggle").checked;
+        localStorage.setItem('translationSettings',JSON.stringify(translationSettinsArr));
     }
 
     const toggleMalikTranslate=()=>{
@@ -49,6 +54,8 @@
                 item.style.display="none";
             })
         }
+        translationSettinsArr.malikTranslate=document.getElementById("malikTranslationToggle").checked;
+        localStorage.setItem('translationSettings',JSON.stringify(translationSettinsArr));
     }
 
     const toggleMustafaTranslate=()=>{
@@ -65,6 +72,8 @@
                 item.style.display="none";
             })
         }
+        translationSettinsArr.mustafaTranslate=document.getElementById("mustafaTranslationToggle").checked;
+        localStorage.setItem('translationSettings',JSON.stringify(translationSettinsArr));
     }
 
     const togglePicktalTranslate=()=>{
@@ -81,6 +90,8 @@
                 item.style.display="none";
             })
         }
+        translationSettinsArr.piktcalTranslate=document.getElementById("picktalTranslationToggle").checked;
+        localStorage.setItem('translationSettings',JSON.stringify(translationSettinsArr));
     }
 
     const toggleYusufTranslate=()=>{
@@ -97,5 +108,7 @@
                 item.style.display="none";
             })
         }
+        translationSettinsArr.yusufTranslate=document.getElementById("yusufTranslateToggle").checked;
+        localStorage.setItem('translationSettings',JSON.stringify(translationSettinsArr));
     }
 </script>
