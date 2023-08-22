@@ -1,5 +1,4 @@
 ---
-const tafsir = await Astro.glob('../../data/tafsir/ibn-kathir/tik/**/*.json');
 import AudioPlayerScript from "../../components/AudioPlayerScript.astro";
 import FooterComponent from "../../components/FooterComponent.astro";
 import HTMLHeadComponent from "../../components/HTMLHeadComponent.astro";
@@ -8,9 +7,7 @@ import json from '../../data/structure/arb.json';
 import detailsJson from '../../data/structure/structure.json';
 import Ayath from '../../components/Ayath.astro';
 import SidebarScript from "../../components/SidebarScript.astro";
-import TafsirAyahDisplay from "../../components/TafsirAyahDisplay.astro";
 import SwiperConfig from "../../components/SwiperConfig.astro";
-import { map } from "astro/zod";
 
 export function getStaticPaths() {
     let pageArray:object[]=[]
@@ -43,14 +40,6 @@ if(surahID?.length===2)
 }
 
 const title="Al Qur'an";
-let hashCounter=-1;
-const tafsirArr=[];
-
-const arrayRange = (start, stop, step) =>
-    Array.from(
-    { length: (stop - start) / step + 1 },
-    (value, index) => start + index * step
-);
 ---
 
 <!DOCTYPE html>
@@ -69,6 +58,21 @@ const arrayRange = (start, stop, step) =>
 
     <script is:inline>
         const recentInsights=false;
+
+        const changeAuthor=()=>{
+            switch (document.getElementById("tafsirAuthor").value) {
+                case "1":
+                    document.getElementById("tafsirFrame").src="/tafsirIbnKathir/"+document.getElementById("surahNum").value;
+                    break;
+
+                case "2":
+                document.getElementById("tafsirFrame").src="/tafsirMaududi/"+document.getElementById("surahNum").value;
+                break;
+            
+                default:
+                    break;
+            }
+        }
     </script>
 
     <SidebarScript/>
@@ -86,6 +90,7 @@ const arrayRange = (start, stop, step) =>
 
 
                 <input type="hidden" id="snum" value={detailsJson[index-1]?.index}/>
+                <input type="hidden" id="surahNum" value={page}/>
                 <input type="hidden" id="titleMeaning" value={detailsJson[index-1]?.titleEn}/>
                 <input type="hidden" id="title" value={detailsJson[index-1]?.title}/>
                 <input type="hidden" id="titleAr" value={detailsJson[index-1]?.titleAr}/>
@@ -223,8 +228,8 @@ const arrayRange = (start, stop, step) =>
 </section>
 
 <div id="staticModal" data-modal-backdrop="static" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
-        <div class="relative w-full max-w-2xl max-h-full">
-            <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+        <div class="relative w-full max-w-2xl max-h-full"  style="width:100%; height:100%;">
+            <div class="relative bg-white rounded-lg shadow dark:bg-gray-700" style="width:100%; height:100%;">
                 <div class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
                     <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
                         Tafsir
@@ -233,54 +238,20 @@ const arrayRange = (start, stop, step) =>
                         <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
                         </svg>
-                        <span class="sr-only">Close modal</span>
+                        <span class="sr-only">Close window</span>
                     </button>
                 </div>
-                <div class="flex p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
+                <div class="flex p-2 border-t border-gray-200 rounded-b dark:border-gray-600">
                     <h2>{detailsJson[index-1]?.title}</h2>
+                    <div class="w-36"></div>
+                    <select id="tafsirAuthor" onchange="changeAuthor();" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-64 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                        <option selected>Choose a tafsir author</option>
+                        <option value="1">Ibn-Kathir</option>
+                        <option value="2">Maududi</option>
+                      </select>
                 </div>
-                {
-                    tafsir.forEach((surah)=>{
-                        surah.default.forEach((item) => {
-                            if(item.SurahNumber===index.toString())
-                            {
-                                tafsirArr.push(item)
-                            }
-                        })
-                    })
-                }
-                <div class="flex p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
-                    <button type="button" onclick="movePrev4();" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">Previous</button>
-                    <button type="button" onclick="moveNext4();" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">Next</button>
-
-                    <select id="tafsirPage" onchange="gotoSlide();" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                        <option selected>Select Ayah</option>
-                        {
-                            tafsirArr.map((item)=>{
-                                hashCounter++;
-                                const range = arrayRange(Number(item.AyahFrom), Number(item.AyahTo), 1);
-                                return range.map((slide)=>{
-                                    return <option value={hashCounter}>{slide===0?"Introduction":slide}</option>
-                                })
-                            })
-                        }
-                    </select>
-                </div>
-                <div class="p-6 space-y-6" >
-                    <div class="swiper mySwiper4">
-                        <div class="swiper-wrapper">
-                        {
-                            tafsirArr.map((item)=>{
-                                return <TafsirAyahDisplay title={item.AyahText.replace(/(\\n|\\r|\\t)/gm,"")} text={item.Text.replace(/(\\n|\\r|\\t)/gm,"")}/>
-                            })
-                        }
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
-                    <button type="button" onclick="movePrev4();" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">Previous</button>
-                    <button type="button" onclick="moveNext4();" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">Next</button>
+                <div class="p-2 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600" style="width:100%; height:100%;">
+                    <iframe id="tafsirFrame" src={"/tafsirIbnKathir/"+page} style="width:100%; height:82%;"></iframe>
                 </div>
             </div>
         </div>

@@ -1,10 +1,26 @@
 ---
+import json from '../data/structure/arb.json';
+const {surah,count,first,last,title,text}=Astro.props;
 
-const {title,text}=Astro.props;
+const arrayRange = (start, stop, step) =>
+    Array.from(
+    { length: (stop - start) / step + 1 },
+    (value, index) => start + index * step
+);
+
+const range = arrayRange(Number(first), Number(last), 1);
 ---
 <div class="swiper-slide">
     <div class="rounded-xl p-2" style="background: #fff0db">
-        <h3 set:html={title}></h3>
+        {
+            range.map((num)=>{
+                if(count!==1)
+                {
+                    return <h1 style="direction:rtl;">{json[0].book[0].surahs[surah-1]?.ayahs[num-1]?.text}</h1><br/>
+                }
+            })
+        }
+        <h3 set:html={count===1?title:""}></h3>
         <div set:html={text}></div>
     </div>
 </div>
