@@ -1,7 +1,10 @@
 ---
 
-const {text}=Astro.props;
-
+const {title,text}=Astro.props;
 ---
-
-<div set:html={text}></div><hr>
+<div class="swiper-slide">
+    <div class="rounded-xl p-2" style="background: #fff0db">
+        <h3 set:html={title}></h3>
+        <div set:html={text}></div>
+    </div>
+</div>

@@ -9,6 +9,8 @@ import detailsJson from '../../data/structure/structure.json';
 import Ayath from '../../components/Ayath.astro';
 import SidebarScript from "../../components/SidebarScript.astro";
 import TafsirAyahDisplay from "../../components/TafsirAyahDisplay.astro";
+import SwiperConfig from "../../components/SwiperConfig.astro";
+import { map } from "astro/zod";
 
 export function getStaticPaths() {
     let pageArray:object[]=[]
@@ -41,6 +43,14 @@ if(surahID?.length===2)
 }
 
 const title="Al Qur'an";
+let hashCounter=-1;
+const tafsirArr=[];
+
+const arrayRange = (start, stop, step) =>
+    Array.from(
+    { length: (stop - start) / step + 1 },
+    (value, index) => start + index * step
+);
 ---
 
 <!DOCTYPE html>
@@ -52,12 +62,9 @@ const title="Al Qur'an";
             font-family: myFirstFont;
             src: url("/fonts/arb.ttf");
         }
-
-        sup{
-            cursor: pointer;
-        }
     </style>
 
+    <SwiperConfig/>
     <AudioPlayerScript/>
 
     <script is:inline>
@@ -229,16 +236,51 @@ const title="Al Qur'an";
                         <span class="sr-only">Close modal</span>
                     </button>
                 </div>
-                <div class="p-6 space-y-6" >
-                    {
-                        tafsir[index-1]?.default.map((item)=>{
-                            return <TafsirAyahDisplay text={item.Text.replace(/(\\n|\\r|\\t)/gm,"")}/>
+                <div class="flex p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
+                    <h2>{detailsJson[index-1]?.title}</h2>
+                </div>
+                {
+                    tafsir.forEach((surah)=>{
+                        surah.default.forEach((item) => {
+                            if(item.SurahNumber===index.toString())
+                            {
+                                tafsirArr.push(item)
+                            }
+                        })
+                    })
+                }
+                <div class="flex p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
+                    <button type="button" onclick="movePrev4();" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">Previous</button>
+                    <button type="button" onclick="moveNext4();" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">Next</button>
+
+                    <select id="tafsirPage" onchange="gotoSlide();" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                        <option selected>Select Ayah</option>
+                        {
+                            tafsirArr.map((item)=>{
+                                hashCounter++;
+                                const range = arrayRange(Number(item.AyahFrom), Number(item.AyahTo), 1);
+                                return range.map((slide)=>{
+                                    return <option value={hashCounter}>{slide===0?"Introduction":slide}</option>
+                                })
                             })
-                    }
+                        }
+                    </select>
+                </div>
+                <div class="p-6 space-y-6" >
+                    <div class="swiper mySwiper4">
+                        <div class="swiper-wrapper">
+                        {
+                            tafsirArr.map((item)=>{
+                                return <TafsirAyahDisplay title={item.AyahText.replace(/(\\n|\\r|\\t)/gm,"")} text={item.Text.replace(/(\\n|\\r|\\t)/gm,"")}/>
+                            })
+                        }
+                            
+                        </div>
+                    </div>
                 </div>
                 <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
-                    <button data-modal-hide="staticModal" type="button" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">I accept</button>
-                    <button data-modal-hide="staticModal" type="button" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">Decline</button>
+                    <button type="button" onclick="movePrev4();" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">Previous</button>
+                    <button type="button" onclick="moveNext4();" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">Next</button>
                 </div>
             </div>
         </div>

@@ -70,6 +70,21 @@
             swiper.slideNext();
         }
 
+        const movePrev4=()=>{
+            const swiper = document.querySelector('.mySwiper4').swiper;
+            swiper.slidePrev()
+        }
+
+        const moveNext4=()=>{
+            const swiper = document.querySelector('.mySwiper4').swiper;
+            swiper.slideNext();
+        }
+
+        const gotoSlide=()=>{
+            const swiper = document.querySelector('.mySwiper4').swiper;
+            swiper.slideTo(document.getElementById("tafsirPage").value);
+        }
+
         const copyToClipBoard=(ayahID)=>{
           navigator.clipboard.writeText(document.getElementById(ayahID).textContent);
         }
