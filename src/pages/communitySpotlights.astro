@@ -1,13 +1,46 @@
 ---
+import FooterComponent from "../components/FooterComponent.astro";
+import HTMLHeadComponent from "../components/HTMLHeadComponent.astro";
+import Navbar from "../components/Navbar.astro";
 import testimonialJson from "../data/testimonials/testimonials.json"
+const title="Community spotlight";
 ---
 
-{
-    testimonialJson.map((item)=>{
-        return(
-            <h3>{item.Name}</h3>
-            <p>{item.Testimonial}</p>
-            <br/><br/>
-        );
-    })
-}
+<!DOCTYPE html>
+<html lang="en">
+    <HTMLHeadComponent title={title}/>
+    <script is:inline>
+        const recentInsights=false;
+    </script>
+</head>
+<body class="bg-dark_blue font-Inter">
+
+    <Navbar/>
+
+    <div class="banner-section bg-blog-banner-bg bg-top mb-10 md:mb-40 bg-size-100 bg-no-repeat">
+      <div class="container max-w-screen-xl mx-auto px-4">
+        <div class="grid  md:grid-cols-12 gap-0 md:gap-5">
+          <div class="lg:col-span-8 md:col-span-10 sm:col-span-10">
+            <h1 class="text-white md:mt-24">Community spotlight</h1>
+            {
+                testimonialJson.map((item)=>{
+                    return(
+                        <div class="">
+                            <h2 class="text-white mt-28 md:mt-36 mb-5 md:mb-16">{item.Name}</h2>
+                            <p class="text-white">{item.Testimonial}</p>
+                        </div>   
+                    );
+                })
+            }
+              
+          </div>
+          <div class="lg:col-span-4 md:col-span-2  sm:col-span-2">
+          </div>        
+        </div>
+        
+        
+      </div>
+    </div>
+    <FooterComponent/>
+</body>
+</html>

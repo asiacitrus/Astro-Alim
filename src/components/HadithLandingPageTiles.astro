@@ -1,0 +1,16 @@
+---
+import hadithIndex from '../data/hadith/titles.json';
+---
+{
+    hadithIndex.map((item)=>{
+        return(
+            <div class="md:col-span-6 mb-4 md:mb-0">
+                <div class="blue-gr-box relative pr-12"> 
+                    <h4 class="text-white">{item.title}</h4>
+                    <a href="#" class="absolute top-4 right-3"> </a>
+                </div>
+            </div>
+        );
+    })
+}
+ 

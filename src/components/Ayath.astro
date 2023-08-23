@@ -35,12 +35,11 @@ let decAudPath="javascript:playAyahQuran('"+encAudPath+"')";
 
 <div style="direction: rtl;">
     <a href={decAudPath}><button class="text-white font-bold py-2 px-4 rounded">Play</button></a>
-    <span class="text-4xl text-white" style="line-height: 65px; font-family: myFirstFont;">{ayah}</span><br/>
+    <span class="text-4xl text-white" style=" font-family: myFirstFont;">{ayah}</span>
 
     <div class="ayahTranslit" style="display:none;">
-        <span class="text-lg text-white">{translitJson[0].book[0].surahs[surahNum]?.ayahs[ayahNum]?.text}</span><br/><br/>
+        <span class="text-lg text-white">{translitJson[0].book[0].surahs[surahNum]?.ayahs[ayahNum]?.text}</span>
     </div>
-    <br/><br/>
 </div>
 
 
@@ -98,4 +97,3 @@ let decAudPath="javascript:playAyahQuran('"+encAudPath+"')";
         }
     </div>
 </div>
-<br/><br/><br/><br/>

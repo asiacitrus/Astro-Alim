@@ -1,0 +1,193 @@
+---
+import aboutJson from '../../../data/history/about-islam/aboutislam.json';
+import HTMLHeadComponent from '../../../components/HTMLHeadComponent.astro';
+import Navbar from "../../../components/Navbar.astro";
+import FooterComponent from "../../../components/FooterComponent.astro";
+
+export function getStaticPaths() {
+    let pageArray:any[]=[]
+    aboutJson.forEach((item)=>{
+        if(!pageArray.some(el => el.params.page === item.Section))
+        pageArray.push({params: {page: item.Section}})
+    })
+    return pageArray;
+  }
+
+let pageArray:any[]=[]
+aboutJson.forEach((item)=>{
+    if(!pageArray.some(el => el === item.Section))
+    pageArray.push(item.Section)
+})
+const { page } = Astro.params;
+let menuCounter=0;
+let contentCounter=0;
+let indexCounter=0;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <HTMLHeadComponent title={page}/>
+  
+  <script is:inline>
+    const recentInsights=false;
+</script>
+</head>
+<body class="bg-dark_blue font-Inter">
+<Navbar/>
+
+    <div class="banner-section bg-history-banner-bg bg-top mb-10 md:mb-40 bg-size-100 bg-no-repeat">
+      <div class="container max-w-screen-xl mx-auto px-4">
+
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        
+
+        <div class="quran-resources grid md:grid-cols-12 gap-0 md:gap-5 content" style=" min-height: 1200px;">
+            <div class="md:col-span-12">
+                <div class="mt-6 md:mt-12 mb-6 md:mb-12">
+                    <h1 class=" text-white mb-2">Welcome to {page}</h1><br/><br/>
+                    <!-- <p class="text-white text-opacity-75  mt-4">Slect topics from :</p> -->
+                    <div>
+                        <button class="text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700" type="button" data-drawer-target="history-navigation" data-drawer-show="history-navigation" aria-controls="history-navigation">
+                        Select topics
+                        </button>
+                     </div>
+                     <div class="text-white">
+                        <br/>
+                        <h3 style="margin-left: 23px;">Index</h3>
+                        <br/>
+                        {
+                            aboutJson.map((item)=>{
+                                if(item.Section===page&&item.SectionHead!=='NULL'&&item.Text!=='NULL'&&item.Text!=='')
+                                {
+                                    indexCounter++;
+                                    return(
+                                        <p id={"p"+indexCounter} onclick="showContent(event);" class="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-gray-500 text-black dark:hover:bg-gray-700 group">&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                            <path d="M5 5V.13a2.96 2.96 0 0 0-1.293.749L.879 3.707A2.96 2.96 0 0 0 .13 5H5Z"/>
+                                            <path d="M6.737 11.061a2.961 2.961 0 0 1 .81-1.515l6.117-6.116A4.839 4.839 0 0 1 16 2.141V2a1.97 1.97 0 0 0-1.933-2H7v5a2 2 0 0 1-2 2H0v11a1.969 1.969 0 0 0 1.933 2h12.134A1.97 1.97 0 0 0 16 18v-3.093l-1.546 1.546c-.413.413-.94.695-1.513.81l-3.4.679a2.947 2.947 0 0 1-1.85-.227 2.96 2.96 0 0 1-1.635-3.257l.681-3.397Z"/>
+                                            <path d="M8.961 16a.93.93 0 0 0 .189-.019l3.4-.679a.961.961 0 0 0 .49-.263l6.118-6.117a2.884 2.884 0 0 0-4.079-4.078l-6.117 6.117a.96.96 0 0 0-.263.491l-.679 3.4A.961.961 0 0 0 8.961 16Zm7.477-9.8a.958.958 0 0 1 .68-.281.961.961 0 0 1 .682 1.644l-.315.315-1.36-1.36.313-.318Zm-5.911 5.911 4.236-4.236 1.359 1.359-4.236 4.237-1.7.339.341-1.699Z"/>
+                                            </svg>
+                                            <span id={"span"+indexCounter} class="flex-1 ml-3 whitespace-nowrap">{item.SectionHead}</span>
+                                        </p>
+                                    );
+                                }
+                            })
+                        }
+                     </div>
+                     
+                </div>
+            </div>    
+        </div>
+
+        
+         
+         <!-- drawer component -->
+         <div id="history-navigation" class="fixed top-0 left-0 z-40 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white dark:bg-gray-800" tabindex="-1" aria-labelledby="drawer-navigation-label" style="width:460px;">
+             <h5 id="drawer-navigation-label" class="text-base font-semibold text-gray-500 uppercase dark:text-gray-400">Menu</h5>
+             <button type="button" data-drawer-hide="history-navigation" aria-controls="history-navigation" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 right-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" >
+                 <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                 <span class="sr-only">Close menu</span>
+             </button>
+           <div class="py-4 overflow-y-auto">
+            <br/>
+               <ul class="space-y-2 font-medium">
+                <li style="cursor: pointer;">
+                    <p class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                        <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M5 5V.13a2.96 2.96 0 0 0-1.293.749L.879 3.707A2.96 2.96 0 0 0 .13 5H5Z"/>
+                        <path d="M6.737 11.061a2.961 2.961 0 0 1 .81-1.515l6.117-6.116A4.839 4.839 0 0 1 16 2.141V2a1.97 1.97 0 0 0-1.933-2H7v5a2 2 0 0 1-2 2H0v11a1.969 1.969 0 0 0 1.933 2h12.134A1.97 1.97 0 0 0 16 18v-3.093l-1.546 1.546c-.413.413-.94.695-1.513.81l-3.4.679a2.947 2.947 0 0 1-1.85-.227 2.96 2.96 0 0 1-1.635-3.257l.681-3.397Z"/>
+                        <path d="M8.961 16a.93.93 0 0 0 .189-.019l3.4-.679a.961.961 0 0 0 .49-.263l6.118-6.117a2.884 2.884 0 0 0-4.079-4.078l-6.117 6.117a.96.96 0 0 0-.263.491l-.679 3.4A.961.961 0 0 0 8.961 16Zm7.477-9.8a.958.958 0 0 1 .68-.281.961.961 0 0 1 .682 1.644l-.315.315-1.36-1.36.313-.318Zm-5.911 5.911 4.236-4.236 1.359 1.359-4.236 4.237-1.7.339.341-1.699Z"/>
+                        </svg>
+                        <span class="flex-1 ml-3 whitespace-nowrap">{page}</span>
+                    </p>
+                </li>
+
+                {
+                    aboutJson.map((item)=>{
+                        if(item.Section===page&&item.SectionHead!=='NULL'&&item.Text!=='NULL'&&item.Text!=='')
+                        {
+                            menuCounter++;
+                            return(
+                            <li style="cursor: pointer;" id={"li"+menuCounter} onclick="showContent(event);">
+                                <p class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M5 5V.13a2.96 2.96 0 0 0-1.293.749L.879 3.707A2.96 2.96 0 0 0 .13 5H5Z"/>
+                                    <path d="M6.737 11.061a2.961 2.961 0 0 1 .81-1.515l6.117-6.116A4.839 4.839 0 0 1 16 2.141V2a1.97 1.97 0 0 0-1.933-2H7v5a2 2 0 0 1-2 2H0v11a1.969 1.969 0 0 0 1.933 2h12.134A1.97 1.97 0 0 0 16 18v-3.093l-1.546 1.546c-.413.413-.94.695-1.513.81l-3.4.679a2.947 2.947 0 0 1-1.85-.227 2.96 2.96 0 0 1-1.635-3.257l.681-3.397Z"/>
+                                    <path d="M8.961 16a.93.93 0 0 0 .189-.019l3.4-.679a.961.961 0 0 0 .49-.263l6.118-6.117a2.884 2.884 0 0 0-4.079-4.078l-6.117 6.117a.96.96 0 0 0-.263.491l-.679 3.4A.961.961 0 0 0 8.961 16Zm7.477-9.8a.958.958 0 0 1 .68-.281.961.961 0 0 1 .682 1.644l-.315.315-1.36-1.36.313-.318Zm-5.911 5.911 4.236-4.236 1.359 1.359-4.236 4.237-1.7.339.341-1.699Z"/>
+                                    </svg>
+                                    <span id={"sp"+menuCounter} class="flex-1 ml-3 whitespace-nowrap">{item.SectionHead}</span>
+                                </p>
+                            </li>
+                            );
+                        }
+                    })
+                }
+
+                <br/><h5 id="drawer-navigation-label" class="text-base font-semibold text-gray-500 uppercase dark:text-gray-400">Other Topics</h5><br/>
+
+                {
+                    pageArray.map((item)=>{
+                        if(item!==page)
+                        {
+                            return(
+                                <li style="cursor: pointer;">
+                                    <p class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                        <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M5 5V.13a2.96 2.96 0 0 0-1.293.749L.879 3.707A2.96 2.96 0 0 0 .13 5H5Z"/>
+                                        <path d="M6.737 11.061a2.961 2.961 0 0 1 .81-1.515l6.117-6.116A4.839 4.839 0 0 1 16 2.141V2a1.97 1.97 0 0 0-1.933-2H7v5a2 2 0 0 1-2 2H0v11a1.969 1.969 0 0 0 1.933 2h12.134A1.97 1.97 0 0 0 16 18v-3.093l-1.546 1.546c-.413.413-.94.695-1.513.81l-3.4.679a2.947 2.947 0 0 1-1.85-.227 2.96 2.96 0 0 1-1.635-3.257l.681-3.397Z"/>
+                                        <path d="M8.961 16a.93.93 0 0 0 .189-.019l3.4-.679a.961.961 0 0 0 .49-.263l6.118-6.117a2.884 2.884 0 0 0-4.079-4.078l-6.117 6.117a.96.96 0 0 0-.263.491l-.679 3.4A.961.961 0 0 0 8.961 16Zm7.477-9.8a.958.958 0 0 1 .68-.281.961.961 0 0 1 .682 1.644l-.315.315-1.36-1.36.313-.318Zm-5.911 5.911 4.236-4.236 1.359 1.359-4.236 4.237-1.7.339.341-1.699Z"/>
+                                        </svg>
+                                        <a href={"/history/aboutIslam/"+item} class="flex-1 ml-3 whitespace-nowrap">{item}</a>
+                                    </p>
+                                </li>
+                            );
+                        }
+                    })
+                }
+                  
+                  
+
+               </ul>
+            </div>
+         </div>
+
+         {
+            aboutJson.map((item)=>{
+                if(item.Section===page&&item.SectionHead!=='NULL'&&item.Text!=='NULL'&&item.Text!=='')
+                {
+                    contentCounter++;
+                    return (
+                        <div id={"content"+contentCounter} class="content text-white" style="display:none;">
+                            <div style="min-height: 1200px;">
+                                <h1 class="">{item.SectionHead}</h1><br/><br/>
+                                    <div>
+                                        <button class="text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 dark:bg-blue-600 dark:hover:bg-blue-700" type="button" data-drawer-target="history-navigation" data-drawer-show="history-navigation" aria-controls="history-navigation">
+                                        Select topics
+                                        </button>
+                                    </div><br/><br/>
+                                <div class="" set:html={item.Text.replace(/(\\n|\\r|\\t)/gm,"")}></div>
+                            </div>
+                            
+                        </div>
+                    )
+                }
+            })
+        }
+        
+        
+      </div>
+    </div>
+    <FooterComponent/>
+    <script is:inline>
+        const showContent=(event)=>{
+            let myElements = document.querySelectorAll(".content");
+            myElements.forEach(element => {
+                element.style.display="none";
+            });
+            const contentIndex=event.target.id.replace(/[^0-9]/g, "");
+            document.getElementById("content"+contentIndex).style.display="inline";
+        }
+    </script>
+</body>
+</html>
